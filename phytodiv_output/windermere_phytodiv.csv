@@ -1,0 +1,353 @@
+MFG.num,original_phyto_name,phyto_name,Algaebase_Current_22Sep2017,Match.,genus,species,MFG,CSR,flagella,autotroph,size,colonial,centric,gelatinous,aerotopes,filamentous
+10a,Geminella TURPIN 1828 sp.,Geminella,Geminella,TRUE,Geminella,,10a-FilaChlorp,R,0,1,NA,1,NA,NA,NA,1
+10a,Ulothrix K?ZING 1833 sp/Geminella TURPIN 1828 sp. (uncertain which),Ulothrix K?ZING 1833 sp/Geminella TURPIN 1828 sp. (uncertain which),Ulothrix or Geminella,FALSE,Ulothrix,or,10a-FilaChlorp,R,0,1,NA,1,NA,NA,NA,1
+10a,Ulothrix K?ZING 1833 sp.,Ulothrix,Ulothrix,TRUE,Ulothrix,,10a-FilaChlorp,R,0,1,NA,1,NA,NA,NA,1
+10a,Cladophora,Cladophora,Cladophora,TRUE,Cladophora,,10a-FilaChlorp,R,0,1,NA,1,NA,NA,NA,1
+10b,Spondylosium planum (WOLLE) W & G.S.WEST 1912,Spondylosium planum,Spondylosium planum,TRUE,Spondylosium,planum,10b-FilaConj,R,0,1,NA,1,NA,NA,NA,1
+10b,Mougeotia (AGARDH) WITTROCK 1872 sp.,Mougeotia,Mougeotia,TRUE,Mougeotia,,10b-FilaConj,R,0,1,NA,1,NA,NA,NA,1
+10b,Spondylosium BREBISSON sp.,Spondylosium,Spondylosium,TRUE,Spondylosium,,10b-FilaConj,R,0,1,NA,1,NA,NA,NA,1
+11a,Coenochloris KORSHIKOV 1953 sp.,Coenochloris,Coenochloris,TRUE,Coenochloris,,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Quadricoccus ellipticus HORTOBAGYI,Quadricoccus ellipticus,Quadricoccus ellipticus,TRUE,Quadricoccus,ellipticus,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Crucigenia fenestrata (Schmidle) Schmidle 1900,Crucigenia fenestrata,Crucigenia fenestrata,TRUE,Crucigenia,fenestrata,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Actinastrum hantzschii Lagerheim 1882,Actinastrum hantzschii,Actinastrum hantzschii,TRUE,Actinastrum,hantzschii,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Nephrochlamys KORSHIKOV,Nephrochlamys,Nephrochlamys,TRUE,Nephrochlamys,,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Selenastrum capricornutum PRINTZ,Selenastrum capricornutum,Selenastrum capricornutum,TRUE,Selenastrum,capricornutum,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Ankistrodesmus fusiformis CORDA,Ankistrodesmus fusiformis,Ankistrodesmus fusiformis,TRUE,Ankistrodesmus,fusiformis,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Scenedesmus denticulatus LAGERHEIM,Scenedesmus denticulatus,Desmodesmus denticulatus,FALSE,Desmodesmus,denticulatus,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Crucigenia MORREN SENSU KOMAREK 1830 sp.,Crucigenia,Crucigenia,TRUE,Crucigenia,,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Scenedesmus MEYEN 1829 sp.,Scenedesmus,Scenedesmus,TRUE,Scenedesmus,,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Botryococcus braunii K?ZING 1849,Botryococcus braunii,Botryococcus braunii,TRUE,Botryococcus,braunii,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Micractinium FRESENIUS sp.,Micractinium,Micractinium,TRUE,Micractinium,,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Selenastrum REINSCH 1867 sp.,Selenastrum,Selenastrum,TRUE,Selenastrum,,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Crucigenia quadrata MORREN,Crucigenia quadrata,Crucigenia quadrata,TRUE,Crucigenia,quadrata,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Pediastrum boryanum (TURPIN) MENEGHINI 1840,Pediastrum boryanum,Pseudopediastrum boryanum,FALSE,Pseudopediastrum,boryanum,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Ankistrodesmus CORDA sp.,Ankistrodesmus,Ankistrodesmus,TRUE,Ankistrodesmus,,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Pediastrum MEYEN sp.,Pediastrum,Pediastrum,TRUE,Pediastrum,,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Scenedesmus obtusus,Scenedesmus obtusus,Scenedesmus obtusus,TRUE,Scenedesmus,obtusus,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Coenochloris fottii (HIND?K) TSARENKO 1990,Coenochloris fottii,Coenochloris fottii,TRUE,Coenochloris,fottii,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Scenedesmus quadricauda (TURPIN) BR?ISSON IN BR?ISSON  & GODEY 1835,Scenedesmus quadricauda,Scenedesmus quadricauda,TRUE,Scenedesmus,quadricauda,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Coelastrum microporum N?ELI IN A. BRAUN 1855,Coelastrum microporum,Coelastrum microporum,TRUE,Coelastrum,microporum,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Coelastrum spp. N?ELI 1849 sp.,Coelastrum,Coelastrum,TRUE,Coelastrum,,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Radiococcus planctonicus LUND 1956,Radiococcus planctonicus,Radiococcus planktonicus,FALSE,Radiococcus,planktonicus,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Pediastrum duplex MEYEN 1829,Pediastrum duplex,Pediastrum duplex,TRUE,Pediastrum,duplex,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11b,Quadrigula spp. PRINTZ,Quadrigula,Quadrigula,TRUE,Quadrigula,,11b-GelaChlor,S,0,1,NA,1,NA,1,NA,0
+11b,Kirchneriella SCHMIDLE sp.,Kirchneriella,Kirchneriella,TRUE,Kirchneriella,,11b-GelaChlor,S,0,1,NA,1,NA,1,NA,0
+11b,Dictyosphaerium granulatum HINDAK 1977,Dictyosphaerium granulatum,Dictyosphaerium granulatum,TRUE,Dictyosphaerium,granulatum,11b-GelaChlor,S,0,1,NA,1,NA,1,NA,0
+11b,Elakatothrix WILLE sp.,Elakatothrix,Elakatothrix,TRUE,Elakatothrix,,11b-GelaChlor,S,0,1,NA,1,NA,1,NA,0
+11b,Coenocystis subcylindrica KORSHIKOV 1953,Coenocystis subcylindrica,Coenocystis subcylindrica,TRUE,Coenocystis,subcylindrica,11b-GelaChlor,S,0,1,NA,1,NA,1,NA,0
+11b,Oocystis N?ELI emend. FOTT sp.,Oocystis,Oocystis,TRUE,Oocystis,,11b-GelaChlor,S,0,1,NA,1,NA,1,NA,0
+11b,Nephrocytium N?ELI sp.,Nephrocytium,Nephrocytium,TRUE,Nephrocytium,,11b-GelaChlor,S,0,1,NA,1,NA,1,NA,0
+11b,Dictyosphaerium N?ELI sp.,Dictyosphaerium,Dictyosphaerium,TRUE,Dictyosphaerium,,11b-GelaChlor,S,0,1,NA,1,NA,1,NA,0
+11b,Sphaerocystis sp.,Sphaerocystis,Sphaerocystis,TRUE,Sphaerocystis,,11b-GelaChlor,S,0,1,NA,1,NA,1,NA,0
+11b,Coenocystis planctonica,Coenocystis planctonica,Coenocystis planctonica,TRUE,Coenocystis,planctonica,11b-GelaChlor,S,0,1,NA,1,NA,1,NA,0
+11b,Dictyosphaerium subsolitarium VAN GOOR,Dictyosphaerium subsolitarium,Dictyosphaerium subsolitarium,TRUE,Dictyosphaerium,subsolitarium,11b-GelaChlor,S,0,1,NA,1,NA,1,NA,0
+11b,Crucigenia tetrapedia (KIRCHNER) W & G.S WEST,Crucigenia tetrapedia,Crucigenia tetrapedia,TRUE,Crucigenia,tetrapedia,11b-GelaChlor,S,0,1,NA,1,NA,1,NA,0
+11b,Coenochloris ovalis,Coenochloris ovalis,Neocystis ovalis,FALSE,Neocystis,ovalis,11b-GelaChlor,S,0,1,NA,1,NA,1,NA,0
+11b,Paulschulzia SKUJA 1948 sp.,Paulschulzia,Paulschulzia,TRUE,Paulschulzia,,11b-GelaChlor,S,0,1,NA,1,NA,1,NA,0
+11b,Oocystis naegelii A BRAUN,Oocystis naegelii,Oocystis naegelii,TRUE,Oocystis,naegelii,11b-GelaChlor,S,0,1,NA,1,NA,1,NA,0
+11b,Crucigenia rectangularis (N?ELI) GAY,Crucigenia rectangularis,Willea rectangularis,FALSE,Willea,rectangularis,11b-GelaChlor,S,0,1,NA,1,NA,1,NA,0
+11b,Paulschulzia pseudovolvox (SCHULZ) SKUJA 1948,Paulschulzia pseudovolvox,Paulschulzia pseudovolvox,TRUE,Paulschulzia,pseudovolvox,11b-GelaChlor,S,0,1,NA,1,NA,1,NA,0
+11b,Pseudosphaerocystis sp.,Pseudosphaerocystis,Pseudosphaerocystis,TRUE,Pseudosphaerocystis,,11b-GelaChlor,S,0,1,NA,1,NA,1,NA,0
+11b,Paulschulzia tenera (KORSHIKOV) LUND 1960,Paulschulzia tenera,Paulschulzia tenera,TRUE,Paulschulzia,tenera,11b-GelaChlor,S,0,1,NA,1,NA,1,NA,0
+11b,Kirchneria contorta (SCHMIDLE) HINDAK,Kirchneria contorta,Raphidocelis danubiana,FALSE,Raphidocelis,danubiana,11b-GelaChlor,S,0,1,NA,1,NA,1,NA,0
+1a,Dinobryon EHRENBERG sp.,Dinobryon,Dinobryon,TRUE,Dinobryon,,1a-LargeChry,SR,1,0,Large,NA,NA,NA,NA,NA
+1a,Uroglena EHRENBERG (1833) 1835 sp.,Uroglena,Uroglena,TRUE,Uroglena,,1a-LargeChry,SR,1,0,Large,NA,NA,NA,NA,NA
+1a,Synura EHRENBERG 1838 sp.,Synura,Synura,TRUE,Synura,,1a-LargeChry,SR,1,0,Large,NA,NA,NA,NA,NA
+1a,Dinobryon divergens IMHOF 1887,Dinobryon divergens,Dinobryon divergens,TRUE,Dinobryon,divergens,1a-LargeChry,SR,1,0,Large,NA,NA,NA,NA,NA
+1a,Dinobryon petiolatum WILLEN,Dinobryon petiolatum,Dinobryon faculiferum,FALSE,Dinobryon,faculiferum,1a-LargeChry,SR,1,0,Large,NA,NA,NA,NA,NA
+1a,Dinobryon cylindricum IMHOF 1883,Dinobryon cylindricum,Dinobryon cylindricum,TRUE,Dinobryon,cylindricum,1a-LargeChry,SR,1,0,Large,NA,NA,NA,NA,NA
+1a,Dinobryon bavaricum IMHOF 1890,Dinobryon bavaricum,Dinobryon bavaricum,TRUE,Dinobryon,bavaricum,1a-LargeChry,SR,1,0,Large,NA,NA,NA,NA,NA
+1b,Ceratium furcoides (LEVANDER) LANGHANS 1925,Ceratium furcoides,Ceratium furcoides,TRUE,Ceratium,furcoides,1b-LargeDino,S,1,0,Large,NA,NA,NA,NA,NA
+1b,Ceratium sp.,Ceratium sp.,Ceratium,FALSE,Ceratium,,1b-LargeDino,S,1,0,Large,NA,NA,NA,NA,NA
+1b,Ceratium hirundinella (OF M?LER) DUJARDIN 1846 (included C. furcoides until 1983-1984, check individual lakes),Ceratium hirundinella,Ceratium hirundinella,TRUE,Ceratium,hirundinella,1b-LargeDino,S,1,0,Large,NA,NA,NA,NA,NA
+1b,Peridinium EHRENBERG 1832 sp. (small) (25um cbut, csre),Peridinium (small) (25 um cbut, csre),Peridinium (small),FALSE,Peridinium,(small),1b-LargeDino,S,1,0,Large,NA,NA,NA,NA,NA
+1b,Peridinium EHRENBERG 1832 sp. (a distinct species for JL),Peridinium,Peridinium,TRUE,Peridinium,,1b-LargeDino,S,1,0,Large,NA,NA,NA,NA,NA
+1b,Peridinium EHRENBERG 1832 sp. (medium),Peridinium (medium),Peridinium (medium),TRUE,Peridinium,(medium),1b-LargeDino,S,1,0,Large,NA,NA,NA,NA,NA
+1b,Peridinium EHRENBERG 1832 sp. (large),Peridinium (large),Peridinium (large),TRUE,Peridinium,(large),1b-LargeDino,S,1,0,Large,NA,NA,NA,NA,NA
+1c,Pseudopedinella  spp.,Pseudopedinella,Pseudopedinella,TRUE,Pseudopedinella,,1c-LargeEugl,,1,0,Large,NA,NA,NA,NA,NA
+1c,Phacus DUJARDIN 1841 sp.,Phacus,Phacus,TRUE,Phacus,,1c-LargeEugl,,1,0,Large,NA,NA,NA,NA,NA
+1c,Euglena EHRENBERG 1830 sp.,Euglena,Euglena,TRUE,Euglena,,1c-LargeEugl,,1,0,Large,NA,NA,NA,NA,NA
+2a,Kephyrion ovale (LACKEY) HUBER-PESTALOZZI,Kephyrion ovale,Kephyrion ovale,TRUE,Kephyrion,ovale,2a-SmallChry1,C,1,0,Small,0,NA,NA,NA,NA
+2a,Stokesiella epipyxis PASCHER,Stokesiella epipyxis,Stokesiella epipyxis,TRUE,Stokesiella,epipyxis,2a-SmallChry1,C,1,0,Small,0,NA,NA,NA,NA
+2a,Mallomonas PERTY 1851 sp. (small),Mallomonas (small),Mallomonas (small),TRUE,Mallomonas,(small),2a-SmallChry1,C,1,0,Small,0,NA,NA,NA,NA
+2a,Kephyrion boreale SKUJA,Kephyrion boreale,Kephyrion boreale,TRUE,Kephyrion,boreale,2a-SmallChry1,C,1,0,Small,0,NA,NA,NA,NA
+2a,Chromulina small <5mu,Chromulina small < 5 um,Chromulina (small < 5 um),FALSE,Chromulina,(small,2a-SmallChry1,C,1,0,Small,0,NA,NA,NA,NA
+2a,Chromulina CIENKOWSKI sp.,Chromulina,Chromulina,TRUE,Chromulina,,2a-SmallChry1,C,1,0,Small,0,NA,NA,NA,NA
+2a,Kephyrion type 2,Kephyrion type 2,Kephyrion,FALSE,Kephyrion,,2a-SmallChry1,C,1,0,Small,0,NA,NA,NA,NA
+2a,Mallomonas PERTY 1851 sp.,Mallomonas,Mallomonas,TRUE,Mallomonas,,2a-SmallChry1,C,1,0,Small,0,NA,NA,NA,NA
+2a,Kephyrion PASCHER 1911 sp.,Kephyrion,Kephyrion,TRUE,Kephyrion,,2a-SmallChry1,C,1,0,Small,0,NA,NA,NA,NA
+2a,Mallomonas PERTY 1851 sp. (medium),Mallomonas (medium),Mallomonas (medium),TRUE,Mallomonas,(medium),2a-SmallChry1,C,1,0,Small,0,NA,NA,NA,NA
+2a,Chrysococcus KLEBS 1892 sp.,Chrysococcus,Chrysococcus,TRUE,Chrysococcus,,2a-SmallChry1,C,1,0,Small,0,NA,NA,NA,NA
+2a,Pseudokephyrion PASCHER sp.,Pseudokephyrion,Pseudokephyrion,TRUE,Pseudokephyrion,,2a-SmallChry1,C,1,0,Small,0,NA,NA,NA,NA
+2a,Mallomonas PERTY 1851 sp. (large),Mallomonas (large),Mallomonas (large),TRUE,Mallomonas,(large),2a-SmallChry1,C,1,0,Small,0,NA,NA,NA,NA
+2a,Mallomonas acaroides PERTY 1851,Mallomonas acaroides,Mallomonas acaroides,TRUE,Mallomonas,acaroides,2a-SmallChry1,C,1,0,Small,0,NA,NA,NA,NA
+2a,Epipyxis EHRENBERG sp.,Epipyxis,Epipyxis,TRUE,Epipyxis,,2a-SmallChry1,C,1,0,Small,0,NA,NA,NA,NA
+2a,Mallomonas caudata IVANOV 1899,Mallomonas caudata,Mallomonas caudata,TRUE,Mallomonas,caudata,2a-SmallChry1,C,1,0,Small,0,NA,NA,NA,NA
+2a,Ochromonas WYSSOTSKI sp.,Ochromonas,Ochromonas,TRUE,Ochromonas,,2a-SmallChry1,C,1,0,Small,0,NA,NA,NA,NA
+2a,Stokesiella spp.,Stokesiella,Stokesiella,TRUE,Stokesiella,,2a-SmallChry1,C,1,0,Small,0,NA,NA,NA,NA
+2a,Chrysochromulina parva LACKEY 1939,Chrysochromulina parva,Chrysochromulina parva,TRUE,Chrysochromulina,parva,2a-SmallChry1,C,1,0,Small,0,NA,NA,NA,NA
+2a,Ochromonas verrucosa SKUJA,Ochromonas verrucosa,Ochromonas verrucosa,TRUE,Ochromonas,verrucosa,2a-SmallChry1,C,1,0,Small,0,NA,NA,NA,NA
+2a,Mallomonas akrokomas RUTTNER IN PASCHER 1913,Mallomonas akrokomas,Mallomonas akrokomos,FALSE,Mallomonas,akrokomos,2a-SmallChry1,C,1,0,Small,0,NA,NA,NA,NA
+2a,Ochromonas  WYSSOTSKI sp. (small ),Ochromonas (small ),Ochromonas (small ),TRUE,Ochromonas,(small,2a-SmallChry1,C,1,0,Small,0,NA,NA,NA,NA
+2b,Gymnodinium STEIN 1878 sp.,Gymnodinium,Gymnodinium,TRUE,Gymnodinium,,2b-SmallDino,SC,1,0,Small,0,NA,NA,NA,NA
+2b,Glenodinium berghii Lemmermann,Glenodinium berghii,Glenodinium berghii,TRUE,Glenodinium,berghii,2b-SmallDino,SC,1,0,Small,0,NA,NA,NA,NA
+2b,Gymnodinium STEIN 1878 sp. (small),Gymnodinium (small),Gymnodinium (small),TRUE,Gymnodinium,(small),2b-SmallDino,SC,1,0,Small,0,NA,NA,NA,NA
+2b,Gymnodinium fuscum (EHRENBERG) STEIN,Gymnodinium fuscum,Gymnodinium fuscum,TRUE,Gymnodinium,fuscum,2b-SmallDino,SC,1,0,Small,0,NA,NA,NA,NA
+2b,Gymnodinium STEIN 1878 sp. and Glenodinium (EHRENBERG) STEIN 1883 sp. (large) - [mixed],Gymnodinium STEIN 1878 sp. and Glenodinium (EHRENBERG) STEIN 1883 sp. (large) - [mixed],Gymnodinium and Glenodinium (large),FALSE,Gymnodinium,and,2b-SmallDino,SC,1,0,Small,0,NA,NA,NA,NA
+2b,Gymnodinium saginatum T M Harris 1940,Gymnodinium saginatum,Gymnodinium saginatum,TRUE,Gymnodinium,saginatum,2b-SmallDino,SC,1,0,Small,0,NA,NA,NA,NA
+2b,Gymnodinium STEIN 1878 sp. (large),Gymnodinium (large),Gymnodinium (large),TRUE,Gymnodinium,(large),2b-SmallDino,SC,1,0,Small,0,NA,NA,NA,NA
+2b,Gymnodinium helveticum forma achroum SKUJA 1948,Gymnodinium helveticum forma achroum,Gymnodinium helveticum f. achroum,FALSE,Gymnodinium,helveticum achroum,2b-SmallDino,SC,1,0,Small,0,NA,NA,NA,NA
+2b,Gymnodinium STEIN 1878 sp. (medium),Gymnodinium (medium),Gymnodinium (medium),TRUE,Gymnodinium,(medium),2b-SmallDino,SC,1,0,Small,0,NA,NA,NA,NA
+2c,Lepocinclis sp.,Lepocinclis,Lepocinclis,TRUE,Lepocinclis,,2c-SmallEugl,SC,1,0,Small,0,NA,NA,NA,NA
+2c,Trachelomonas hispida (PERTY) STEIN 1883,Trachelomonas hispida,Trachelomonas hispida,TRUE,Trachelomonas,hispida,2c-SmallEugl,SC,1,0,Small,0,NA,NA,NA,NA
+2c,Trachelomonas varians DEFLANDRE 1924,Trachelomonas varians,Trachelomonas,FALSE,Trachelomonas,,2c-SmallEugl,SC,1,0,Small,0,NA,NA,NA,NA
+2c,Trachelomonas volvocina EHRENBERG 1833,Trachelomonas volvocina,Trachelomonas volvocina,TRUE,Trachelomonas,volvocina,2c-SmallEugl,SC,1,0,Small,0,NA,NA,NA,NA
+2d,Rhodomonas KARSTEN sp.,Rhodomonas,Rhodomonas,TRUE,Rhodomonas,,2d-Crypto,C,1,0,Small,0,NA,NA,NA,NA
+2d,Plagioselmis nannoplanctica (SKUJA) NOVARINO, LUCAS ET AL. 1994,Plagioselmis nannoplanctica,Plagioselmis nannoplanctica,TRUE,Plagioselmis,nannoplanctica,2d-Crypto,C,1,0,Small,0,NA,NA,NA,NA
+2d,Rhodomonas minuta SKUJA & RUTTNER,Rhodomonas minuta,Plagioselmis nannoplanctica,FALSE,Plagioselmis,nannoplanctica,2d-Crypto,C,1,0,Small,0,NA,NA,NA,NA
+2d,Rhodomonas lens PASCHER & RUTTNER,Rhodomonas lens,Rhodomonas lens,TRUE,Rhodomonas,lens,2d-Crypto,C,1,0,Small,0,NA,NA,NA,NA
+2d,Chroomonas HANSGIRG sp.,Chroomonas,Chroomonas,TRUE,Chroomonas,,2d-Crypto,C,1,0,Small,0,NA,NA,NA,NA
+2d,Cryptomonas EHRENBERG 1838 spp. 'large' (C. curvirostrata ?),Cryptomonas large,Cryptomonas (large),FALSE,Cryptomonas,(large),2d-Crypto,C,1,0,Small,0,NA,NA,NA,NA
+2d,Cryptomonas EHRENBERG 1838 spp.,Cryptomonas,Cryptomonas,TRUE,Cryptomonas,,2d-Crypto,C,1,0,Small,0,NA,NA,NA,NA
+2d,Rhodomonas lacustris PASCHER & RUTTNER,Rhodomonas lacustris,Rhodomonas lacustris,TRUE,Rhodomonas,lacustris,2d-Crypto,C,1,0,Small,0,NA,NA,NA,NA
+2d,Cryptomonas EHRENBERG 1838 sp.('small' -CBUT,'C' CSRE, ? C.erosa),Cryptomonas (small),Cryptomonas (small),TRUE,Cryptomonas,(small),2d-Crypto,C,1,0,Small,0,NA,NA,NA,NA
+2d,Cryptomonas EHRENBERG 1838 spp. 'medium' (C. ovata ?),Cryptomonas medium,Cryptomonas (medium),FALSE,Cryptomonas,(medium),2d-Crypto,C,1,0,Small,0,NA,NA,NA,NA
+3a,Chlamydomonas EHRENBERG 1833 sp. (medium),Chlamydomonas (medium),Chlamydomonas (medium),TRUE,Chlamydomonas,(medium),3a-UnicPhyto,C,1,1,NA,0,NA,NA,NA,NA
+3a,Chlamydomonas EHRENBERG 1833 sp. (>10?m cylindrical),Chlamydomonas (> 10 um cylindrical),Chlamydomonas (> 10 um cylindrical),TRUE,Chlamydomonas,(>,3a-UnicPhyto,C,1,1,NA,0,NA,NA,NA,NA
+3a,Carteria DIESING,Carteria,Carteria,TRUE,Carteria,,3a-UnicPhyto,C,1,1,NA,0,NA,NA,NA,NA
+3a,Chlamydomonas EHRENBERG 1833 sp. (oval),Chlamydomonas (oval),Chlamydomonas (oval),TRUE,Chlamydomonas,(oval),3a-UnicPhyto,C,1,1,NA,0,NA,NA,NA,NA
+3a,Chlamydomonas EHRENBERG 1833 sp. (small),Chlamydomonas (small),Chlamydomonas (small),TRUE,Chlamydomonas,(small),3a-UnicPhyto,C,1,1,NA,0,NA,NA,NA,NA
+3a,Chlamydomonas gloeophila SKUJA 1948,Chlamydomonas gloeophila,Chlamydomonas gloeophila,TRUE,Chlamydomonas,gloeophila,3a-UnicPhyto,C,1,1,NA,0,NA,NA,NA,NA
+3a,Tetrachloris PASCHER & JAHODA sp.,Tetrachloris,Quadrichloris,FALSE,Quadrichloris,,3a-UnicPhyto,C,1,1,NA,0,NA,NA,NA,NA
+3a,Tetrachloris merismopedioides,Tetrachloris merismopedioides,Quadrichloris,FALSE,Quadrichloris,,3a-UnicPhyto,C,1,1,NA,0,NA,NA,NA,NA
+3a,Chlorogonium EHRENBERG 1830 sp.,Chlorogonium,Chlorogonium,TRUE,Chlorogonium,,3a-UnicPhyto,C,1,1,NA,0,NA,NA,NA,NA
+3a,Chlamydomonas EHRENBERG 1833 sp big (JL-a separate entity) (CSRE 15 ?m),Chlamydomonas big (JL-a separate entity) (CSRE 15 um),Chlamydomonas (big 15 um),FALSE,Chlamydomonas,(big,3a-UnicPhyto,C,1,1,NA,0,NA,NA,NA,NA
+3a,Chlamydomonas epiphytica G M SMITH,Chlamydomonas epiphytica,Chlamydomonas epibiotica,FALSE,Chlamydomonas,epibiotica,3a-UnicPhyto,C,1,1,NA,0,NA,NA,NA,NA
+3a,Chlamydomonas EHRENBERG 1833 sp.,Chlamydomonas,Chlamydomonas,TRUE,Chlamydomonas,,3a-UnicPhyto,C,1,1,NA,0,NA,NA,NA,NA
+3b,Pandorina BORY 1824 sp.,Pandorina,Pandorina,TRUE,Pandorina,,3b-ColoPhyto,S,1,1,NA,1,NA,NA,NA,NA
+3b,Gonium pectorale OF M?LER 1773 (zygotic?),Gonium pectorale (zygotic?),Gonium pectorale,FALSE,Gonium,pectorale,3b-ColoPhyto,S,1,1,NA,1,NA,NA,NA,NA
+3b,Gonium pectorale OF M?LER 1773,Gonium pectorale,Gonium pectorale,TRUE,Gonium,pectorale,3b-ColoPhyto,S,1,1,NA,1,NA,NA,NA,NA
+3b,Pandorina morum (OF M?LER) BORY 1824,Pandorina morum,Pandorina morum,TRUE,Pandorina,morum,3b-ColoPhyto,S,1,1,NA,1,NA,NA,NA,NA
+3b,Eudorina elegans EHRENBERG 1831,Eudorina elegans,Eudorina elegans,TRUE,Eudorina,elegans,3b-ColoPhyto,S,1,1,NA,1,NA,NA,NA,NA
+3b,Eudorina EHRENBERG 1832 sp.,Eudorina,Eudorina,TRUE,Eudorina,,3b-ColoPhyto,S,1,1,NA,1,NA,NA,NA,NA
+3b,Gonium O.F.MULLER sp.,Gonium,Gonium,TRUE,Gonium,,3b-ColoPhyto,S,1,1,NA,1,NA,NA,NA,NA
+4,Synechococcus N?ELI,Synechococcus,Synechococcus,TRUE,Synechococcus,,4-UnicCyano,C,0,1,NA,0,NA,NA,NA,NA
+4,Synechocystis SAUVAGEAU,Synechocystis,Synechocystis,TRUE,Synechocystis,,4-UnicCyano,C,0,1,NA,0,NA,NA,NA,NA
+5a,Pseudanabaena limnetica (LEMMERMANN)  KOM?REK,Pseudanabaena limnetica,Pseudanabaena limnetica,TRUE,Pseudanabaena,limnetica,5a-FilaCyano,R,0,1,NA,1,NA,NA,NA,NA
+5a,Oscillatoria VAUCHER EX GOMONT 1892 sp.,Oscillatoria,Oscillatoria,TRUE,Oscillatoria,,5a-FilaCyano,R,0,1,NA,1,NA,NA,NA,NA
+5a,Planktothrix mougeotii (BORY EX GOMONT) ANAGNOSTIDIS ET KOM?REK 1988,Planktothrix mougeotii,Planktothrix mougeotii,TRUE,Planktothrix,mougeotii,5a-FilaCyano,R,0,1,NA,1,NA,NA,NA,NA
+5a,Tychonema bourrellyi (LUND) ANAGNOSTIDIS & KOM?REK 1988,Tychonema bourrellyi,Tychonema bourrellyi,TRUE,Tychonema,bourrellyi,5a-FilaCyano,R,0,1,NA,1,NA,NA,NA,NA
+5a,Oscillatoria limnetica LEMMERMANN 1900,Oscillatoria limnetica,Pseudanabaena limnetica,FALSE,Pseudanabaena,limnetica,5a-FilaCyano,R,0,1,NA,1,NA,NA,NA,NA
+5a,Pseudanabaena LAUTERBORN 1915 sp.,Pseudanabaena,Pseudanabaena,TRUE,Pseudanabaena,,5a-FilaCyano,R,0,1,NA,1,NA,NA,NA,NA
+5a,Limnothrix redekei (VAN GOOR) MEFFERT 1988,Limnothrix redekei,Pseudanabaena redekei,FALSE,Pseudanabaena,redekei,5a-FilaCyano,R,0,1,NA,1,NA,NA,NA,NA
+5a,Planktothrix agardhii (GOMONT) ANAGNOSTIDIS & C845 1988,Planktothrix agardhii,Planktothrix agardhii,TRUE,Planktothrix,agardhii,5a-FilaCyano,R,0,1,NA,1,NA,NA,NA,NA
+5a,Planktothrix sp.,Planktothrix,Planktothrix,TRUE,Planktothrix,,5a-FilaCyano,R,0,1,NA,1,NA,NA,NA,NA
+5b,Microcystis K?ZING EX LEMMERMANN 1907 sp. (small),Microcystis (small),Microcystis (small),TRUE,Microcystis,(small),5b-LargeVacC,S,0,1,Large,1,NA,NA,1,NA
+5b,Microcystis K?ZING EX LEMMERMANN 1907 sp.,Microcystis,Microcystis,TRUE,Microcystis,,5b-LargeVacC,S,0,1,Large,1,NA,NA,1,NA
+5b,Microcystis aeruginosa (K?ZING) K?ZING 1846,Microcystis aeruginosa,Microcystis aeruginosa,TRUE,Microcystis,aeruginosa,5b-LargeVacC,S,0,1,Large,1,NA,NA,1,NA
+5b,Microcystis viridis (A BRAUN) LEMMERMANN,Microcystis viridis,Microcystis viridis,TRUE,Microcystis,viridis,5b-LargeVacC,S,0,1,Large,1,NA,NA,1,NA
+5c,Aphanocapsa incerta (Lemmermann) G. Cronberg et Komarek 1994,Aphanocapsa incerta,Aphanocapsa incerta,TRUE,Aphanocapsa,incerta,5c-OtherChroo,S,0,1,Large,1,NA,NA,0,NA
+5c,Snowella lacustris (CHODAT) KOM?REK & HIND?K 1988,Snowella lacustris,Snowella lacustris,TRUE,Snowella,lacustris,5c-OtherChroo,S,0,1,Large,1,NA,NA,0,NA
+5c,Gomphosphaeria naegeliana (UNGER) LEMMERMANN,Gomphosphaeria naegeliana,Woronichinia naegeliana,FALSE,Woronichinia,naegeliana,5c-OtherChroo,S,0,1,Large,1,NA,NA,0,NA
+5c,Aphanothece saxicola N?ELI,Aphanothece saxicola,Aphanothece saxicola,TRUE,Aphanothece,saxicola,5c-OtherChroo,S,0,1,Large,1,NA,NA,0,NA
+5c,Aphanothece N?ELI sp. (long cells),Aphanothece (long cells),Aphanothece (long cells),TRUE,Aphanothece,(long,5c-OtherChroo,S,0,1,Large,1,NA,NA,0,NA
+5c,Coelosphaerium kutzingianum K?ZING 1849,Coelosphaerium kutzingianum,Coelosphaerium kuetzingianum,FALSE,Coelosphaerium,kuetzingianum,5c-OtherChroo,S,0,1,Large,1,NA,NA,0,NA
+5c,Aphanocapsa N?ELI 1849 sp.,Aphanocapsa,Aphanocapsa,TRUE,Aphanocapsa,,5c-OtherChroo,S,0,1,Large,1,NA,NA,0,NA
+5c,Microcystis elachista (W & G S WEST) STARMACH,Microcystis elachista,Aphanocapsa elachista,FALSE,Aphanocapsa,elachista,5c-OtherChroo,S,0,1,Large,1,NA,NA,0,NA
+5c,Radiocystis sp. Skuja,Radiocystis,Radiocystis,TRUE,Radiocystis,,5c-OtherChroo,S,0,1,Large,1,NA,NA,0,NA
+5c,Woronichinia naegeliana (UNGER) ELENKIN 1933,Woronichinia naegeliana,Woronichinia naegeliana,TRUE,Woronichinia,naegeliana,5c-OtherChroo,S,0,1,Large,1,NA,NA,0,NA
+5c,Gloeocapsa K?ZING,Gloeocapsa,Gloeocapsa,TRUE,Gloeocapsa,,5c-OtherChroo,S,0,1,Large,1,NA,NA,0,NA
+5c,Aphanothece N?ELI 1849 sp.,Aphanothece,Aphanothece,TRUE,Aphanothece,,5c-OtherChroo,S,0,1,Large,1,NA,NA,0,NA
+5d,Merismopedia punctata,Merismopedia punctata,Merismopedia punctata,TRUE,Merismopedia,punctata,5d-SmallChroo,CR,0,1,Small,1,NA,NA,NA,NA
+5d,Merismopedia spp. MEYEN,Merismopedia,Merismopedia,TRUE,Merismopedia,,5d-SmallChroo,CR,0,1,Small,1,NA,NA,NA,NA
+5d,Chroococcus N?ELI sp.,Chroococcus,Chroococcus,TRUE,Chroococcus,,5d-SmallChroo,CR,0,1,Small,1,NA,NA,NA,NA
+5e,Anabaena spiroides KLEBAHN 1895,Anabaena spiroides,Dolichospermum spiroides,FALSE,Dolichospermum,spiroides,5e-Nostocales,S,0,1,Small,1,NA,NA,NA,NA
+5e,Anabaena circinalis RABENHORST EX BORNET & FLAHAULT 1888 SENSU KOM?REK & ETTL 1958,Anabaena circinalis,Dolichospermum sigmoideum,FALSE,Dolichospermum,sigmoideum,5e-Nostocales,S,0,1,Small,1,NA,NA,NA,NA
+5e,Anabaena  circinalis &/or flos-aquae,Anabaena  circinalis &/or flos-aquae,Dolichospermum,FALSE,Dolichospermum,,5e-Nostocales,S,0,1,Small,1,NA,NA,NA,NA
+5e,Anabaena solitaria KLEBAHN 1895,Anabaena solitaria,Dolichospermum solitarium,FALSE,Dolichospermum,solitarium,5e-Nostocales,S,0,1,Small,1,NA,NA,NA,NA
+5e,Anabaena lemmermannii RICHTER,Anabaena lemmermannii,Dolichospermum lemmermannii,FALSE,Dolichospermum,lemmermannii,5e-Nostocales,S,0,1,Small,1,NA,NA,NA,NA
+5e,Aphanizomenon flos-aquae (LINNAEUS) RALFS,Aphanizomenon flos-aquae,Aphanizomenon flos-aquae,TRUE,Aphanizomenon,flos-aquae,5e-Nostocales,S,0,1,Small,1,NA,NA,NA,NA
+5e,Anabaena RABENHORST EX BORNET & FLAHAULT 1888 SENSU KOM?REK & ETTL 1958 sp.,Anabaena,Dolichospermum,FALSE,Dolichospermum,,5e-Nostocales,S,0,1,Small,1,NA,NA,NA,NA
+5e,Anabaena flos-aquae BR?ISSON EX BORNET & FLAHAULT 1888 SENSU KOM?REK & ETTL 1958,Anabaena flos-aquae,Dolichospermum flos-aquae,FALSE,Dolichospermum,flos-aquae,5e-Nostocales,S,0,1,Small,1,NA,NA,NA,NA
+6a1,Aulacoseira granulata var angustissima,Aulacoseira granulata var angustissima,Aulacoseira granulata var. angustissima,FALSE,Aulacoseira,granulata angustissima,6a1-LColCent,CR,0,1,Large,1,1,NA,NA,NA
+6a1,Aulacoseira islandica,Aulacoseira islandica,Aulacoseira islandica,TRUE,Aulacoseira,islandica,6a1-LColCent,CR,0,1,Large,1,1,NA,NA,NA
+6a1,Melosira islandica,Melosira islandica,Aulacoseira islandica,FALSE,Aulacoseira,islandica,6a1-LColCent,CR,0,1,Large,1,1,NA,NA,NA
+6a1,Melosira granulata (EHRENBERG) RALFS,Melosira granulata,Aulacoseira granulata,FALSE,Aulacoseira,granulata,6a1-LColCent,CR,0,1,Large,1,1,NA,NA,NA
+6a1,Aulacoseira ambigua,Aulacoseira ambigua,Aulacoseira ambigua,TRUE,Aulacoseira,ambigua,6a1-LColCent,CR,0,1,Large,1,1,NA,NA,NA
+6a1,Aulacoseira subarctica (O M?LER) E Y HAWORTH 1988,Aulacoseira subarctica,Aulacoseira subarctica,TRUE,Aulacoseira,subarctica,6a1-LColCent,CR,0,1,Large,1,1,NA,NA,NA
+6a1,Melosira varians AGARDH 1827,Melosira varians,Melosira varians,TRUE,Melosira,varians,6a1-LColCent,CR,0,1,Large,1,1,NA,NA,NA
+6a2,Stephanodiscus EHRENBERG 1845 sp.( <16?m),Stephanodiscus ( < 16 um),Stephanodiscus (< 16 um),FALSE,Stephanodiscus,(<,6a2-LUniCent,CR,0,1,Large,0,1,NA,NA,NA
+6a2,Stephanodiscus parva STOERMER & HAKANSSON,Stephanodiscus parva,Stephanodiscus parvus,FALSE,Stephanodiscus,parvus,6a2-LUniCent,CR,0,1,Large,0,1,NA,NA,NA
+6a2,Stephanodiscus EHRENBERG 1845 sp.,Stephanodiscus,Stephanodiscus,TRUE,Stephanodiscus,,6a2-LUniCent,CR,0,1,Large,0,1,NA,NA,NA
+6a2,Rhizosolenia sp.,Rhizosolenia,Rhizosolenia,TRUE,Rhizosolenia,,6a2-LUniCent,CR,0,1,Large,0,1,NA,NA,NA
+6a2,Stephanodiscus EHRENBERG 1845 sp.(medium),Stephanodiscus (medium),Stephanodiscus (medium),TRUE,Stephanodiscus,(medium),6a2-LUniCent,CR,0,1,Large,0,1,NA,NA,NA
+6a2,Urosolenia eriensis (H.L.SMITH) ROUND & CRAWFORD in ROUND ET AL 1990,Urosolenia eriensis,Urosolenia eriensis,TRUE,Urosolenia,eriensis,6a2-LUniCent,CR,0,1,Large,0,1,NA,NA,NA
+6a2,Urosolenia ROUND & CRAWFORD,Urosolenia,Urosolenia,TRUE,Urosolenia,,6a2-LUniCent,CR,0,1,Large,0,1,NA,NA,NA
+6a2,Stephanodiscus EHRENBERG 1845 sp.( <6?m),Stephanodiscus (< 6 um),Stephanodiscus (< 6 um),TRUE,Stephanodiscus,(<,6a2-LUniCent,CR,0,1,Large,0,1,NA,NA,NA
+6b1,Tabellaria flocculosa var. asterionelloides (GRUNOW) KNUDSON 1952,Tabellaria flocculosa var. asterionelloides,Tabellaria flocculosa var. asterionelloides,TRUE,Tabellaria,flocculosa asterionelloides,6b1-LColPenn,CR,0,1,Large,1,0,NA,NA,NA
+6b1,Tabellaria sp.,Tabellaria,Tabellaria,TRUE,Tabellaria,,6b1-LColPenn,CR,0,1,Large,1,0,NA,NA,NA
+6b1,Tabellaria fenestrata (LYNGBYE) K?ZING,Tabellaria fenestrata,Tabellaria fenestrata,TRUE,Tabellaria,fenestrata,6b1-LColPenn,CR,0,1,Large,1,0,NA,NA,NA
+6b1,Tabellaria flocculosa (ROTH) K?ZING 1844 var. flocculosa,Tabellaria flocculosa var. flocculosa,Tabellaria flocculosa,FALSE,Tabellaria,flocculosa,6b1-LColPenn,CR,0,1,Large,1,0,NA,NA,NA
+6b1,Fragilaria LYNGBYE 1819 sp.,Fragilaria,Fragilaria,TRUE,Fragilaria,,6b1-LColPenn,CR,0,1,Large,1,0,NA,NA,NA
+6b1,Fragilaria crotonensis var. prolongata - GRUNOW ex VAN HEURCK,Fragilaria crotonensis var. prolongata,Fragilaria crotonensis,FALSE,Fragilaria,crotonensis,6b1-LColPenn,CR,0,1,Large,1,0,NA,NA,NA
+6b1,Fragilaria capucina DESMAZIERES 1825,Fragilaria capucina,Fragilaria capucina,TRUE,Fragilaria,capucina,6b1-LColPenn,CR,0,1,Large,1,0,NA,NA,NA
+6b1,Fragilaria crotonensis KITTON 1869 (var. crotonensis and var. prolongata until 1993 when var. prol coded ? FRAT),Fragilaria crotonensis,Fragilaria crotonensis,TRUE,Fragilaria,crotonensis,6b1-LColPenn,CR,0,1,Large,1,0,NA,NA,NA
+6b1,Asterionella formosa HASSALL 1855,Asterionella formosa,Asterionella formosa,TRUE,Asterionella,formosa,6b1-LColPenn,CR,0,1,Large,1,0,NA,NA,NA
+6b1,Synedra minuscula GUNROW,Synedra minuscula,Fragilaria famelica,FALSE,Fragilaria,famelica,6b1-LColPenn,CR,0,1,Large,1,0,NA,NA,NA
+6b1,Tabellaria flocculosa (ROTH) K?ZING 1844 var. other than asterionelloides or flocculosa (mainly zig zag formation),Tabellaria flocculosa,Tabellaria flocculosa,TRUE,Tabellaria,flocculosa,6b1-LColPenn,CR,0,1,Large,1,0,NA,NA,NA
+6b1,Synedra acus K?ZING 1844,Synedra acus,Fragilaria acus,FALSE,Fragilaria,acus,6b1-LColPenn,CR,0,1,Large,1,0,NA,NA,NA
+6b1,Meridion spp. AGARDH,Meridion,Meridion,TRUE,Meridion,,6b1-LColPenn,CR,0,1,Large,1,0,NA,NA,NA
+6b2,Synedra EHRENBERG 1830 sp. (medium),Synedra (medium),Synedra (medium),TRUE,Synedra,(medium),6b2-LUniPenn,CR,0,1,Large,0,0,NA,NA,NA
+6b2,Synedra EHRENBERG 1830 sp. (long),Synedra (long),Synedra (long),TRUE,Synedra,(long),6b2-LUniPenn,CR,0,1,Large,0,0,NA,NA,NA
+6b2,Synedra ulna (NITZSCH) EHRENBERG 1836,Synedra ulna,Ulnaria ulna,FALSE,Ulnaria,ulna,6b2-LUniPenn,CR,0,1,Large,0,0,NA,NA,NA
+6b2,Synedra EHRENBERG 1830 sp. (large),Synedra (large),Synedra (large),TRUE,Synedra,(large),6b2-LUniPenn,CR,0,1,Large,0,0,NA,NA,NA
+6b2,Synedra EHRENBERG 1830 sp.,Synedra,Synedra,TRUE,Synedra,,6b2-LUniPenn,CR,0,1,Large,0,0,NA,NA,NA
+6b2,Amphora EHRENBERG spp.,Amphora,Amphora,TRUE,Amphora,,6b2-LUniPenn,CR,0,1,Large,0,0,NA,NA,NA
+7a,Cyclotella pseudostelligera HUSTEDT 1939,Cyclotella pseudostelligera,Cyclotella pseudostelligera,TRUE,Cyclotella,pseudostelligera,7a-SmallCent,C,0,1,Small,NA,1,NA,NA,NA
+7a,Cyclotella K?ZING EX BR?ISSON 1838 sp. (big),Cyclotella (big),Cyclotella (big),TRUE,Cyclotella,(big),7a-SmallCent,C,0,1,Small,NA,1,NA,NA,NA
+7a,Cyclotella K?ZING EX BR?ISSON 1838 sp.,Cyclotella,Cyclotella,TRUE,Cyclotella,,7a-SmallCent,C,0,1,Small,NA,1,NA,NA,NA
+7a,Cyclotella meneghiniana K?ZING 1844,Cyclotella meneghiniana,Cyclotella meneghiniana,TRUE,Cyclotella,meneghiniana,7a-SmallCent,C,0,1,Small,NA,1,NA,NA,NA
+7a,Cyclotella K?ZING EX BR?ISSON 1838 sp. (small),Cyclotella (small),Cyclotella (small),TRUE,Cyclotella,(small),7a-SmallCent,C,0,1,Small,NA,1,NA,NA,NA
+7a,Cyclotella K?ZING EX BR?ISSON 1838 sp. (medium),Cyclotella (medium),Cyclotella (medium),TRUE,Cyclotella,(medium),7a-SmallCent,C,0,1,Small,NA,1,NA,NA,NA
+7b,Achnanthes BORY 1822 sp.,Achnanthes,Achnanthes,TRUE,Achnanthes,,7b-SmallPenn,CR,0,1,Small,NA,0,NA,NA,NA
+7b,Achnanthes minutissima Kutzing,Achnanthes minutissima,Achnanthes minutissima,TRUE,Achnanthes,minutissima,7b-SmallPenn,CR,0,1,Small,NA,0,NA,NA,NA
+7b,Navicula BORY 1822 sp.,Navicula,Navicula,TRUE,Navicula,,7b-SmallPenn,CR,0,1,Small,NA,0,NA,NA,NA
+7b,Nitzschia /Synedra (uncertain which),Nitzschia /Synedra (uncertain which),Nitzschia or Synedra,FALSE,Nitzschia,or,7b-SmallPenn,CR,0,1,Small,NA,0,NA,NA,NA
+7b,Nitzschia HASSALL 1845 sp.,Nitzschia,Nitzschia,TRUE,Nitzschia,,7b-SmallPenn,CR,0,1,Small,NA,0,NA,NA,NA
+7b,Cymbella C. AGARDH 1830 sp.,Cymbella,Cymbella,TRUE,Cymbella,,7b-SmallPenn,CR,0,1,Small,NA,0,NA,NA,NA
+7b,Diatoma DE CANDOLLE 1805 sp.,Diatoma,Diatoma,TRUE,Diatoma,,7b-SmallPenn,CR,0,1,Small,NA,0,NA,NA,NA
+8a,Staurastrum hirsutum,Staurastrum hirsutum,Staurastrum hirsutum,TRUE,Staurastrum,hirsutum,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Closterium limneticum LEMMERMANN 1899,Closterium limneticum,Closterium limneticum,TRUE,Closterium,limneticum,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Closterium ralfsii BREBISSON,Closterium ralfsii,Closterium ralfsii,TRUE,Closterium,ralfsii,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Monoraphidium griffithii (BERKELEY) KOM?RKOV?-LEGNEROV? 1969,Monoraphidium griffithii,Monoraphidium griffithii,TRUE,Monoraphidium,griffithii,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Closterium NITZSCH spp.,Closterium,Closterium,TRUE,Closterium,,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Staurodesmus subulatus (K?ZING) CROASDALE,Staurodesmus subulatus,Staurodesmus subulatus,TRUE,Staurodesmus,subulatus,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Staurastrum anatinum COOKE & WILLS IN COOKE 1881,Staurastrum anatinum,Staurastrum anatinum,TRUE,Staurastrum,anatinum,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Closterium gracile BREBISSON,Closterium gracile,Closterium gracile,TRUE,Closterium,gracile,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Closterium aciculare T.WEST,Closterium aciculare,Closterium aciculare,TRUE,Closterium,aciculare,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Staurodesmus dejectus (Brebisson) Teiling,Staurodesmus dejectus,Staurodesmus dejectus,TRUE,Staurodesmus,dejectus,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Staurodesmus jaculiferum,Staurodesmus jaculiferum,Staurodesmus incus var. jaculiferus,FALSE,Staurodesmus,incus jaculiferus,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Closterium acutum (LYNGBYE) BREBISSON,Closterium acutum,Closterium acutum,TRUE,Closterium,acutum,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Monoraphidium KOMARKOVA-LEGENEROVA sp.,Monoraphidium,Monoraphidium,TRUE,Monoraphidium,,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Monoraphidium irregulare (G M SMITH) KOMARKOVA-LEGENEROVA,Monoraphidium irregulare,Monoraphidium irregulare,TRUE,Monoraphidium,irregulare,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Closterium NITZSCH sp. (large),Closterium (large),Closterium (large),TRUE,Closterium,(large),8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Staurastrum MEYEN EX RALFS 1848 spp,Staurastrum,Staurastrum,TRUE,Staurastrum,,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Monoraphidium pusillum (PRINTZ) KOMARKOVA-LEGENEROVA,Monoraphidium pusillum,Monoraphidium pusillum,TRUE,Monoraphidium,pusillum,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Staurastrum cingulum (W & G.S.WEST)  G.M.SMITH 1922,Staurastrum cingulum,Staurastrum cingulum,TRUE,Staurastrum,cingulum,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Xanthidium subhastiferum W WEST 1892,Xanthidium subhastiferum,Xanthidium subhastiferum,TRUE,Xanthidium,subhastiferum,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Staurastrum johnsonii West et G.S. West 1896,Staurastrum johnsonii,Staurastrum johnsonii,TRUE,Staurastrum,johnsonii,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Staurastrum lunatum RALFS 1848,Staurastrum lunatum,Staurastrum avicula var. lunatum,FALSE,Staurastrum,avicula lunatum,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Monoraphidium contortum (THURET) KOM?RKOV?-LEGNEROV? 1969,Monoraphidium contortum,Monoraphidium contortum,TRUE,Monoraphidium,contortum,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Cosmarium phaseolus Brebisson,Cosmarium phaseolus,Cosmarium phaseolus,TRUE,Cosmarium,phaseolus,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Xanthidium antilopaeum (BR?ISSON) K?ZING 1849,Xanthidium antilopaeum,Xanthidium antilopaeum,TRUE,Xanthidium,antilopaeum,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Staurodesmus leptodermus (Lundell)Teiling,Staurodesmus leptodermus,Staurodesmus leptodermus,TRUE,Staurodesmus,leptodermus,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Xanthidium EHRENBERG sp.,Xanthidium,Xanthidium,TRUE,Xanthidium,,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Staurodesmus triangularis (LAGERHEIM) TEILING,Staurodesmus triangularis,Staurodesmus triangularis,TRUE,Staurodesmus,triangularis,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Staurodesmus TEILING sp.,Staurodesmus,Staurodesmus,TRUE,Staurodesmus,,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Staurodesmus aversus (P Lundell) S Lillieroth 1950,Staurodesmus aversus,Staurastrum aversum,FALSE,Staurastrum,aversum,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Staurastrum chaetoceras (W & GS WEST) GM SMITH 1924,Staurastrum chaetoceras,Staurastrum chaetoceras,TRUE,Staurastrum,chaetoceras,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Staurodesmus megacanthus (LUNDELL) THUNMARK 1948,Staurodesmus megacanthus,Staurodesmus megacanthus,TRUE,Staurodesmus,megacanthus,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+9a,Cosmarium CORDA EX RALFS 1848 sp.,Cosmarium,Cosmarium,TRUE,Cosmarium,,9a-SmallConj,C,0,1,Small,0,NA,NA,NA,NA
+9a,Cosmarium abbreviatum RACIBORSKI 1885,Cosmarium abbreviatum,Cosmarium abbreviatum,TRUE,Cosmarium,abbreviatum,9a-SmallConj,C,0,1,Small,0,NA,NA,NA,NA
+9a,Cosmarium depressum (N?ELI) LUNDELL 1871,Cosmarium depressum,Cosmarium baileyi,FALSE,Cosmarium,baileyi,9a-SmallConj,C,0,1,Small,0,NA,NA,NA,NA
+9a,Cosmarium LARGE,Cosmarium large,Cosmarium (large),FALSE,Cosmarium,(large),9a-SmallConj,C,0,1,Small,0,NA,NA,NA,NA
+9a,Cosmarium turpinii BREBISSON,Cosmarium turpinii,Cosmarium turpinii,TRUE,Cosmarium,turpinii,9a-SmallConj,C,0,1,Small,0,NA,NA,NA,NA
+9a,Cosmarium bioculatum BR?ISSON IN RALFS 1848,Cosmarium bioculatum,Cosmarium bioculatum,TRUE,Cosmarium,bioculatum,9a-SmallConj,C,0,1,Small,0,NA,NA,NA,NA
+9a,Euastrum EHRENBERG EX RALFS 1848 sp.,Euastrum,Euastrum,TRUE,Euastrum,,9a-SmallConj,C,0,1,Small,0,NA,NA,NA,NA
+9a,Cosmarium contractum KIRCHNER 1878,Cosmarium contractum,Cosmarium contractum,TRUE,Cosmarium,contractum,9a-SmallConj,C,0,1,Small,0,NA,NA,NA,NA
+9a,Cosmarium CORDA EX RALFS 1848 sp. (small),Cosmarium (small),Cosmarium (small),TRUE,Cosmarium,(small),9a-SmallConj,C,0,1,Small,0,NA,NA,NA,NA
+9b,Monoraphidium minimum,Monoraphidium minimum,Monoraphidium minutum,FALSE,Monoraphidium,minutum,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Monoraphidium dybowskii (WOLASYNSKA) HINDAK & KOMARKOVA - LEGENEROVA,Monoraphidium dybowskii,Monoraphidium dybowskii,TRUE,Monoraphidium,dybowskii,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Ankyra spp. FOTT,Ankyra,Ankyra,TRUE,Ankyra,,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Ankyra judayi (G.M.SMITH) FOTT 1957,Ankyra judayi,Ankyra judayi,TRUE,Ankyra,judayi,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Koliella HIND?K sp.,Koliella,Koliella,TRUE,Koliella,,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Lagerheimia genevensis,Lagerheimia genevensis,Lagerheimia genevensis,TRUE,Lagerheimia,genevensis,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Coccomyxa SCHMIDLE spp.,Coccomyxa,Coccomyxa,TRUE,Coccomyxa,,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Chlorella BEIJERINCK 1890 sp. (<2 ?m),Chlorella (< 2 um),Chlorella (< 2 um),TRUE,Chlorella,(<,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Lagerheimia chodatii,Lagerheimia chodatii,Lagerheimia chodatii,TRUE,Lagerheimia,chodatii,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Characium spp. - A.BRAUN,Characium,Characium,TRUE,Characium,,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Chlorella BEIJERINCK 1890 sp. (large),Chlorella (large),Chlorella (large),TRUE,Chlorella,(large),9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Ankistrodesmus falcatus (CORDA) RALFS 1848,Ankistrodesmus falcatus,Ankistrodesmus falcatus,TRUE,Ankistrodesmus,falcatus,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Monoraphidium nanum (ETTL) HINDAK,Monoraphidium nanum,Monoraphidium nanum,TRUE,Monoraphidium,nanum,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Golenkinia paucipina,Golenkinia paucipina,Golenkinia paucispina,FALSE,Golenkinia,paucispina,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Golenkinia radiata,Golenkinia radiata,Golenkinia radiata,TRUE,Golenkinia,radiata,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Monoraphidium minutum (N?ELI) KOMARKOVA-LEGENEROVA,Monoraphidium minutum,Monoraphidium minutum,TRUE,Monoraphidium,minutum,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Lagerheimia CHODAT sp.,Lagerheimia,Lagerheimia,TRUE,Lagerheimia,,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Treubaria triappendiculata,Treubaria triappendiculata,Treubaria triappendiculata,TRUE,Treubaria,triappendiculata,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Franceia ovalia,Franceia ovalia,Franceia,FALSE,Franceia,,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Tetraedron minimum (A.BRAUN) HANSGIRG,Tetraedron minimum,Tetraedron minimum,TRUE,Tetraedron,minimum,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Chlorella BEIJERINCK 1890 sp.,Chlorella,Chlorella,TRUE,Chlorella,,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Monoraphidium arcuatum (KORSHIKOV) HIND?K 1970,Monoraphidium arcuatum,Ankistrodesmus arcuatus,FALSE,Ankistrodesmus,arcuatus,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Golenkinia CHODAT sp.,Golenkinia,Golenkinia,TRUE,Golenkinia,,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Koliella spiculiformis (VISCHER) HINDAK,Koliella spiculiformis,Koliella spiculiformis,TRUE,Koliella,spiculiformis,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Chlorella rod (SIHE),Chlorella rod,Chlorella rod,TRUE,Chlorella,rod,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Koliella longiseta HIND?K 1963,Koliella longiseta,Koliella longiseta,TRUE,Koliella,longiseta,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+NA,Ankyra lanceolata (KORSHIKOV) FOTT,Ankyra lanceolata,Lanceola spatulifera,FALSE,Lanceola,spatulifera,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Asterococcus spp. SCHERFFEL,Asterococcus,Asterococcus,TRUE,Asterococcus,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,,,NA,,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Cladomonas,Cladomonas,XXXX,FALSE,XXXX,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Scenedesmus dimorphus (TURPIN) K?ZING,Scenedesmus dimorphus,Tetradesmus dimorphus,FALSE,Tetradesmus,dimorphus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Centric Diatom (10 um),Centric Diatom (10 um),Centric Diatom (10 um),TRUE,Centric,Diatom,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Nephroselmis sp.,Nephroselmis,Nephroselmis,TRUE,Nephroselmis,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Cyclotella comensis GRUNOW IN VAN HEURCK 1882,Cyclotella comensis,Pantocsekiella comensis,FALSE,Pantocsekiella,comensis,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Cyathomonas,Cyathomonas,Cyathomonas,TRUE,Cyathomonas,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Gonium sociale (DUJARDIN) WARMING,Gonium sociale,Tetrabaena socialis,FALSE,Tetrabaena,socialis,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Syncrypta / Synura,Syncrypta / Synura,Syncrypta or Synura,FALSE,Syncrypta,or,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Centric Diatom Large,Centric Diatom Large,Centric Diatom (large),FALSE,Centric,Diatom,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Scenedesmus acutus,Scenedesmus acutus,Tetradesmus obliquus,FALSE,Tetradesmus,obliquus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Bicosoeca ainikkiae SKUJA,Bicosoeca ainikkiae,Bicosoeca ainikkiae,TRUE,Bicosoeca,ainikkiae,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Monochrysis agilissima SKUJA,Monochrysis agilissima,Monochrysis agilissima,TRUE,Monochrysis,agilissima,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,,,NA,,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Bicoeca - syn Bicosoeca  JAMES - CLARKE sp.,Bicosoeca,Bicosoeca,TRUE,Bicosoeca,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Unidentified small monoflagellates,Unidentified small monoflagellates,Unidentified small monoflagellates,TRUE,Unidentified,small,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Centric Diatom  (less than 10um),Centric Diatom  (< 10 um),Centric Diatom  (< 10 um),TRUE,Centric,Diatom,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Stichococcus minutissima SKUJA,Stichococcus minutissima,Stichococcus minutissimus,FALSE,Stichococcus,minutissimus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Stigeoclonium K?ZING 1843 sp.,Stigeoclonium,Stigeoclonium,TRUE,Stigeoclonium,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Bicoeca lacustris,Bicoeca lacustris,Bicosoeca lacustris,FALSE,Bicosoeca,lacustris,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Asterococcus superbus (CIENKOWSKI) SCHERFFEL 1908,Asterococcus superbus,Asterococcus superbus,TRUE,Asterococcus,superbus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,,,NA,,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Syncrypta spp. EHRENBERG,Syncrypta,Syncrypta,TRUE,Syncrypta,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Unidentified small biflagellates,Unidentified small biflagellates,Unidentified small biflagellates,TRUE,Unidentified,small,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Tetrabaena socialis (DUJARDIN) NOZARKI ET ITOH 1994,Tetrabaena socialis,Tetrabaena socialis,TRUE,Tetrabaena,socialis,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Chilomonas EHRENBERG,Chilomonas,Chilomonas,TRUE,Chilomonas,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Monochrysis SKUJA sp.,Monochrysis,Monochrysis,TRUE,Monochrysis,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Unidentified small round,Unidentified small round,Unidentified small round,TRUE,Unidentified,small,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Stichococcus minor KOL,Stichococcus minor,Stichococcus minor,TRUE,Stichococcus,minor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Nephrodiella,Nephrodiella,Nephrodiella,TRUE,Nephrodiella,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Unidentified flagellate,Unidentified flagellate,Unidentified flagellate,TRUE,Unidentified,flagellate,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Haematococcus pluvialis Flotow emend. Wille 1903,Haematococcus pluvialis,Haematococcus lacustris,FALSE,Haematococcus,lacustris,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,,,NA,,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Centric Diatoms,Centric Diatoms,Centric Diatoms,TRUE,Centric,Diatoms,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,,,NA,,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Pennate diatoms,Pennate diatoms,Pennate diatoms,TRUE,Pennate,diatoms,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,,,NA,,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Characiopsis BORZI,Characiopsis,Characiopsis,TRUE,Characiopsis,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,,,NA,,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Coenococcus spp.,Coenococcus,Coenococcus,TRUE,Coenococcus,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Monodus CHODAT sp.,Monodus,Monodus,TRUE,Monodus,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Tetracystis BROWN & BOLD sp.,Tetracystis,Tetracystis,TRUE,Tetracystis,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Selenastrum gracile,Selenastrum gracile,Messastrum gracile,FALSE,Messastrum,gracile,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Unidentified filament,Unidentified filament,Unidentified filament,TRUE,Unidentified,filament,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Stichococcus spp. N?ELI,Stichococcus,Stichococcus,TRUE,Stichococcus,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Heterochromonas spp BOURRELLY,Heterochromonas,Heterochromonas,TRUE,Heterochromonas,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Unidentified spherical colony,Unidentified spherical colony,Unidentified spherical colony,TRUE,Unidentified,spherical,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Dictyosphaerium pulchellum WOOD 1874,Dictyosphaerium pulchellum,Mucidosphaerium pulchellum,FALSE,Mucidosphaerium,pulchellum,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Unidentified small oval,Unidentified small oval,Unidentified small oval,TRUE,Unidentified,small,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Peridinium lomnickii WOLOZYNSKA 1916,Peridinium lomnickii,Chimonodinium lomnickii,FALSE,Chimonodinium,lomnickii,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Chlamydocapsa sp,Chlamydocapsa sp,Chlamydocapsa,FALSE,Chlamydocapsa,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Unidentified blue-green,Unidentified blue-green,Unidentified blue-green,TRUE,Unidentified,blue-green,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Uroglena americana CALKINS 1892,Uroglena americana,Uroglenopsis americana,FALSE,Uroglenopsis,americana,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Unidentified green filament,Unidentified green filament,Unidentified green filament,TRUE,Unidentified,green,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Unidentified rods,Unidentified rods,Unidentified rods,TRUE,Unidentified,rods,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Unidentified green cell,Unidentified green cell,Unidentified green cell,TRUE,Unidentified,green,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Scenedesmus obliquus (TURPIN) K?ZING,Scenedesmus obliquus,Tetradesmus obliquus,FALSE,Tetradesmus,obliquus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Unidentified 'bean' like object,Unidentified 'bean' like object,XXXX,FALSE,XXXX,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Chlorella ellipsoidea GERNECK,Chlorella ellipsoidea,Chloroidium ellipsoideum,FALSE,Chloroidium,ellipsoideum,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Aphanothece clathrata  WEST & G.S.WEST 1906,Aphanothece clathrata,Anathece clathrata,FALSE,Anathece,clathrata,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Chlorella saccharophila (KRUGER) MIGULA,Chlorella saccharophila,Chloroidium saccharophilum,FALSE,Chloroidium,saccharophilum,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Ellipsoidion PASCHER,Ellipsoidion,Ellipsoidion,TRUE,Ellipsoidion,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Scourfieldia BOURRELLY sp.,Scourfieldia,Scourfieldia,TRUE,Scourfieldia,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Unidentified ovoid cyano,Unidentified ovoid cyano,Unidentified ovoid cyano,TRUE,Unidentified,ovoid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Chlamydocapsa planctonica (W & GS WEST) FOTT 1972,Chlamydocapsa planctonica,Chlamydocapsa planctonica,TRUE,Chlamydocapsa,planctonica,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Unidentified colonial green,Unidentified colonial green,Unidentified colonial green,TRUE,Unidentified,colonial,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Coenococcus subaryl,Coenococcus subaryl,Coenococcus,FALSE,Coenococcus,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

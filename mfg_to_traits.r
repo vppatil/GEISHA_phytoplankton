@@ -15,7 +15,7 @@ mfg.to.traits.1<-function(MFG.num)
 		'3a' = data.frame(flagella = 1, autotroph = 1, size = NA, colonial = 0, centric = NA, gelatinous = NA, aerotopes = NA, filamentous = NA),
 		'3b' = data.frame(flagella = 1, autotroph = 1, size = NA, colonial = 1, centric = NA, gelatinous = NA, aerotopes = NA, filamentous = NA),
 		'4' = data.frame(flagella = 0, autotroph = 1, size = NA, colonial = 0, centric = NA, gelatinous = NA, aerotopes = NA, filamentous = NA),
-		'5a' = data.frame(flagella = 0, autotroph = 1, size = NA, colonial = 1, centric = NA, gelatinous = NA, aerotopes = NA, filamentous = NA),
+		'5a' = data.frame(flagella = 0, autotroph = 1, size = NA, colonial = 1, centric = NA, gelatinous = NA, aerotopes = NA, filamentous = 1),
 		'5b' = data.frame(flagella = 0, autotroph = 1, size = 'Large', colonial = 1, centric = NA, gelatinous = NA, aerotopes = 1, filamentous = NA),
 		'5c' = data.frame(flagella = 0, autotroph = 1, size = 'Large', colonial = 1, centric = NA, gelatinous = NA, aerotopes = 0, filamentous = NA),
 		'5d' = data.frame(flagella = 0, autotroph = 1, size = 'Small', colonial = 1, centric = NA, gelatinous = NA, aerotopes = NA, filamentous = NA),
@@ -44,15 +44,26 @@ mfg.to.traits.1<-function(MFG.num)
 		return(trait.df)
 }
 
-mfg.to.traits.df1<-function(df) #must have column named MFG.num
-{
-	trait.df<-data.frame()
-	for(i in 1:dim(df)[1])
-	{
-		trait.df=rbind(trait.df,mfg.to.traits.1(df$MFG.num[i]))
-	}
-	trait.df=merge(df,trait.df)
-	return(trait.df)
-}
+
+
+
+
+
+
+
+	
+
+
+
+# mfg.to.traits.df1<-function(df)
+# {
+# 	trait.df<-data.frame()
+# 	for(i in 1:dim(df)=ifelse(1])
+# 	{
+# 		trait.df=rbind(trait.df,mfg.to.traits.1(df$MFG.num=ifelse(i]))
+# 	}
+# 	trait.df=merge(df,trait.df)
+# 	return(trait.df)
+# }
 		
 

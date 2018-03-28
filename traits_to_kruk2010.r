@@ -16,3 +16,5 @@ traits.to.kruk=function(flagella=NA,silica=NA,MLD=NA,mucilage=NA,aerotopes=NA,SV
 
 	return(kruk.mfg)
 }
+
+##need to add database wrapper and inverse function to this.

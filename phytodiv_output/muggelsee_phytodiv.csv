@@ -1,0 +1,219 @@
+MFG.num,phyto_name,Algaebase_Current_14Aug2017,Match.,genus,species,MFG,CSR,flagella,autotroph,size,colonial,centric,gelatinous,aerotopes,filamentous
+10b,Mougeotia spp.,Mougeotia,FALSE,Mougeotia,,10b-FilaConj,R,0,1,NA,1,NA,NA,NA,1
+10c,Tribonema spp.,Tribonema,FALSE,Tribonema,,10c-FilaXant,CR,0,1,NA,1,NA,NA,NA,1
+10c,Tribonema angustissimum,Tribonema angustissimum,TRUE,Tribonema,angustissimum,10c-FilaXant,CR,0,1,NA,1,NA,NA,NA,1
+11a,Actinastrum fluviatile,Actinastrum fluviatile,TRUE,Actinastrum,fluviatile,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Actinastrum hantzschii,Actinastrum hantzschii,TRUE,Actinastrum,hantzschii,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Actinastrum spp.,Actinastrum,FALSE,Actinastrum,,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Didymocystis spp.,Didymocystis,FALSE,Didymocystis,,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Scenedesmus intermedius,Desmodesmus intermedius,FALSE,Desmodesmus,intermedius,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Scenedesmus linearis,Scenedesmus ellipticus,FALSE,Scenedesmus,ellipticus,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Coelastrum astroideum,Coelastrum astroideum,TRUE,Coelastrum,astroideum,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Coelastrum microporum,Coelastrum microporum,TRUE,Coelastrum,microporum,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Tetrastrum glabrum,Tetrastrum glabrum,TRUE,Tetrastrum,glabrum,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Pediastrum boryanum,Pseudopediastrum boryanum,FALSE,Pseudopediastrum,boryanum,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Scenedesmus abundans,Desmodesmus abundans,FALSE,Desmodesmus,abundans,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Crucigeniella spp.,Crucigenia,FALSE,Crucigenia,,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Pediastrum spp.,Pediastrum,FALSE,Pediastrum,,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Scenedesmus armatus,Scenedesmus armatus,TRUE,Scenedesmus,armatus,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Scenedesmus communis,Desmodesmus communis,FALSE,Desmodesmus,communis,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Scenedesmus denticulatus,Desmodesmus denticulatus,FALSE,Desmodesmus,denticulatus,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Scenedesmus maximus,Desmodesmus maximus,FALSE,Desmodesmus,maximus,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Coenochloris polycocca,Radiococcus polycoccus,FALSE,Radiococcus,polycoccus,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Pediastrum biradiatum,Parapediastrum biradiatum,FALSE,Parapediastrum,biradiatum,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Pediastrum duplex,Pediastrum duplex,TRUE,Pediastrum,duplex,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Tetrastrum staurogeniaeforme,Tetrastrum staurogeniaeforme,TRUE,Tetrastrum,staurogeniaeforme,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Pediastrum simplex,Monactinus simplex,FALSE,Monactinus,simplex,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Pediastrum tetras,Stauridium tetras,FALSE,Stauridium,tetras,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Siderocelis ornata,Siderocelis ornata,TRUE,Siderocelis,ornata,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Micractinium spp.,Micractinium,FALSE,Micractinium,,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Scenedesmus spp.,Scenedesmus,FALSE,Scenedesmus,,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Scenedesmus opoliensis,Desmodesmus opoliensis,FALSE,Desmodesmus,opoliensis,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Micractinium bornhemiense,Micractinium bornhemiense,TRUE,Micractinium,bornhemiense,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Scenedesmus serratus,Desmodesmus serratus,FALSE,Desmodesmus,serratus,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Scenedesmus quadricauda,Scenedesmus quadricauda,TRUE,Scenedesmus,quadricauda,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Micractinium pusillum,Micractinium pusillum,TRUE,Micractinium,pusillum,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Scenedesmus subspicatus,Desmodesmus subspicatus,FALSE,Desmodesmus,subspicatus,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11b,Oocystis spp.,Oocystis,FALSE,Oocystis,,11b-GelaChlor,S,0,1,NA,1,NA,1,NA,0
+11b,Tetrastrum komarekii,Lemmermannia komarekii,FALSE,Lemmermannia,komarekii,11b-GelaChlor,S,0,1,NA,1,NA,1,NA,0
+11b,Planktosphaeria gelatinosa,Planktosphaeria gelatinosa,TRUE,Planktosphaeria,gelatinosa,11b-GelaChlor,S,0,1,NA,1,NA,1,NA,0
+11b,Elakatothrix spp.,Elakatothrix,FALSE,Elakatothrix,,11b-GelaChlor,S,0,1,NA,1,NA,1,NA,0
+11b,Raphidocelis spp.,Raphidocelis,FALSE,Raphidocelis,,11b-GelaChlor,S,0,1,NA,1,NA,1,NA,0
+11b,Kirchneriella spp.,Kirchneriella,FALSE,Kirchneriella,,11b-GelaChlor,S,0,1,NA,1,NA,1,NA,0
+11b,Crucigeniella apiculata,Willea apiculata,FALSE,Willea,apiculata,11b-GelaChlor,S,0,1,NA,1,NA,1,NA,0
+11b,Dictyosphaerium spp.,Dictyosphaerium,FALSE,Dictyosphaerium,,11b-GelaChlor,S,0,1,NA,1,NA,1,NA,0
+1a,Synura uvella,Synura uvella,TRUE,Synura,uvella,1a-LargeChry,SR,1,0,Large,NA,NA,NA,NA,NA
+1a,Uroglena spp.,Uroglena,FALSE,Uroglena,,1a-LargeChry,SR,1,0,Large,NA,NA,NA,NA,NA
+1a,Dinobryon spp.,Dinobryon,FALSE,Dinobryon,,1a-LargeChry,SR,1,0,Large,NA,NA,NA,NA,NA
+1a,Synura spp.,Synura,FALSE,Synura,,1a-LargeChry,SR,1,0,Large,NA,NA,NA,NA,NA
+1a,Dinobryon divergens,Dinobryon divergens,TRUE,Dinobryon,divergens,1a-LargeChry,SR,1,0,Large,NA,NA,NA,NA,NA
+1a,Dinobryon sociale,Dinobryon sociale,TRUE,Dinobryon,sociale,1a-LargeChry,SR,1,0,Large,NA,NA,NA,NA,NA
+1b,Peridinium spp. (15 um),Peridinium (15 um),FALSE,Peridinium,(15,1b-LargeDino,S,1,0,Large,NA,NA,NA,NA,NA
+1b,Peridinium spp. (50-60 um),Peridinium (50-60 um),FALSE,Peridinium,(50-60,1b-LargeDino,S,1,0,Large,NA,NA,NA,NA,NA
+1b,Peridinium spp. (30-40 um),Peridinium (30-40 um),FALSE,Peridinium,(30-40,1b-LargeDino,S,1,0,Large,NA,NA,NA,NA,NA
+1b,Peridinium spp.,Peridinium,FALSE,Peridinium,,1b-LargeDino,S,1,0,Large,NA,NA,NA,NA,NA
+1b,Peridinium spp. (40-50 um),Peridinium (40-50 um),FALSE,Peridinium,(40-50,1b-LargeDino,S,1,0,Large,NA,NA,NA,NA,NA
+1b,Peridinium spp. (20 um),Peridinium (20 um),FALSE,Peridinium,(20,1b-LargeDino,S,1,0,Large,NA,NA,NA,NA,NA
+1b,Ceratium rhomvoides,Ceratium rhomvoides,TRUE,Ceratium,rhomvoides,1b-LargeDino,S,1,0,Large,NA,NA,NA,NA,NA
+1b,Peridinium spp. (25-30 um),Peridinium (25-30 um),FALSE,Peridinium,(25-30,1b-LargeDino,S,1,0,Large,NA,NA,NA,NA,NA
+1b,Ceratium furcoides,Ceratium furcoides,TRUE,Ceratium,furcoides,1b-LargeDino,S,1,0,Large,NA,NA,NA,NA,NA
+1b,Ceratium hirundinella,Ceratium hirundinella,TRUE,Ceratium,hirundinella,1b-LargeDino,S,1,0,Large,NA,NA,NA,NA,NA
+1c,Euglena spp.,Euglena,FALSE,Euglena,,1c-LargeEugl,,1,0,Large,NA,NA,NA,NA,NA
+1c,Pseudopedinella erkensis,Pseudopedinella erkensis,TRUE,Pseudopedinella,erkensis,1c-LargeEugl,,1,0,Large,NA,NA,NA,NA,NA
+2a,Pseudokephyrion spp.,Pseudokephyrion,FALSE,Pseudokephyrion,,2a-SmallChry1,C,1,0,Small,0,NA,NA,NA,NA
+2a,Mallomonas akrokomos,Mallomonas akrokomos,TRUE,Mallomonas,akrokomos,2a-SmallChry1,C,1,0,Small,0,NA,NA,NA,NA
+2a,Chrysochromulina spp.,Chrysochromulina,FALSE,Chrysochromulina,,2a-SmallChry1,C,1,0,Small,0,NA,NA,NA,NA
+2a,Kephyrion spp.,Kephyrion,FALSE,Kephyrion,,2a-SmallChry1,C,1,0,Small,0,NA,NA,NA,NA
+2a,Mallomonas spp.,Mallomonas,FALSE,Mallomonas,,2a-SmallChry1,C,1,0,Small,0,NA,NA,NA,NA
+2b,Gymnodinium spp. (30-40 um),Gymnodinium (30-40 um),FALSE,Gymnodinium,(30-40,2b-SmallDino,SC,1,0,Small,0,NA,NA,NA,NA
+2b,Gymnodinium spp.,Gymnodinium,FALSE,Gymnodinium,,2b-SmallDino,SC,1,0,Small,0,NA,NA,NA,NA
+2b,Gymnodinium spp. (10-20 um),Gymnodinium (10-20 um),FALSE,Gymnodinium,(10-20,2b-SmallDino,SC,1,0,Small,0,NA,NA,NA,NA
+2b,Gymnodinium spp. (20-30 um),Gymnodinium (20-30 um),FALSE,Gymnodinium,(20-30,2b-SmallDino,SC,1,0,Small,0,NA,NA,NA,NA
+2c,Trachelomonas  spp.,Trachelomonas ,FALSE,Trachelomonas,,2c-SmallEugl,SC,1,0,Small,0,NA,NA,NA,NA
+2d,Cryptomonas spp. (60 um),Cryptomonas (60 um),FALSE,Cryptomonas,(60,2d-Crypto,C,1,0,Small,0,NA,NA,NA,NA
+2d,Cryptomonas spp. (15 um),Cryptomonas (15 um),FALSE,Cryptomonas,(15,2d-Crypto,C,1,0,Small,0,NA,NA,NA,NA
+2d,Cryptomonas spp. (45 um),Cryptomonas (45 um),FALSE,Cryptomonas,(45,2d-Crypto,C,1,0,Small,0,NA,NA,NA,NA
+2d,Cryptomonas spp. (13-15 um),Cryptomonas (13-15 um),FALSE,Cryptomonas,(13-15,2d-Crypto,C,1,0,Small,0,NA,NA,NA,NA
+2d,Cryptomonas spp. (20 um),Cryptomonas (20 um),FALSE,Cryptomonas,(20,2d-Crypto,C,1,0,Small,0,NA,NA,NA,NA
+2d,Cryptomonas spp. (30 um),Cryptomonas (30 um),FALSE,Cryptomonas,(30,2d-Crypto,C,1,0,Small,0,NA,NA,NA,NA
+2d,Cryptomonas spp. (40 um),Cryptomonas (40 um),FALSE,Cryptomonas,(40,2d-Crypto,C,1,0,Small,0,NA,NA,NA,NA
+2d,Cryptomonas spp. (25 um),Cryptomonas (25 um),FALSE,Cryptomonas,(25,2d-Crypto,C,1,0,Small,0,NA,NA,NA,NA
+2d,Cryptomonas spp. (50 um),Cryptomonas (50 um),FALSE,Cryptomonas,(50,2d-Crypto,C,1,0,Small,0,NA,NA,NA,NA
+2d,Cryptomonas spp. (55 um),Cryptomonas (55 um),FALSE,Cryptomonas,(55,2d-Crypto,C,1,0,Small,0,NA,NA,NA,NA
+2d,Rhodomonas lens,Rhodomonas lens,TRUE,Rhodomonas,lens,2d-Crypto,C,1,0,Small,0,NA,NA,NA,NA
+2d,Rhodomonas minuta/lacustris,Plagioselmis nannoplanctica,FALSE,Plagioselmis,nannoplanctica,2d-Crypto,C,1,0,Small,0,NA,NA,NA,NA
+2d,Cryptomonas spp. (10 um),Cryptomonas (10 um),FALSE,Cryptomonas,(10,2d-Crypto,C,1,0,Small,0,NA,NA,NA,NA
+2d,Cryptomonas spp. (35 um),Cryptomonas (35 um),FALSE,Cryptomonas,(35,2d-Crypto,C,1,0,Small,0,NA,NA,NA,NA
+2d,Chroomonas spp.,Chroomonas,FALSE,Chroomonas,,2d-Crypto,C,1,0,Small,0,NA,NA,NA,NA
+3a,Carteria spp.,Carteria,FALSE,Carteria,,3a-UnicPhyto,C,1,1,NA,0,NA,NA,NA,NA
+3a,Tetraselmis spp.,Tetraselmis,FALSE,Tetraselmis,,3a-UnicPhyto,C,1,1,NA,0,NA,NA,NA,NA
+3a,Phacotus lenticularis,Phacotus lenticularis,TRUE,Phacotus,lenticularis,3a-UnicPhyto,C,1,1,NA,0,NA,NA,NA,NA
+3a,Pteromonas angulosa,Pteromonas angulosa,TRUE,Pteromonas,angulosa,3a-UnicPhyto,C,1,1,NA,0,NA,NA,NA,NA
+3a,Chlamydomonas spp. (10 um),Chlamydomonas (10 um),FALSE,Chlamydomonas,(10,3a-UnicPhyto,C,1,1,NA,0,NA,NA,NA,NA
+3a,Pteromonas,Pteromonas spp.,FALSE,Pteromonas,,3a-UnicPhyto,C,1,1,NA,0,NA,NA,NA,NA
+3a,Phacotus spp.,Phacotus,FALSE,Phacotus,,3a-UnicPhyto,C,1,1,NA,0,NA,NA,NA,NA
+3a,Chlamydomonas spp. (15 um),Chlamydomonas (15 um),FALSE,Chlamydomonas,(15,3a-UnicPhyto,C,1,1,NA,0,NA,NA,NA,NA
+3a,Chlamydomonas spp. (5 um),Chlamydomonas (5 um),FALSE,Chlamydomonas,(5,3a-UnicPhyto,C,1,1,NA,0,NA,NA,NA,NA
+3a,Chlamydomonas spp.,Chlamydomonas,FALSE,Chlamydomonas,,3a-UnicPhyto,C,1,1,NA,0,NA,NA,NA,NA
+3b,Pandorina morum,Pandorina morum,TRUE,Pandorina,morum,3b-ColoPhyto,S,1,1,NA,1,NA,NA,NA,NA
+3b,Eudorina spp.,Eudorina,FALSE,Eudorina,,3b-ColoPhyto,S,1,1,NA,1,NA,NA,NA,NA
+5a,Pseudanabaena spp.,Pseudanabaena,FALSE,Pseudanabaena,,5a-FilaCyano,R,0,1,NA,1,NA,NA,NA,NA
+5a,Limnothrix planctonica,Limnothrix planctonica,TRUE,Limnothrix,planctonica,5a-FilaCyano,R,0,1,NA,1,NA,NA,NA,NA
+5a,Limnothrix redekei,Limnothrix redekei,TRUE,Limnothrix,redekei,5a-FilaCyano,R,0,1,NA,1,NA,NA,NA,NA
+5a,Limnothrix spp.,Limnothrix,FALSE,Limnothrix,,5a-FilaCyano,R,0,1,NA,1,NA,NA,NA,NA
+5a,Planktothrix agardhii,Planktothrix agardhii,TRUE,Planktothrix,agardhii,5a-FilaCyano,R,0,1,NA,1,NA,NA,NA,NA
+5a,Pseudanabaena mucicola,Pseudanabaena mucicola,TRUE,Pseudanabaena,mucicola,5a-FilaCyano,R,0,1,NA,1,NA,NA,NA,NA
+5a,Planktolyngbya spp.,Planktolyngbya,FALSE,Planktolyngbya,,5a-FilaCyano,R,0,1,NA,1,NA,NA,NA,NA
+5b,Microcystis wesenbergii,Microcystis wesenbergii,TRUE,Microcystis,wesenbergii,5b-LargeVacC,S,0,1,Large,1,NA,NA,1,NA
+5b,Microcystis novacekii,Microcystis novacekii,TRUE,Microcystis,novacekii,5b-LargeVacC,S,0,1,Large,1,NA,NA,1,NA
+5b,Microcystis spp.,Microcystis,FALSE,Microcystis,,5b-LargeVacC,S,0,1,Large,1,NA,NA,1,NA
+5b,Microcystis viridis,Microcystis viridis,TRUE,Microcystis,viridis,5b-LargeVacC,S,0,1,Large,1,NA,NA,1,NA
+5b,Microcystis flos-aquae,Microcystis flos-aquae,TRUE,Microcystis,flos-aquae,5b-LargeVacC,S,0,1,Large,1,NA,NA,1,NA
+5b,Microcystis aeruginosa,Microcystis aeruginosa,TRUE,Microcystis,aeruginosa,5b-LargeVacC,S,0,1,Large,1,NA,NA,1,NA
+5c,Woronichinia naegeliana,Woronichinia naegeliana,TRUE,Woronichinia,naegeliana,5c-OtherChroo,S,0,1,Large,1,NA,NA,0,NA
+5d,Chroococcus spp.,Chroococcus,FALSE,Chroococcus,,5d-SmallChroo,CR,0,1,Small,1,NA,NA,NA,NA
+5e,Anabaena compacta,Dolichospermum compactum,FALSE,Dolichospermum,compactum,5e-Nostocales,S,0,1,Small,1,NA,NA,NA,NA
+5e,Anabaena crassa,Dolichospermum crassum,FALSE,Dolichospermum,crassum,5e-Nostocales,S,0,1,Small,1,NA,NA,NA,NA
+5e,Anabaena circinalis,Dolichospermum sigmoideum,FALSE,Dolichospermum,sigmoideum,5e-Nostocales,S,0,1,Small,1,NA,NA,NA,NA
+5e,Anabaena affinis,Dolichospermum affine,FALSE,Dolichospermum,affine,5e-Nostocales,S,0,1,Small,1,NA,NA,NA,NA
+5e,Anabaena mendotae,Dolichospermum mendotae,FALSE,Dolichospermum,mendotae,5e-Nostocales,S,0,1,Small,1,NA,NA,NA,NA
+5e,Anabaena flos-aquae,Dolichospermum flos-aquae,FALSE,Dolichospermum,flos-aquae,5e-Nostocales,S,0,1,Small,1,NA,NA,NA,NA
+5e,Anabaena solitaria,Dolichospermum solitarium,FALSE,Dolichospermum,solitarium,5e-Nostocales,S,0,1,Small,1,NA,NA,NA,NA
+5e,Anabaena planctonica,Anabaena planctonica,TRUE,Anabaena,planctonica,5e-Nostocales,S,0,1,Small,1,NA,NA,NA,NA
+5e,Anabaena lemmermannii,Dolichospermum lemmermannii,FALSE,Dolichospermum,lemmermannii,5e-Nostocales,S,0,1,Small,1,NA,NA,NA,NA
+5e,Anabaena spp.,Dolichospermum,FALSE,Dolichospermum,,5e-Nostocales,S,0,1,Small,1,NA,NA,NA,NA
+5e,Anabaena smithii,Dolichospermum smitthii,FALSE,Dolichospermum,smitthii,5e-Nostocales,S,0,1,Small,1,NA,NA,NA,NA
+5e,Aphanizomenon gracile,Aphanizomenon gracile,TRUE,Aphanizomenon,gracile,5e-Nostocales,S,0,1,Small,1,NA,NA,NA,NA
+5e,Aphanizomenon spp.,Aphanizomenon,FALSE,Aphanizomenon,,5e-Nostocales,S,0,1,Small,1,NA,NA,NA,NA
+5e,Anabaena spiroides,Dolichospermum spiroides,FALSE,Dolichospermum,spiroides,5e-Nostocales,S,0,1,Small,1,NA,NA,NA,NA
+5e,Aphanizomenon flos-aquae,Aphanizomenon flos-aquae,TRUE,Aphanizomenon,flos-aquae,5e-Nostocales,S,0,1,Small,1,NA,NA,NA,NA
+6a1,Aulacoseira granulata (15 um),Aulacoseira granulata (15 um),TRUE,Aulacoseira,granulata,6a1-LColCent,CR,0,1,Large,1,1,NA,NA,NA
+6a1,Aulacoseira granulata (8 um),Aulacoseira granulata (8 um),TRUE,Aulacoseira,granulata,6a1-LColCent,CR,0,1,Large,1,1,NA,NA,NA
+6a1,Aulacoseira granulata (10 um),Aulacoseira granulata (10 um),TRUE,Aulacoseira,granulata,6a1-LColCent,CR,0,1,Large,1,1,NA,NA,NA
+6a1,Aulacoseira granulata var. angustissima f. spiralis,Aulacoseira granulata f. spiralis,FALSE,Aulacoseira,granulata spiralis,6a1-LColCent,CR,0,1,Large,1,1,NA,NA,NA
+6a1,Melosira varians,Melosira varians,TRUE,Melosira,varians,6a1-LColCent,CR,0,1,Large,1,1,NA,NA,NA
+6a1,Aulacoseira granulata (12 um),Aulacoseira granulata (12 um),TRUE,Aulacoseira,granulata,6a1-LColCent,CR,0,1,Large,1,1,NA,NA,NA
+6a1,Aulacoseira spp.,Aulacoseira,FALSE,Aulacoseira,,6a1-LColCent,CR,0,1,Large,1,1,NA,NA,NA
+6a1,Aulacoseira granulata (5 um),Aulacoseira granulata (5 um),TRUE,Aulacoseira,granulata,6a1-LColCent,CR,0,1,Large,1,1,NA,NA,NA
+6a1,Aulacoseira granulata (3 um),Aulacoseira granulata (3 um),TRUE,Aulacoseira,granulata,6a1-LColCent,CR,0,1,Large,1,1,NA,NA,NA
+6a2,Stephanodiscus binderanus,Stephanodiscus binderanus,TRUE,Stephanodiscus,binderanus,6a2-LUniCent,CR,0,1,Large,0,1,NA,NA,NA
+6b1,Diatoma vulgaris,Diatoma vulgaris,TRUE,Diatoma,vulgaris,6b1-LColPenn,CR,0,1,Large,1,0,NA,NA,NA
+6b1,Tabellaria spp.,Tabellaria,FALSE,Tabellaria,,6b1-LColPenn,CR,0,1,Large,1,0,NA,NA,NA
+6b1,Diatoma tenuis,Diatoma tenuis,TRUE,Diatoma,tenuis,6b1-LColPenn,CR,0,1,Large,1,0,NA,NA,NA
+6b1,Fragilaria spp.,Fragilaria,FALSE,Fragilaria,,6b1-LColPenn,CR,0,1,Large,1,0,NA,NA,NA
+6b1,Fragilaria crotonensis,Fragilaria crotonensis,TRUE,Fragilaria,crotonensis,6b1-LColPenn,CR,0,1,Large,1,0,NA,NA,NA
+6b1,Asterionella formosa,Asterionella formosa,TRUE,Asterionella,formosa,6b1-LColPenn,CR,0,1,Large,1,0,NA,NA,NA
+6b1,Fragilaria construens,Fragilaria construens,TRUE,Fragilaria,construens,6b1-LColPenn,CR,0,1,Large,1,0,NA,NA,NA
+6b1,Fragilaria capucina,Fragilaria capucina,TRUE,Fragilaria,capucina,6b1-LColPenn,CR,0,1,Large,1,0,NA,NA,NA
+6b2,Fragilaria cyclopum,Synedra cyclopum,FALSE,Synedra,cyclopum,6b2-LUniPenn,CR,0,1,Large,0,0,NA,NA,NA
+6b2,Fragilaria ulna angustissima Sippen (150 ?m),Ulnaria delicatissima var. angustissima (150 um),FALSE,Ulnaria,delicatissima angustissima,6b2-LUniPenn,CR,0,1,Large,0,0,NA,NA,NA
+6b2,Fragilaria ulna,Ulnaria ulna,FALSE,Ulnaria,ulna,6b2-LUniPenn,CR,0,1,Large,0,0,NA,NA,NA
+6b2,Nitzschia acicularis,Nitzschia acicularis,TRUE,Nitzschia,acicularis,6b2-LUniPenn,CR,0,1,Large,0,0,NA,NA,NA
+6b2,Fragilaria ulna angustissima Sippen,Ulnaria delicatissima var. angustissima,FALSE,Ulnaria,delicatissima angustissima,6b2-LUniPenn,CR,0,1,Large,0,0,NA,NA,NA
+7b,Nitzschia fruticosa,Nitzschia fruticosa,TRUE,Nitzschia,fruticosa,7b-SmallPenn,CR,0,1,Small,NA,0,NA,NA,NA
+7b,Navicula spp.,Navicula,FALSE,Navicula,,7b-SmallPenn,CR,0,1,Small,NA,0,NA,NA,NA
+7b,Nitzschia fonticola,Nitzschia fonticola,TRUE,Nitzschia,fonticola,7b-SmallPenn,CR,0,1,Small,NA,0,NA,NA,NA
+7b,Nitzschia spp.,Nitzschia,FALSE,Nitzschia,,7b-SmallPenn,CR,0,1,Small,NA,0,NA,NA,NA
+7b,Diatoma spp.,Diatoma,FALSE,Diatoma,,7b-SmallPenn,CR,0,1,Small,NA,0,NA,NA,NA
+8a,Closterium acutum var. variabile,Closterium acutum var. variabile,TRUE,Closterium,acutum variabile,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Monoraphidium spp.,Monoraphidium,FALSE,Monoraphidium,,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Closterium limneticum,Closterium limneticum,TRUE,Closterium,limneticum,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Monoraphidium contortum,Monoraphidium contortum,TRUE,Monoraphidium,contortum,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Closterium aciculare,Closterium aciculare,TRUE,Closterium,aciculare,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Staurastrum gracile,Staurastrum gracile,TRUE,Staurastrum,gracile,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Monoraphidium griffithii,Monoraphidium griffithii,TRUE,Monoraphidium,griffithii,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Closterium spp.,Closterium,FALSE,Closterium,,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Monoraphidium komarkovae,Monoraphidium komarkovae,TRUE,Monoraphidium,komarkovae,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+9b,Koliella spp.,Koliella,FALSE,Koliella,,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Lagerheimia wratislawiensis,Lagerheimia wratislawiensis,TRUE,Lagerheimia,wratislawiensis,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Ankyra spp.,Ankyra,FALSE,Ankyra,,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Lagerheimia genevensis,Lagerheimia genevensis,TRUE,Lagerheimia,genevensis,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Schroederia spp.,Schroederia,FALSE,Schroederia,,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Golenkinia radiata,Golenkinia radiata,TRUE,Golenkinia,radiata,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Ankyra judayi,Ankyra judayi,TRUE,Ankyra,judayi,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Monoraphidium arcuatum,Ankistrodesmus arcuatus,FALSE,Ankistrodesmus,arcuatus,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Tetraedron caudatum,Tetraedron caudatum,TRUE,Tetraedron,caudatum,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Schroederia nitzschioides,Schroederia nitzschioides,TRUE,Schroederia,nitzschioides,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+NA,Anabaenopsis elenkinii,Anabaenopsis elenkinii,TRUE,Anabaenopsis,elenkinii,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,single centric Diatoms (15 um),single centric Diatoms (15 um),TRUE,single,centric,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Scenedesmus falcatus,Tetradesmus lagerheimii,FALSE,Tetradesmus,lagerheimii,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Bacillariophyceae,Bacillariophyceae,TRUE,Bacillariophyceae,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,single centric Diatoms (10 um),single centric Diatoms (10 um),TRUE,single,centric,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,single centric Diatoms (20 um),single centric Diatoms (20 um),TRUE,single,centric,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Kolkwitziella acuta,Entzia acuta,FALSE,Entzia,acuta,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,single centric Diatoms (5 um),single centric Diatoms (5 um),TRUE,single,centric,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,single centric Diatoms (30 um),single centric Diatoms (30 um),TRUE,single,centric,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Chlorophycea cells (3 um) ,Chlorophyceae cells (3 um) ,FALSE,Chlorophyceae,cells,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Chlorophycea cells (5 um),Chlorophyceae cells (5 um),FALSE,Chlorophyceae,cells,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Fragilaria ulna var. acus,Fragiliaria acus,FALSE,Fragiliaria,acus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Chrysophyceae cells,Chrysophyceae cells,TRUE,Chrysophyceae,cells,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Volvox spp.,Volvox,FALSE,Volvox,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Ankyra lanceolata,Lanceola spatulifera,FALSE,Lanceola,spatulifera,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,single centric Diatoms (40 um),single centric Diatoms (40 um),TRUE,single,centric,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Chlorophycea cells (10 um),Chlorophyceae cells (10 um),FALSE,Chlorophyceae,cells,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Chlorophycea cells (15 um),Chlorophyceae cells (15 um),FALSE,Chlorophyceae,cells,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Scenedesmus acutus,Tetradesmus obliquus,FALSE,Tetradesmus,obliquus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,single centric Diatoms total,single centric Diatoms total,TRUE,single,centric,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Peridinium aciculiferum,Apocalathium aciculiferum,FALSE,Apocalathium,aciculiferum,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Cyanobacteria,Cyanobacteria,TRUE,Cyanobacteria,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,single centric Diatoms (7.5 um),single centric Diatoms (7.5 um),TRUE,single,centric,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Chlorophycea cells (3 um),Chlorophyceae cells (3 um),FALSE,Chlorophyceae,cells,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Chroococcus limneticus (col.),Limnococcus limneticus,FALSE,Limnococcus,limneticus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Skeletonema spp.,Skeletonema,FALSE,Skeletonema,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,single centric Diatoms (25 um),single centric Diatoms (25 um),TRUE,single,centric,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,single centric Diatoms (35 um),single centric Diatoms (35 um),TRUE,single,centric,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Mesostigma viride,Mesostigma viride,TRUE,Mesostigma,viride,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Chlorophyceae colonies,Chlorophyceae colonies,TRUE,Chlorophyceae,colonies,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Ceratium spp. Cysten,XXXX,FALSE,XXXX,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Dactylosphaerium spp.,Dactylosphaerium,FALSE,Dactylosphaerium,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,single centric Diatoms (45 um),single centric Diatoms (45 um),TRUE,single,centric,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Colacium spp.,Colacium,FALSE,Colacium,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Aphanizomenon issatschenkoi,Cuspidothrix issatschenkoi,FALSE,Cuspidothrix,issatschenkoi,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Volvox aureus,Volvox aureus,TRUE,Volvox,aureus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Planctonema lauterbornii,Binuclearia lauterbornii,FALSE,Binuclearia,lauterbornii,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Chrysoflagellata spp.,Chrysoflagellata,FALSE,Chrysoflagellata,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Aphanizomenon aphanizomenoides,Sphaerospermopsis aphanizomenoides,FALSE,Sphaerospermopsis,aphanizomenoides,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,green Flagellata,green Flagellata,TRUE,green,Flagellata,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Scenedesmus acuminatus,Tetradesmus lagerheimii,FALSE,Tetradesmus,lagerheimii,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Gymnodinium helveticum,Gyrodinium helveticum,FALSE,Gyrodinium,helveticum,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,single centric Diatoms (50 um),single centric Diatoms (50 um),TRUE,single,centric,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

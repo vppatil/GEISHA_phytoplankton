@@ -7,6 +7,7 @@ library(vegan)
 
 rm(list = ls())
 
+setwd('~/gleon/Geisha/phyto_package/GEISHA_phytoplankton_github_shared/')
 dat.m = read.csv("madgwick_csr_data.csv",stringsAsFactors = F)
 
 source('species_mfg_convert02042018.r')
@@ -104,15 +105,27 @@ library(labdsv)
 
 out.df=dat.m
 
+#optional phase out
+out.df=out.df[out.df$CSR %in% c('C','CR','S'),]
+
 out.df=subset(out.df,!is.na(out.df$CSR))
 out.df.measurements=subset(out.df,select=c('MSV','SV'))
 group.df=subset(out.df,select=c('CSR','MFG'))
 
 #log transform
-out.df.measurements=sapply(out.df.measurements[],log10)
+out.df.measurements=sapply(out.df.measurements[],log)
 
 out.df.dist=dist(out.df.measurements)
 
 hc=hclust(out.df.dist)
 plot(hc,labels=out.df$CSR)
+
+csr.ord=cmdscale(out.df.dist)
+csr.ord=metaMDS(out.df.dist)
+
+ord.env=envfit(csr.ord~CSR,data=group.df)
+ord.env
+
+plot(csr.ord)
+plot(ord.env)
 

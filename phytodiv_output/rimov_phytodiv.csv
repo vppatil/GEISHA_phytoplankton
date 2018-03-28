@@ -1,0 +1,62 @@
+MFG.num,phyto_name,Algaebase_Current_07Sep2017,genus,species,MFG,CSR,flagella,autotroph,size,colonial,centric,gelatinous,aerotopes,filamentous
+11a,Actinastrum hantzschii,Actinastrum hantzschii,Actinastrum,hantzschii,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Pediastrum simplex (medium),Monactinus simplex (medium),Pediastrum,simplex,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Coelastrum microporum,Coelastrum microporum,Coelastrum,microporum,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Coelastrum spec.,Coelastrum,Coelastrum,spec.,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Pediastrum boryanum (small),Pseudopediastrum boryanum (small),Pediastrum,boryanum,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Scenedesmus (large),Scenedesmus (large),Scenedesmus,(large),11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Pediastrum boryanum (large),Pseudopediastrum boryanum (large),Pediastrum,boryanum,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Pediastrum boryanum (medium),Pseudopediastrum boryanum (medium),Pediastrum,boryanum,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Pediastrum tetras,Stauridium tetras,Pediastrum,tetras,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Pediastrum duplex,Pediastrum duplex,Pediastrum,duplex,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Pediastrum simplex (small),Monactinus simplex (small),Pediastrum,simplex,11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Scenedesmus (small),Scenedesmus (small),Scenedesmus,(small),11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11a,Scenedesmus (medium),Scenedesmus (medium),Scenedesmus,(medium),11a-NakeChlor,CR,0,1,NA,1,NA,0,NA,0
+11b,Oocystis marssonii,Oocystis marssonii,Oocystis,marssonii,11b-GelaChlor,S,0,1,NA,1,NA,1,NA,0
+1a,Synura spec.,Synura,Synura,spec.,1a-LargeChry,SR,1,0,Large,NA,NA,NA,NA,NA
+1a,Synura uvella,Synura uvella,Synura,uvella,1a-LargeChry,SR,1,0,Large,NA,NA,NA,NA,NA
+1b,Ceratium hirundinella,Ceratium hirundinella,Ceratium,hirundinella,1b-LargeDino,S,1,0,Large,NA,NA,NA,NA,NA
+1b,Peridinium spec.,Peridinium,Peridinium,spec.,1b-LargeDino,S,1,0,Large,NA,NA,NA,NA,NA
+2a,Chrysochromulina parva,Chrysochromulina parva,Chrysochromulina,parva,2a-SmallChry1,C,1,0,Small,0,NA,NA,NA,NA
+2d,Cryptomonas curvata,Cryptomonas curvata,Cryptomonas,curvata,2d-Crypto,C,1,0,Small,0,NA,NA,NA,NA
+2d,Cryptomonas reflexa (medium),Cryptomonas reflexa (medium),Cryptomonas,reflexa,2d-Crypto,C,1,0,Small,0,NA,NA,NA,NA
+2d,Cryptomonas reflexa (large),Cryptomonas reflexa (large),Cryptomonas,reflexa,2d-Crypto,C,1,0,Small,0,NA,NA,NA,NA
+2d,Cryptomonas spec.,Cryptomonas,Cryptomonas,spec.,2d-Crypto,C,1,0,Small,0,NA,NA,NA,NA
+2d,Cryptomonas marssonii,Cryptomonas marssonii,Cryptomonas,marssonii,2d-Crypto,C,1,0,Small,0,NA,NA,NA,NA
+2d,Rhodomonas minuta,Plagioselmis nannoplanctica,Rhodomonas,minuta,2d-Crypto,C,1,0,Small,0,NA,NA,NA,NA
+3a,Chlamydomonas (medium),Chlamydomonas (medium),Chlamydomonas,(medium),3a-UnicPhyto,C,1,1,NA,0,NA,NA,NA,NA
+3a,Chlamydomonas (small),Chlamydomonas (small),Chlamydomonas,(small),3a-UnicPhyto,C,1,1,NA,0,NA,NA,NA,NA
+3b,Eudorina elegans (small),Eudorina elegans (small),Eudorina,elegans,3b-ColoPhyto,S,1,1,NA,1,NA,NA,NA,NA
+3b,Eudorina elegans (medium),Eudorina elegans (medium),Eudorina,elegans,3b-ColoPhyto,S,1,1,NA,1,NA,NA,NA,NA
+5a,Pseudanabaena limnetica,Pseudanabaena limnetica,Pseudanabaena,limnetica,5a-FilaCyano,R,0,1,NA,1,NA,NA,NA,NA
+5b,Microcystis wesenbergii,Microcystis wesenbergii,Microcystis,wesenbergii,5b-LargeVacC,S,0,1,Large,1,NA,NA,1,NA
+5b,Microcystis aeruginosa,Microcystis aeruginosa,Microcystis,aeruginosa,5b-LargeVacC,S,0,1,Large,1,NA,NA,1,NA
+5c,Woronichinia naegeliana,Woronichinia naegeliana,Woronichinia,naegeliana,5c-OtherChroo,S,0,1,Large,1,NA,NA,0,NA
+5e,Aphanizomenon yezoensis,Aphanizomenon yezoense,Aphanizomenon,yezoensis,5e-Nostocales,S,0,1,Small,1,NA,NA,NA,NA
+5e,Aphanizomenon flos-aquae,Aphanizomenon flos-aquae,Aphanizomenon,flos-aquae,5e-Nostocales,S,0,1,Small,1,NA,NA,NA,NA
+5e,Anabaena crassa,Dolichospermum crassum,Anabaena,crassa,5e-Nostocales,S,0,1,Small,1,NA,NA,NA,NA
+5e,Anabaena lemmermannii,Dolichospermum lemmermannii,Anabaena,lemmermannii,5e-Nostocales,S,0,1,Small,1,NA,NA,NA,NA
+5e,Anabaena sp.,Dolichospermum,Anabaena,,5e-Nostocales,S,0,1,Small,1,NA,NA,NA,NA
+6a1,Melosira varians,Melosira varians,Melosira,varians,6a1-LColCent,CR,0,1,Large,1,1,NA,NA,NA
+6b1,Fragilaria crotonensis,Fragilaria crotonensis,Fragilaria,crotonensis,6b1-LColPenn,CR,0,1,Large,1,0,NA,NA,NA
+6b1,Asterionella formosa,Asterionella formosa,Asterionella,formosa,6b1-LColPenn,CR,0,1,Large,1,0,NA,NA,NA
+6b2,Synedra acus (large),Fragilaria acus (large),Synedra,acus,6b2-LUniPenn,CR,0,1,Large,0,0,NA,NA,NA
+6b2,Synedra ulna,Ulnaria ulna,Synedra,ulna,6b2-LUniPenn,CR,0,1,Large,0,0,NA,NA,NA
+6b2,Synedra acus (medium),Fragilaria acus (medium),Synedra,acus,6b2-LUniPenn,CR,0,1,Large,0,0,NA,NA,NA
+8a,Closterium limneticum (small),Closterium limneticum (small),Closterium,limneticum,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Closterium limneticum (large),Closterium limneticum (large),Closterium,limneticum,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Closterium sp.,Closterium,Closterium,,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Monoraphidium contortum,Monoraphidium contortum,Monoraphidium,contortum,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Staurastrum (medium),Staurastrum (medium),Staurastrum,(medium),8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Staurastrum (large),Staurastrum (large),Staurastrum,(large),8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+8a,Staurastrum planctonicum,Staurastrum pingue var. planctonicum,Staurastrum,planctonicum,8a-LargeCoCh,S,0,1,Large,0,NA,NA,NA,NA
+9a,Cosmarium species,Cosmarium,Cosmarium,species,9a-SmallConj,C,0,1,Small,0,NA,NA,NA,NA
+9b,Monoraphidium arcuatum (small),Ankistrodesmus arcuatus (small),Monoraphidium,arcuatum,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Ankyra ancora,Ankyra ancora,Ankyra,ancora,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+9b,Monoraphidium arcuatum (medium),Ankistrodesmus arcuatus (medium),Monoraphidium,arcuatum,9b-SmallChlor,C,0,1,Small,0,NA,NA,NA,NA
+NA,Pennate diatoms unresolved (large),Pennate diatoms (large),Pennate,diatoms,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Indeterminatae genera (medium),Unidentified genus (medium),Indeterminatae,genera,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Volvox aureus,Volvox aureus,Volvox,aureus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Pennate diatoms unresolved (medium),Pennate diatoms (medium),Pennate,diatoms,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Indeterminatae genera (tiny),Unidentified genus (tiny),Indeterminatae,genera,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Indeterminatae genera (small),Unidentified genus (small),Indeterminatae,genera,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
