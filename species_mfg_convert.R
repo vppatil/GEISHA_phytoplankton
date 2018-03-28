@@ -1,10 +1,14 @@
-#functions to add nico functionalgroup classifications to a phytoplankton dataframe
-#will need to load his crossmap as a data file associated with the package.
+#functions to add MFG functionalgroup classifications to a phytoplankton dataframe.
+#if using MFG classifications, cite Salmaso, Nico, Luigi Naselli-Flores, and Judit Padisak. "Functional classifications and their application in phytoplankton ecology." Freshwater Biology 60.4 (2015): 603-619.
 
-#change the next line to the working directory where the sppMFG.rda file is saved.
+#set the working directory where the sppMFG.rda file is saved.
 load('sppMFG.rda')
 
-species.phyto.convert<-function(genus,species)
+
+#conversion of a single genus and species name to a single mfg.
+#genus and species should be entered as character strings
+species.phyto.convert<-function(genus,species,flag=1)#set flag to two if you want to manually resolve ambiguous mfg class.
+  #default behavior is to set ambiguous classes to NA (flag=1)
 {
   #accepts two character arguments (a genus and species name), and returns a morphofunctional group classification
   
@@ -16,26 +20,62 @@ species.phyto.convert<-function(genus,species)
   #check for genus and species match first.
   mfg=species.mfg.library$MFG[species.mfg.library$genus==genus & species.mfg.library$species==species]
   #go to genus match 
-  mfg=ifelse(length(unique(mfg)==1),unique(mfg),species.mfg.library$MFG[species.mfg.library$genus==genus])
-  #return NA if no match
-  mfg<-ifelse(length(mfg)==0,NA,mfg)
+ if(length(unique(mfg)==1))
+ {
+   mfg=unique(mfg)
+ }else{
+   mfg=species.mfg.library$MFG[species.mfg.library$genus==genus & species.mfg.library$species=='']
+ }
+  #if there is no genus only match, see if there is another species with the same genus 
+  if(length(unique(mfg))==0)
+  {
+    mfg=species.mfg.library$MFG[species.mfg.library$genus==genus]
+  }
+
+  if(length(unique(mfg))==2)#flag 2 means you can interactively choose among two possible mfgs for a particular genus or species
+  {
+    if(flag==1)
+    {
+      mfg=NA
+    }else if (flag==2)
+    {
+      mfg=unique(mfg)
+      cat(paste('\n two possible mfgs for the species: ',genus,species))
+      cat()
+      cat(paste('\n1:',mfg[1]))
+      cat(paste('\n2:',mfg[2]))
+      choice=as.numeric(readline(prompt='\nenter your choice: (1 or 2): \n'))
+      mfg=mfg[choice]
+    }
+  }else if(length(mfg)==0)
+  {
+    mfg=NA
+  }else
+  {
+    mfg=mfg[1]
+  }
+  
   return(mfg)
 }
 
-phyto.convert.df=function(phyto.df)
+#apply species.phyto.convert to an entire dataframe.
+#the data frame must have a cgenus column and a species column.
+phyto.convert.df=function(phyto.df,flag=1)
 {
   #this function applies the nico.phyto.convert function to an entire data frame, but that data frame must have columns named 'genus' and 'species'
   mfgs<-vector(length=dim(phyto.df)[1])
   for(i in 1:dim(phyto.df)[1])
   {
-    mfgs[i]=species.phyto.convert(phyto.df$genus[i],phyto.df$species[i])
+    mfgs[i]=species.phyto.convert(phyto.df$genus[i],phyto.df$species[i],flag=flag)
   }
   phyto.df$MFG=mfgs
   #phyto.df$MFG.number=sapply(as.character(mfgs),function(x) sapply(strsplit(x,split='-',fixed=T),"[",1))
   return(phyto.df)
 }
 
-genus.species.extract<-function(phyto.df,phyto.name)
+
+#helper function to remove species and subspecies prefixes, then parse binomial names into genus and species columns
+genus.species.extract<-function(phyto.df,phyto.name) #phyto.name is character string indicating column containing phytoplankton binomial names
 {
   spp.list<-as.character(phyto.df[[phyto.name]])
   
@@ -45,8 +85,6 @@ genus.species.extract<-function(phyto.df,phyto.name)
   
   spp.list=gsub('Cfr. ','',spp.list,ignore.case=T)
   spp.list=gsub('cf ','',spp.list,ignore.case=T)
-  
-  #spp.list=gsub('comb. nov.','',spp.list,ignore.case=T) #what the hell does this mean
   
   ###cleaning up genus only records
   genus.only.flag=rep(0,length(spp.list)) #flag for species names with spp. or sp. in them
@@ -83,8 +121,6 @@ genus.species.extract<-function(phyto.df,phyto.name)
   species[is.na(species)]=''
   species[genus.only.flag==1]=''
   
-  ###now for the comparison with nico's original mfg/species library
-  ####need to fix nico function so you can specify the name of the genus and species columns
   phyto.df$genus=genus
   phyto.df$species=species
   
