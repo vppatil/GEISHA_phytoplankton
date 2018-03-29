@@ -55,7 +55,7 @@ mfg.to.traits.df<-function(df)
 	trait.df<-vector()
 	for(i in 1:dim(df)[1])
 	{
-		trait.df=rbind(trait.df,mfg.to.traits.1(df$MFG[i]))
+		trait.df=rbind(trait.df,mfg.to.traits(df$MFG[i]))
 	}
 	trait.df=trait.df[!duplicated(trait.df),]
 	trait.df=merge(df,trait.df)
