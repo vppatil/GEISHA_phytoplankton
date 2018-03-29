@@ -1,55 +1,85 @@
-# code with taxonomy used in algaebase.com 
-# taxonomic class ending: ...ceae (-> only few exceptions with Cyanophyceae / Cyanobacteria)
-# taxonomic order ending: ...es
+#' Assign a morphofunctional group based on binary functional traits and higher taxonomy
+#'
+#' @param flagella 1 if flagella are present, 0 if they are absent. 
+#' @param size Character string: 'large' or 'small'. Classification criteria is left to the user.
+#' @param colonial 1 if typically colonial growth form, 0 if typically unicellular.
+#' @param filament 1 if dominant growth form is filamentous, 0 if not.
+#' @param centric 1 if diatom with centric growth form, 0 if not. NA for non-diatoms.
+#' @param gelatinous 1 mucilagenous sheath is typically present, 0 if not.
+#' @param aerotopes 1 if aerotopes allowing buoyancy regulation are typically present, 0 if not.
+#' @param class The taxonomic class of the species; We recommend algaebase as a standard reference.
+#' @param order The taxonomic order of the species; We recommend algaebase as a standard reference.
+#' 
+#' @return A character string of the species' morphofunctional group
+#'
+#' @examples
+#' traits.to.mfg(flagella = 1, size = 'large', colonial = 1, filament = 0, centric = NA, gelatinous = 0, aerotopes = 0, class = 'Euglenophyceae', order = 'Euglenales')
 
-
-traits.to.mfg = function(flagella = NULL, size = NULL, colonial = NULL, filament = NULL,  
-                         centric = NULL, gelatinous = NULL, aerotypes = NULL, 
-                         class = NULL, order = NULL)
+traits_to_mfg = function(flagella = NULL,
+                         size = NULL,
+                         colonial = NULL,
+                         filament = NULL,  
+                         centric = NULL,
+                         gelatinous = NULL,
+                         aerotopes = NULL, 
+                         class = NULL,
+                         order = NULL)
 {
   mfg = NA
-  if (flagella ==  1 & !is.na(flagella) & class %in% c("Bacillariophyceae","Coscinodiscophyceae","Mediophyceae","Fragilariophyceae")==F) { #making sure that diatoms are excluded from this branch
-    if (order == "Volvocales" & !is.na(order)) {
+  if (flagella ==  1 &
+      !is.na(flagella) &
+      (class == "Bacillariophyceae" |
+       class == "Coscinodiscophyceae" |
+       class == "Mediophyceae" |
+       class == "Fragilariophyceae")==F) {#making sure that diatoms are excluded from this branch
+    if (order == "Volvocales" & !is.na(order)){
       if (colonial == 1 & !is.na(colonial)) {
         mfg = "3b-ColoPhyto"
-        } 
+      } 
       else {
-          mfg = "3a-UnicPhyto"
+        mfg = "3a-UnicPhyto"
       }
-    }else if(class=='Cryptophyceae' & !is.na(class)){ #reshuffling so all motile cryptophytes go to 2d.
-        mfg =  "2d-Crypto"
+    }else if(class=='Cryptophyceae' & !is.na(class)){#ensures that all motile cryptophytes go to 2d.
+      mfg =  "2d-Crypto"
     }else  
       if (size == "large" & !is.na(size)) {
-        if (class == "Chrysophyceae" | class == "Haptophyceae"| class == "Synurophyceae" | class == "Phaeothamniophyceae") {
+        if (class == "Chrysophyceae" |
+            class == "Haptophyceae" |
+            class == "Synurophyceae" |
+            class == "Phaeothamniophyceae") {
           mfg = "1a-LargeChry"
-          }
+        }
         else 
           if (class == "Dinophyceae") {
-          mfg = "1b-LargeDino"
+            mfg = "1b-LargeDino"
           }
-          else {
-            mfg = "1c-LargeEugl"
-          }
+        else {
+          mfg = "1c-LargeEugl"
         }
-      else 
-        if (class == "Chrysophyceae" | class == "Haptophyceae" | class == "Synurophyceae" | class == "Phaeothamniophyceae") {
-          mfg = "2a-SmallChry1"
-          }
-        else 
-          if (class == "Dinophyceae"){
-            mfg = "2b-SmallDino"
-          }
+      }
+    else 
+      if (class == "Chrysophyceae" |
+          class == "Haptophyceae" |
+          class == "Synurophyceae" |
+          class == "Phaeothamniophyceae") {
+        mfg = "2a-SmallChry1"
+      }
+    else 
+      if (class == "Dinophyceae"){
+        mfg = "2b-SmallDino"
+      }
     else 
       if (class == "Euglenophyceae") {
-              mfg = "2c-SmallEugl"
-            }
-    else { 
-          mfg = NA
+        mfg = "2c-SmallEugl"
       }
+    else { 
+      mfg = NA
     }
+  }
   # first node break: flagella == 0
   else 
-    if (class == "Cyanophyceae" | class == "Cyanobacteria"){ 
+    if (class == "Cyanophyceae" | 
+        class == "Cyanobacteria"){ 
       if (colonial == 1 & !is.na(colonial)){
         if (order == "Oscillatoriales" & !is.na(order)){
           mfg = "5a-FilaCyano"
@@ -60,7 +90,7 @@ traits.to.mfg = function(flagella = NULL, size = NULL, colonial = NULL, filament
           }
         else
           if (size == "large" & !is.na(size)) {
-            if (aerotypes == 1 & !is.na(aerotypes)){
+            if (aerotopes == 1 & !is.na(aerotopes)){
               mfg = "5b-LargeVacC"
             }
             else {
@@ -76,8 +106,10 @@ traits.to.mfg = function(flagella = NULL, size = NULL, colonial = NULL, filament
       }
     }
   else
-    if (class == "Bacillariophyceae" | class == "Coscinodiscophyceae"  |
-         class == "Mediophyceae" | class == "Fragilariophyceae"){
+    if (class == "Bacillariophyceae" |
+        class == "Coscinodiscophyceae"  |
+        class == "Mediophyceae" |
+        class == "Fragilariophyceae"){
       if (size == "large" & !is.na(size)) {
         if (centric == 1 & !is.na(centric)) {
           if (colonial == 1 & !is.na(colonial)) {
@@ -106,34 +138,42 @@ traits.to.mfg = function(flagella = NULL, size = NULL, colonial = NULL, filament
   else 
     if (colonial == 1 & !is.na(colonial)){
       if (filament == 1 & !is.na(filament)) {
-        if (class == "Chlorophyceae" | class == "Ulvophyceae" | class == "Trebouxiophyceae"){
+        if (class == "Chlorophyceae" |
+            class == "Ulvophyceae" |
+            class == "Trebouxiophyceae"){
           mfg = "10a-FilaChlorp"
+        }
+        else
+          if (class == "Conjugatophyceae" |
+              class == "Zygnematophyceae"){
+            mfg = "10b-FilaConj"
           }
         else
-          if (class == "Conjugatophyceae" | class == "Zygnematophyceae"){
-          mfg = "10b-FilaConj"
-          }
-        else
-          if (class == "Xanthophyceae" | class == 'Eustigmatophyceae') {
-          mfg = "10c-FilaXant"
+          if (class == "Xanthophyceae" |
+              class == 'Eustigmatophyceae') {
+            mfg = "10c-FilaXant"
           }
       }
       else 
-        if (order == "Chlorococcales" | order == "Chlamydomonadales" | order == "Tetrasporales" & !is.na(order)) {
-            if (gelatinous == 1 & !is.na(gelatinous)) { ###gelatinous=1 means mucilage is present.
+        if (order == "Chlorococcales" |
+            order == "Chlamydomonadales" |
+            order == "Tetrasporales" & !is.na(order)) {
+          if (gelatinous == 1 & !is.na(gelatinous)) {
             mfg = "11b-GelaChlor"
-            }
-            else {
-            mfg = "11a-NakeChlor"
-            }
           }
+          else {
+            mfg = "11a-NakeChlor"
+          }
+        }
       else {
         mfg = "11c-OtherCol"
       }
-        }
-      else 
+    }
+  else 
     if (size == "large" & !is.na(size)) {
-      if (class == "Chlorophyceae" | class == "Conjugatophyceae" | class == "Zygnematophyceae") {
+      if (class == "Chlorophyceae" |
+          class == "Conjugatophyceae" |
+          class == "Zygnematophyceae") {
         mfg = "8a-LargeCoCh"
       }
       else {
@@ -141,7 +181,8 @@ traits.to.mfg = function(flagella = NULL, size = NULL, colonial = NULL, filament
       }
     }
   else
-    if (class == "Conjugatophyceae"| class == "Zygnematophyceae"){
+    if (class == "Conjugatophyceae"|
+        class == "Zygnematophyceae"){
       mfg = "9a-SmallConj"
     }
   else 
@@ -149,7 +190,9 @@ traits.to.mfg = function(flagella = NULL, size = NULL, colonial = NULL, filament
       mfg = "9b-SmallChlor"
     }
   else
-    if (class == "Chrysophyceae" | class == "Synurophyceae" | class == "Phaeothamniophyceae") {
+    if (class == "Chrysophyceae" |
+        class == "Synurophyceae" |
+        class == "Phaeothamniophyceae") {
       mfg = "9c-SmallChry2"
     }
   else {
@@ -158,15 +201,3 @@ traits.to.mfg = function(flagella = NULL, size = NULL, colonial = NULL, filament
   
   return(mfg)
 }
-
-trait.to.mfg.df<-function(dframe,arg.names)
-{
-  dframe$mfg.from.traits=''
-  for(i in 1:dim(dframe)[1])
-  {
-    dframe$mfg.from.traits[i]=traits.to.mfg(dframe[[arg.names[1]]][i],dframe[[arg.names[2]]][i],dframe[[arg.names[3]]][i],dframe[[arg.names[4]]][i],dframe[[arg.names[5]]][i],dframe[[arg.names[6]]][i],dframe[[arg.names[7]]][i],dframe[[arg.names[8]]][i],dframe[[arg.names[9]]][i])
-  }
-  
-  return(dframe)
-}
-
