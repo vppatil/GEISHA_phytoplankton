@@ -5,9 +5,16 @@
 #extract a trait matrix for a single character string MFG name. The matrix will contain NA for any traits that are not required to identify a particular MFG.
 mfg.to.traits<-function(MFG)
 {
-  MFG.num=strsplit(MFG,split='-')[[1]][1]
+  MFG.num=ifelse(is.na(MFG),NA,strsplit(MFG,split='-')[[1]][1])
 	trait.df<-switch(MFG.num,
-		'1a' = data.frame(flagella = 1, autotroph = 0, size = 'Large', colonial = NA, centric = NA, gelatinous = NA, aerotopes = NA, filamentous = NA),
+		'1a' = data.frame(flagella = 1,
+		                  autotroph = 0,
+		                  size = 'Large',
+		                  colonial = NA,
+		                  centric = NA,
+		                  gelatinous = NA,
+		                  aerotopes = NA,
+		                  filamentous = NA),
 		'1b' = data.frame(flagella = 1, autotroph = 0, size = 'Large', colonial = NA, centric = NA, gelatinous = NA, aerotopes = NA, filamentous = NA),
 		'1c' = data.frame(flagella = 1, autotroph = 0, size = 'Large', colonial = NA, centric = NA, gelatinous = NA, aerotopes = NA, filamentous = NA),
 		'2a' = data.frame(flagella = 1, autotroph = 0, size = 'Small', colonial = 0, centric = NA, gelatinous = NA, aerotopes = NA, filamentous = NA),
@@ -39,13 +46,16 @@ mfg.to.traits<-function(MFG)
 		'10c'= data.frame(flagella = 0, autotroph = 1, size = NA, colonial = 1, centric = NA, gelatinous = NA, aerotopes = NA, filamentous = 1),
 		'11a'= data.frame(flagella = 0, autotroph = 1, size = NA, colonial = 1, centric = NA, gelatinous = 0, aerotopes = NA, filamentous = 0),
 		'11b'= data.frame(flagella = 0, autotroph = 1, size = NA, colonial = 1, centric = NA, gelatinous = 1, aerotopes = NA, filamentous = 0),
-		'11c'= data.frame(flagella = 0, autotroph = 1, size = NA, colonial = 1, centric = NA, gelatinous = NA, aerotopes = NA, filamentous = 0)
+		'11c'= data.frame(flagella = 0, autotroph = 1, size = NA, colonial = 1, centric = NA, gelatinous = NA, aerotopes = NA, filamentous = 0),
+		stop("MFG not included")
 		)
 
 	if(is.na(MFG.num)){
 	  trait.df=data.frame(flagella = NA, autotroph = NA, size = NA, colonial = NA, centric = NA, gelatinous = NA, aerotopes = NA, filamentous = NA)
 	}
-		trait.df$MFG=MFG
+
+	
+		trait.df=cbind(MFG,trait.df)
 		return(trait.df)
 }
 
@@ -55,11 +65,20 @@ mfg.to.traits.df<-function(df)
 	trait.df<-vector()
 	for(i in 1:dim(df)[1])
 	{
+	  print(i)
 		trait.df=rbind(trait.df,mfg.to.traits(df$MFG[i]))
 	}
 	trait.df=trait.df[!duplicated(trait.df),]
 	trait.df=merge(df,trait.df)
 	return(trait.df)
 }
-		
+
+mfg.to.traits.df1 <- function(mfg){ #mfg = vector with MFG according to Salmaso et al., 2007
+    mfg.list <- list()
+    for(i in 1:length(mfg)){
+       mfg.list[[i]] <- mfg.to.traits(mfg[i])
+      }
+    mfg.df <- do.call(rbind, mfg.list)
+    return(mfg.df)
+}
 
