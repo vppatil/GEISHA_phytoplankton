@@ -13,17 +13,17 @@
 #' @return A character string of the species' morphofunctional group
 #'
 #' @examples
-#' traits.to.mfg(flagella = 1, size = 'large', colonial = 1, filament = 0, centric = NA, gelatinous = 0, aerotopes = 0, class = 'Euglenophyceae', order = 'Euglenales')
+#' traits_to_mfg(1,"large",1,0,NA,0,0,"Euglenophyceae","Euglenales")
 
-traits_to_mfg = function(flagella = NULL,
-                         size = NULL,
-                         colonial = NULL,
-                         filament = NULL,  
-                         centric = NULL,
-                         gelatinous = NULL,
-                         aerotopes = NULL, 
-                         class = NULL,
-                         order = NULL)
+traits_to_mfg <- function(flagella = NA,
+                         size = NA,
+                         colonial = NA,
+                         filament = NA,  
+                         centric = NA,
+                         gelatinous = NA,
+                         aerotopes = NA, 
+                         class = NA,
+                         order = NA)
 {
   mfg = NA
   if (flagella ==  1 &
@@ -35,12 +35,12 @@ traits_to_mfg = function(flagella = NULL,
     if (order == "Volvocales" & !is.na(order)){
       if (colonial == 1 & !is.na(colonial)) {
         mfg = "3b-ColoPhyto"
-      } 
+        } 
       else {
-        mfg = "3a-UnicPhyto"
+          mfg = "3a-UnicPhyto"
       }
     }else if(class=='Cryptophyceae' & !is.na(class)){#ensures that all motile cryptophytes go to 2d.
-      mfg =  "2d-Crypto"
+        mfg =  "2d-Crypto"
     }else  
       if (size == "large" & !is.na(size)) {
         if (class == "Chrysophyceae" |
@@ -48,34 +48,34 @@ traits_to_mfg = function(flagella = NULL,
             class == "Synurophyceae" |
             class == "Phaeothamniophyceae") {
           mfg = "1a-LargeChry"
-        }
+          }
         else 
           if (class == "Dinophyceae") {
-            mfg = "1b-LargeDino"
+          mfg = "1b-LargeDino"
           }
-        else {
-          mfg = "1c-LargeEugl"
+          else {
+            mfg = "1c-LargeEugl"
+          }
         }
-      }
-    else 
-      if (class == "Chrysophyceae" |
-          class == "Haptophyceae" |
-          class == "Synurophyceae" |
-          class == "Phaeothamniophyceae") {
-        mfg = "2a-SmallChry1"
-      }
-    else 
-      if (class == "Dinophyceae"){
-        mfg = "2b-SmallDino"
-      }
+      else 
+        if (class == "Chrysophyceae" |
+            class == "Haptophyceae" |
+            class == "Synurophyceae" |
+            class == "Phaeothamniophyceae") {
+          mfg = "2a-SmallChry1"
+          }
+        else 
+          if (class == "Dinophyceae"){
+            mfg = "2b-SmallDino"
+          }
     else 
       if (class == "Euglenophyceae") {
-        mfg = "2c-SmallEugl"
-      }
+              mfg = "2c-SmallEugl"
+            }
     else { 
-      mfg = NA
+          mfg = NA
+      }
     }
-  }
   # first node break: flagella == 0
   else 
     if (class == "Cyanophyceae" | 
@@ -142,34 +142,34 @@ traits_to_mfg = function(flagella = NULL,
             class == "Ulvophyceae" |
             class == "Trebouxiophyceae"){
           mfg = "10a-FilaChlorp"
-        }
+          }
         else
           if (class == "Conjugatophyceae" |
               class == "Zygnematophyceae"){
-            mfg = "10b-FilaConj"
+          mfg = "10b-FilaConj"
           }
         else
           if (class == "Xanthophyceae" |
               class == 'Eustigmatophyceae') {
-            mfg = "10c-FilaXant"
+          mfg = "10c-FilaXant"
           }
       }
       else 
         if (order == "Chlorococcales" |
             order == "Chlamydomonadales" |
             order == "Tetrasporales" & !is.na(order)) {
-          if (gelatinous == 1 & !is.na(gelatinous)) {
+            if (gelatinous == 1 & !is.na(gelatinous)) {
             mfg = "11b-GelaChlor"
-          }
-          else {
+            }
+            else {
             mfg = "11a-NakeChlor"
+            }
           }
-        }
       else {
         mfg = "11c-OtherCol"
       }
-    }
-  else 
+        }
+      else 
     if (size == "large" & !is.na(size)) {
       if (class == "Chlorophyceae" |
           class == "Conjugatophyceae" |
@@ -201,3 +201,7 @@ traits_to_mfg = function(flagella = NULL,
   
   return(mfg)
 }
+
+
+
+
