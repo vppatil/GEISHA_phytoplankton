@@ -7,11 +7,24 @@ Authors@R: c(
     person("Nico","Salmaso",role="aut"),
     person("Orlane","Anneville",role="aut"),
     person("Marc","Lajeunesse",role="aut"),
-	person("Steve","Thackeray",role="aut"),
-    person("Rita","Adrian",role="aut"))
+	  person("Steve","Thackeray",role="aut"),
+    person("Rita","Adrian",role="aut"),
+    person("Dietmar","Straile",role="aut"),
+    person("Aleksandra","Lewandowska",role="aut"),
+    person("Laurence","Carvalho",role="aut"),
+    person("Clark","Chang",role="aut"),
+    person("Jon","Doubek",role="aut"),
+    person("James","Rusak",role="aut"),
+    person("Patrick","Venail",role="aut"),
+    person("Francois","Schmitt",role="aut"),
+    person("Alex","Looi",role="aut"),
+    person("Sami","Souissi",role="aut"))
 Author: Vijay Patil [aut,cre], Torsten Seltmann [aut], Nico Salmaso [aut], 
     Orlane Anneville [aut], Marc Lajeunesse [aut], Steve Thackeray [aut], 
-	and Rita Adrian [aut]
+    Rita Adrian [aut], Dietmar Straile [aut], Aleksandra Lewandowska [aut],
+    Laurence Carvalho [aut], Clark Chang [aut], Jon doubek [aut], James
+    Rusak [aut], Patrick Venail [aut], Francois Schmitt [aut], Alex Looi [aut],
+    and Sami Souissi [aut]
 Maintainer: Vijay Patil <vpatil@usgs.gov>
 URL: http://github.com/vppatil/GEISHA_phytoplankton
 BugReports: https://github.com/vppatil/GEISHA_phytoplankton/issues
