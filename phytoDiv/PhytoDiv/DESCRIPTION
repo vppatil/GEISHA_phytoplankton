@@ -1,6 +1,7 @@
 Package: PhytoDiv
 Title: Assign phytoplankton species to functional groups based on functional traits
 Version: 1.0.0
+Date: 2018-5-16
 Authors@R: c(
     person("Vijay","Patil",email="vpatil@usgs.gov",role=c("aut","cre")),
     person("Torsten","Seltmann",role="aut"),
