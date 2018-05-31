@@ -22,9 +22,11 @@ traits_to_mfg <- function(flagella = NA,
                          centric = NA,
                          gelatinous = NA,
                          aerotopes = NA, 
-                         class = NA,
+                         class = NULL,
                          order = NA)
 {
+  if(is.na(class)) stop("Missing taxonomic class")
+  if(is.na(order)) stop("Missing taxonomic order")
   mfg = NA
   if (flagella ==  1 &
       !is.na(flagella) &
@@ -79,12 +81,12 @@ traits_to_mfg <- function(flagella = NA,
   # first node break: flagella == 0
   else 
     if (class == "Cyanophyceae" | 
-        class == "Cyanobacteria"){ 
-      if (colonial == 1 & !is.na(colonial)){
-        if (order == "Oscillatoriales" & !is.na(order)){
-          mfg = "5a-FilaCyano"
+        class == "Cyanobacteria"){
+        if (colonial == 1 & !is.na(colonial)){
+            if (order == "Oscillatoriales" & !is.na(order)){
+              mfg = "5a-FilaCyano"
         }
-        else
+      else
           if (order == "Nostocales" & !is.na(order)){
             mfg = "5e-Nostocales"
           }
