@@ -22,7 +22,7 @@ traits_to_mfg <- function(flagella = NA,
                          centric = NA,
                          gelatinous = NA,
                          aerotopes = NA, 
-                         class = NULL,
+                         class = NA,
                          order = NA)
 {
   if(is.na(class)) stop("Missing taxonomic class")
