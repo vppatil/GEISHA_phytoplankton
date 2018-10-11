@@ -4,10 +4,10 @@
 ###############################################################################
 
 # define the package name
-thePackage <- "PhytoDiv"
+thePackage <- "algaeClassify"
 
 # set directory to the package development folder
-setwd("~/gleon/Geisha/phyto_package/GEISHA_phytoplankton_github_shared/phytoDiv/")
+setwd("~/gleon/Geisha/phyto_package/GEISHA_phytoplankton_github_shared/package builds/")
 
 # create new bare-bones package in development folder
 # NOTE: only run package creation script once
