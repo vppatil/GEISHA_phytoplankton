@@ -20,7 +20,7 @@
 #' @seealso \url{http://www.algaebase.org} for up-to-date phytoplankton taxonomy,
 #'     \url{https://powellcenter.usgs.gov/geisha} for project information
 
-traits_to_mfg <- function(flagella = NA,
+traits_to_mfg_nosize <- function(flagella = NA,
                          size = NA,
                          colonial = NA,
                          filament = NA,
@@ -49,37 +49,19 @@ traits_to_mfg <- function(flagella = NA,
     #ensures that all motile cryptophytes go to 2d.
         mfg =  "2d-Crypto"
     }else
-      if (size %in% "large") {
         if (class %in% c("Chrysophyceae",
 					   "Haptophyceae",
 					   "Synurophyceae",
 					   "Phaeothamniophyceae")) {
-          mfg = "1a-LargeChry"
+          mfg = "1/2a-FlagChry"
           }
         else
           if (class %in% "Dinophyceae") {
-          mfg = "1b-LargeDino"
+          mfg = "1/2b-Dino"
           }
           else if (class %in% 'Euglenophyceae'){
-            mfg = "1c-LargeEugl"
+            mfg = "1/2c-Eugl"
           }
-        }
-      else if(size %in% "small"){
-        if (class %in% c("Chrysophyceae",
-						 "Haptophyceae",
-						 "Synurophyceae",
-						 "Phaeothamniophyceae")) {
-			mfg = "2a-SmallChry1"
-          }
-        else
-          if (class %in% "Dinophyceae"){
-            mfg = "2b-SmallDino"
-          }
-		else
-		if (class %in% "Euglenophyceae") {
-              mfg = "2c-SmallEugl"
-          }
-		}
     else {
           mfg = NA
       }
@@ -97,53 +79,39 @@ traits_to_mfg <- function(flagella = NA,
             mfg = "5e-Nostocales"
           }
         else
-          if (size %in% "large") {
             if (aerotopes %in% 1){
-              mfg = "5b-LargeVacC"
+              mfg = "5b-VacChroo"
             }
             else {
-              mfg = "5c-OtherChroo"
+              mfg = "5c-NoVacChroo"
             }
-          }
-        else if (size %in% "small"){
-          mfg = "5d-SmallChroo"
-        }
-      }
+	}
       else {
         mfg = "4-UnicCyano"
       }
-    }
+	 }
   else
     if (class %in% c("Bacillariophyceae",
 				   "Coscinodiscophyceae",
 				   "Mediophyceae",
 				   "Fragilariophyceae")){
-      if (size %in% "large") {
+###start large
         if (centric %in% 1) {
           if (colonial %in% 1) {
-            mfg = "6a1-LColCent"
+            mfg = "6/7a1-ColCent"
           }
           else {
-            mfg = "6a2-LUniCent"
+            mfg = "6/7a2-UniCent"
           }
         }
         else {
           if (colonial %in% 1){
-            mfg = "6b1-LColPenn"
+            mfg = "6/7b1-ColPenn"
           }
         else {
-          mfg = "6b2-LUniPenn"
+          mfg = "6/7b2-UniPenn"
         }
-	   }
-      }
-      else{
-        if (centric %in% 1) {
-          mfg = "7a-SmallCent"
-        }
-      else {
-        mfg = "7b-SmallPenn"
-      }
-	 }
+	   }	 
     }
   else
     if (colonial %in% 1){
@@ -180,35 +148,22 @@ traits_to_mfg <- function(flagella = NA,
       }
         }
       else
-    if (size %in% "large") {
-      if (class %in% c("Chlorophyceae",
-					   "Conjugatophyceae",
-					   "Zygnematophyceae")) {
-        mfg = "8a-LargeCoCh"
-      }
-      else {
-        mfg = "8b-LargeUnic"
-      }
-    }
-  else {
+
     if (class %in% c("Conjugatophyceae",
-					 "Zygnematophyceae")){
-      mfg = "9a-SmallConj"
-    }
-  else
-    if (order %in% "Chlorococcales") {
-      mfg = "9b-SmallChlor"
+					 "Zygnematophyceae",
+					 "Chlorophyceae")){
+      mfg = "8/9a-UniCoCh"
     }
   else
     if (class %in% c("Chrysophyceae",
 					 "Synurophyceae",
 					 "Phaeothamniophyceae")) {
-      mfg = "9c-SmallChry2"
+      mfg = "8/9c-NoFlagChry2"
     }
   else {
-    mfg = "9d-SmallUnic"
+    mfg = "9d-Unic"
   }
   }
- }
+
   return(mfg)
 }

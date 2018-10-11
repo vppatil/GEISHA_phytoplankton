@@ -31,144 +31,147 @@ traits_to_mfg <- function(flagella = NA,
                          order = NA)
 {
   mfg = NA
-  if (flagella ==  1 &
-      !is.na(flagella) &
-      (class == "Bacillariophyceae" |
-       class == "Coscinodiscophyceae" |
-       class == "Mediophyceae" |
-       class == "Fragilariophyceae")==F) {
+  if(flagella %in% 1 &
+      class %in% c("Bacillariophyceae",
+					"Coscinodiscophyceae",
+					"Mediophyceae",
+					"Fragilariophyceae")==F) {
     #making sure that diatoms are excluded from this branch
-    if (order == "Volvocales" & !is.na(order)){
-      if (colonial == 1 & !is.na(colonial)) {
+    if (order %in% c("Volvocales", 
+					  "Chlamydomonadales")){
+      if (colonial %in% 1) {
         mfg = "3b-ColoPhyto"
         }
       else {
           mfg = "3a-UnicPhyto"
       }
-    }else if(class=='Cryptophyceae' & !is.na(class)){
+    }else if(class %in% 'Cryptophyceae'){
     #ensures that all motile cryptophytes go to 2d.
         mfg =  "2d-Crypto"
     }else
-      if (size == "large" & !is.na(size)) {
-        if (class == "Chrysophyceae" |
-            class == "Haptophyceae" |
-            class == "Synurophyceae" |
-            class == "Phaeothamniophyceae") {
+      if (size %in% "large") {
+        if (class %in% c("Chrysophyceae",
+					   "Haptophyceae",
+					   "Synurophyceae",
+					   "Phaeothamniophyceae")) {
           mfg = "1a-LargeChry"
           }
         else
-          if (class == "Dinophyceae") {
+          if (class %in% "Dinophyceae") {
           mfg = "1b-LargeDino"
           }
-          else {
+          else if (class %in% 'Euglenophyceae'){
             mfg = "1c-LargeEugl"
           }
         }
-      else
-        if (class == "Chrysophyceae" |
-            class == "Haptophyceae" |
-            class == "Synurophyceae" |
-            class == "Phaeothamniophyceae") {
-          mfg = "2a-SmallChry1"
+      else if(size %in% "small"){
+        if (class %in% c("Chrysophyceae",
+						 "Haptophyceae",
+						 "Synurophyceae",
+						 "Phaeothamniophyceae")) {
+			mfg = "2a-SmallChry1"
           }
         else
-          if (class == "Dinophyceae"){
+          if (class %in% "Dinophyceae"){
             mfg = "2b-SmallDino"
           }
-    else
-      if (class == "Euglenophyceae") {
+		else
+		if (class %in% "Euglenophyceae") {
               mfg = "2c-SmallEugl"
-            }
+          }
+		}
     else {
           mfg = NA
       }
     }
   # first node break: flagella == 0
-  else
-    if (class == "Cyanophyceae" |
-        class == "Cyanobacteria"){
-      if (colonial == 1 & !is.na(colonial)){
-        if (order == "Oscillatoriales" & !is.na(order)){
+  else {
+    if (class %in% c("Cyanophyceae",
+					 "Cyanobacteria")){
+      if (colonial %in% 1){
+        if (order %in% "Oscillatoriales"){
           mfg = "5a-FilaCyano"
         }
         else
-          if (order == "Nostocales" & !is.na(order)){
+          if (order %in% "Nostocales"){
             mfg = "5e-Nostocales"
           }
         else
-          if (size == "large" & !is.na(size)) {
-            if (aerotopes == 1 & !is.na(aerotopes)){
+          if (size %in% "large") {
+            if (aerotopes %in% 1){
               mfg = "5b-LargeVacC"
             }
             else {
               mfg = "5c-OtherChroo"
             }
           }
-        else{
+        else if (size %in% "small"){
           mfg = "5d-SmallChroo"
         }
       }
-      else{
+      else {
         mfg = "4-UnicCyano"
       }
     }
   else
-    if (class == "Bacillariophyceae" |
-        class == "Coscinodiscophyceae"  |
-        class == "Mediophyceae" |
-        class == "Fragilariophyceae"){
-      if (size == "large" & !is.na(size)) {
-        if (centric == 1 & !is.na(centric)) {
-          if (colonial == 1 & !is.na(colonial)) {
+    if (class %in% c("Bacillariophyceae",
+				   "Coscinodiscophyceae",
+				   "Mediophyceae",
+				   "Fragilariophyceae")){
+      if (size %in% "large") {
+        if (centric %in% 1) {
+          if (colonial %in% 1) {
             mfg = "6a1-LColCent"
           }
           else {
             mfg = "6a2-LUniCent"
           }
         }
-        else
-          if (colonial == 1 & !is.na(colonial)){
+        else {
+          if (colonial %in% 1){
             mfg = "6b1-LColPenn"
           }
         else {
           mfg = "6b2-LUniPenn"
         }
+	   }
       }
-      else
-        if (centric == 1 & !is.na(centric)) {
+      else{
+        if (centric %in% 1) {
           mfg = "7a-SmallCent"
         }
       else {
         mfg = "7b-SmallPenn"
       }
+	 }
     }
   else
-    if (colonial == 1 & !is.na(colonial)){
-      if (filament == 1 & !is.na(filament)) {
-        if (class == "Chlorophyceae" |
-            class == "Ulvophyceae" |
-            class == "Trebouxiophyceae"){
+    if (colonial %in% 1){
+      if (filament %in% 1) {
+        if (class %in% c("Chlorophyceae",
+						 "Ulvophyceae",
+						 "Trebouxiophyceae")){
           mfg = "10a-FilaChlorp"
           }
         else
-          if (class == "Conjugatophyceae" |
-              class == "Zygnematophyceae"){
+          if (class %in% c("Conjugatophyceae",
+						   "Zygnematophyceae")){
           mfg = "10b-FilaConj"
           }
         else
-          if (class == "Xanthophyceae" |
-              class == 'Eustigmatophyceae') {
+          if (class %in% c("Xanthophyceae",
+						   "Eustigmatophyceae")){
           mfg = "10c-FilaXant"
           }
       }
       else
-        if (order == "Chlorococcales" |
-            order == "Chlamydomonadales" |
-            order == "Tetrasporales" & !is.na(order)) {
-            if (gelatinous == 1 & !is.na(gelatinous)) {
+        if (order %in% c("Chlorococcales",
+						"Chlamydomonadales",
+						"Tetrasporales")) {
+            if (gelatinous %in% 1) {
             mfg = "11b-GelaChlor"
             }
-            else {
+            else if (gelatinous %in% 0){
             mfg = "11a-NakeChlor"
             }
           }
@@ -177,34 +180,35 @@ traits_to_mfg <- function(flagella = NA,
       }
         }
       else
-    if (size == "large" & !is.na(size)) {
-      if (class == "Chlorophyceae" |
-          class == "Conjugatophyceae" |
-          class == "Zygnematophyceae") {
+    if (size %in% "large") {
+      if (class %in% c("Chlorophyceae",
+					   "Conjugatophyceae",
+					   "Zygnematophyceae")) {
         mfg = "8a-LargeCoCh"
       }
       else {
         mfg = "8b-LargeUnic"
       }
     }
-  else
-    if (class == "Conjugatophyceae"|
-        class == "Zygnematophyceae"){
+  else {
+    if (class %in% c("Conjugatophyceae",
+					 "Zygnematophyceae")){
       mfg = "9a-SmallConj"
     }
   else
-    if (order == "Chlorococcales" & !is.na(order)) {
+    if (order %in% "Chlorococcales") {
       mfg = "9b-SmallChlor"
     }
   else
-    if (class == "Chrysophyceae" |
-        class == "Synurophyceae" |
-        class == "Phaeothamniophyceae") {
+    if (class %in% c("Chrysophyceae",
+					 "Synurophyceae",
+					 "Phaeothamniophyceae")) {
       mfg = "9c-SmallChry2"
     }
   else {
     mfg = "9d-SmallUnic"
   }
-
+  }
+ }
   return(mfg)
 }
