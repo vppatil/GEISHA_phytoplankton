@@ -171,7 +171,7 @@ traits_to_mfg <- function(flagella = NA,
             if (gelatinous %in% 1) {
             mfg = "11b-GelaChlor"
             }
-            else if (gelatinous %in% 0){
+            else {
             mfg = "11a-NakeChlor"
             }
           }
