@@ -1,0 +1,371 @@
+\documentclass[a4paper]{book}
+\usepackage[times,inconsolata,hyper]{Rd}
+\usepackage{makeidx}
+\usepackage[utf8]{inputenc} % @SET ENCODING@
+% \usepackage{graphicx} % @USE GRAPHICX@
+\makeindex{}
+\begin{document}
+\chapter*{}
+\begin{center}
+{\textbf{\huge Package}}
+\par\bigskip{\large \today}
+\end{center}
+\begin{description}
+\raggedright{}
+\inputencoding{utf8}
+\item[Title]\AsIs{Determine phytoplankton functional groups based on functional traits}
+\item[Version]\AsIs{0.1.1}
+\item[Date]\AsIs{2018-10-11}
+\item[Author]\AsIs{Vijay Patil [aut,cre],Torsten Seltmann [aut], Nico Salmaso [ctb], Orlane Anneville [ctb],
+Marc Lajeunesse [ctb]}
+\item[Maintainer]\AsIs{Vijay Patil }\email{vpatil@usgs.gov}\AsIs{}
+\item[URL]\AsIs{}\url{http://github.com/vppatil/GEISHA\_phytoplankton}\AsIs{}
+\item[BugReports]\AsIs{}\url{https://github.com/vppatil/GEISHA\_phytoplankton/issues}\AsIs{}
+\item[Description]\AsIs{The algaeClassify package contains functions designed to facilitate the assignment of
+morpho-functional group (MFG) classifications to phytoplankton species based on a combination
+of taxonomy (Class,Order) and a suite of 7 binomial functional traits. Classifications can also
+be made using only a species list and a database of trait-derived classifications included in
+the package. MFG classifications are derived from Salmaso, Nico, Luigi Naselli-Flores, and
+Judit Padisak. ``Functional classifications and their application in phytoplankton ecology.''
+Freshwater Biology 60.4 (2015): 603-619, and this reference should be cited when using the
+package. The algaeClassify package is a product of the GEISHA (Global Evaluation of the Impacts
+of Storms on freshwater Habitat and Structure of phytoplankton Assemblages), funded by CESAB
+(the Centre for Synthesis and Analysis of Biodiversity) and the USGS John Wesley Powell Center,
+with data and other support provided by members of GLEON (the Global Lake Ecology Observation
+Network). This software is preliminary or provisional and is subject to revision. It is being
+provided to meet the need for timely best science. The software has not received final
+approval by the U.S. Geological Survey (USGS). No warranty, expressed or implied, is made by
+the USGS or the U.S. Government as to the functionality of the software and related material
+nor shall the fact of release constitute any such warranty. The software is provided on the
+condition that neither the USGS nor the U.S. Government shall be held liable for any damages
+resulting from the authorized or unauthorized use of the software.}
+\item[Depends]\AsIs{R (>= 3.4.0)}
+\item[License]\AsIs{GPL (>=3)}
+\item[Encoding]\AsIs{UTF-8}
+\item[LazyData]\AsIs{true}
+\item[RoxygenNote]\AsIs{6.0.1}
+\end{description}
+\Rdcontents{\R{} topics documented:}
+\inputencoding{utf8}
+\HeaderA{genus\_species\_extract}{Split a dataframe column with binomial name into genus and species columns.}{genus.Rul.species.Rul.extract}
+%
+\begin{Description}\relax
+Split a dataframe column with binomial name into genus and species columns.
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+genus_species_extract(phyto.df, phyto.name)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Arguments}
+\begin{ldescription}
+\item[\code{phyto.df}] Name of data.frame object
+
+\item[\code{phyto.name}] Character string: field containing binomial name.
+\end{ldescription}
+\end{Arguments}
+%
+\begin{Value}
+A data.frame with new character fields 'genus' and 'species'
+\end{Value}
+%
+\begin{Examples}
+\begin{ExampleCode}
+data(lakegeneva)
+#example dataset with 50 rows
+
+head(lakegeneva) #need to split the phyto_name column
+new.lakegeneva=genus_species_extract(lakegeneva,'phyto_name')
+
+head(new.lakegeneva)
+\end{ExampleCode}
+\end{Examples}
+\inputencoding{utf8}
+\HeaderA{lakegeneva}{example dataset from lake Geneva, Switzerland (50 lines)}{lakegeneva}
+\keyword{datasets}{lakegeneva}
+%
+\begin{Description}\relax
+example dataset from lake Geneva, Switzerland (50 lines)
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+data(lakegeneva)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Format}
+A data frame with columns:
+\begin{description}
+
+\item[lake] lake name
+\item[date\_dd\_mm\_yy] date dd-mm-yy format
+\item[phyto\_name] phytoplankton species binomial name
+
+\end{description}
+\end{Format}
+\inputencoding{utf8}
+\HeaderA{mfg.csr}{MFG-CSR correspondence based on CSR-trait relationships in Reynolds et al. 1988 and MFG-trait relationships in Salmaso et al. 2015}{mfg.csr}
+\keyword{datasets}{mfg.csr}
+%
+\begin{Description}\relax
+MFG-CSR correspondence based on CSR-trait relationships in Reynolds et al. 1988
+and MFG-trait relationships in Salmaso et al. 2015
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+data(mfg.csr)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Format}
+A data frame with columns:
+\begin{description}
+
+\item[MFG.number] shortened MFG designation
+\item[MFG] full MFG name from Salmaso et al. 2015
+\item[CSR] CSR classification including intermediate classes
+
+\end{description}
+\end{Format}
+\inputencoding{utf8}
+\HeaderA{phyto\_convert\_df}{Wrapper function to apply species\_phyto\_convert() across a data.frame}{phyto.Rul.convert.Rul.df}
+%
+\begin{Description}\relax
+Wrapper function to apply species\_phyto\_convert() across a data.frame
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+phyto_convert_df(phyto.df, flag = 1)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Arguments}
+\begin{ldescription}
+\item[\code{phyto.df}] Name of data.frame. Must have character fields named 'genus' and 'species'
+
+\item[\code{flag}] Resolve ambiguous mfg: 1 = return(NA),2 = manual selection
+\end{ldescription}
+\end{Arguments}
+%
+\begin{Value}
+a single MFG classification as character string
+\end{Value}
+%
+\begin{Examples}
+\begin{ExampleCode}
+data(lakegeneva)
+#example dataset with 50 rows
+
+new.lakegeneva=genus_species_extract(lakegeneva,'phyto_name')
+new.lakegeneva=phyto_convert_df(new.lakegeneva)
+head(new.lakegeneva)
+\end{ExampleCode}
+\end{Examples}
+\inputencoding{utf8}
+\HeaderA{species.mfg.library}{Trait-based MFG classifications for common Eurasion/North American phytoplankton species. See accompanying manuscript for sources}{species.mfg.library}
+\keyword{datasets}{species.mfg.library}
+%
+\begin{Description}\relax
+Trait-based MFG classifications for common Eurasion/North American phytoplankton species.
+See accompanying manuscript for sources
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+data(species.mfg.library)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Format}
+A data frame with columns:
+\begin{description}
+
+\item[genus] genus name
+\item[species] species name
+\item[MFG] corresponding MFG classification based on Salmaso et al. 2015
+
+\end{description}
+\end{Format}
+\inputencoding{utf8}
+\HeaderA{species\_phyto\_convert}{Conversion of a single genus and species name to a single MFG}{species.Rul.phyto.Rul.convert}
+%
+\begin{Description}\relax
+Conversion of a single genus and species name to a single MFG
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+species_phyto_convert(genus, species, flag = 1)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Arguments}
+\begin{ldescription}
+\item[\code{genus}] Character string: genus name
+
+\item[\code{species}] Character string: species name
+
+\item[\code{flag}] Resolve ambiguous mfg: 1 = return(NA),2= manual selection
+\end{ldescription}
+\end{Arguments}
+%
+\begin{Value}
+a single MFG classification as character string
+\end{Value}
+%
+\begin{Examples}
+\begin{ExampleCode}
+species_phyto_convert('Scenedesmus','bijuga')
+#returns "11a-NakeChlor"
+\end{ExampleCode}
+\end{Examples}
+\inputencoding{utf8}
+\HeaderA{traits\_to\_mfg}{Assign a morphofunctional group based on binary functional traits and higher taxonomy}{traits.Rul.to.Rul.mfg}
+%
+\begin{Description}\relax
+Assign a morphofunctional group based on binary functional traits and higher taxonomy
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+traits_to_mfg(flagella = NA, size = NA, colonial = NA, filament = NA,
+  centric = NA, gelatinous = NA, aerotopes = NA, class = NA,
+  order = NA)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Arguments}
+\begin{ldescription}
+\item[\code{flagella}] 1 if flagella are present, 0 if they are absent.
+
+\item[\code{size}] Character string: 'large' or 'small'. Classification criteria is left to the user.
+
+\item[\code{colonial}] 1 if typically colonial growth form, 0 if typically unicellular.
+
+\item[\code{filament}] 1 if dominant growth form is filamentous, 0 if not.
+
+\item[\code{centric}] 1 if diatom with centric growth form, 0 if not. NA for  non-diatoms.
+
+\item[\code{gelatinous}] 1 mucilagenous sheath is typically present, 0 if not.
+
+\item[\code{aerotopes}] 1 if aerotopes allowing buoyancy regulation are typically present, 0 if not.
+
+\item[\code{class}] Character string: The taxonomic class of the species
+
+\item[\code{order}] Character string: The taxonomic order of the species
+\end{ldescription}
+\end{Arguments}
+%
+\begin{Value}
+A character string of the species' morphofunctional group
+\end{Value}
+%
+\begin{SeeAlso}\relax
+\url{http://www.algaebase.org} for up-to-date phytoplankton taxonomy,
+\url{https://powellcenter.usgs.gov/geisha} for project information
+\end{SeeAlso}
+%
+\begin{Examples}
+\begin{ExampleCode}
+traits_to_mfg(1,"large",1,0,NA,0,0,"Euglenophyceae","Euglenales")
+
+\end{ExampleCode}
+\end{Examples}
+\inputencoding{utf8}
+\HeaderA{traits\_to\_mfg\_df}{Assign morphofunctional groups to a dataframe of functional traits and higher taxonomy}{traits.Rul.to.Rul.mfg.Rul.df}
+%
+\begin{Description}\relax
+Assign morphofunctional groups to a dataframe of functional traits and higher taxonomy
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+traits_to_mfg_df(dframe, arg.names = c("flagella", "size", "colonial",
+  "filament", "centric", "gelatinous", "aerotopes", "class", "order"))
+\end{verbatim}
+\end{Usage}
+%
+\begin{Arguments}
+\begin{ldescription}
+\item[\code{dframe}] An R dataframe containing functional trait information and higher taxonomy
+
+\item[\code{arg.names}] Character string of column names corresponding to arguments for traits\_to\_mfg()
+\end{ldescription}
+\end{Arguments}
+%
+\begin{Value}
+A character vector containing morpho-functional group (MFG) designations
+\end{Value}
+%
+\begin{Examples}
+\begin{ExampleCode}
+#create a two-row example dataframe of functional traits
+func.dframe=data.frame(flag=1,size=c("large","small"),col=0,fil=0,cent=NA,gel=0,
+                       aer=0,cl="Euglenophyceae",or="Euglenales",stringsAsFactors=FALSE)
+                       
+#check the dataframe                       
+print(func.dframe)                        
+
+#run the function to produce a two-element character vector
+traits_to_mfg_df(func.dframe,c("flag","size","col","fil","cent","gel","aer","cl","or"))
+\end{ExampleCode}
+\end{Examples}
+\inputencoding{utf8}
+\HeaderA{traits\_to\_mfg\_nosize}{Assign a morphofunctional group based on binary functional traits and higher taxonomy}{traits.Rul.to.Rul.mfg.Rul.nosize}
+%
+\begin{Description}\relax
+Assign a morphofunctional group based on binary functional traits and higher taxonomy
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+traits_to_mfg_nosize(flagella = NA, size = NA, colonial = NA,
+  filament = NA, centric = NA, gelatinous = NA, aerotopes = NA,
+  class = NA, order = NA)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Arguments}
+\begin{ldescription}
+\item[\code{flagella}] 1 if flagella are present, 0 if they are absent.
+
+\item[\code{size}] Character string: 'large' or 'small'. Classification criteria is left to the user.
+
+\item[\code{colonial}] 1 if typically colonial growth form, 0 if typically unicellular.
+
+\item[\code{filament}] 1 if dominant growth form is filamentous, 0 if not.
+
+\item[\code{centric}] 1 if diatom with centric growth form, 0 if not. NA for  non-diatoms.
+
+\item[\code{gelatinous}] 1 mucilagenous sheath is typically present, 0 if not.
+
+\item[\code{aerotopes}] 1 if aerotopes allowing buoyancy regulation are typically present, 0 if not.
+
+\item[\code{class}] Character string: The taxonomic class of the species
+
+\item[\code{order}] Character string: The taxonomic order of the species
+\end{ldescription}
+\end{Arguments}
+%
+\begin{Value}
+A character string of the species' morphofunctional group
+\end{Value}
+%
+\begin{SeeAlso}\relax
+\url{http://www.algaebase.org} for up-to-date phytoplankton taxonomy,
+\url{https://powellcenter.usgs.gov/geisha} for project information
+\end{SeeAlso}
+%
+\begin{Examples}
+\begin{ExampleCode}
+traits_to_mfg(1,"large",1,0,NA,0,0,"Euglenophyceae","Euglenales")
+
+\end{ExampleCode}
+\end{Examples}
+\printindex{}
+\end{document}
