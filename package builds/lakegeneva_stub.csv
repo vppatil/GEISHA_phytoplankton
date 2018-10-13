@@ -1,0 +1,50 @@
+lake,min_depth_m,max_depth_m,date_dd_mm_yy,phyto_name,cell_colony_density_ind_l,biovol_um3_ml,biomass_ug_l
+Geneva,0,10,14-01-74,Aphanizomenon flos-aquae,410564,40235.272,40.235272
+Geneva,0,10,14-01-74,Gyrodinium helveticum,851.4,5278.68,5.27868
+Geneva,0,10,14-01-74,Cryptomonas,10784.4,14558.94,14.55894
+Geneva,0,10,14-01-74,Plagioselmis nannoplanctica,128845.2,9019.164,9.019164
+Geneva,0,10,14-01-74,Plagioselmis lacustris,12487.2,6618.216,6.618216
+Geneva,0,10,14-01-74,Stephanodiscus neoastraea,8987,61111.6,61.1116
+Geneva,0,10,14-01-74,Stephanodiscus minutulus,16082,804.1,0.8041
+Geneva,0,10,14-01-74,Fragilaria crotonensis,40299.6,17328.828,17.328828
+Geneva,0,10,14-01-74,Asterionella formosa,2648.8,688.688,0.688688
+Geneva,0,10,14-01-74,Closterium aciculare,11635.8,86104.92,86.10492
+Geneva,0,10,18-02-74,Aphanizomenon flos-aquae,35948,3522.904,3.522904
+Geneva,0,10,18-02-74,Anagnostidinema acutissimum,44935,566.181,0.566181
+Geneva,0,10,18-02-74,Cryptomonas,2648.8,3575.88,3.57588
+Geneva,0,10,18-02-74,Plagioselmis nannoplanctica,365156,25560.92,25.56092
+Geneva,0,10,18-02-74,Plagioselmis lacustris,21474.2,11381.326,11.381326
+Geneva,0,10,18-02-74,Aulacoseira islandica,7189.6,24444.64,24.44464
+Geneva,0,10,18-02-74,Stephanodiscus neoastraea,6243.6,42456.48,42.45648
+Geneva,0,10,18-02-74,Stephanodiscus minutulus,30461.2,1523.06,1.52306
+Geneva,0,10,18-02-74,Fragilaria crotonensis,5392.2,2318.646,2.318646
+Geneva,0,10,18-02-74,Asterionella formosa,12487.2,3246.672,3.246672
+Geneva,0,10,18-02-74,Ulnaria delicatissima var. angustissima,1797.4,4313.76,4.31376
+Geneva,0,10,18-02-74,Hyaloraphidium contortum,851.4,127.71,0.12771
+Geneva,0,10,18-02-74,Closterium aciculare,851.4,6300.36,6.30036
+Geneva,0,10,18-02-74,Closterium acutum var. variabile,8987,8447.78,8.44778
+Geneva,0,10,18-03-74,Gyrodinium helveticum,851.4,5278.68,5.27868
+Geneva,0,10,18-03-74,Cryptomonas,15230.6,20561.31,20.56131
+Geneva,0,10,18-03-74,Plagioselmis nannoplanctica,751691.6,52618.412,52.618412
+Geneva,0,10,18-03-74,Plagioselmis lacustris,74261,39358.33,39.35833
+Geneva,0,10,18-03-74,Stephanodiscus neoastraea,9838.4,66901.12,66.90112
+Geneva,0,10,18-03-74,Stephanodiscus minutulus,823303.8,41165.19,41.16519
+Geneva,0,10,18-03-74,Fragilaria crotonensis,35758.8,15376.284,15.376284
+Geneva,0,10,18-03-74,Asterionella formosa,14284.6,3713.996,3.713996
+Geneva,0,10,18-03-74,Ulnaria delicatissima var. angustissima,2648.8,6357.12,6.35712
+Geneva,0,10,18-03-74,Hyaloraphidium contortum,1797.4,269.61,0.26961
+Geneva,0,10,18-03-74,Monoraphidium minutum,2648.8,344.344,0.344344
+Geneva,0,10,18-03-74,Closterium acutum var. variabile,9838.4,9248.096,9.248096
+Geneva,0,10,18-03-74,Staurastrum manfeldtii,851.4,12771,12.771
+Geneva,0,10,22-04-74,Oscillatoria bourrellyi,35948,5032.72,5.03272
+Geneva,0,10,22-04-74,Anagnostidinema acutissimum,66220,834.372,0.834372
+Geneva,0,10,22-04-74,Gyrodinium helveticum,3594.8,22287.76,22.28776
+Geneva,0,10,22-04-74,Peridinium willei,1797.4,59314.2,59.3142
+Geneva,0,10,22-04-74,Cryptomonas,187970.2,253759.77,253.75977
+Geneva,0,10,22-04-74,Plagioselmis nannoplanctica,712338,49863.66,49.86366
+Geneva,0,10,22-04-74,Plagioselmis lacustris,75207,39859.71,39.85971
+Geneva,0,10,22-04-74,Aulacoseira islandica,38502.2,130907.48,130.90748
+Geneva,0,10,22-04-74,Stephanodiscus neoastraea,851.4,5789.52,5.78952
+Geneva,0,10,22-04-74,Stephanodiscus minutulus,472527,23626.35,23.62635
+Geneva,0,10,22-04-74,Fragilaria crotonensis,42948.4,18467.812,18.467812
+Geneva,0,10,22-04-74,Ulnaria delicatissima var. angustissima,31312.6,75150.24,75.15024
