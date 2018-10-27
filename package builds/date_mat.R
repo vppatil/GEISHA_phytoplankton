@@ -6,11 +6,12 @@
 #' @param date.name Character string: field containing date.
 #' @param format Character string: POSIX format string for formatting date column
 #' @param timeagg Character string: time interval for aggregating abundance. default is day.
+#' @param timeagg function for aggregation. default is mean, excluding NA's
 #' 
 #' @export date_mat
 #' 
 #' @return A matrix of phytoplankton abundance, with taxa in rows and time in columns.
-#'         If time.agg = 'monthday', returns a 3dimensional matrix (taxa,month,year).
+#'         If time.agg = 'monthyear', returns a 3dimensional matrix (taxa,month,year).
 #'         If abundance.var = NA, matrix cells will be 1 for present, 0 for absent
 #' 
 #' @examples
@@ -23,7 +24,7 @@
 
 date_mat<-function(phyto.df,abundance.var='biovol_um3_ml',taxa.name='phyto_name',
                    date.name='date_dd_mm_yy',format='%d-%m-%y',
-                   time.agg=c('day','month','year','monthyear'))
+                   time.agg=c('day','month','year','monthyear'),fun=function(x) mean(x[!is.na(x)]))
 {
   library(lubridate)
   time.agg=time.agg[1]
@@ -34,24 +35,22 @@ date_mat<-function(phyto.df,abundance.var='biovol_um3_ml',taxa.name='phyto_name'
     abundance.var='presence'
   }
   
-  mean.nona=function(x) mean(x[!is.na(x)])
-  
   phyto.df$date_dd_mm_yy=as.POSIXct(phyto.df$date_dd_mm_yy,format=format)
   if(time.agg=='month')
   {
     phyto.df$month=month(phyto.df$date_dd_mm_yy)
-    phyto.agg=aggregate(formula(paste(abundance.var,'~',taxa.name,'+ month')),data=phyto.df,FUN=mean.nona)
+    phyto.agg=aggregate(formula(paste(abundance.var,'~',taxa.name,'+ month')),data=phyto.df,FUN=fun)
     
-    phyto.mat=tapply(phyto.agg[[abundance.var]],list(phyto.agg$month,phyto.agg[[taxa.name]]),mean.nona)
+    phyto.mat=tapply(phyto.agg[[abundance.var]],list(phyto.agg$month,phyto.agg[[taxa.name]]),fun)
     phyto.mat[is.na(phyto.mat)]=0
     
     return(phyto.mat)  
   }else if(time.agg=='year')
   {
     phyto.df$year=year(phyto.df$date_dd_mm_yy)
-    phyto.agg=aggregate(formula(paste(abundance.var,'~',taxa.name,'+ year')),data=phyto.df,FUN=mean.nona)
+    phyto.agg=aggregate(formula(paste(abundance.var,'~',taxa.name,'+ year')),data=phyto.df,FUN=fun)
     
-    phyto.mat=tapply(phyto.agg[[abundance.var]],list(phyto.agg$year,phyto.agg[[taxa.name]]),mean.nona)
+    phyto.mat=tapply(phyto.agg[[abundance.var]],list(phyto.agg$year,phyto.agg[[taxa.name]]),fun)
     phyto.mat[is.na(phyto.mat)]=0
     
     return(phyto.mat)  
