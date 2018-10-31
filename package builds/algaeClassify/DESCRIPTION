@@ -32,7 +32,8 @@ Description: The algaeClassify package contains functions designed to facilitate
     condition that neither the USGS nor the U.S. Government shall be held liable for any damages
     resulting from the authorized or unauthorized use of the software.
 Depends: R (>= 3.4.0)
+Imports: lubridate
 License: GPL-2 | GPL-3
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.0

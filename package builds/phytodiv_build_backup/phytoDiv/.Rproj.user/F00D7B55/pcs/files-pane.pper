@@ -1,9 +1,0 @@
-{
-    "path" : "~/gleon/Geisha/phyto_package/GEISHA_phytoplankton_github_shared/phytoDiv/phytoDiv",
-    "sortOrder" : [
-        {
-            "ascending" : true,
-            "columnIndex" : 2
-        }
-    ]
-}

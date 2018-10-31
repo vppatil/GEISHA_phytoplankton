@@ -15,7 +15,6 @@
 #'         If abundance.var = NA, matrix cells will be 1 for present, 0 for absent
 #' 
 #' @examples
-#' library(lubridate)
 #' data(lakegeneva)
 #' #example dataset with 50 rows
 #' 
@@ -27,7 +26,6 @@ date_mat<-function(phyto.df,abundance.var='biovol_um3_ml',taxa.name='phyto_name'
                    date.name='date_dd_mm_yy',format='%d-%m-%y',
                    time.agg=c('day','month','year','monthyear'),fun=function(x) mean(x[!base::is.na(x)]))
 {
-	importNamespace(lubridate)
   time.agg<-time.agg[1]
   
   if(is.na(abundance.var)) #if only a species list, create a presence/absence matrix
