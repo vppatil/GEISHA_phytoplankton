@@ -3,6 +3,8 @@
 export(accum)
 export(date_mat)
 export(genus_species_extract)
+export(mfg_csr_convert)
+export(mfg_csr_convert_df)
 export(phyto_convert_df)
 export(phyto_ts_aggregate)
 export(sampeff)

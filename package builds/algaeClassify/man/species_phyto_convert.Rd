@@ -2,7 +2,7 @@
 % Please edit documentation in R/species_phyto_convert.r
 \name{species_phyto_convert}
 \alias{species_phyto_convert}
-\title{Conversion of a single genus and species name to a single MFG. USes species.mfg.library}
+\title{Conversion of a single genus and species name to a single MFG. Uses species.mfg.library}
 \usage{
 species_phyto_convert(genus, species, flag = 1)
 }
@@ -17,7 +17,7 @@ species_phyto_convert(genus, species, flag = 1)
 a single MFG classification as character string
 }
 \description{
-Conversion of a single genus and species name to a single MFG. USes species.mfg.library
+Conversion of a single genus and species name to a single MFG. Uses species.mfg.library
 }
 \examples{
 species_phyto_convert('Scenedesmus','bijuga')
