@@ -14,11 +14,12 @@
 #returns a CSR classification for a single MFG
 mfg_csr_convert<-function(mfg)
 {
+  data(mfg.csr)
   if(mfg %in% mfg.csr$MFG==F){csr=NA}
   else
   {
-	csr=mfg.csr$CSR[mfg.csr$MFG==mfg]
-	return(csr)
+	  csr=mfg.csr$CSR[mfg.csr$MFG==mfg]
+    return(csr)
   }
 
 }

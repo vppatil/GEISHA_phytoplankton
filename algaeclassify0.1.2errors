@@ -1,0 +1,584 @@
+> build(thePackage, manual = FALSE)
+"C:/PROGRA~1/R/R-35~1.1/bin/x64/R" --no-site-file --no-environ --no-save --no-restore --quiet CMD build  \
+  "C:\Users\vpatil\Documents\gleon\Geisha\phyto_package\GEISHA_phytoplankton_github_shared\package builds\algaeClassify" --no-resave-data --no-manual 
+
+* checking for file 'C:\Users\vpatil\Documents\gleon\Geisha\phyto_package\GEISHA_phytoplankton_github_shared\package builds\algaeClassify/DESCRIPTION' ... OK
+* preparing 'algaeClassify':
+* checking DESCRIPTION meta-information ... OK
+* checking for LF line-endings in source and make files and shell scripts
+* checking for empty or unneeded directories
+* looking to see if a 'data/datalist' file should be added
+* building 'algaeClassify_0.1.2.tar.gz'
+
+[1] "C:/Users/vpatil/Documents/gleon/Geisha/phyto_package/GEISHA_phytoplankton_github_shared/package builds/algaeClassify_0.1.2.tar.gz"
+> # error checks prior to submission (all errors and warnings need to be addressed)
+> check(thePackage)
+Updating algaeClassify documentation
+Loading algaeClassify
+Writing NAMESPACE
+Writing NAMESPACE
+Setting env vars --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CFLAGS  : -Wall -pedantic
+CXXFLAGS: -Wall -pedantic
+Building algaeClassify --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+"C:/PROGRA~1/R/R-35~1.1/bin/x64/R" --no-site-file --no-environ --no-save --no-restore --quiet CMD build  \
+  "C:\Users\vpatil\Documents\gleon\Geisha\phyto_package\GEISHA_phytoplankton_github_shared\package builds\algaeClassify" --no-resave-data --no-manual 
+
+* checking for file 'C:\Users\vpatil\Documents\gleon\Geisha\phyto_package\GEISHA_phytoplankton_github_shared\package builds\algaeClassify/DESCRIPTION' ... OK
+* preparing 'algaeClassify':
+* checking DESCRIPTION meta-information ... OK
+* checking for LF line-endings in source and make files and shell scripts
+* checking for empty or unneeded directories
+* looking to see if a 'data/datalist' file should be added
+* building 'algaeClassify_0.1.2.tar.gz'
+
+Setting env vars --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+_R_CHECK_CRAN_INCOMING_ : FALSE
+_R_CHECK_FORCE_SUGGESTS_: FALSE
+Checking algaeClassify --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+"C:/PROGRA~1/R/R-35~1.1/bin/x64/R" --no-site-file --no-environ --no-save --no-restore --quiet CMD check "C:\TEMP\1\RtmpWQpwc9/algaeClassify_0.1.2.tar.gz" --as-cran --timings --no-manual 
+
+* using log directory 'C:/TEMP/1/RtmpWQpwc9/algaeClassify.Rcheck'
+* using R version 3.5.1 (2018-07-02)
+* using platform: x86_64-w64-mingw32 (64-bit)
+* using session charset: ISO8859-1
+* using options '--no-manual --as-cran'
+* checking for file 'algaeClassify/DESCRIPTION' ... OK
+* this is package 'algaeClassify' version '0.1.2'
+* package encoding: UTF-8
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for .dll and .exe files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking serialization versions ... OK
+* checking whether package 'algaeClassify' can be installed ... WARNING
+Found the following significant warnings:
+  Note: possible error in 'traits_to_mfg_nosize(dframe[[arg.names[1]]][i], ': unused argument (dframe[[arg.names[9]]][i]) 
+See 'C:/TEMP/1/RtmpWQpwc9/algaeClassify.Rcheck/00install.out' for details.
+Information on the location(s) of code generating the 'Note's can be
+obtained by re-running with environment variable R_KEEP_PKG_SOURCE set
+to 'yes'.
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking dependencies in R code ... WARNING
+'library' or 'require' call not declared from: 'lubridate'
+'library' or 'require' call to 'lubridate' in package code.
+  Please use :: or requireNamespace() instead.
+  See section 'Suggested packages' in the 'Writing R Extensions' manual.
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+accum: no visible global function definition for 'par'
+accum: no visible binding for global variable 'Freq'
+accum: no visible global function definition for 'pdf'
+accum: no visible global function definition for 'plot'
+accum: no visible global function definition for 'aggregate'
+accum: no visible binding for global variable 'date_dd_mm_yy'
+accum: no visible global function definition for 'lines'
+accum: no visible global function definition for 'dev.off'
+date_mat: no visible global function definition for 'month'
+date_mat: no visible global function definition for 'aggregate'
+date_mat: no visible global function definition for 'formula'
+date_mat: no visible global function definition for 'year'
+phyto_ts_aggregate: no visible global function definition for 'na.omit'
+phyto_ts_aggregate: no visible global function definition for
+  'as.formula'
+phyto_ts_aggregate: no visible global function definition for
+  'aggregate'
+sampeff: no visible global function definition for 'aggregate'
+sampeff: no visible global function definition for 'formula'
+sampeff: no visible global function definition for 'pdf'
+sampeff: no visible global function definition for 'plot'
+sampeff: no visible global function definition for 'dev.off'
+traits_to_mfg_df_nosize: possible error in
+  traits_to_mfg_nosize(dframe[[arg.names[1]]][i],
+  dframe[[arg.names[2]]][i], dframe[[arg.names[3]]][i],
+  dframe[[arg.names[4]]][i], dframe[[arg.names[5]]][i],
+  dframe[[arg.names[6]]][i], dframe[[arg.names[7]]][i],
+  dframe[[arg.names[8]]][i], dframe[[arg.names[9]]][i]): unused
+  argument (dframe[[arg.names[9]]][i])
+Undefined global functions or variables:
+  Freq aggregate as.formula date_dd_mm_yy dev.off formula lines month
+  na.omit par pdf plot year
+Consider adding
+  importFrom("grDevices", "dev.off", "pdf")
+  importFrom("graphics", "lines", "par", "plot")
+  importFrom("stats", "aggregate", "as.formula", "formula", "na.omit")
+to your NAMESPACE file.
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd line widths ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... WARNING
+Data codoc mismatches from documentation object 'lakegeneva':
+Variables in data frame 'lakegeneva'
+  Code: biovol_um3_ml lake month phyto_name
+  Docs: biovol_um3_ml lake month phyto_name year
+
+Data codoc mismatches from documentation object 'mfg.csr':
+Variables in data frame 'mfg.csr'
+  Code: CSR MFG.name MFG.number
+  Docs: CSR MFG MFG.number
+
+Data codoc mismatches from documentation object 'species.mfg.library':
+Variables in data frame 'species.mfg.library'
+  Code: Habitat MFG MFG2 Note genus species
+  Docs: MFG genus species
+
+* checking Rd \usage sections ... WARNING
+Undocumented arguments in documentation object 'date_mat'
+  'time.agg' 'fun'
+Duplicated \argument entries in documentation object 'date_mat':
+  'timeagg'
+Documented arguments not in \usage in documentation object 'date_mat':
+  'timeagg'
+
+Functions with \usage entries need to have the appropriate \alias
+entries, and all their arguments documented.
+The \usage entries must correspond to syntactically valid R code.
+See chapter 'Writing R documentation files' in the 'Writing R
+Extensions' manual.
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of 'data' directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
+* checking examples ... ERROR
+Running examples in 'algaeClassify-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: accum
+> ### Title: Split a dataframe column with binomial name into genus and
+> ###   species columns. Plots change in species richness over time,
+> ###   generates species accumulation curve, and compares SAC against
+> ###   simulated idealized curve assuming all unique taxa have equal
+> ###   probability of being sampled at any point in the time series. (author
+> ###   Dietmar Straile)
+> ### Aliases: accum
+> 
+> ### ** Examples
+> 
+> data(lakegeneva)
+> #example dataset with 50 rows
+> 
+> accum(lakegeneva,column=NA,n=1000,save.pdf=F)
+Error in table(b_data$date_dd_mm_yy, b_data$phyto_name) : 
+  all arguments must have the same length
+Calls: accum -> as.data.frame -> table
+Execution halted
+* DONE
+
+Status: 1 ERROR, 4 WARNINGs, 1 NOTE
+See
+  'C:/TEMP/1/RtmpWQpwc9/algaeClassify.Rcheck/00check.log'
+for details.
+
+R CMD check results
+1 error  | 4 warnings | 1 note 
+checking examples ... ERROR
+Running examples in 'algaeClassify-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: accum
+> ### Title: Split a dataframe column with binomial name into genus and
+> ###   species columns. Plots change in species richness over time,
+> ###   generates species accumulation curve, and compares SAC against
+> ###   simulated idealized curve assuming all unique taxa have equal
+> ###   probability of being sampled at any point in the time series. (author
+> ###   Dietmar Straile)
+> ### Aliases: accum
+> 
+> ### ** Examples
+> 
+> data(lakegeneva)
+> #example dataset with 50 rows
+> 
+> accum(lakegeneva,column=NA,n=1000,save.pdf=F)
+Error in table(b_data$date_dd_mm_yy, b_data$phyto_name) : 
+  all arguments must have the same length
+Calls: accum -> as.data.frame -> table
+Execution halted
+
+checking whether package 'algaeClassify' can be installed ... WARNING
+Found the following significant warnings:
+  Note: possible error in 'traits_to_mfg_nosize(dframe[[arg.names[1]]][i], ': unused argument (dframe[[arg.names[9]]][i]) 
+See 'C:/TEMP/1/RtmpWQpwc9/algaeClassify.Rcheck/00install.out' for details.
+Information on the location(s) of code generating the 'Note's can be
+obtained by re-running with environment variable R_KEEP_PKG_SOURCE set
+to 'yes'.
+
+checking dependencies in R code ... WARNING
+'library' or 'require' call not declared from: 'lubridate'
+'library' or 'require' call to 'lubridate' in package code.
+  Please use :: or requireNamespace() instead.
+  See section 'Suggested packages' in the 'Writing R Extensions' manual.
+
+checking for code/documentation mismatches ... WARNING
+Data codoc mismatches from documentation object 'lakegeneva':
+Variables in data frame 'lakegeneva'
+  Code: biovol_um3_ml lake month phyto_name
+  Docs: biovol_um3_ml lake month phyto_name year
+
+Data codoc mismatches from documentation object 'mfg.csr':
+Variables in data frame 'mfg.csr'
+  Code: CSR MFG.name MFG.number
+  Docs: CSR MFG MFG.number
+
+Data codoc mismatches from documentation object 'species.mfg.library':
+Variables in data frame 'species.mfg.library'
+  Code: Habitat MFG MFG2 Note genus species
+  Docs: MFG genus species
+
+
+checking Rd \usage sections ... WARNING
+Undocumented arguments in documentation object 'date_mat'
+  'time.agg' 'fun'
+Duplicated \argument entries in documentation object 'date_mat':
+  'timeagg'
+Documented arguments not in \usage in documentation object 'date_mat':
+  'timeagg'
+
+Functions with \usage entries need to have the appropriate \alias
+entries, and all their arguments documented.
+The \usage entries must correspond to syntactically valid R code.
+See chapter 'Writing R documentation files' in the 'Writing R
+Extensions' manual.
+
+checking R code for possible problems ... NOTE
+accum: no visible global function definition for 'par'
+accum: no visible binding for global variable 'Freq'
+accum: no visible global function definition for 'pdf'
+accum: no visible global function definition for 'plot'
+accum: no visible global function definition for 'aggregate'
+accum: no visible binding for global variable 'date_dd_mm_yy'
+accum: no visible global function definition for 'lines'
+accum: no visible global function definition for 'dev.off'
+date_mat: no visible global function definition for 'month'
+... 18 lines ...
+  dframe[[arg.names[6]]][i], dframe[[arg.names[7]]][i],
+  dframe[[arg.names[8]]][i], dframe[[arg.names[9]]][i]): unused
+  argument (dframe[[arg.names[9]]][i])
+Undefined global functions or variables:
+  Freq aggregate as.formula date_dd_mm_yy dev.off formula lines month
+  na.omit par pdf plot year
+Consider adding
+  importFrom("grDevices", "dev.off", "pdf")
+  importFrom("graphics", "lines", "par", "plot")
+  importFrom("stats", "aggregate", "as.formula", "formula", "na.omit")
+to your NAMESPACE file.
+> warning()
+Warning message:
+ 
+> # constructs binaries 
+> library(devtools); 
+> # creates bundle to submit to CRAN (*.tar.zip file found in development folder)
+> build(thePackage, manual = FALSE)
+"C:/PROGRA~1/R/R-35~1.1/bin/x64/R" --no-site-file --no-environ --no-save --no-restore --quiet CMD build  \
+  "C:\Users\vpatil\Documents\gleon\Geisha\phyto_package\GEISHA_phytoplankton_github_shared\package builds\algaeClassify" --no-resave-data --no-manual 
+
+* checking for file 'C:\Users\vpatil\Documents\gleon\Geisha\phyto_package\GEISHA_phytoplankton_github_shared\package builds\algaeClassify/DESCRIPTION' ... OK
+* preparing 'algaeClassify':
+* checking DESCRIPTION meta-information ... OK
+* checking for LF line-endings in source and make files and shell scripts
+* checking for empty or unneeded directories
+* looking to see if a 'data/datalist' file should be added
+* building 'algaeClassify_0.1.2.tar.gz'
+
+[1] "C:/Users/vpatil/Documents/gleon/Geisha/phyto_package/GEISHA_phytoplankton_github_shared/package builds/algaeClassify_0.1.2.tar.gz"
+> # error checks prior to submission (all errors and warnings need to be addressed)
+> check(thePackage)
+Updating algaeClassify documentation
+Loading algaeClassify
+Writing NAMESPACE
+Writing NAMESPACE
+Setting env vars --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CFLAGS  : -Wall -pedantic
+CXXFLAGS: -Wall -pedantic
+Building algaeClassify --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+"C:/PROGRA~1/R/R-35~1.1/bin/x64/R" --no-site-file --no-environ --no-save --no-restore --quiet CMD build  \
+  "C:\Users\vpatil\Documents\gleon\Geisha\phyto_package\GEISHA_phytoplankton_github_shared\package builds\algaeClassify" --no-resave-data --no-manual 
+
+* checking for file 'C:\Users\vpatil\Documents\gleon\Geisha\phyto_package\GEISHA_phytoplankton_github_shared\package builds\algaeClassify/DESCRIPTION' ... OK
+* preparing 'algaeClassify':
+* checking DESCRIPTION meta-information ... OK
+* checking for LF line-endings in source and make files and shell scripts
+* checking for empty or unneeded directories
+* looking to see if a 'data/datalist' file should be added
+* building 'algaeClassify_0.1.2.tar.gz'
+
+Setting env vars --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+_R_CHECK_CRAN_INCOMING_ : FALSE
+_R_CHECK_FORCE_SUGGESTS_: FALSE
+Checking algaeClassify --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+"C:/PROGRA~1/R/R-35~1.1/bin/x64/R" --no-site-file --no-environ --no-save --no-restore --quiet CMD check "C:\TEMP\1\RtmpWQpwc9/algaeClassify_0.1.2.tar.gz" --as-cran --timings --no-manual 
+
+* using log directory 'C:/TEMP/1/RtmpWQpwc9/algaeClassify.Rcheck'
+* using R version 3.5.1 (2018-07-02)
+* using platform: x86_64-w64-mingw32 (64-bit)
+* using session charset: ISO8859-1
+* using options '--no-manual --as-cran'
+* checking for file 'algaeClassify/DESCRIPTION' ... OK
+* this is package 'algaeClassify' version '0.1.2'
+* package encoding: UTF-8
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for .dll and .exe files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking serialization versions ... OK
+* checking whether package 'algaeClassify' can be installed ... WARNING
+Found the following significant warnings:
+  Note: possible error in 'traits_to_mfg_nosize(dframe[[arg.names[1]]][i], ': unused argument (dframe[[arg.names[9]]][i]) 
+See 'C:/TEMP/1/RtmpWQpwc9/algaeClassify.Rcheck/00install.out' for details.
+Information on the location(s) of code generating the 'Note's can be
+obtained by re-running with environment variable R_KEEP_PKG_SOURCE set
+to 'yes'.
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking dependencies in R code ... WARNING
+'library' or 'require' call not declared from: 'lubridate'
+'library' or 'require' call to 'lubridate' in package code.
+  Please use :: or requireNamespace() instead.
+  See section 'Suggested packages' in the 'Writing R Extensions' manual.
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+accum: no visible global function definition for 'par'
+accum: no visible binding for global variable 'Freq'
+accum: no visible global function definition for 'pdf'
+accum: no visible global function definition for 'plot'
+accum: no visible global function definition for 'aggregate'
+accum: no visible binding for global variable 'date_dd_mm_yy'
+accum: no visible global function definition for 'lines'
+accum: no visible global function definition for 'dev.off'
+date_mat: no visible global function definition for 'month'
+date_mat: no visible global function definition for 'aggregate'
+date_mat: no visible global function definition for 'formula'
+date_mat: no visible global function definition for 'year'
+phyto_ts_aggregate: no visible global function definition for 'na.omit'
+phyto_ts_aggregate: no visible global function definition for
+  'as.formula'
+phyto_ts_aggregate: no visible global function definition for
+  'aggregate'
+sampeff: no visible global function definition for 'aggregate'
+sampeff: no visible global function definition for 'formula'
+sampeff: no visible global function definition for 'pdf'
+sampeff: no visible global function definition for 'plot'
+sampeff: no visible global function definition for 'dev.off'
+traits_to_mfg_df_nosize: possible error in
+  traits_to_mfg_nosize(dframe[[arg.names[1]]][i],
+  dframe[[arg.names[2]]][i], dframe[[arg.names[3]]][i],
+  dframe[[arg.names[4]]][i], dframe[[arg.names[5]]][i],
+  dframe[[arg.names[6]]][i], dframe[[arg.names[7]]][i],
+  dframe[[arg.names[8]]][i], dframe[[arg.names[9]]][i]): unused
+  argument (dframe[[arg.names[9]]][i])
+Undefined global functions or variables:
+  Freq aggregate as.formula date_dd_mm_yy dev.off formula lines month
+  na.omit par pdf plot year
+Consider adding
+  importFrom("grDevices", "dev.off", "pdf")
+  importFrom("graphics", "lines", "par", "plot")
+  importFrom("stats", "aggregate", "as.formula", "formula", "na.omit")
+to your NAMESPACE file.
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd line widths ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... WARNING
+Data codoc mismatches from documentation object 'lakegeneva':
+Variables in data frame 'lakegeneva'
+  Code: biovol_um3_ml lake month phyto_name
+  Docs: biovol_um3_ml lake month phyto_name year
+
+Data codoc mismatches from documentation object 'mfg.csr':
+Variables in data frame 'mfg.csr'
+  Code: CSR MFG.name MFG.number
+  Docs: CSR MFG MFG.number
+
+Data codoc mismatches from documentation object 'species.mfg.library':
+Variables in data frame 'species.mfg.library'
+  Code: Habitat MFG MFG2 Note genus species
+  Docs: MFG genus species
+
+* checking Rd \usage sections ... WARNING
+Undocumented arguments in documentation object 'date_mat'
+  'time.agg' 'fun'
+Duplicated \argument entries in documentation object 'date_mat':
+  'timeagg'
+Documented arguments not in \usage in documentation object 'date_mat':
+  'timeagg'
+
+Functions with \usage entries need to have the appropriate \alias
+entries, and all their arguments documented.
+The \usage entries must correspond to syntactically valid R code.
+See chapter 'Writing R documentation files' in the 'Writing R
+Extensions' manual.
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of 'data' directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
+* checking examples ... ERROR
+Running examples in 'algaeClassify-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: accum
+> ### Title: Split a dataframe column with binomial name into genus and
+> ###   species columns. Plots change in species richness over time,
+> ###   generates species accumulation curve, and compares SAC against
+> ###   simulated idealized curve assuming all unique taxa have equal
+> ###   probability of being sampled at any point in the time series. (author
+> ###   Dietmar Straile)
+> ### Aliases: accum
+> 
+> ### ** Examples
+> 
+> data(lakegeneva)
+> #example dataset with 50 rows
+> 
+> accum(lakegeneva,column=NA,n=1000,save.pdf=F)
+Error in table(b_data$date_dd_mm_yy, b_data$phyto_name) : 
+  all arguments must have the same length
+Calls: accum -> as.data.frame -> table
+Execution halted
+* DONE
+
+Status: 1 ERROR, 4 WARNINGs, 1 NOTE
+See
+  'C:/TEMP/1/RtmpWQpwc9/algaeClassify.Rcheck/00check.log'
+for details.
+
+R CMD check results
+1 error  | 4 warnings | 1 note 
+checking examples ... ERROR
+Running examples in 'algaeClassify-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: accum
+> ### Title: Split a dataframe column with binomial name into genus and
+> ###   species columns. Plots change in species richness over time,
+> ###   generates species accumulation curve, and compares SAC against
+> ###   simulated idealized curve assuming all unique taxa have equal
+> ###   probability of being sampled at any point in the time series. (author
+> ###   Dietmar Straile)
+> ### Aliases: accum
+> 
+> ### ** Examples
+> 
+> data(lakegeneva)
+> #example dataset with 50 rows
+> 
+> accum(lakegeneva,column=NA,n=1000,save.pdf=F)
+Error in table(b_data$date_dd_mm_yy, b_data$phyto_name) : 
+  all arguments must have the same length
+Calls: accum -> as.data.frame -> table
+Execution halted
+
+checking whether package 'algaeClassify' can be installed ... WARNING
+Found the following significant warnings:
+  Note: possible error in 'traits_to_mfg_nosize(dframe[[arg.names[1]]][i], ': unused argument (dframe[[arg.names[9]]][i]) 
+See 'C:/TEMP/1/RtmpWQpwc9/algaeClassify.Rcheck/00install.out' for details.
+Information on the location(s) of code generating the 'Note's can be
+obtained by re-running with environment variable R_KEEP_PKG_SOURCE set
+to 'yes'.
+
+checking dependencies in R code ... WARNING
+'library' or 'require' call not declared from: 'lubridate'
+'library' or 'require' call to 'lubridate' in package code.
+  Please use :: or requireNamespace() instead.
+  See section 'Suggested packages' in the 'Writing R Extensions' manual.
+
+checking for code/documentation mismatches ... WARNING
+Data codoc mismatches from documentation object 'lakegeneva':
+Variables in data frame 'lakegeneva'
+  Code: biovol_um3_ml lake month phyto_name
+  Docs: biovol_um3_ml lake month phyto_name year
+
+Data codoc mismatches from documentation object 'mfg.csr':
+Variables in data frame 'mfg.csr'
+  Code: CSR MFG.name MFG.number
+  Docs: CSR MFG MFG.number
+
+Data codoc mismatches from documentation object 'species.mfg.library':
+Variables in data frame 'species.mfg.library'
+  Code: Habitat MFG MFG2 Note genus species
+  Docs: MFG genus species
+
+
+checking Rd \usage sections ... WARNING
+Undocumented arguments in documentation object 'date_mat'
+  'time.agg' 'fun'
+Duplicated \argument entries in documentation object 'date_mat':
+  'timeagg'
+Documented arguments not in \usage in documentation object 'date_mat':
+  'timeagg'
+
+Functions with \usage entries need to have the appropriate \alias
+entries, and all their arguments documented.
+The \usage entries must correspond to syntactically valid R code.
+See chapter 'Writing R documentation files' in the 'Writing R
+Extensions' manual.
+
+checking R code for possible problems ... NOTE
+accum: no visible global function definition for 'par'
+accum: no visible binding for global variable 'Freq'
+accum: no visible global function definition for 'pdf'
+accum: no visible global function definition for 'plot'
+accum: no visible global function definition for 'aggregate'
+accum: no visible binding for global variable 'date_dd_mm_yy'
+accum: no visible global function definition for 'lines'
+accum: no visible global function definition for 'dev.off'
+date_mat: no visible global function definition for 'month'
+... 18 lines ...
+  dframe[[arg.names[6]]][i], dframe[[arg.names[7]]][i],
+  dframe[[arg.names[8]]][i], dframe[[arg.names[9]]][i]): unused
+  argument (dframe[[arg.names[9]]][i])
+Undefined global functions or variables:
+  Freq aggregate as.formula date_dd_mm_yy dev.off formula lines month
+  na.omit par pdf plot year
+Consider adding
+  importFrom("grDevices", "dev.off", "pdf")
+  importFrom("graphics", "lines", "par", "plot")
+  importFrom("stats", "aggregate", "as.formula", "formula", "na.omit")
+  importFrom("lubridate","month","year")
+to your NAMESPACE file.
+> warning()
+Warning message:
+ 

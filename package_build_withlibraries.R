@@ -36,6 +36,7 @@ load('sppMFG.rda')
 use_data(species.mfg.library, pkg = thePackage, overwrite = TRUE)
 
 load('MFG_CSR.rda')
+mfg.csr$CSR[3]='R'
 use_data(mfg.csr, pkg = thePackage, overwrite = TRUE)
 
 # STEP 3, error check and compile package for CRAN ############################
