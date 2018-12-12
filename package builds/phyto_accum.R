@@ -53,7 +53,7 @@ accum = function(b_data, phyto_name='phyto_name',column, n=50,save.pdf=FALSE,lak
     graphics::par(mfcol=c(2,1))
     graphics::par(mar=c(3,4,1,1))
   }
-    graphics::plot(ntaxa$Freq ~ ntaxa$date_dd_mm_yy, pch = 19, ylab = 'number of taxa', xlab = '')
+  graphics::plot(ntaxa$Freq ~ ntaxa$date_dd_mm_yy, pch = 19, ylab = 'number of taxa', xlab = '')
   
   sbio = stats::aggregate(b_data[, column] ~ b_data$phyto_name + b_data$date_dd_mm_yy, 
                           data = b_data, sum)  
@@ -110,25 +110,23 @@ accum = function(b_data, phyto_name='phyto_name',column, n=50,save.pdf=FALSE,lak
   
   mue = mue[order(mue$date_dd_mm_yy),]
   
-    graphics::plot(c(1:dim(subset(mue, n == 0))[1]) ~ date_dd_mm_yy, data = subset(mue, n == 0), ylab  = 'cum number of taxa', xlab = '')
-    mue = subset(mue, mue$date_dd_mm_yy > 0)
+  graphics::plot(c(1:dim(subset(mue, n == 0))[1]) ~ date_dd_mm_yy, data = subset(mue, n == 0), ylab  = 'cum number of taxa', xlab = '')
+  mue = subset(mue, mue$date_dd_mm_yy > 0)
+  
+  for(i in 1:n){
+    xx = subset(mue, mue$n == i)
+    xx$date_dd_mm_yy=as.POSIXct(xx$date_dd_mm_yy,origin = '1970-01-01')
     
-    for(i in 1:n){
-      xx = subset(mue, mue$n == i)
-      xx$date_dd_mm_yy=as.POSIXct(xx$date_dd_mm_yy,origin = '1970-01-01')
-      
-      xxx = stats::aggregate(date_dd_mm_yy ~ phyto_name, data = xx, min)
-      xxx = xxx[order(xxx$date_dd_mm_yy),]
-      
-      graphics::lines(c(1:dim(xxx)[1]) ~ date_dd_mm_yy, data = xxx, type = 'l', col = 'grey')
-    }
+    xxx = stats::aggregate(date_dd_mm_yy ~ phyto_name, data = xx, min)
+    xxx = xxx[order(xxx$date_dd_mm_yy),]
     
-    if(save.pdf)
-    {
-      grDevices::dev.off()
-    }
-    
- 
+    graphics::lines(c(1:dim(xxx)[1]) ~ date_dd_mm_yy, data = xxx, type = 'l', col = 'grey')
+  }
+  
+  if(save.pdf)
+  {
+    grDevices::dev.off()
+  }
+  
+  
 }
-  
-  
