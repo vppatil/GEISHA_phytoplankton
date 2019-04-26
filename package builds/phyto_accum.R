@@ -24,8 +24,10 @@
 #' 
 #' accum(b_data=lakegeneva,column=6,n=10,save.pdf=FALSE)
 
-accum = function(b_data, phyto_name='phyto_name',column, n=50,save.pdf=FALSE,lakename='',
+accum = function(b_data, phyto_name='phyto_name',column=NA, n=50,save.pdf=FALSE,lakename='',
                  datename='date_dd_mm_yy',dateformat='%d-%m-%y') {
+  factor.cols<-sapply(b_data,is.factor)
+  
   b_data$date_dd_mm_yy = as.POSIXct(b_data[[datename]],format=dateformat)
   graphics::par(mfcol=c(2,1))
   graphics::par(mar=c(3,4,1,1))
