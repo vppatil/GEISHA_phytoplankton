@@ -1,6 +1,6 @@
 Package: algaeClassify
 Title: Determine phytoplankton functional groups based on functional traits
-Version: 0.1.3
+Version: 0.1.4
 Date: 2018-10-11
 Authors@R: c(person("Vijay","Patil",email="vpatil@usgs.gov",role=c("aut","cre")),
 		   person("Torsten","Seltmann",role="aut"),
@@ -13,16 +13,15 @@ Author: Vijay Patil [aut,cre],Torsten Seltmann [aut], Nico Salmaso [aut], Orlane
 Maintainer: Vijay Patil <vpatil@usgs.gov>
 URL: http://github.com/vppatil/GEISHA_phytoplankton
 BugReports: https://github.com/vppatil/GEISHA_phytoplankton/issues
-Description: The algaeClassify package contains functions designed to facilitate the assignment of 
-    morpho-functional group (MFG) classifications to phytoplankton species based on a combination 
-    of taxonomy (Class,Order) and a suite of 7 binomial functional traits. Classifications can also
-    be made using only a species list and a database of trait-derived classifications included in 
-    the package. MFG classifications are derived from Salmaso, Nico, Luigi Naselli-Flores, and 
-    Judit Padisak. "Functional classifications and their application in phytoplankton ecology." 
-    Freshwater Biology 60.4 (2015): 603-619, and this reference should be cited when using the 
-    package. The algaeClassify package is a product of the GEISHA (Global Evaluation of the Impacts
+Description: Functions that facilitate the use of accepted taxonomic nomenclature, collection of
+	functional trait data, and assignment of functional group classifications to phytoplankton
+	species. Possible classifications include Morpho-functional group (MFG; Salmaso et al. 2015 <doi>)
+	and CSR (Reynolds 1988 <doi>) Classifications can be based on user-supplied trait data, a published
+	trait database for 1222 freshwater European taxa, or a library of literature-derived MFG classifications
+	for common freshwater species.The algaeClassify package is a product of the GEISHA (Global Evaluation of the Impacts
     of Storms on freshwater Habitat and Structure of phytoplankton Assemblages), funded by CESAB 
-    (Centre for Synthesis and Analysis of Biodiversity) and the USGS John Wesley Powell Center, 
+    (Centre for Synthesis and Analysis of Biodiversity) and the USGS John Wesley Powell Center for
+	Synthesis and Analysis, 
     with data and other support provided by members of GLEON (Global Lake Ecology Observation 
     Network). This software is preliminary or provisional and is subject to revision. It is being 
     provided to meet the need for timely best science. The software has not received final 
@@ -32,8 +31,16 @@ Description: The algaeClassify package contains functions designed to facilitate
     condition that neither the USGS nor the U.S. Government shall be held liable for any damages
     resulting from the authorized or unauthorized use of the software.
 Depends: R (>= 3.4.0)
-Imports: lubridate
+Imports: 
+	httr,
+	lubridate,
+	plyr,
+	RCurl,
+	rvest,
+	taxize,
+	XML,
+	xml2
 License: GPL-2 | GPL-3
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.0
+RoxygenNote: 6.1.1

@@ -4,15 +4,15 @@
 #' @param species Character string: species name
 #' @param flag Resolve ambiguous mfg: 1 = return(NA),2= manual selection
 #'
-#' @export species_phyto_convert
+#' @export species_to_mfg
 #' 
 #' @return a single MFG classification as character string
 #' 
 #' @examples
-#' species_phyto_convert('Scenedesmus','bijuga')
+#' species_to_mfg('Scenedesmus','bijuga')
 #' #returns "11a-NakeChlor"
 
-species_phyto_convert<-function(genus,species,flag=1)#set flag to two if you want to 
+species_to_mfg<-function(genus,species,flag=1)#set flag to two if you want to 
 													 #manually resolve ambiguous mfg class.
   #default behavior is to set ambiguous classes to NA (flag=1)
 {  
