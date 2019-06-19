@@ -1,4 +1,4 @@
-#' Conversion of a single genus and species name to a single MFG
+#' Conversion of a single genus and species name to a single MFG. Uses species.mfg.library
 #'
 #' @param genus Character string: genus name
 #' @param species Character string: species name

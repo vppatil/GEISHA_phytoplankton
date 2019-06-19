@@ -1,7 +1,8 @@
-#' Assign a morphofunctional group based on binary functional traits and higher taxonomy
+#' Assign a MFG based on binary functional traits and taxonomy (Class, Order)
+#' Uses an abbreviated version of the MFG classification (Salmaso et al. 2015), that does not 
+#' differentiate among MFGs based on size.
 #'
 #' @param flagella 1 if flagella are present, 0 if they are absent.
-#' @param size Character string: 'large' or 'small'. Classification criteria is left to the user.
 #' @param colonial 1 if typically colonial growth form, 0 if typically unicellular.
 #' @param filament 1 if dominant growth form is filamentous, 0 if not.
 #' @param centric 1 if diatom with centric growth form, 0 if not. NA for  non-diatoms.
@@ -15,13 +16,13 @@
 #' @return A character string of the species' morphofunctional group
 #' 
 #' @examples
-#' traits_to_mfg(1,"large",1,0,NA,0,0,"Euglenophyceae","Euglenales")
+#' traits_to_mfg(flagella=1,colonial=1,filament=0,centric=NA,gelatinous=0,aerotopes=0,
+#'               class="Euglenophyceae",order="Euglenales")
 #' 
 #' @seealso \url{http://www.algaebase.org} for up-to-date phytoplankton taxonomy,
 #'     \url{https://powellcenter.usgs.gov/geisha} for project information
 
 traits_to_mfg_nosize <- function(flagella = NA,
-                         size = NA,
                          colonial = NA,
                          filament = NA,
                          centric = NA,
