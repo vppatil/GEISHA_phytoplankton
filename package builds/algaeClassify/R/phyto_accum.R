@@ -26,6 +26,9 @@
 
 accum = function(b_data, phyto_name='phyto_name',column, n=50,save.pdf=FALSE,lakename='',
                  datename='date_dd_mm_yy',dateformat='%d-%m-%y') {
+				 
+	b_data[[datename]]=as.character(b_data[[datename]])
+	
   b_data$date_dd_mm_yy = as.POSIXct(b_data[[datename]],format=dateformat)
   graphics::par(mfcol=c(2,1))
   graphics::par(mar=c(3,4,1,1))
@@ -37,8 +40,7 @@ accum = function(b_data, phyto_name='phyto_name',column, n=50,save.pdf=FALSE,lak
   b_data = subset(b_data, b_data[, column] > 0)  
   
   ##assigning phytoplankton id column to phyto_name
-  b_data$phyto_name=b_data[[phyto_name]]
-  
+  b_data[[phyto_name]]=as.character(b_data[[phyto_name]])
   
   ntaxa0 = as.data.frame(table(b_data$date_dd_mm_yy, b_data$phyto_name))
   
@@ -127,6 +129,5 @@ accum = function(b_data, phyto_name='phyto_name',column, n=50,save.pdf=FALSE,lak
   {
     grDevices::dev.off()
   }
-  
-  
+   
 }
