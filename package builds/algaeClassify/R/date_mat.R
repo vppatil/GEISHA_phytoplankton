@@ -2,14 +2,14 @@
 #'
 #' @param phyto.df Name of data.frame object
 #' @param abundance.var Character string: field containing abundance data. 
-#'	Can be NA if the dataset only contains a species list for each sampling date
+#'	Can be NA if the dataset only contains a species list for each sampling date.
 #' @param summary.type 'abundance' for a matrix of aggregated abundance,'presence.absence'
-#'	for 1 (present) and 0 (absent)
-#' @param taxa.name Character string: field containing taxonomic identifiers
+#'	for 1 (present) and 0 (absent).
+#' @param taxa.name Character string: field containing taxonomic identifiers.
 #' @param date.name Character string: field containing date.
-#' @param format Character string: POSIX format string for formatting date column
+#' @param format Character string: POSIX format string for formatting date column.
 #' @param time.agg Character string: time interval for aggregating abundance. default is day.
-#' @param fun function for aggregation. default is mean, excluding NA's
+#' @param fun function for aggregation. default is mean, excluding NA's.
 #' 
 #' @export date_mat
 #' 
