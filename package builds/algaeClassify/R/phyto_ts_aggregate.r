@@ -4,6 +4,9 @@
 #'
 #' @param phyto.data data.frame
 #' @param AbundanceVar character string with field name containing abundance data
+#'	Can be NA if data is only a species list and aggregated presence/absence is desired.
+#' @param summary.type 'abundance' for a matrix of aggregated abundance,'presence.absence'
+#'	for 1 (present) and 0 (absent).
 #' @param DateVar      character string: field name for date variable. character or POSIX data.
 #' @param GroupingVar1 character string: field name for first grouping variable. defaults to spp.
 #' @param GroupingVar2 character string: name of additional grouping var field
@@ -20,16 +23,20 @@
 #' @examples
 #' data(lakegeneva)
 #' lakegeneva<-genus_species_extract(lakegeneva,'phyto_name')
-#' lakegeneva.common.genera=phyto_ts_aggregate(lakegeneva,AbundanceVar=NA,GroupingVar1='genus')
-#' head(lakegeneva.common.genera)
+#' lakegeneva.common.genera.presence=phyto_ts_aggregate(lakegeneva,AbundanceVar='biovol_um3_ml',
+#'											   SummaryType='presence.absence',GroupingVar1='genus')
+#' head(lakegeneva.common.genera.presence)
 #' 
 #' @seealso \url{http://www.algaebase.org} for up-to-date phytoplankton taxonomy,
 #'     \url{https://powellcenter.usgs.gov/geisha} for project information
 
 
-phyto_ts_aggregate=function(phyto.data,DateVar='date_dd_mm_yy',AbundanceVar='biovol_um3_ml',GroupingVar1='phyto_name',GroupingVar2=NA,GroupingVar3=NA,
-                            remove.rare=F,fun=sum,format='%d-%m-%y')
+phyto_ts_aggregate=function(phyto.data,DateVar='date_dd_mm_yy',SummaryType=c('abundance','presence.absence'),
+							AbundanceVar='biovol_um3_ml',GroupingVar1='phyto_name',GroupingVar2=NA,
+							GroupingVar3=NA,remove.rare=FALSE,fun=sum,format='%d-%m-%y')
 {
+  
+  SummaryType=SummaryType[1]
   
   phyto.data$date_dd_mm_yy=as.POSIXct(phyto.data[[DateVar]],format=format)
   
@@ -46,12 +53,21 @@ phyto_ts_aggregate=function(phyto.data,DateVar='date_dd_mm_yy',AbundanceVar='bio
   groupingvars=c(GroupingVar1,GroupingVar2,GroupingVar3)
   groupingvars=stats::na.omit(groupingvars)
   
+  if(SummaryType=='presence.absence' & !is.na(AbundanceVar)) #option to create a presence/absence matrix even if abundances are known
+  {
+	phyto.data$presence=0
+	phyto.data$presence[!is.na(phyto.data[[AbundanceVar]]) & phyto.data[[AbundanceVar]]>0]=1
+	AbundanceVar='presence'
+	fun=max
+  }
+  
   if(is.na(AbundanceVar))
   {
-    phyto.data$presence=1;
+    phyto.data$presence=1
     AbundanceVar='presence'
-    fun=max; ##presence absence if no abundance var
+    fun=max ##presence absence if no abundance var- this assumes every row is a detected species at that time
   }
+  
   
   for(i in 1:length(groupingvars))
   {
