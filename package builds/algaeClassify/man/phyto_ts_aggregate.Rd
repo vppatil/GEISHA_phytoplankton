@@ -7,16 +7,21 @@ e.g. genus, species, stationid, depth range.
 If no abundance var is given, will aggregate to presence/absence of grouping vars.}
 \usage{
 phyto_ts_aggregate(phyto.data, DateVar = "date_dd_mm_yy",
+  SummaryType = c("abundance", "presence.absence"),
   AbundanceVar = "biovol_um3_ml", GroupingVar1 = "phyto_name",
-  GroupingVar2 = NA, GroupingVar3 = NA, remove.rare = F, fun = sum,
-  format = "\%d-\%m-\%y")
+  GroupingVar2 = NA, GroupingVar3 = NA, remove.rare = FALSE,
+  fun = sum, format = "\%d-\%m-\%y")
 }
 \arguments{
 \item{phyto.data}{data.frame}
 
 \item{DateVar}{character string: field name for date variable. character or POSIX data.}
 
-\item{AbundanceVar}{character string with field name containing abundance data}
+\item{SummaryType}{'abundance' for a matrix of aggregated abundance,'presence.absence'
+for 1 (present) and 0 (absent).}
+
+\item{AbundanceVar}{character string with field name containing abundance data
+Can be NA if data is only a species list and aggregated presence/absence is desired.}
 
 \item{GroupingVar1}{character string: field name for first grouping variable. defaults to spp.}
 
@@ -42,8 +47,8 @@ If no abundance var is given, will aggregate to presence/absence of grouping var
 \examples{
 data(lakegeneva)
 lakegeneva<-genus_species_extract(lakegeneva,'phyto_name')
-lakegeneva.common.genera=phyto_ts_aggregate(lakegeneva,AbundanceVar=NA,GroupingVar1='genus')
-head(lakegeneva.common.genera)
+lg.genera=phyto_ts_aggregate(lakegeneva,SummaryType='presence.absence',GroupingVar1='genus')
+head(lg.genera)
 
 }
 \seealso{

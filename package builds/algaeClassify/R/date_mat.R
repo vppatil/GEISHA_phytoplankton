@@ -48,10 +48,10 @@ date_mat<-function(phyto.df,abundance.var='biovol_um3_ml',summary.type='abundanc
 	summary.type='presence.absence'
   }
   
-  b_data[[date.name]]=as.character(b_data[[date.name]])
+  phyto.df[[date.name]]=as.character(phyto.df[[date.name]])
   phyto.df$date_dd_mm_yy=as.POSIXct(phyto.df$date_dd_mm_yy,format=format)
   
-  b_data[[taxa.name]]=as.character(b_data[[phyto_name]])
+  phyto.df[[taxa.name]]=as.character(phyto.df[[taxa.name]])
 
   if(time.agg=='month')
   {

@@ -6,7 +6,7 @@
 #' @param b_data Name of data.frame object
 #' @param phyto_name Character string: field containing phytoplankton id (species, genus, etc.)
 #' @param column column name or number for field containing abundance (biomass,biovol, etc.)
-#'               can be NA for presence absence
+#'               can be NA if the dataset only contains a species list for each sampling date
 #' @param n number of simulations for randomized ideal species accumulation curve
 #' @param save.pdf TRUE/FALSE- should plots be displayed or saved to a pdf?
 #' @param lakename optional character string for adding lake name to pdf output 

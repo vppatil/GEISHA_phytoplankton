@@ -17,7 +17,7 @@ accum(b_data, phyto_name = "phyto_name", column, n = 50,
 \item{phyto_name}{Character string: field containing phytoplankton id (species, genus, etc.)}
 
 \item{column}{column name or number for field containing abundance (biomass,biovol, etc.)
-can be NA for presence absence}
+can be NA if the dataset only contains a species list for each sampling date}
 
 \item{n}{number of simulations for randomized ideal species accumulation curve}
 

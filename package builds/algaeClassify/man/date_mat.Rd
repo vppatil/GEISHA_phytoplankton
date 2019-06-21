@@ -5,24 +5,29 @@
 \title{Transform a phytoplankton timeseries into a matrix of abundances for ordination}
 \usage{
 date_mat(phyto.df, abundance.var = "biovol_um3_ml",
-  taxa.name = "phyto_name", date.name = "date_dd_mm_yy",
-  format = "\%d-\%m-\%y", time.agg = c("day", "month", "year",
-  "monthyear"), fun = function(x) mean(x[!base::is.na(x)]))
+  summary.type = "abundance", taxa.name = "phyto_name",
+  date.name = "date_dd_mm_yy", format = "\%d-\%m-\%y",
+  time.agg = c("day", "month", "year", "monthyear"), fun = function(x)
+  mean(x[!base::is.na(x)]))
 }
 \arguments{
 \item{phyto.df}{Name of data.frame object}
 
-\item{abundance.var}{Character string: field containing abundance data. NA for presence/absence}
+\item{abundance.var}{Character string: field containing abundance data. 
+Can be NA if the dataset only contains a species list for each sampling date.}
 
-\item{taxa.name}{Character string: field containing taxonomic identifiers}
+\item{summary.type}{'abundance' for a matrix of aggregated abundance,'presence.absence'
+for 1 (present) and 0 (absent).}
+
+\item{taxa.name}{Character string: field containing taxonomic identifiers.}
 
 \item{date.name}{Character string: field containing date.}
 
-\item{format}{Character string: POSIX format string for formatting date column}
+\item{format}{Character string: POSIX format string for formatting date column.}
 
 \item{time.agg}{Character string: time interval for aggregating abundance. default is day.}
 
-\item{fun}{function for aggregation. default is mean, excluding NA's}
+\item{fun}{function for aggregation. default is mean, excluding NA's.}
 }
 \value{
 A matrix of phytoplankton abundance, with taxa in rows and time in columns.
@@ -36,7 +41,9 @@ Transform a phytoplankton timeseries into a matrix of abundances for ordination
 data(lakegeneva)
 #example dataset with 50 rows
 
-geneva.mat<-date_mat(lakegeneva,abundance.var=NA)
+geneva.mat1<-date_mat(lakegeneva,time.agg='month',summary.type='presence.absence')
+geneva.mat2<-date_mat(lakegeneva,time.agg='month',summary.type='abundance')
 
-geneva.mat
+geneva.mat1
+geneva.mat2
 }
