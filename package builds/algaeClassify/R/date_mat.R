@@ -1,7 +1,10 @@
 #' Transform a phytoplankton timeseries into a matrix of abundances for ordination
 #'
 #' @param phyto.df Name of data.frame object
-#' @param abundance.var Character string: field containing abundance data. NA for presence/absence
+#' @param abundance.var Character string: field containing abundance data. 
+#'	Can be NA if the dataset only contains a species list for each sampling date
+#' @param summary.type 'abundance' for a matrix of aggregated abundance,'presence.absence'
+#'	for 1 (present) and 0 (absent)
 #' @param taxa.name Character string: field containing taxonomic identifiers
 #' @param date.name Character string: field containing date.
 #' @param format Character string: POSIX format string for formatting date column
@@ -18,23 +21,38 @@
 #' data(lakegeneva)
 #' #example dataset with 50 rows
 #' 
-#' geneva.mat<-date_mat(lakegeneva,abundance.var=NA)
-#' 
-#' geneva.mat
+#' geneva.mat1<-date_mat(lakegeneva,time.agg='month',summary.type='presence.absence')
+#' geneva.mat2<-date_mat(lakegeneva,time.agg='month',summary.type='abundance')
+#'
+#' geneva.mat1
+#' geneva.mat2
 
-date_mat<-function(phyto.df,abundance.var='biovol_um3_ml',taxa.name='phyto_name',
+
+date_mat<-function(phyto.df,abundance.var='biovol_um3_ml',summary.type='abundance',taxa.name='phyto_name',
                    date.name='date_dd_mm_yy',format='%d-%m-%y',
                    time.agg=c('day','month','year','monthyear'),fun=function(x) mean(x[!base::is.na(x)]))
 {
   time.agg<-time.agg[1]
   
+  if(summary.type=='presence.absence' & !is.na(abundance.var)) #option to create a presence/absence matrix even if abundances are known
+  {
+	phyto.df$presence=0
+	phyto.df$presence[!is.na(phyto.df[[abundance.var]]) & phyto.df[[abundance.var]]>0]=1
+	abundance.var='presence'
+  }
+  
   if(is.na(abundance.var)) #if only a species list, create a presence/absence matrix
   {
     phyto.df$presence=1
     abundance.var='presence'
+	summary.type='presence.absence'
   }
   
+  b_data[[date.name]]=as.character(b_data[[date.name]])
   phyto.df$date_dd_mm_yy=as.POSIXct(phyto.df$date_dd_mm_yy,format=format)
+  
+  b_data[[taxa.name]]=as.character(b_data[[phyto_name]])
+
   if(time.agg=='month')
   {
     phyto.df$month=lubridate::month(phyto.df$date_dd_mm_yy)
