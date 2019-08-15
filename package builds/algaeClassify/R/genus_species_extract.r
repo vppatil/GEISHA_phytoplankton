@@ -57,7 +57,8 @@ genus_species_extract<-function(phyto.df,phyto.name)
   
   var=sapply(spp.list,function(x) strsplit(x,split=' ')[[1]][3])
   
-  if(!(grepl("^[[:upper:]]",var) | substr(var,1,1)=="(")) {var.flag=1}
+  var.flag.test=!(grepl("^[[:upper:]]",var) | substr(var,1,1)=="(")
+	if(sum(var.flag.test)>0){var.flag=1}
   
   #not using line below
   #var[grep('comb. nov.',orig.spp.list)]='comb.+nov.'
