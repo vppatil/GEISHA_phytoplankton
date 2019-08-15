@@ -27,6 +27,7 @@ genus_species_extract<-function(phyto.df,phyto.name)
   
   spp.list=gsub('Cfr. ','',spp.list,ignore.case=T)
   spp.list=gsub('cf ','',spp.list,ignore.case=T)
+  spp.list=gsub('cf.','',spp.list,ignore.case=T)
   
   ###cleaning up genus-only records
   genus.only.flag=rep(0,length(spp.list)) #flag for species names with spp. or sp. in them
@@ -57,8 +58,8 @@ genus_species_extract<-function(phyto.df,phyto.name)
   
   var=sapply(spp.list,function(x) strsplit(x,split=' ')[[1]][3])
   
-  var.flag.test=!(grepl("^[[:upper:]]",var) | substr(var,1,1)=="(")
-	if(sum(var.flag.test)>0){var.flag=1}
+  var.flag.test=!(grepl("^[[:upper:]]",var) | substr(var,1,1)=="(" | grepl("^[0-9]",var))
+  var.flag[var.flag.test==1]=1
   
   #not using line below
   #var[grep('comb. nov.',orig.spp.list)]='comb.+nov.'
