@@ -29,6 +29,12 @@ genus_species_extract<-function(phyto.df,phyto.name)
   spp.list=gsub('cf ','',spp.list,ignore.case=T)
   spp.list=gsub('cf.','',spp.list,ignore.case=T)
   
+  ##removing descriptors- may contain useful information, but are not a proper name
+  spp.list=gsub('colony','',spp.list,ignore.case=T)
+    spp.list=gsub('colonies','',spp.list,ignore.case=T)
+	  spp.list=gsub('cells','',spp.list,ignore.case=T)
+	    spp.list=gsub('cell','',spp.list,ignore.case=T)
+
   ###cleaning up genus-only records
   genus.only.flag=rep(0,length(spp.list)) #flag for species names with spp. or sp. in them
   genus.only.flag[grep(' sp | sp. | spp | spp. | sp.$| spp.$| sp$| sp1| spp$',
@@ -57,6 +63,7 @@ genus_species_extract<-function(phyto.df,phyto.name)
   #will have to be stripped out if you are returning the search species name.
   
   var=sapply(spp.list,function(x) strsplit(x,split=' ')[[1]][3])
+  var<-trimws(var,'both')
   
   var.flag.test=!(grepl("^[[:upper:]]",var) | substr(var,1,1)=="(" | grepl("^[0-9]",var))
   var.flag[var.flag.test==1]=1
@@ -71,6 +78,9 @@ genus_species_extract<-function(phyto.df,phyto.name)
   genus[is.na(genus)]=''
   species[is.na(species)]=''
   species[genus.only.flag==1]=''
+  
+  genus=trimws(genus,'both')
+  species=trimws(species,'both')
   
   phyto.df$genus=genus
   phyto.df$species=species
