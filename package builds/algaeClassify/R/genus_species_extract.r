@@ -58,7 +58,7 @@ genus_species_extract<-function(phyto.df,phyto.name)
   species=sapply(spp.list,function(x) strsplit(x,split=' ')[[1]][2])
   species[is.na(species)]=''
   species=ifelse(species %in% c('sp.','spp.','sp','spp'),'',species)
-  species[grepl("[0:9]",species)]=''
+  species[grep('[0-9]',species)]='' ##cut out species names with numbers in them.
   
   #for the search url, species and var are pasted together with a plus sign. 
   #will have to be stripped out if you are returning the search species name.
