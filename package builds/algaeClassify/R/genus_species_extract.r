@@ -46,10 +46,10 @@ genus_species_extract<-function(phyto.df,phyto.name)
   ###have to account for abbreviations with and without capitalization and upper/lower case
   var.flag=rep(0,length(spp.list)) #vector to indicate if a species name includes a var/subsp/etc.
   var.flag[grep(' var. | subsp. | ssp. | v. | morph. | gr. | mor. | var | subsp | ssp | v | morph |
-				  gr | mor | aff. | aff | f | f. ',spp.list,ignore.case=T)]=1
+				  gr | mor | aff. | aff | f | f. | tab. ',spp.list,ignore.case=T)]=1
 				  
   spp.list=gsub(' var. | subsp. | ssp. | v. | morph. | gr. | mor. | var | subsp | ssp | v | morph |
-				  gr | mor | aff. | aff | f | f. ',' ',spp.list,ignore.case=T)
+				  gr | mor | aff. | aff | f | f. | tab. ',' ',spp.list,ignore.case=T)
   
   ###trimming leftover trailing and leading whitespace
   spp.list=trimws(spp.list,'both')
