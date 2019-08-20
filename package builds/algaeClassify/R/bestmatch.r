@@ -3,10 +3,11 @@
 #' @param enteredName Character string with name to check
 #' @param possibleNames Character vector of possible matches
 #' @param maxErr maximum number of different bits allowed for a partial match
+#' @param trunc TRUE/FALSE. if true and no match, retry with last three letters truncated
 #'
 #' @export bestmatch
 #'
-#' @return a character string with the best match, or 'multiplePartialMatches' if no best match
+#' @return a character string with the best match, or 'multiplePartialMatches'
 #'
 #' @examples
 #' possibleMatches=c('Viburnum edule','Viburnum acerifolia')
@@ -17,7 +18,12 @@ bestmatch=function(enteredName,possibleNames,maxErr=3,trunc=TRUE)
   for(i in 0:maxErr)
   {
     match=agrep(enteredName,possibleNames,max.distance=i,value=TRUE)
-    if(length(match)==1) {return(match)}
+    
+    if(length(match)==1) 
+    {
+      return(match)
+    }
+    
     if(length(match)>1)
     {
       if(i==0)
@@ -39,9 +45,9 @@ bestmatch=function(enteredName,possibleNames,maxErr=3,trunc=TRUE)
   {
     len=nchar(enteredName)
     truncName=substr(enteredName,1,len-3)
-    trunc=TRUE
-    bestmatch(truncName,possibleNames,trunc=FALSE)
+    trunc=FALSE
+    bestmatch(truncName,possibleNames,trunc=trunc)
   }else{
-    return(NA)
+    return(NA) #return NA if no exact or partial match found
   }
 }
