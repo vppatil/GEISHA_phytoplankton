@@ -27,10 +27,15 @@ spp_list_algaebase=function(phyto.df,phyto.name=1,lakename='',long=FALSE,write=F
   
   agg.list=vector("list",length=dim(phyto.df)[1])
   
-  sleep.times=rep(1,length(genus)) #give the servers a break in between searches.
+  sleep.times=rep(.5,length(genus)) #give the servers a break in between searches.
+  
+  percent.seq<-seq(1,dim(phyto.df)[1],len=11)
+  percent.seq=round(percent.seq)
+  percents=paste0(seq(0,100,by=10),"% completed")
   
   for(j in 1:dim(phyto.df)[1])#doing it as a loop with a pause in the middle 
   {
+    
     agg.list[[j]]=algaeClassify::algae_search(genus[j],species[j],long=long)
     
     #manually convert to character- avoids error if first row is all NA's
@@ -62,7 +67,7 @@ spp_list_algaebase=function(phyto.df,phyto.name=1,lakename='',long=FALSE,write=F
       write.csv(agg.df,paste(lakename,'AlgaebaseNames.csv',sep=''))
       save.image(paste(lakename,'AlgaebaseNames.RData',sep=''))
     }
-    
+    if(j %in% percent.seq) {cat(percents[match(j,percent.seq)]); cat("\n")}
     Sys.sleep(sleep.times[j])
   }
   
