@@ -5,9 +5,9 @@
 #' @param maxErr maximum number of different bits allowed for a partial match
 #'
 #' @export bestmatch
-#' 
+#'
 #' @return a character string with the best match, or 'multiplePartialMatches' if no best match
-#' 
+#'
 #' @examples
 #' possibleMatches=c('Viburnum edule','Viburnum acerifolia')
 #' bestmatch(enteredName='Viburnum edulus',possibleNames=possibleMatches)
@@ -16,7 +16,7 @@ bestmatch=function(enteredName,possibleNames,maxErr=3)
 {
   for(i in 0:maxErr)
   {
-    match=agrep(enteredName,possibleNames,max.distance=i,value=T)
+    match=agrep(enteredName,possibleNames,max.distance=i,value=TRUE,trunc=FALSE)
     if(length(match)==1) {return(match)}
     if(length(match)>1)
     {
@@ -33,6 +33,16 @@ bestmatch=function(enteredName,possibleNames,maxErr=3)
 
       }
     }
+  }
+  ##strip last three letters and try again
+  if(trunc==FALSE)
+  {
+    len=nchar(enteredName)
+    truncName=substr(enteredName,1,len-3)
+    trunc=TRUE
+    bestmatch(truncName,possibleNames,max.distance=i,value=T,trunc=TRUE)
+  }else{
+    return(NA)
   }
 }
 
@@ -54,11 +64,11 @@ bestmatch=function(enteredName,possibleNames,maxErr=3)
 #' @importFrom utils write.csv
 #' @importFrom stats rnbinom
 #' @importFrom xml2 read_html
-#' 
-#' @return A data.frame with the original name, binary flags indicating an exact match and an 
-#' currently accepted name, potential accepted synonyms, and the best accepted match as a single 
+#'
+#' @return A data.frame with the original name, binary flags indicating an exact match and an
+#' currently accepted name, potential accepted synonyms, and the best accepted match as a single
 #' string and as separate genus and species strings. Higher taxonomy may also be appended if long=T
-#' 
+#'
 #' @examples
 #' algae_search(genus='Anabaena',species='flos-aquae',long=TRUE)
 #'
@@ -74,9 +84,9 @@ algae_search=function(genus,species='',long=F)
 		URL=paste('www.algaebase.org/search/?species=',
         genus,'%20',
         species,sep='')
-	
+
 	groups = c('Empire','Kingdom','Phylum','Class','Order','Family')
-	
+
     if(is.na(genus)|genus=='NA'|genus=='NaN'|genus=='na'|genus=='')
     {
       res.df=data.frame(genus=NA,species=NA,exact.match=0,synonyms=NA,orig.name=paste(genus,species),match.name=NA)
@@ -88,7 +98,7 @@ algae_search=function(genus,species='',long=F)
     }
 
 	url.get=GET(URL)
-	
+
 	parsed=htmlParse(url.get)
 	plain.text <- xpathSApply(parsed, "//p", xmlValue)
 	status=plain.text[grep('Status',plain.text)]
@@ -106,7 +116,7 @@ algae_search=function(genus,species='',long=F)
 	{
 	  status=0
 	}
-	
+
 	if(status==1)
 	{
 		res.genus=genus
@@ -125,12 +135,12 @@ algae_search=function(genus,species='',long=F)
 		{
 		  details.parsed=xml2::read_html(url.get)
 		  classification.node<-html_nodes(details.parsed,xpath="//p")[[1]]
-		  taxa.levels = html_text(html_nodes(classification.node,"i"))	
-		  taxa=	html_text(html_nodes(classification.node,"a"))		
+		  taxa.levels = html_text(html_nodes(classification.node,"i"))
+		  taxa=	html_text(html_nodes(classification.node,"a"))
 		  df=data.frame(rbind(taxa))
 		  names(df)=taxa.levels
 		  df=df[,match(groups,names(df))] #make sure there is a consistent set of names
-		  
+
 		  res.df<-cbind(res.df,df)
 		}
 		return(res.df)
@@ -139,29 +149,29 @@ algae_search=function(genus,species='',long=F)
 		match.name=gsub('Status of nameThis name is currently regarded as a synonym of ','',match.name)
 		res.genus=strsplit(match.name,split=' ')[[1]][1]
 		res.species=strsplit(match.name,split=' ')[[1]][2]
-		
+
 		exact.match=0
 		orig.name=paste(genus,species)
 		match.name=paste(res.genus,res.species)
 		res.synonyms=orig.name
-		
+
 		res.df=data.frame(genus=res.genus,species=res.species,exact.match=exact.match,synonyms=paste(res.synonyms,collapse=','),orig.name=orig.name,match.name=match.name)
 		if(long)
 		{
 		  details.parsed=xml2::read_html(url.get)
 		  classification.node<-html_nodes(details.parsed,xpath="//p")[[1]]
-		  taxa.levels = html_text(html_nodes(classification.node,"i"))	
-		  taxa=	html_text(html_nodes(classification.node,"a"))		
+		  taxa.levels = html_text(html_nodes(classification.node,"i"))
+		  taxa=	html_text(html_nodes(classification.node,"a"))
 		  df=data.frame(rbind(taxa))
 		  names(df)=taxa.levels
 		  df=df[,match(groups,names(df))] #make sure there is a consistent set of names
-		  
+
 		  res.df<-cbind(res.df,df)
 		}
-		
+
 		return(res.df)
 	}
-	
+
 	tabs=readHTMLTable(parsed)
 	if(length(tabs)==0)
 	{
@@ -171,11 +181,11 @@ algae_search=function(genus,species='',long=F)
         res.df$Empire=res.df$Kingdom=res.df$Phylum=res.df$Class=res.df$Order=res.df$Family=NA
       }
       return(res.df)
-		
+
 	}
-	
+
 	results.tab=data.frame(tabs[[1]],stringsAsFactors = F)
-	
+
 	genus.match=grepl(genus,results.tab[[1]])
 	if(sum(genus.match)==0)
 	{
@@ -185,10 +195,10 @@ algae_search=function(genus,species='',long=F)
         res.df$Empire=res.df$Kingdom=res.df$Phylum=res.df$Class=res.df$Order=res.df$Family=NA
       }
       return(res.df)
-	
+
 	}
 	results.tab<-results.tab[genus.match,]
-	
+
 	if(dim(results.tab)[1]==0)
   {
 	  res.df=data.frame(genus=NA,species=NA,exact.match=0,synonyms=NA,orig.name=paste(genus,species),match.name=NA)
@@ -201,17 +211,17 @@ algae_search=function(genus,species='',long=F)
 
 	 colnames(results.tab)[2]='Current name if different'
 	 results.tab2=results.tab
-	 
+
 	 if(length(grep('Unchecked',as.character(results.tab$Name)))>0)
 	 {
 	   results.tab2=results.tab[-grep('Unchecked',results.tab$Name),]
 	 }
-	              
+
 	 res.names=as.character(results.tab2$Name)
 	 if(species=='')
 	 {
 	                  res.names=sapply(res.names,function(x){
-	                   return(strsplit(x,split=' ')[[1]][1]) 
+	                   return(strsplit(x,split=' ')[[1]][1])
 	                  })
 	 }else
 	 {
@@ -220,24 +230,24 @@ algae_search=function(genus,species='',long=F)
 	     strsplit(x,split=' ')[[1]][2]))
 	   })
 	 }
-	 
+
 	 sub.name=ifelse(species=='',genus,paste(genus,species))
-	 
+
 	 match.name=bestmatch(sub.name,unique(res.names))
 	 match.rows=res.names %in% match.name
 	 match.tab=results.tab2[match.rows,]
-	 
+
    res.synonyms=paste(unique(match.tab[,2]),collapse=',')
    if(species==''){res.synonyms=''}
-   
+
    exact.match=ifelse(match.name==sub.name,1,0)
-   
+
    res.genus=ifelse(match.name=='multiplePartialMatch','',strsplit(match.name,split=' ')[[1]][1])
    res.species=ifelse(match.name=='multiplePartialMatch','',strsplit(match.name,split=' ')[[1]][2])
-   
+
 	 #check if there are any verified names.
 	 res.df=data.frame(genus=res.genus,species=res.species,exact.match=exact.match,synonyms=res.synonyms,orig.name=sub.name,match.name=match.name)
-	
+
 	if(long)
 	{
 	  if(status==1)
@@ -246,53 +256,53 @@ algae_search=function(genus,species='',long=F)
 	  }else
 	  {
 	    links.parsed=xpathSApply(parsed,"//a/@href")
-	    
+
 	    links.parsed<-links.parsed[grep('results',links.parsed)]
 	    links.parsed<-links.parsed[seq(1,length(links.parsed),by=2)]
 		links.parsed=links.parsed[genus.match]
 		good.link=links.parsed[grep(match.name,results.tab$Name)[1]]
 	    good.link=paste('www.algaebase.org',good.link,sep='')
-	    
+
 	    details=GET(good.link)
 	    details.parsed=xml2::read_html(details)
 	  }
 
 	  classification.node<-html_nodes(details.parsed,xpath="//p")[[1]]
-	  taxa.levels = html_text(html_nodes(classification.node,"i"))	
-	  taxa=	html_text(html_nodes(classification.node,"a"))		
+	  taxa.levels = html_text(html_nodes(classification.node,"i"))
+	  taxa=	html_text(html_nodes(classification.node,"a"))
 	  df=data.frame(rbind(taxa))
 	  names(df)=taxa.levels
 	  df=df[,match(groups,names(df))] #make sure there is a consistent set of names
 	  res.df<-cbind(res.df,df)
 	}
-	
+
 	if(is.na(species) | is.null(species) | species %in% c('','sp','sp.','spp.'))
 	{
 	  res.df$synonyms=res.df$species=''
 	}
-	  
+
 	return(res.df)
-}	
+}
 
 
 #' Wrapper for applying algae_search function to a data.frame that contains phytoplankton species
 #'
-#' @param phyto.df data.frame containing genus and species columns or a column with binomial names 
+#' @param phyto.df data.frame containing genus and species columns or a column with binomial names
 #' @param lakename Character string with waterbody name for naming output files
 #' @param phyto.name Name or number of column that contains binomial names
 #' @param long TRUE/FALSE: should higher taxonomy (Kingdom:Family) be included in output?
 #' @param write TRUE/FALSE: should output be written as .csv file?
 #'
 #' @export spp_list_algaebase
-#' 
+#'
 #' @return A character string of the species' morphofunctional group
-#' 
+#'
 #' @examples
 #' data(lakegeneva)
 #' lakegeneva=lakegeneva[1:3,] ##use 3 rows for testing
 #' lakegeneva<-genus_species_extract(lakegeneva,phyto.name='phyto_name')
 #' lakegeneva.algaebase<-spp_list_algaebase(lakegeneva,write=FALSE)
-#' 
+#'
 #' @seealso \url{http://www.algaebase.org} for up-to-date phytoplankton taxonomy,
 #'     \url{https://powellcenter.usgs.gov/geisha} for project information
 
