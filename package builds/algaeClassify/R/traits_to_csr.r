@@ -1,28 +1,44 @@
 #' Assign phytoplankton species to CSR functional groups, based on surface to volume ratio and
 #' maximum linear dimension ranges proposed by Reynolds et al. 1988;2006
 #'
-#' @param sav numeric estimate of cell or colony surface/volume ratio in um^2/um^3
-#' @param msv numeric product of surface/volume ratio multiplied by maximum linear dimension (msv; um)
+#' @param sav numeric estimate of cell or colony surface area /volume ratio
+#' @param msv numeric product of surface area /volume and maximum linear dimension
+#' @param msv.source character string with reference source for distinguishing criteria
 #'
 #' @export traits_to_csr
 #'
-#' @return a character string with one of 3 return values: C,S, or R
+#' @return a character string with one of 5 return values: C,CR,S,R, or SR.
+#'         CR and SR groups reflect overlap between criteria for the 3 main groups.
 #'
 #' @examples
 #'
-#' traits_to_csr(sav=0.2,msv=10)
+#' traits_to_csr(sav=0.2,msv=10,msv.source='Reynolds 2006')
 #'
 #'
 #' @seealso /url{https://powellcenter.usgs.gov/geisha} for project information
 
 
-traits_to_csr=function(sav,msv)
+traits_to_csr=function(sav,msv,msv.source='Reynolds 2006')
 {
 
   csr=NA
   #must be based on measurements in micrometers (^2, ^3)
   sav.vals=unlist(traitranges[traitranges$Measurement=='sav',2:7])
-  msv.vals=unlist(traitranges[traitranges$Measurement=='msv',2:7])
+
+  ##default is to use MSV criteria from Reynolds 2006
+  ##but can also use MLD criteria from Reynolds 1988
+
+  ##either option uses SAV criteria from Reynolds et al. 1988
+  ##Because Reynolds et al. 2006 does not contain SAV criteria
+
+
+  if(msv.source == 'Reynolds 1988')
+  {
+    mld.vals=unlist(traitranges[traitranges$Measurement=='mld',2:7])
+    msv.vals=sav.vals*mld.vals
+  }else{
+    msv.vals=unlist(traitranges[traitranges$Measurement=='msv',2:7])
+  }
 
 
   if(sav>=sav.vals[1] & sav < sav.vals[4] &
