@@ -31,6 +31,8 @@ traits_to_csr=function(sav,msv,msv.source='Reynolds 2006')
   ##either option uses SAV criteria from Reynolds et al. 1988
   ##Because Reynolds et al. 2006 does not contain SAV criteria
 
+  if(is.na(sav) | is.na(msv)){csr=NA;return(csr)}
+
 
   if(msv.source == 'Reynolds 1988')
   {
@@ -39,7 +41,6 @@ traits_to_csr=function(sav,msv,msv.source='Reynolds 2006')
   }else{
     msv.vals=unlist(traitranges[traitranges$Measurement=='msv',2:7])
   }
-
 
   if(sav>=sav.vals[1] & sav < sav.vals[4] &
      msv >=msv.vals[1] & msv <msv.vals[4]){csr = 'C'}
