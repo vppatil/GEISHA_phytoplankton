@@ -8,7 +8,7 @@
 #'
 #' @export traits_to_csr_df
 #'
-#' @return a character string with one of 3 return values: C,S, or R
+#' @return a character string with one of 5 return values: C,CR,S,SR, or R
 #'
 #' @examples
 #'
