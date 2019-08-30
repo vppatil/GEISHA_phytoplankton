@@ -5,15 +5,18 @@
 \title{Assign phytoplankton species to CSR functional groups, based on surface to volume ratio and
 maximum linear dimension ranges proposed by Reynolds et al. 1988;2006}
 \usage{
-traits_to_csr(sav, msv)
+traits_to_csr(sav, msv, msv.source = "Reynolds 2006")
 }
 \arguments{
-\item{sav}{numeric estimate of cell or colony surface/volume ratio in um^2/um^3}
+\item{sav}{numeric estimate of cell or colony surface area /volume ratio}
 
-\item{msv}{numeric product of surface/volume ratio multiplied by maximum linear dimension (msv; um)}
+\item{msv}{numeric product of surface area /volume and maximum linear dimension}
+
+\item{msv.source}{character string with reference source for distinguishing criteria}
 }
 \value{
-a character string with one of 3 return values: C,S, or R
+a character string with one of 5 return values: C,CR,S,R, or SR.
+        CR and SR groups reflect overlap between criteria for the 3 main groups.
 }
 \description{
 Assign phytoplankton species to CSR functional groups, based on surface to volume ratio and
@@ -21,7 +24,7 @@ maximum linear dimension ranges proposed by Reynolds et al. 1988;2006
 }
 \examples{
 
-traits_to_csr(sav=0.2,msv=10)
+traits_to_csr(sav=0.2,msv=10,msv.source='Reynolds 2006')
 
 
 }
