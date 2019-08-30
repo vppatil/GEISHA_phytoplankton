@@ -14,8 +14,10 @@ setwd("~/gleon/Geisha/phyto_package/GEISHA_phytoplankton_github_shared/package b
 #install.packages("devtools"); # make sure your have the most recent version
 #install.packages("roxygen2"); # make sure your have the most recent version
 library(devtools); library(roxygen2)
-create(thePackage)
-roxygenize(thePackage)
+# create(thePackage)
+setwd('algaeClassify')
+roxygenize('.')
+
 
 # STEP 2, add functionality ###################################################
 # (1) update DESCRIPTION file (package description, authors, dependencies)
@@ -27,17 +29,21 @@ roxygenize(thePackage)
 # add dataset to package
 lakegeneva <- read.csv("~/gleon/Geisha/datasets/phyto_data/lakegeneva_stub.csv", header = TRUE,stringsAsFactors = F)
 # use_data(library_MFG, pkg = thePackage, internal = TRUE, overwrite = TRUE)
-use_data(lakegeneva, pkg = thePackage, overwrite = TRUE)
+use_data(lakegeneva, overwrite = TRUE)
 
 
-setwd('~/gleon/Geisha/phyto_package/GEISHA_phytoplankton_github_shared/package builds/')# use_data(library_MFG, pkg = thePackage, internal = TRUE, overwrite = TRUE)
+# setwd('~/gleon/Geisha/phyto_package/GEISHA_phytoplankton_github_shared/package builds/')# use_data(library_MFG, pkg = thePackage, internal = TRUE, overwrite = TRUE)
+# 
+# load('sppMFG.rda')
+setwd('data/')
+load('species.mfg.library.rda')
+setwd('..')
+use_data(species.mfg.library, overwrite = TRUE)
 
-load('sppMFG.rda')
-use_data(species.mfg.library, pkg = thePackage, overwrite = TRUE)
-
-load('MFG_CSR.rda')
-mfg.csr$CSR[3]='R'
-use_data(mfg.csr, pkg = thePackage, overwrite = TRUE)
+setwd('data/')
+load('traitranges.rda')
+setwd('..')
+use_data(species.mfg.library, overwrite = TRUE)
 
 # STEP 3, error check and compile package for CRAN ############################
 # (1) update DESCRIPTION file
@@ -47,9 +53,9 @@ use_data(mfg.csr, pkg = thePackage, overwrite = TRUE)
 # constructs binaries 
 library(devtools); 
 # creates bundle to submit to CRAN (*.tar.zip file found in development folder)
-build(thePackage, manual = FALSE)
+build('.', manual = FALSE)
 # error checks prior to submission (all errors and warnings need to be addressed)
-check(thePackage)
+check('.')
 warning()
 
 # STEP 4, Build example PDF manual (will not be same as CRAN, but close) ######
@@ -60,6 +66,8 @@ warning()
 # 2) through MikTeX /Maintenace/packages install: url, inconsolata, upquote
 ###############################################################################
 
+
+setwd('..')
 document(thePackage)
 path <- find.package(thePackage)
 system(paste(shQuote(file.path(R.home("bin"), "R")), "CMD", "Rd2pdf", shQuote(path)))
