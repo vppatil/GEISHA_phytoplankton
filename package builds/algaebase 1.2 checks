@@ -1,0 +1,45 @@
+algaebase presub checks
+Description
+Namespace
+includes
+
+function list
+
+export(accum) - species accumulation curves vs. simulated curves
+export(algae_search) - checks names against algaebase online database, returns matches, also higher taxonomy
+export(bestmatch) - internal function for improving algae_search
+export(date_mat) - transposing timeseries phytoplankton abundance into presence absence or abundance matrices for ordination
+export(genus_species_extract) - extract clean genus, species, and subspecies names from a list of binomial names- cleans up abbreviations, prefixes, and suffixes
+export(phyto_ts_aggregate) - wrapper for aggregate, to assist in creating aggregate timeseries of abundance based on multiple grouping variables - genus/family/order, sampling station, etc.
+export(sampeff) - ??
+export(species_to_mfg) - shouldn't be in this version.
+export(species_to_mfg_df) - shouldn't be in this version.
+export(spp_list_algaebase)- wrapper for algae_search function applied to whole dataset
+export(traits_to_csr) -  assign CSR to phytoplankton based on trait measurements (surface/volume ratio and maximum linear dimension) and criteria defined by Colin REynold (Reynolds 1988, Reynolds 2006)
+export(traits_to_csr_df) - wrapper for traits_to_csr
+export(traits_to_mfg) - assign morphofunctional groups based on binary trait values and criteria defined in Salmaso et al. 2015.
+export(traits_to_mfg_df) - wrapper for traits_to_mfg_df.
+
+arguments
+
+testing
+
+included data sets
+
+build documentation
+
+submission checks
+
+add algaebase paper citation to functions.
+
+date mat= may need to add separate function for mean.na.omit with own documentation.
+-done
+
+accum= works
+genus_species_extract= good
+sampeff= good
+traits_to_csr- good
+traits to csr df?? good
+
+traits to mfg - ok
+traits to mfg df? - ok

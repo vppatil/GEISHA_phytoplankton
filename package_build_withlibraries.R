@@ -35,15 +35,17 @@ use_data(lakegeneva, overwrite = TRUE)
 # setwd('~/gleon/Geisha/phyto_package/GEISHA_phytoplankton_github_shared/package builds/')# use_data(library_MFG, pkg = thePackage, internal = TRUE, overwrite = TRUE)
 # 
 # load('sppMFG.rda')
-setwd('data/')
-load('species.mfg.library.rda')
-setwd('..')
-use_data(species.mfg.library, overwrite = TRUE)
+# setwd('data/')
+# load('species.mfg.library.rda')
+# setwd('..')
+# use_data(species.mfg.library, overwrite = TRUE)
 
 setwd('data/')
 load('traitranges.rda')
+traitranges=traitranges[1:3,]
+traitranges$units=c('um^-1','um','')
 setwd('..')
-use_data(species.mfg.library, overwrite = TRUE)
+use_data(traitranges, overwrite = TRUE)
 
 # STEP 3, error check and compile package for CRAN ############################
 # (1) update DESCRIPTION file

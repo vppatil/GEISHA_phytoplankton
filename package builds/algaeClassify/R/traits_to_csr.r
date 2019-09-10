@@ -2,8 +2,11 @@
 #' maximum linear dimension ranges proposed by Reynolds et al. 1988;2006
 #'
 #' @param sav numeric estimate of cell or colony surface area /volume ratio
-#' @param msv numeric product of surface area /volume and maximum linear dimension
+#' @param msv numeric product of surface area/volume ratio and maximum linear dimension
 #' @param msv.source character string with reference source for distinguishing criteria
+#' @param traitrange data frame with trait criteria for c,s,r groups. The included table
+#'     can be replaced with user-defined criteria if desired. Measurements are:
+#'     Surface area/volume ratio (sav), maximum linear dimension (mld) and mld*sav (msv).
 #'
 #' @export traits_to_csr
 #'
@@ -12,18 +15,18 @@
 #'
 #' @examples
 #'
-#' traits_to_csr(sav=0.2,msv=10,msv.source='Reynolds 2006')
+#' traits_to_csr(sav=0.2,msv=10,msv.source='Reynolds 2006',traitranges=traitranges)
 #'
 #'
 #' @seealso /url{https://powellcenter.usgs.gov/geisha} for project information
 
 
-traits_to_csr=function(sav,msv,msv.source='Reynolds 2006')
+traits_to_csr=function(sav,msv,msv.source='Reynolds 2006',traitrange=traitranges)
 {
 
   csr=NA
   #must be based on measurements in micrometers (^2, ^3)
-  sav.vals=unlist(traitranges[traitranges$Measurement=='sav',2:7])
+  sav.vals=unlist(traitrange[traitrange$Measurement=='sav',2:7])
 
   ##default is to use MSV criteria from Reynolds 2006
   ##but can also use MLD criteria from Reynolds 1988
@@ -36,10 +39,10 @@ traits_to_csr=function(sav,msv,msv.source='Reynolds 2006')
 
   if(msv.source == 'Reynolds 1988')
   {
-    mld.vals=unlist(traitranges[traitranges$Measurement=='mld',2:7])
+    mld.vals=unlist(traitrange[traitrange$Measurement=='mld',2:7])
     msv.vals=sav.vals*mld.vals
   }else{
-    msv.vals=unlist(traitranges[traitranges$Measurement=='msv',2:7])
+    msv.vals=unlist(traitrange[traitrange$Measurement=='msv',2:7])
   }
 
   if(sav>=sav.vals[1] & sav < sav.vals[4] &

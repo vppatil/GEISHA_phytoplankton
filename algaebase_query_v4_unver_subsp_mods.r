@@ -1,18 +1,16 @@
-#functions for querying a genus + species in algaebase and scraping the resulting web
-#page for a match
-
-#website is www.algaebase.org
-#for any resulting publications or presentations, please cite as: 
-#Guiry, M.D. & Guiry, G.M. 2017. AlgaeBase. World-wide electronic publication, 
-#National University of Ireland, Galway. http://www.algaebase.org;
-
-
-
-library(RCurl)
-library(httr)
-library(XML)
-library(rvest)
-library(plyr)
+#' fuzzy partial matching between a scientific name and a list of possible matches
+#'
+#' @param enteredName Character string with name to check
+#' @param possibleNames Character vector of possible matches
+#' @param maxErr maximum number of different bits allowed for a partial match
+#'
+#' @export bestmatch
+#'
+#' @return a character string with the best match, or 'multiplePartialMatches' if no best match
+#'
+#' @examples
+#' possibleMatches=c('Viburnum edule','Viburnum acerifolia')
+#' bestmatch(enteredName='Viburnum edulus',possibleNames=possibleMatches)
 
 bestmatch=function(enteredName,possibleNames,maxErr=3,trunc=TRUE)
 {
@@ -48,6 +46,22 @@ bestmatch=function(enteredName,possibleNames,maxErr=3,trunc=TRUE)
   }
 }
 
+#functions for querying a genus + species in algaebase and scraping the resulting web
+#page for a match
+
+#website is www.algaebase.org
+#for any resulting publications or presentations, please cite as: 
+#Guiry, M.D. & Guiry, G.M. 2017. AlgaeBase. World-wide electronic publication, 
+#National University of Ireland, Galway. http://www.algaebase.org;
+
+
+
+library(RCurl)
+library(httr)
+library(XML)
+library(rvest)
+library(plyr)
+library(R.utils)
 algae.search=function(genus,species='',b=F,long=F)
 {
 	synonym.swapped=0
@@ -124,6 +138,7 @@ algae.search=function(genus,species='',b=F,long=F)
 			status=0
 			accepted=0
 			exact.match=0
+			
 		}else if(length(grep("This name is of an entity that is currently accepted taxonomically",status))==1) #single page result with exact match
 		{
 			status=1
@@ -259,6 +274,9 @@ algae.search=function(genus,species='',b=F,long=F)
 	}
 	
 	results.tab=data.frame(tabs[[1]],stringsAsFactors = F)
+	results.tab<-algaeClassify::genus_species_extract(results.tab,'Name')#cleaning up results names            
+	
+	results.tab$Name=paste(results.tab$genus,results.tab$species)
 	
 	#first, check for genus only match
 	genus.match=grepl(genus,results.tab[[1]])
@@ -326,17 +344,30 @@ algae.search=function(genus,species='',b=F,long=F)
 	 
 	 match.tab[,2]=ifelse(match.tab[,2]==match.tab[,1]," ",match.tab[,2])
 	 match.tab<-match.tab[!duplicated(match.tab),]
+	 
+	if(is.na(match.name)) #no decent match
+	{
+	  res.df=data.frame(genus=NA,species=NA,exact.match=0,accepted=0,synonyms=NA,orig.name=paste(genus,species),match.name=NA)
+      if(long)
+      {
+        res.df$Empire=res.df$Kingdom=res.df$Phylum=res.df$Class=res.df$Order=res.df$Family=NA
+      }
+      return(res.df)
+	
+	}
+	results.tab<-results.tab[genus.match,]
 
     res.synonyms=paste(unique(match.tab[,2]),collapse=',')
-    res.synonyms=ifelse(res.synonyms==' ','',res.synonyms)
-	res.synonyms=gsub(",,","",res.synonyms,fixed=T)
+	res.synonyms<-trimws(res.synonyms,'both')
+    res.synonyms=gsub(", ,",",,",res.synonyms)
+	res.synonyms=gsub(",,",",",res.synonyms,fixed=T)
 	res.synonyms<-gsub("^[,]","",res.synonyms) #remove preceeding commas
 	res.synonyms<-gsub("[,]$","",res.synonyms) #remove trailing commas
 
 	#not automatically deleting synonyms for genus only matches
-
+    #also not auto swapping with single synonym for genus
    exact.match=ifelse(match.name==sub.name,1,0)
-   if(res.synonyms !='' & exact.match==1 & length(grep(',',res.synonyms))==0)
+   if(res.synonyms !='' & exact.match==1 & length(grep(',',res.synonyms))==0 & species!='')
    {	
 		synonym.swapped=1
 		match.name=res.synonyms
@@ -350,19 +381,26 @@ algae.search=function(genus,species='',b=F,long=F)
 	if(match.name=='multiplePartialMatch')
 	{
 		res.gen.spp=data.frame(genus='',species='')
+	 #check if there are any verified names.
+	 res.df=data.frame(genus=NA,species=NA,exact.match=0,accepted=0,synonyms=NA,orig.name=sub.name,match.name=match.name)
 	}else
 	{
 		res.gen.spp=algaeClassify::genus_species_extract(data.frame(res=match.name),'res')
-	}
+
 	
 	res.genus=res.gen.spp$genus
 	res.species=res.gen.spp$species
    
 	 #check if there are any verified names.
 	 res.df=data.frame(genus=res.genus,species=res.species,exact.match=exact.match,accepted=accepted,synonyms=res.synonyms,orig.name=sub.name,match.name=match.name)
-	
+	}
 	if(long)
 	{
+	  if(match.name=='multiplePartialMatch')
+	  {
+	           res.df$Empire=res.df$Kingdom=res.df$Phylum=res.df$Class=res.df$Order=res.df$Family=NA
+				return(res.df)
+	  }
 	  if(synonym.swapped==1)
 	  {
 		#swapping name with synonym in results tab for higher taxonomy lookup
@@ -394,7 +432,12 @@ algae.search=function(genus,species='',b=F,long=F)
 	  }
 
 	  classification.node<-html_nodes(details.parsed,xpath="//p")[[1]]
-	  taxa.levels = html_text(html_nodes(classification.node,"i"))	
+	  taxa.levels = html_text(html_nodes(classification.node,"i"))
+      if(length(taxa.levels)==0) #no classification data provided in algaebase
+		{
+			res.df$Empire=res.df$Kingdom=res.df$Phylum=res.df$Class=res.df$Order=res.df$Family=NA
+				return(res.df)
+	  }
 	  taxa=	html_text(html_nodes(classification.node,"a"))		
 	  df=data.frame(rbind(taxa))
 	  names(df)=taxa.levels
@@ -421,34 +464,41 @@ algae.search=function(genus,species='',b=F,long=F)
 #requires a data.frame with columns named genus and species
 #use genus_species_extract if necessary first
 
-spp.list.algaebase=function(phyto.df,phyto.name,lakename='',long=F,sleep.time=2) 
+spp.list.algaebase=function(phyto.df,phyto.name,lakename='',long=F) 
 {
   phyto.df<-genus_species_extract(phyto.df,phyto.name)
   genus<-phyto.df$genus
   species<-phyto.df$species
   
   agg.list=vector("list",length=dim(phyto.df)[1])
-  
-  for(i in 1:dim(phyto.df)[1])#doing it as a loop with a pause in the middle to avoid overloading servers.
+  # sleep.times=rnbinom(n=length(genus),size=15,mu=15)
+  sleep.times=runif(n=length(genus),1,3)
+
+  for(j in 1:dim(phyto.df)[1])#doing it as a loop with a pause in the middle to avoid overloading servers.
   {
-    agg.list[[i]]=algae.search(genus[i],species[i],long=long)
+  
+    agg.list[[j]]=algae.search(genus[j],species[j],long=long)
+	agg.list[[j]]<-sapply(agg.list[[j]],function(x) {if(is.numeric(x)){x<-as.numeric(x)} else{x<-as.character(x)}; return(x)})
+
     #uncomment the two lines below if there is an error and you want to see which rows ran successfully.
 	#then re-source the function and try again.
+	agg.df=ldply(agg.list)
+	agg.df<-cbind(phyto.df[[phyto.name]][1:j],agg.df) 
 	
-	 print(i)
-     print(agg.list[[i]])
-    Sys.sleep(sleep.time)
+	names(agg.df)[1]=phyto.name
+    write.csv(agg.df,paste(lakename,'AlgaebaseNames.csv',sep=''))
+	 print(j)
+	save.image(paste(lakename,'.RData'))
+	print(sleep.times[j])
+    Sys.sleep(sleep.times[j])
   }
 
-  agg.list<-ldply(agg.list)
-  agg.list<-cbind(phyto.df[[phyto.name]],agg.list) 
+
   #add in the binomial names from the original dataset
   #this will facilitate merging the function results with the original data
   
-  names(agg.list)[1]=phyto.name
-  
-  write.csv(agg.list,paste(lakename,'AlgaebaseNames.csv',sep=''))
-  return(agg.list)
+
+  return(agg.df)
 }
 
  

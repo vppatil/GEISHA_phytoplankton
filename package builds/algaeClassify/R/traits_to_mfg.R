@@ -11,15 +11,13 @@
 #' @param order Character string: The taxonomic order of the species
 #'
 #' @export traits_to_mfg
-#' 
+#'
 #' @return A character string of the species' morphofunctional group
-#' 
+#'
 #' @examples
 #' traits_to_mfg(flagella = 1,size = "large",colonial = 1,filament = 0,centric = NA,gelatinous = 0,
 #'                aerotopes = 0,class = "Euglenophyceae",order = "Euglenales")
-#' 
-#' @seealso \url{http://www.algaebase.org} for up-to-date phytoplankton taxonomy,
-#'     \url{https://powellcenter.usgs.gov/geisha} for project information
+
 
 traits_to_mfg <- function(flagella = NA,
                          size = NA,
@@ -38,7 +36,7 @@ traits_to_mfg <- function(flagella = NA,
 					"Mediophyceae",
 					"Fragilariophyceae")==F) {
     #making sure that diatoms are excluded from this branch
-    if (order %in% c("Volvocales", 
+    if (order %in% c("Volvocales",
 					  "Chlamydomonadales")){
       if (colonial %in% 1) {
         mfg = "3b-ColoPhyto"

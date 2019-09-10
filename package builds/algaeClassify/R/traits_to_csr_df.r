@@ -14,19 +14,17 @@
 #'
 #' csr.df<-data.frame(msv=10,sav=1)
 #'
-#' traits_to_csr_df(csr.df,'msv','sav')
+#' csr.df$CSR<-traits_to_csr_df(csr.df,'msv','sav')
 #'
-#'
-#' @seealso /url{https://powellcenter.usgs.gov/geisha} for project information
+#'print(csr.df)
 
-
-traits_to_csr_df=function(df,sav,msv,msv.source='Reynolds 2006')
+traits_to_csr_df=function(df,sav,msv,msv.source='Reynolds 2006',traitrange=traitranges)
 {
   csr=vector(mode='character',length=dim(df)[1])
 
   for(i in 1:dim(df)[1])
   {
-    csr[i]=traits_to_csr(df[[sav]][i],df[[msv]][i],msv.source=msv.source)
+    csr[i]=traits_to_csr(df[[sav]][i],df[[msv]][i],msv.source,traitrange)
   }
 
   return(csr)

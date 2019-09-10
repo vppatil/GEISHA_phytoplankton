@@ -17,17 +17,15 @@
 #' @param format       character string: format for DateVar POSIXct conversion
 #'
 #' @export phyto_ts_aggregate
-#' 
+#'
 #' @return a data.frame with grouping vars, date_dd_mm_yy, and abundance or presence/absence
-#' 
+#'
 #' @examples
 #' data(lakegeneva)
 #' lakegeneva<-genus_species_extract(lakegeneva,'phyto_name')
-#' lg.genera=phyto_ts_aggregate(lakegeneva,SummaryType='presence.absence',GroupingVar1='genus')
+#' lg.genera=phyto_ts_aggregate(lakegeneva,SummaryType='presence.absence',
+#'                              GroupingVar1='genus')
 #' head(lg.genera)
-#' 
-#' @seealso \url{http://www.algaebase.org} for up-to-date phytoplankton taxonomy,
-#'     \url{https://powellcenter.usgs.gov/geisha} for project information
 
 
 phyto_ts_aggregate=function(phyto.data,DateVar='date_dd_mm_yy',
@@ -35,11 +33,11 @@ phyto_ts_aggregate=function(phyto.data,DateVar='date_dd_mm_yy',
 							AbundanceVar='biovol_um3_ml',GroupingVar1='phyto_name',GroupingVar2=NA,
 							GroupingVar3=NA,remove.rare=FALSE,fun=sum,format='%d-%m-%y')
 {
-  
+
   SummaryType=SummaryType[1]
-  
+
   phyto.data$date_dd_mm_yy=as.POSIXct(phyto.data[[DateVar]],format=format)
-  
+
   if(remove.rare)
   {
     rare.tab=table(phyto.data[[GroupingVar1]],phyto.data$date_dd_mm_yy)
@@ -49,40 +47,40 @@ phyto_ts_aggregate=function(phyto.data,DateVar='date_dd_mm_yy',
     rare.spp=row.names(rare.tab)[freq.occur<(num.occur*.05)]
     phyto.data=phyto.data[phyto.data[[GroupingVar1]] %in% rare.spp==FALSE,]
   }
-  
+
   groupingvars=c(GroupingVar1,GroupingVar2,GroupingVar3)
   groupingvars=stats::na.omit(groupingvars)
-  
+
   #option to create a presence/absence matrix even if abundances are known
-  if(SummaryType=='presence.absence' & !is.na(AbundanceVar)) 
+  if(SummaryType=='presence.absence' & !is.na(AbundanceVar))
   {
 	phyto.data$presence=0
 	phyto.data$presence[!is.na(phyto.data[[AbundanceVar]]) & phyto.data[[AbundanceVar]]>0]=1
 	AbundanceVar='presence'
 	fun=max
   }
-  
+
   if(is.na(AbundanceVar))
   {
     phyto.data$presence=1
     AbundanceVar='presence'
     fun=max ##presence absence if no abundance var- this assumes every row is a detected species at that time
   }
-  
-  
+
+
   for(i in 1:length(groupingvars))
   {
     phyto.data[[groupingvars[i]]][is.na(phyto.data[[groupingvars[i]]])]=-9999
   }
 
   groupingvars=paste(groupingvars,collapse=' + ')
-  
+
   agg.func=stats::formula(paste(AbundanceVar,"~ date_dd_mm_yy + ",groupingvars))
-  
+
   ts.agg=stats::aggregate(formula=agg.func,data=phyto.data,FUN=fun)
-  
+
   return(ts.agg)
 
-  
-  
+
+
 }

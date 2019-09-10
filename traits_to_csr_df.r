@@ -19,13 +19,13 @@
 #' @seealso /url{https://powellcenter.usgs.gov/geisha} for project information
 
 
-traits_to_csr_df=function(df,sav,msv)
+traits_to_csr_df=function(df,sav,msv,msv.source='Reynolds 2006')
 {
   csr=vector(mode='character',length=dim(df)[1])
   
   for(i in 1:dim(df)[1])
   {
-    csr[i]=traits_to_csr(df[[sav]][i],df[[msv]][i])
+    csr[i]=traits_to_csr(df[[sav]][i],df[[msv]][i],msv.source=msv.source)
   }
   
   return(csr)
