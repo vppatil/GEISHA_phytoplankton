@@ -21,8 +21,9 @@
 #' @examples
 #' data(lakegeneva)
 #' #example dataset with 50 rows
+#' head(lakegeneva)
 #'
-#' accum(b_data=lakegeneva,column=6,n=10,save.pdf=FALSE)
+#' accum(b_data=lakegeneva,column='biovol_um3_ml',n=10,save.pdf=FALSE)
 
 accum = function(b_data, phyto_name='phyto_name',column=NA, n=100, save.pdf=FALSE,lakename='',
                  datename='date_dd_mm_yy',dateformat='%d-%m-%y') {
@@ -57,8 +58,8 @@ accum = function(b_data, phyto_name='phyto_name',column=NA, n=100, save.pdf=FALS
   }
   graphics::plot(ntaxa$Freq ~ ntaxa$date_dd_mm_yy, pch = 19, ylab = 'number of taxa', xlab = '')
 
-  sbio = stats::aggregate(b_data[, column] ~ b_data[[phyto_name]] + b_data$date_dd_mm_yy,
-                          data = b_data, sum)
+  sbio = stats::aggregate(b_data[, column] ~ b_data[[phyto_name]] + b_data[[datename]],
+                         FUN=sum)
 
   abundance.var=ifelse(is.numeric(column),names(b_data)[column],column)
   names(sbio)=c('phyto_name','date_dd_mm_yy',abundance.var)
