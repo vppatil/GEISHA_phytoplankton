@@ -10,23 +10,23 @@
 #'
 #' @return A data.frame with the following fields: orig.name (submitted name),
 #'     match.name (best match), genus and species (from the match.name), exact.match (1
-#'     indicates whether there was a perfect match for orig.name. 0 otherwise),
+#'     indicates whether there was a perfect match for orig.name. 0 otherwise), 
 #'     accepted (1 if the orig.name currently accepted, 0 otherwise),
 #'     synonyms (currently accepted synonyms, if any. For genus-only search, returns
-#'     genera associated with species formerly classified with the orig.name genus)
-#'     Empire,Kingdom,Phylum,Class,Order,Family: character strings with current higher
-#'     taxonomy associated with match.name
+#'     genera associated with species formerly classified with the orig.name genus) 
+#'     Empire,Kingdom,Phylum,Class,Order,Family: character strings with current higher 
+#'     taxonomy associated with match.name 
 #'
 #' @examples
 #' data(lakegeneva)
-#' lakegeneva=lakegeneva[1,] ##use 1 row for testing
+#' lakegeneva=lakegeneva[1:3,] ##use 3 rows for testing
 #' lakegeneva.algaebase<-
-#' spp_list_algaebase(lakegeneva,phyto.name='phyto_name',long=FALSE,write=FALSE)
+#' spp_list_algaebase(lakegeneva,phyto.name='phyto_name',long=TRUE,write=FALSE)
 #'
 #' @seealso \url{http://www.algaebase.org} for up-to-date phytoplankton taxonomy,
 #'     \url{https://powellcenter.usgs.gov/geisha} for project information.
 #'		Algaebase should be cited separately in any publications using this function:
-#'     <doi:10.7872/crya.v35.iss2.2014.105>
+#'     <https://doi.org/10.7872/crya.v35.iss2.2014.105>
 
 spp_list_algaebase=function(phyto.df,phyto.name=1,lakename='',long=FALSE,write=FALSE)
 {
@@ -36,7 +36,7 @@ spp_list_algaebase=function(phyto.df,phyto.name=1,lakename='',long=FALSE,write=F
 
   agg.list=vector("list",length=dim(phyto.df)[1])
 
-  sleep.times=rep(.25,length(genus))
+  sleep.times=rep(.5,length(genus))
 
   percent.seq<-seq(1,dim(phyto.df)[1],len=11)
   percent.seq=round(percent.seq)

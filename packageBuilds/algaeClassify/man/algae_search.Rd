@@ -27,12 +27,12 @@ A data.frame with the following fields: orig.name (submitted name),
 Compare a genus and species name against the algaebase online database
 }
 \examples{
-algae_search(genus='Anabaena',species='flos-aquae',long=FALSE)
+algae_search(genus='Anabaena',species='flos-aquae',long=TRUE)
 
 }
 \seealso{
 \url{http://www.algaebase.org} for phytoplankton taxonomy database,
     \url{https://powellcenter.usgs.gov/geisha} for project information.
     Algaebase should be cited separately in any publications using this function:
-    <doi:10.7872/crya.v35.iss2.2014.105>
+    <https://doi.org/10.7872/crya.v35.iss2.2014.105>
 }

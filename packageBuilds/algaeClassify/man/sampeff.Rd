@@ -15,7 +15,7 @@ can be NA for presence absence}
 
 \item{save.pdf}{TRUE/FALSE Should the output plot be saved to a file? defaults to FALSE}
 
-\item{lakename}{Character string for labeling output plot}
+\item{lakename}{Character string for labelling output plot}
 
 \item{datecolumn}{Character String or number specifying dataframe field with date information}
 

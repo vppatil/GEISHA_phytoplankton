@@ -131,7 +131,4 @@ accum = function(b_data, phyto_name='phyto_name',column=NA, n=100, save.pdf=FALS
     grDevices::dev.off()
   }
 
-  graphics::par(mfcol=c(1,1))
-  graphics::par(mar=c(5.1, 4.1 ,4.1, 2.1))
-
 }

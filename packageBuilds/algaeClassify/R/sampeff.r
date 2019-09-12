@@ -4,7 +4,7 @@
 #' @param column column name or number for field containing abundance (biomass,biovol, etc.)
 #'               can be NA for presence absence
 #' @param save.pdf TRUE/FALSE Should the output plot be saved to a file? defaults to FALSE
-#' @param lakename Character string for labeling output plot
+#' @param lakename Character string for labelling output plot
 #' @param datecolumn Character String or number specifying dataframe field with date information 
 #' @param dateformat Character string specifying POSIX data format
 #' 
