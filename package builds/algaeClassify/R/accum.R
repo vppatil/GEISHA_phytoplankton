@@ -42,7 +42,7 @@ accum = function(b_data, phyto_name='phyto_name',column=NA, n=100, save.pdf=FALS
   ##assigning phytoplankton id column to phyto_name
   b_data[[phyto_name]]=as.character(b_data[[phyto_name]])
 
-  ntaxa0 = as.data.frame(table(b_data$date_dd_mm_yy, b_data$phyto_name))
+  ntaxa0 = as.data.frame(table(b_data$date_dd_mm_yy, b_data[[phyto_name]]))
 
   ntaxa0 = subset(ntaxa0, ntaxa0$Freq > 0)
 
@@ -57,7 +57,7 @@ accum = function(b_data, phyto_name='phyto_name',column=NA, n=100, save.pdf=FALS
   }
   graphics::plot(ntaxa$Freq ~ ntaxa$date_dd_mm_yy, pch = 19, ylab = 'number of taxa', xlab = '')
 
-  sbio = stats::aggregate(b_data[, column] ~ b_data$phyto_name + b_data$date_dd_mm_yy,
+  sbio = stats::aggregate(b_data[, column] ~ b_data[[phyto_name]] + b_data$date_dd_mm_yy,
                           data = b_data, sum)
 
   abundance.var=ifelse(is.numeric(column),names(b_data)[column],column)
