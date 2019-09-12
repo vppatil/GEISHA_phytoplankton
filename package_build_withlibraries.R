@@ -75,4 +75,12 @@ path <- find.package(thePackage)
 system(paste(shQuote(file.path(R.home("bin"), "R")), "CMD", "Rd2pdf", shQuote(path)))
 
 
+#release code
+setwd('algaeClassify/')
+# use_readme_md()
+# spell_check()
+# check_rhub()
+#check_win_devel
+usethis::use_build_ignore('./cran-comments.md')
 
+release()
