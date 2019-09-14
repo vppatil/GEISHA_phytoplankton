@@ -7,7 +7,7 @@ Authors@R: c(person("Vijay","Patil",email="vpatil@usgs.gov",role=c("aut","cre"))
 		   person("Nico","Salmaso",role="aut"),
 		   person("Orlane","Anneville",role="aut"),
 		   person("Marc","Lajeunesse",role="aut"),
-		   person("Dietmar",["Straile",role="aut"))
+		   person("Dietmar","Straile",role="aut"))
 Author: Vijay Patil [aut, cre], 
     Torsten Seltmann [aut], 
     Nico Salmaso [aut], 
@@ -15,7 +15,7 @@ Author: Vijay Patil [aut, cre],
     Marc Lajeunesse [aut],
     Dietmar Straile [aut]
 Maintainer: Vijay Patil <vpatil@usgs.gov>
-Description: Functions to verify accepted taxonomic nomenclature of phytoplankton species, assign 
+Description: Verify accepted taxonomic nomenclature of phytoplankton species, assign 
 	species to functional group classifications, and manipulate taxonomic and functional diversity 
 	data. Possible functional classifications include Morpho-functional group (MFG; 
 	Salmaso et al. 2015 <doi:10.1111/fwb.12520>) and CSR (Reynolds 1988; Functional morphology and 
