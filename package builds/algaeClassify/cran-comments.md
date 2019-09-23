@@ -6,3 +6,9 @@
 
 ## R CMD check results
 There were no ERRORs, WARNINGs, or NOTES
+
+##Comments
+This is a resubmission. The following changes have been made:
+
+-The first sentence of the package description has been modified to be less redundant.
+-all url's in package description have been enclosed by < >.
