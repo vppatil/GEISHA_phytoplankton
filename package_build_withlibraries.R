@@ -27,10 +27,21 @@ roxygenize('.')
 ###############################################################################
 
 # add dataset to package
-lakegeneva <- read.csv("~/gleon/Geisha/datasets/phyto_data/lakegeneva_stub.csv", header = TRUE,stringsAsFactors = F)
+lakegeneva <- read.csv('../../lakegeneva.csv')
 # use_data(library_MFG, pkg = thePackage, internal = TRUE, overwrite = TRUE)
 use_data(lakegeneva, overwrite = TRUE)
 
+rimet_mfgtraits<-read.csv('~/gleon/Geisha/phyto_package/GEISHA_phytoplankton_github_shared/Frederic_MFGtraits.csv')
+mfgTraits=rimet_mfgtraits[!is.na(rimet_mfgtraits$MFG.fromtraits),]
+use_data(mfgTraits,overwrite=TRUE)
+
+fred.csrtraits<-read.csv('~/gleon/Geisha/phyto_package/GEISHA_phytoplankton_github_shared/Fred_CSRtraits_numericClassCorrection.csv')
+csrTraits<-fred.csrtraits
+csrTraits<-genus_species_extract(csrTraits,'phyto_name')
+csrTraits$phyto_name<-paste(csrTraits$genus,csrTraits$species)
+csrTraits$phyto_name<-trimws(csrTraits$phyto_name)
+
+use_data(csrTraits,overwrite=TRUE)
 
 # setwd('~/gleon/Geisha/phyto_package/GEISHA_phytoplankton_github_shared/package builds/')# use_data(library_MFG, pkg = thePackage, internal = TRUE, overwrite = TRUE)
 # 
@@ -47,6 +58,10 @@ traitranges$units=c('um^-1','um','')
 setwd('..')
 use_data(traitranges, overwrite = TRUE)
 
+setwd('~/gleon/Geisha/phyto_package/GEISHA_phytoplankton_github_shared/species_mfg_library_files/')
+load('sppMFG.rda')
+use_data(species.mfg.library,overwrite=TRUE)
+setwd('../package builds/algaeClassify/')
 # STEP 3, error check and compile package for CRAN ############################
 # (1) update DESCRIPTION file
 # (2) add functions (*.R) in R folder of package
