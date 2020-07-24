@@ -3,6 +3,7 @@
 #' @param genus Character string: genus name
 #' @param species Character string: species name
 #' @param flag Resolve ambiguous mfg: 1 = return(NA),2= manual selection
+#' @param mfgDbase data.frame of species MFG classifications. Defaults to the supplied species.mfg.library data object
 #'
 #' @export species_to_mfg
 #' 
@@ -12,29 +13,29 @@
 #' species_to_mfg('Scenedesmus','bijuga')
 #' #returns "11a-NakeChlor"
 
-species_to_mfg<-function(genus,species,flag=1)#set flag to two if you want to 
+species_to_mfg<-function(genus,species,flag=1,mfgDbase=species.mfg.library)#set flag to two if you want to 
 													 #manually resolve ambiguous mfg class.
   #default behavior is to set ambiguous classes to NA (flag=1)
 {  
-  species.mfg.library<-species.mfg.library[!duplicated(species.mfg.library),]
+  mfgDbase<-mfgDbase[!duplicated(mfgDbase),]
   
   genus=gsub('Unknown ','',genus)
-  if(species %in% species.mfg.library$species==F){species=''}#replacing spp., sp. etc. with ''
+  if(species %in% mfgDbase$species==F){species=''}#replacing spp., sp. etc. with ''
   
   #check for genus and species match first.
-  mfg=species.mfg.library$MFG[species.mfg.library$genus==genus &
-							  species.mfg.library$species==species]
+  mfg=mfgDbase$MFG[mfgDbase$genus==genus &
+							  mfgDbase$species==species]
   #go to genus match 
  if(length(unique(mfg)==1))
  {
    mfg=unique(mfg)
  }else{
-   mfg=species.mfg.library$MFG[species.mfg.library$genus==genus & species.mfg.library$species=='']
+   mfg=mfgDbase$MFG[mfgDbase$genus==genus & mfgDbase$species=='']
  }
   #if there is no genus only match, see if there is another species with the same genus 
   if(length(unique(mfg))==0)
   {
-    mfg=species.mfg.library$MFG[species.mfg.library$genus==genus]
+    mfg=mfgDbase$MFG[mfgDbase$genus==genus]
   }
 
   if(length(unique(mfg))==2)#flag 2 means you can interactively 
