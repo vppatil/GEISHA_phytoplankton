@@ -58,7 +58,7 @@ traitranges$units=c('um^-1','um','')
 setwd('..')
 use_data(traitranges, overwrite = TRUE)
 
-setwd('~/gleon/Geisha/phyto_package/GEISHA_phytoplankton_github_shared/species_mfg_library_files/')
+setwd('~/gleon/Geisha/phyto_package/GEISHA_phytoplankton_github_shared/spp to mfg functions/')
 load('sppMFG.rda')
 use_data(species.mfg.library,overwrite=TRUE)
 setwd('../package builds/algaeClassify/')
