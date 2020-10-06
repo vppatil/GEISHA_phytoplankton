@@ -87,14 +87,14 @@ traits_to_mfg <- function(flagella = NA,
   else {
     if (class %in% c("Cyanophyceae",
 					 "Cyanobacteria")){
+          if (order %in% "Nostocales"){
+            mfg = "5e-Nostocales"
+          }
+		else
       if (colonial %in% 1){
         if (order %in% "Oscillatoriales"){
           mfg = "5a-FilaCyano"
         }
-        else
-          if (order %in% "Nostocales"){
-            mfg = "5e-Nostocales"
-          }
         else
           if (size %in% "large") {
             if (aerotopes %in% 1){
