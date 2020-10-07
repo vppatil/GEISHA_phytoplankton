@@ -1,8 +1,12 @@
-# algaeClassify 1.2.0
+# algaeClassify 1.3.0
 
 ## Major changes
 
-- package now includes ability to classify species to csr or mfg using traits
-- algaebase database search functionality now available (algae_search and spp_list_algaebase)
-- data aggregation functions phyto_ts_aggregate and date_mat
-- species richness timeseries diagnostic plots (accum, sampeff)
+- package now includes ability to classify species to MFG using a literature-derived library
+of species-MFG assignments.
+- The package also includes the mfg_to_csr function, which allows for CSR classification based
+on a cross-mapping of morpho-functional traits that define MFG and CSR functional groups
+- algaebase database search functions (algae_search and spp_list_algaebase) have been removed to 
+comply with new terms of use for the algaebase online database.
+-traits_to_mfg and traits_to_csr functions have been modified to allow users to supply their own trait database
+

@@ -4,7 +4,7 @@
 \alias{species_to_mfg}
 \title{Conversion of a single genus and species name to a single MFG. Uses species.mfg.library}
 \usage{
-species_to_mfg(genus, species, flag = 1)
+species_to_mfg(genus, species, flag = 1, mfgDbase = NA)
 }
 \arguments{
 \item{genus}{Character string: genus name}
@@ -12,6 +12,8 @@ species_to_mfg(genus, species, flag = 1)
 \item{species}{Character string: species name}
 
 \item{flag}{Resolve ambiguous mfg: 1 = return(NA),2= manual selection}
+
+\item{mfgDbase}{data.frame of species MFG classifications. Defaults to the supplied species.mfg.library data object}
 }
 \value{
 a single MFG classification as character string

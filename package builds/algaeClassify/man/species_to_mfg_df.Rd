@@ -4,12 +4,14 @@
 \alias{species_to_mfg_df}
 \title{Wrapper function to apply species_phyto_convert() across a data.frame}
 \usage{
-species_to_mfg_df(phyto.df, flag = 1)
+species_to_mfg_df(phyto.df, flag = 1, mfgDbase = NA)
 }
 \arguments{
 \item{phyto.df}{Name of data.frame. Must have character fields named 'genus' and 'species'}
 
 \item{flag}{Resolve ambiguous MFG: 1 = return(NA), 2 = manual selection}
+
+\item{mfgDbase}{specify library of species to MFG associations.}
 }
 \value{
 input data.frame with a new character column of MFG classifications

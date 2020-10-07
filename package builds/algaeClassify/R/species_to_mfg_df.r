@@ -16,7 +16,7 @@
 #' new.lakegeneva <- species_to_mfg_df(new.lakegeneva)
 #' head(new.lakegeneva)
 
-species_to_mfg_df <- function(phyto.df,flag=1,mfgDbase=species.mfg.library)
+species_to_mfg_df <- function(phyto.df,flag=1,mfgDbase=NA)
 {
   mfgs <- mapply(species_to_mfg,phyto.df$genus,phyto.df$species,flag=flag,mfgDbase=mfgDbase)
   phyto.df$MFG <- mfgs

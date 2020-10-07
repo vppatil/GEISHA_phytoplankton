@@ -16,6 +16,7 @@ setwd("~/gleon/Geisha/phyto_package/GEISHA_phytoplankton_github_shared/package b
 library(devtools); library(roxygen2)
 # create(thePackage)
 setwd('algaeClassify')
+rm(list='traitranges')
 roxygenize('.')
 
 
@@ -43,6 +44,10 @@ csrTraits$phyto_name<-trimws(csrTraits$phyto_name)
 
 use_data(csrTraits,overwrite=TRUE)
 
+mfg_csr_library<-read.csv('~/gleon/Geisha/phyto_package/mee ms/mfg_csr_library.csv')
+use_data(mfg_csr_library,overwrite=TRUE)
+
+
 # setwd('~/gleon/Geisha/phyto_package/GEISHA_phytoplankton_github_shared/package builds/')# use_data(library_MFG, pkg = thePackage, internal = TRUE, overwrite = TRUE)
 # 
 # load('sppMFG.rda')
@@ -51,17 +56,20 @@ use_data(csrTraits,overwrite=TRUE)
 # setwd('..')
 # use_data(species.mfg.library, overwrite = TRUE)
 
-setwd('data/')
+setwd('~/gleon/Geisha/phyto_package/GEISHA_phytoplankton_github_shared/')
 load('traitranges.rda')
 traitranges=traitranges[1:3,]
 traitranges$units=c('um^-1','um','')
-setwd('..')
+
 use_data(traitranges, overwrite = TRUE)
 
-setwd('~/gleon/Geisha/phyto_package/GEISHA_phytoplankton_github_shared/spp to mfg functions/')
-load('sppMFG.rda')
-use_data(species.mfg.library,overwrite=TRUE)
-setwd('../package builds/algaeClassify/')
+setwd('~/gleon/Geisha/jennie MFG/')
+species_mfg_library<-read.csv('expanded_mfg_library_1062020.csv')
+species_mfg_library<-subset(species_mfg_library,select=c('genus','species','MFG','source'))
+species_mfg_library$source<-iconv(species_mfg_library,to='ASCII//TRANSLIT')
+use_data(species_mfg_library,overwrite=TRUE)
+setwd('~/gleon/Geisha/phyto_package/GEISHA_phytoplankton_github_shared/package builds/algaeClassify/')
+rm(list='traitranges')
 # STEP 3, error check and compile package for CRAN ############################
 # (1) update DESCRIPTION file
 # (2) add functions (*.R) in R folder of package
@@ -82,7 +90,6 @@ warning()
 # 1) Download & install MiKTeX to generate manual & vignettes
 # 2) through MikTeX /Maintenace/packages install: url, inconsolata, upquote
 ###############################################################################
-
 
 setwd('..')
 document(thePackage)

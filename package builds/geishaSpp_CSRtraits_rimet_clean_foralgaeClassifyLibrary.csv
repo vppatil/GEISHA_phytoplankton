@@ -1,0 +1,737 @@
+phyto_name,Empire,Kingdom,Phylum,Class,Order,Family,volume.um3,surface.area.um2,Colonial,SAV,MLD,MSV
+Aulacoseira,Eukaryota,Chromista,Bacillariophyta,Coscinodiscophyceae,Aulacoseirales,Aulacoseiraceae,904.32,644,1,0.712137297,100,71.21372965
+Chroococcus,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Chroococcales,Chroococcaceae,10240,14848,1,1.45,60,87
+Cosmarium,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Desmidiaceae,10601.43,880,0,0.08300767,37,3.07128378
+Cryptomonas,Eukaryota,Chromista,Cryptophyta,Cryptophyceae,Cryptomonadales,Cryptomonadaceae,1368.5,291,0,0.212641578,22,4.678114724
+Cyclotella,Eukaryota,Chromista,Bacillariophyta,Mediophyceae,Stephanodiscales,Stephanodiscaceae,98.13,844,0,8.600835626,5,43.00417813
+Eudorina elegans,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Chlamydomonadales,Volvocaceae,76302,25434,1,0.333333333,70,23.33333333
+Fragilaria acus,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Fragilariales,Fragilariaceae,560,677,0,1.208928571,35,42.3125
+Gymnodinium,Eukaryota,Chromista,Miozoa,Dinophyceae,Gymnodiniales,Gymnodiniaceae,3611,656,0,0.181667128,20,3.633342564
+Lyngbya,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Oscillatoriales,Oscillatoriaceae,5024,2612.48,1,0.52,100,52
+Mallomonas,Eukaryota,Chromista,Ochrophyta,Synurophyceae,Synurales,Mallomonadaceae,785.4,157,0,0.199898141,15,2.998472116
+Microcystis aeruginosa,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Chroococcales,Microcystaceae,5236,31400,1,5.996944232,100,599.6944232
+Monactinus simplex,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Hydrodictyaceae,235500,31425.12,1,0.13344,100,13.344
+Mougeotia,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Zygnematales,Zygnemataceae,2544.7,102,1,0.04008331,100,4.008331041
+Nitzschia,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,784,70,0,0.089285714,49,4.375
+Peridinium,Eukaryota,Chromista,Miozoa,Dinophyceae,Peridiniales,Peridiniaceae,9188.0325,707,0,0.076947921,27,2.07759387
+Pseudopediastrum boryanum,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Hydrodictyaceae,794812.5,70675.12,1,0.088920494,150,13.33807407
+Scenedesmus,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,640,750,1,1.171875,20,23.4375
+Ankistrodesmus arcuatus,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Selenastraceae,67.52,36,0,0.533175355,32,17.06161137
+Ankyra,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Characiaceae,169,492,0,2.911242604,6,17.46745562
+Aphanocapsa delicatissima,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Merismopediaceae,17950.33333,47800.4,1,2.66292548,70,186.4047836
+Aphanocapsa elachista,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Merismopediaceae,314.2,2211.34,1,7.038001273,15,105.5700191
+Aphanocapsa planctonica,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Merismopediaceae,23445.33,15624.05,1,0.666403501,50,33.32017506
+Aulacoseira,Eukaryota,Chromista,Bacillariophyta,Coscinodiscophyceae,Aulacoseirales,Aulacoseiraceae,904.32,644,1,0.712137297,100,71.21372965
+Chlamydomonas proboscigera,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Chlamydomonadales,Chlamydomonadaceae,4188.8,516,0,0.123185638,20,2.463712758
+Chroococcus,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Chroococcales,Chroococcaceae,10240,14848,1,1.45,60,87
+Closterium limneticum,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Closteriaceae,3170,384,0,0.121135647,167.5,20.29022082
+Cosmarium,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Desmidiaceae,10601.43,880,0,0.08300767,37,3.07128378
+Cryptomonas,Eukaryota,Chromista,Cryptophyta,Cryptophyceae,Cryptomonadales,Cryptomonadaceae,1368.5,291,0,0.212641578,22,4.678114724
+Cyclotella,Eukaryota,Chromista,Bacillariophyta,Mediophyceae,Stephanodiscales,Stephanodiscaceae,98.13,844,0,8.600835626,5,43.00417813
+Dinobryon,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Dinobryaceae,1150,201,0,0.174782609,13,2.272173913
+Dinobryon cylindricum,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Dinobryaceae,805.8,733,1,0.909655001,100,90.96550012
+Dinobryon divergens,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Dinobryaceae,805.8,733,1,0.909655001,150,136.4482502
+Eudorina elegans,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Chlamydomonadales,Volvocaceae,76302,25434,1,0.333333333,70,23.33333333
+Fragilaria acus,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Fragilariales,Fragilariaceae,560,677,0,1.208928571,35,42.3125
+Gymnodinium,Eukaryota,Chromista,Miozoa,Dinophyceae,Gymnodiniales,Gymnodiniaceae,3611,656,0,0.181667128,20,3.633342564
+Lyngbya,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Oscillatoriales,Oscillatoriaceae,5024,2612.48,1,0.52,100,52
+Mallomonas,Eukaryota,Chromista,Ochrophyta,Synurophyceae,Synurales,Mallomonadaceae,785.4,157,0,0.199898141,15,2.998472116
+Microcystis aeruginosa,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Chroococcales,Microcystaceae,5236,31400,1,5.996944232,100,599.6944232
+Monactinus simplex,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Hydrodictyaceae,235500,31425.12,1,0.13344,100,13.344
+Mougeotia,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Zygnematales,Zygnemataceae,2544.7,102,1,0.04008331,100,4.008331041
+Nitzschia,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,784,70,0,0.089285714,49,4.375
+Peridinium,Eukaryota,Chromista,Miozoa,Dinophyceae,Peridiniales,Peridiniaceae,9188.0325,707,0,0.076947921,27,2.07759387
+Pseudopediastrum boryanum,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Hydrodictyaceae,794812.5,70675.12,1,0.088920494,150,13.33807407
+Scenedesmus,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,640,750,1,1.171875,20,23.4375
+Synedra,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Fragilariales,Fragilariaceae,90,356,1,3.955555556,15,59.33333333
+Tetraedron,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Hydrodictyaceae,1458,607,0,0.416323731,18,7.49382716
+Woronichinia naegeliana,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Coelosphaeriaceae,1635.42,6114.8,1,3.738978366,4,14.95591347
+Acanthoceras zachariasii,Eukaryota,Chromista,Bacillariophyta,Mediophyceae,Chaetocerotales,Chaetocerotaceae,4900,310,0,0.063265306,50,3.163265306
+Acanthosphaera,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Chlorellaceae,795.9245833,534,0,0.670917837,11.5,7.715555128
+Achnanthes,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Mastogloiales,Achnanthaceae,270,647,0,2.396296296,30,71.88888889
+Achnanthidium catenatum,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Cocconeidales,Achnanthidiaceae,132.3,362,1,2.736205593,13.5,36.93877551
+Achnanthidium minutissimum,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Cocconeidales,Achnanthidiaceae,315,719,0,2.282539683,35,79.88888889
+Achroonema articulatum,Prokaryota,Eubacteria,Eubacteria phylum,Eubacteria class,Eubacteria order,Eubacteria family,706.9,956.13,1,1.352567548,100,135.2567548
+Actinastrum gracillimum,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Chlorellaceae,635.85,730,1,1.148069513,45,51.6631281
+Actinastrum hantzschii,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Chlorellaceae,4398.2,279,1,0.063435042,90,5.709153745
+Actinotaenium spinospermum,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Desmidiaceae,1492,243,0,0.162868633,19,3.094504021
+Amphora,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Thalassiophysales,Catenulaceae,4500,401,0,0.089111111,40,3.564444444
+Amphora copulata,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Thalassiophysales,Catenulaceae,2492.8,347,0,0.139200899,41,5.707236842
+Amphora inariensis,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Thalassiophysales,Catenulaceae,280,583,0,2.082142857,20,41.64285714
+Amphora pediculus,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Thalassiophysales,Catenulaceae,135,405,0,3,15,45
+Anabaena minderi,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Nostocales,Nostocaceae,2123.7,1675.25,1,0.788835523,100,78.88355229
+Anabaena oscillarioides,Nostocaceae,Nostocales,Cyanophyceae,Cyanobacteria,Eubacteria,Prokaryota,1962.5,1609.25,1,0.82,100,82
+Anagnostidinema acutissimum,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Oscillatoriales,Coleofasciculaceae,314.2,634.28,1,2.018714195,100,201.8714195
+Anagnostidinema amphibium,Coleofasciculaceae,Oscillatoriales,Cyanophyceae,Cyanobacteria,Eubacteria,Prokaryota,961.63,1118.23,1,1.162848497,100,116.2848497
+Ankistrodesmus,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Selenastraceae,334.93,338,1,1.009166094,50,50.45830472
+Ankistrodesmus arcuatus,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Selenastraceae,67.52,36,0,0.533175355,32,17.06161137
+Ankistrodesmus falcatus,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Selenastraceae,8706.96,2951.91,1,0.339028777,43.5,14.7477518
+Ankistrodesmus fusiformis,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Selenastraceae,3349.33,1562.4,1,0.466481356,39.5,18.42601356
+Ankyra,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Characiaceae,169,492,0,2.911242604,6,17.46745562
+Ankyra judayi,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Characiaceae,117.75,783,0,6.649681529,25,166.2420382
+Aphanizomenon flosaquae,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Nostocales,Aphanizomenonaceae,1963,1609.25,1,0.819791136,100,81.9791136
+Aphanizomenon gracile,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Nostocales,Aphanizomenonaceae,961.63,1118.23,1,1.162848497,100,116.2848497
+Aphanocapsa,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Merismopediaceae,6541.67,24400.08,1,3.729946634,100,372.9946634
+Aphanocapsa conferta,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Merismopediaceae,6541.67,24400.08,1,3.729946634,100,372.9946634
+Aphanocapsa delicatissima,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Merismopediaceae,17950.33333,47800.4,1,2.66292548,70,186.4047836
+Aphanocapsa elachista,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Merismopediaceae,314.2,2211.34,1,7.038001273,15,105.5700191
+Aphanocapsa incerta,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Merismopediaceae,15714.5,11967.01,1,0.761526616,35,26.65343154
+Aphanocapsa muscicola,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Merismopediaceae,17950.33,47800.4,1,2.662925974,80,213.0340779
+Aphanocapsa parasitica,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Merismopediaceae,210.2,1763.78,1,8.39096099,50,419.5480495
+Aphanocapsa planctonica,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Merismopediaceae,23445.33,15624.05,1,0.666403501,50,33.32017506
+Asterionella formosa,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Tabellariales,Tabellariaceae,260,626,1,2.407692308,130,313
+Aulacoseira,Eukaryota,Chromista,Bacillariophyta,Coscinodiscophyceae,Aulacoseirales,Aulacoseiraceae,904.32,644,1,0.712137297,100,71.21372965
+Aulacoseira ambigua,Aulacoseiraceae,Aulacoseirales,Coscinodiscophyceae,Bacillariophyta,Chromista,Eukaryota,779,540,1,0.693196406,100,69.31964056
+Aulacoseira distans,Eukaryota,Chromista,Bacillariophyta,Coscinodiscophyceae,Aulacoseirales,Aulacoseiraceae,339.12,392,1,1.155933003,100,115.5933003
+Aulacoseira granulata,Eukaryota,Chromista,Bacillariophyta,Coscinodiscophyceae,Aulacoseirales,Aulacoseiraceae,1920,836,1,0.435416667,100,43.54166667
+Aulacoseira granulata angustissima,Eukaryota,Chromista,Bacillariophyta,Coscinodiscophyceae,Aulacoseirales,Aulacoseiraceae,452.4,590,1,1.304155615,100,130.4155615
+Aulacoseira islandica,Eukaryota,Chromista,Bacillariophyta,Coscinodiscophyceae,Aulacoseirales,Aulacoseiraceae,3392.9,133,1,0.039199505,100,3.919950485
+Aulacoseira subarctica,Eukaryota,Chromista,Bacillariophyta,Coscinodiscophyceae,Aulacoseirales,Aulacoseiraceae,778.92,584,1,0.749756073,100,74.97560725
+Belonastrum berolinense,Eukaryota,Chromista,Bacillariophyta,Bacillariophyta classis incertae sedis,Bacillariophyta ordo incertae sedis,Bacillariophyta familia incertae sedis,2822.4,360,1,0.12755102,72,9.183673469
+Bicosoeca,Eukaryota,Chromista,Bigyra,Bikosea,Bicosoecales,Bicosoecaceae,530.1,553,0,1.043199396,25,26.07998491
+Bicosoeca campanulata,Eukaryota,Chromista,Bigyra,Bikosea,Bicosoecales,Bicosoecaceae,968.7,778,0,0.803138226,37,29.71611438
+Bicosoeca ovata,Eukaryota,Chromista,Bigyra,Bikosea,Bicosoecales,Bicosoecaceae,402,503,0,1.251243781,25,31.28109453
+Bicosoeca planctonica,Eukaryota,Chromista,Bigyra,Bikosea,Bicosoecales,Bicosoecaceae,1096.84125,114,0,0.103934822,13.5,1.403120096
+Bicosoeca stellata,Eukaryota,Chromista,Bigyra,Bikosea,Bicosoecales,Bicosoecaceae,240.3,268,0,1.115272576,34,37.91926758
+Bicosta minor,Eukaryota,Protozoa,Choanozoa,Choanoflagellatea,Acanthoecida,Stephanoecidae,523.6,887,0,1.694041253,10,16.94041253
+Biecheleria pseudopalustris,Eukaryota,Chromista,Miozoa,Dinophyceae,Suessiales,Suessiaceae,10995.6,840,0,0.076394194,35,2.673796791
+Binuclearia lauterbornii,Eukaryota,Plantae,Chlorophyta,Ulvophyceae,Ulotrichales,Binucleariaceae,402,793,1,1.972636816,50,98.6318408
+Bitrichia chodatii,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Hibberdiales,Stylococcaceae,294.5,784,0,2.662139219,40,106.4855688
+Bitrichia danubiensis,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Hibberdiales,Stylococcaceae,220.8,655,0,2.966485507,60,177.9891304
+Bitrichia ollula,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Hibberdiales,Stylococcaceae,268,713,0,2.660447761,45,119.7201493
+Botryococcus braunii,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Trebouxiales,Botryococcaceae,25434,14635.63,1,0.575435637,50,28.77178187
+Caloneis,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Naviculales,Naviculaceae,840,129,0,0.153571429,40,6.142857143
+Calothrix,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Nostocales,Rivulariaceae,580,739,1,1.274137931,60.4,76.95793103
+Carteria,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Chlamydomonadales,Chlamydomonadaceae,955.9,192,0,0.20085783,15,3.012867455
+Carteria multifilis,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Chlamydomonadales,Chlamydomonadaceae,6370.6,621,0,0.097479044,23,2.24201802
+Characium,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Characiaceae,146.6,32,0,0.218281037,32,6.984993179
+Chlamydocapsa,Palmellopsidaceae,Chlamydomonadales,Chlorophyceae,Chlorophyta,Plantae,Eukaryota,32708.33,24400.08,0,0.745989783,50,37.29948915
+Chlamydomonas,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Chlamydomonadales,Chlamydomonadaceae,3053.6,443,0,0.145074666,18,2.611343987
+Chlamydomonas conica,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Chlamydomonadales,Chlamydomonadaceae,1681.2,335,0,0.199262432,19,3.7859862
+Chlamydomonas globosa,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Chlamydomonadales,Chlamydomonadaceae,113.1,492,0,4.350132626,6,26.10079576
+Chlamydomonas gloeopara,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Chlamydomonadales,Chlamydomonadaceae,169.56,631,0,3.721396556,9,33.492569
+Chlamydomonas gloeophila irregularis,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Chlamydomonadales,Chlamydomonadaceae,268.1,713,0,2.659455427,8,21.27564342
+Chlamydomonas intermedia,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Chlamydomonadales,Chlamydomonadaceae,4188.8,516,0,0.123185638,20,2.463712758
+Chlamydomonas proboscigera,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Chlamydomonadales,Chlamydomonadaceae,4188.8,516,0,0.123185638,20,2.463712758
+Chlamydomonas reinhardtii,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Chlamydomonadales,Chlamydomonadaceae,1884,319,0,0.169320594,16,2.709129512
+Chlamydomonas zebra,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Chlamydomonadales,Chlamydomonadaceae,1767.1,297,0,0.168071982,15,2.521079735
+Chloroidium ellipsoideum,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Trebouxiophyceae ordo incertae sedis,Trebouxiophyceae incertae sedis,110.9,511,0,4.607754734,7,32.25428314
+Chlorotetraedron incus,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Neochloridaceae,1988.13025,543,0,0.273120939,18.5,5.052737365
+Chroococcus,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Chroococcales,Chroococcaceae,10240,14848,1,1.45,60,87
+Chroococcus distans,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Chroococcales,Chroococcaceae,1350,5400,1,4,19,76
+Chroococcus minimus,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Chroococcales,Chroococcaceae,120,575,1,4.791666667,10,47.91666667
+Chroococcus minutus,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Chroococcales,Chroococcaceae,3125,3750,1,1.2,25,30
+Chroococcus prescottii,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Chroococcales,Chroococcaceae,3110.4,2880,1,0.925925926,24,22.22222222
+Chroococcus turgidus,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Chroococcales,Chroococcaceae,72000,31200,1,0.433333333,40,17.33333333
+Chroomonas,Eukaryota,Chromista,Cryptophyta,Cryptophyceae,Cryptomonadales,Hemiselmidaceae,796.4,145,0,0.182069312,13,2.366901055
+Chroomonas coerulea,Eukaryota,Chromista,Cryptophyta,Cryptophyceae,Cryptomonadales,Hemiselmidaceae,109.9,512,0,4.65878071,7,32.61146497
+Chrysastrella furcata,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Chrysosphaeraceae,523.6,887,0,1.694041253,10,16.94041253
+Chrysochromulina parva,Eukaryota,Chromista,Haptophyta,Coccolithophyceae,Prymnesiales,Chrysochromulinaceae,35,185,0,5.285714286,4.5,23.78571429
+Chrysococcus,Dinobryaceae,Chromulinales,Chrysophyceae,Ochrophyta,Chromista,Eukaryota,904.32,144,0,0.159235669,12,1.910828025
+Chrysococcus minutus,Dinobryaceae,Chromulinales,Chrysophyceae,Ochrophyta,Chromista,Eukaryota,241.15,764,0,3.168152602,8,25.34522082
+Chrysoikos skujae,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Dinobryaceae,167.4666667,59,0,0.352308917,20,7.046178343
+Chrysolykos angulatus,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Dinobryaceae,1100,385,0,0.35,20,7
+Chrysolykos planctonicus,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Dinobryaceae,392.5,117,0,0.298089172,17,5.067515924
+Closteriopsis longissima,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Chlorellaceae,1406.458333,837,0,0.595111835,215,127.9490446
+Closterium,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Desmidiaceae,399.67,481,0,1.203492882,19.4,23.3477619
+Closterium aciculare,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Closteriaceae,7363.1,806,0,0.109464763,500,54.73238174
+Closterium acutum,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Closteriaceae,752.2916667,653,0,0.8680144,115,99.82165605
+Closterium acutum latius,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Closteriaceae,6234.5,532,0,0.085331622,140,11.94642714
+Closterium acutum linea,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Closteriaceae,721.6,61,0,0.084534368,100,8.453436807
+Closterium acutum variabile,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Closteriaceae,938.1,152,0,0.162029634,130,21.06385247
+Closterium cornu,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Closteriaceae,2500,270,0,0.108,110,11.88
+Closterium gracile,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Closteriaceae,3887.7,475,0,0.122180209,220,26.87964606
+Closterium jenneri,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Closteriaceae,173.2,474,0,2.736720554,35,95.7852194
+Closterium limneticum,Closteriaceae,Desmidiales,Conjugatophyceae (Zygnematophyceae),Charophyta,Plantae,Eukaryota,3170,384,0,0.121135647,167.5,20.29022082
+Closterium nordstedtii,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Closteriaceae,15708,815,0,0.05188439,250,12.97109753
+Closterium parvulum,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Closteriaceae,21195,611,0,0.028827554,100,2.882755367
+Closterium pronum,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Closteriaceae,4415.63,294,0,0.066581666,300,19.97449968
+Cocconeis,Cocconeidaceae,Cocconeidales,Bacillariophyceae,Bacillariophyta,Chromista,Eukaryota,742.5,859,0,1.156902357,22,25.45185185
+Cocconeis pediculus,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Cocconeidales,Cocconeidaceae,742.5,859,0,1.156902357,22,25.45185185
+Cocconeis placentula,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Cocconeidales,Cocconeidaceae,4593.8,449,0,0.097740433,35,3.420915147
+Codosiga,Eukaryota,Protozoa,Choanozoa,Choanoflagellatea,Craspedida,Codonosigaceae,1150.3,201,0,0.174737025,13,2.271581327
+Codosiga botrytis,Eukaryota,Protozoa,Choanozoa,Choanoflagellatea,Craspedida,Codonosigaceae,2572.4,396,0,0.153941844,17,2.617011351
+Coelastrum,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,904.32,568,1,0.628096249,12,7.537154989
+Coelastrum astroideum,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,5787.65,1205.76,1,0.208333261,45,9.37499676
+Coelastrum cambricum,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,24834.89,3183.96,1,0.128205118,40,5.128204715
+Coelastrum indicum,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,14137.2,1884,1,0.133265427,30,3.997962821
+Coelastrum microporum,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,24834.89,3183.96,1,0.128205118,50,6.410255894
+Coelastrum pseudomicroporum,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,11304,1884,1,0.166666667,40,6.666666667
+Coelastrum sphaericum,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,24834.89,3183.96,1,0.128205118,40,5.128204715
+Coelosphaerium kuetzingianum,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Coelosphaeriaceae,654.5,24400.08,1,2.16,10.66,23.014
+Coenochloris,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Radiococcaceae,4701.76,3419.46,1,0.727272341,40,29.09089362
+Coenochloris fottii,Radiococcaceae,Sphaeropleales,Chlorophyceae,Chlorophyta,Plantae,Eukaryota,883.13,706.5,1,0.799995471,15,11.99993206
+Coenochloris pyrenoidosa,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Radiococcaceae,3532.5,2826,1,0.8,42,33.6
+Coenocystis,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Radiococcaceae,628,1256,1,2,20,40
+Coenocystis planctonica hercynica,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Radiococcaceae,33303.8,5805.86,1,0.174330257,43,7.496201034
+Coenocystis subcylindrica,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Radiococcaceae,2441.66,4069.44,1,1.666669397,36,60.00009829
+Cosmarium,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Desmidiaceae,7037.2,180,0,0.025578355,40,1.023134201
+Cosmarium abbreviatum,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Desmidiaceae,366.5,833,0,2.272851296,10,22.72851296
+Cosmarium abbreviatum minus,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Desmidiaceae,366.3333333,833,0,2.273885351,10,22.73885351
+Cosmarium baileyi,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Desmidiaceae,6361.7,792,0,0.124495025,30,3.734850747
+Cosmarium botrytis,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Desmidiaceae,2120.6,485,0,0.228708856,30,6.86126568
+Cosmarium depressum planctonicum,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Desmidiaceae,6361.7,792,0,0.124495025,65,8.092176619
+Cosmarium laeve,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Desmidiaceae,2225.3,462,0,0.207612457,25,5.190311419
+Cosmarium phaseolus,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Desmidiaceae,3691.4,566,0,0.15332936,25,3.833234003
+Cosmarium protumidum,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Desmidiaceae,6358.5,757,0,0.119053236,30,3.571597075
+Cosmarium pygmaeum heimerlii,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Desmidiaceae,118.692,668,0,5.628011997,9,50.65210798
+Cosmarium reniforme,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Desmidiaceae,31256,409,0,0.013085488,52,0.680445354
+Cosmarium subprotumidum,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Desmidiaceae,4516,586,0,0.12976085,25,3.244021258
+Cosmarium tenue,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Desmidiaceae,424,887,0,2.091981132,10,20.91981132
+Cosmarium venustum,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Desmidiaceae,8095.3125,810,0,0.100057904,37.5,3.752171395
+Craticula accomoda,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Naviculales,Stauroneidaceae,196,646,0,3.295918367,20,65.91836735
+Crucigenia fenestrata,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Trebouxiophyceae ordo incertae sedis,Trebouxiophyceae incertae sedis,410.4,423.64,1,1.032261209,9,9.290350877
+Crucigenia quadrata,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Trebouxiophyceae ordo incertae sedis,Trebouxiophyceae incertae sedis,376.8,542,1,1.438428875,20,28.76857749
+Crucigenia tetrapedia,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Trebouxiophyceae ordo incertae sedis,Trebouxiophyceae incertae sedis,867,782,1,0.901960784,17,15.33333333
+Crucigeniella irregularis,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Oocystaceae,910,1214.29,1,1.334384615,20,26.68769231
+Cryptomonas,Eukaryota,Chromista,Cryptophyta,Cryptophyceae,Cryptomonadales,Cryptomonadaceae,1368.5,291,0,0.212641578,22,4.678114724
+Cryptomonas brevis,Eukaryota,Chromista,Cryptophyta,Cryptophyceae,Cryptomonadales,Cryptomonadaceae,1884,411,0,0.218152866,24,5.23566879
+Cryptomonas curvata,Eukaryota,Chromista,Cryptophyta,Cryptophyceae,Cryptomonadales,Cryptomonadaceae,5143.32,718,0,0.139598547,42,5.863138984
+Cryptomonas marssonii,Eukaryota,Chromista,Cryptophyta,Cryptophyceae,Cryptomonadales,Cryptomonadaceae,1187.5,342,0,0.288,28,8.064
+Cryptomonas obovoidea,Cryptomonadaceae,Cryptomonadales,Cryptophyceae,Cryptophyta,Chromista,Eukaryota,381.2,875,0,2.295383001,13,29.83997901
+Cryptomonas ovata,Eukaryota,Chromista,Cryptophyta,Cryptophyceae,Cryptomonadales,Cryptomonadaceae,3911.92,680,0,0.173827686,50,8.691384282
+Cuspidothrix issatschenkoi,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Nostocales,Aphanizomenonaceae,7850,3159.23,1,0.402449682,100,40.24496815
+Cyanodictyon planctonicum,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Synechococcaceae,11304,35125.51,1,3.107352265,70,217.5146585
+Cyanosarcina chroococcoides,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Chroococcales,Chroococcaceae,1600,1000,1,0.625,20,12.5
+Cyclostephanos dubius,Eukaryota,Chromista,Bacillariophyta,Mediophyceae,Stephanodiscales,Stephanodiscaceae,2393.17,779,0,0.32550968,14.5,4.719890355
+Cyclotella,Eukaryota,Chromista,Bacillariophyta,Mediophyceae,Stephanodiscales,Stephanodiscaceae,98.13,844,0,8.600835626,5,43.00417813
+Cyclotella atomus,Eukaryota,Chromista,Bacillariophyta,Mediophyceae,Stephanodiscales,Stephanodiscaceae,98.13,826,0,8.417405483,5,42.08702741
+Cyclotella cretica cyclopuncta,Eukaryota,Chromista,Bacillariophyta,Mediophyceae,Stephanodiscales,Stephanodiscaceae,572.27,381,0,0.665769654,9,5.991926888
+Cyclotella distinguenda,Eukaryota,Chromista,Bacillariophyta,Mediophyceae,Stephanodiscales,Stephanodiscaceae,236.1,162,0,0.686149936,6.7,4.597204574
+Cyclotella lemanensis,Eukaryota,Chromista,Bacillariophyta,Mediophyceae,Stephanodiscales,Stephanodiscaceae,50240,622,0,0.012380573,40,0.49522293
+Cyclotella meduanae,Eukaryota,Chromista,Bacillariophyta,Mediophyceae,Stephanodiscales,Stephanodiscaceae,6280,116,0,0.018471338,20,0.369426752
+Cyclotella meneghiniana,Eukaryota,Chromista,Bacillariophyta,Mediophyceae,Stephanodiscales,Stephanodiscaceae,6280,116,0,0.018471338,20,0.369426752
+Cyclotella planctonica,Stephanodiscaceae,Stephanodiscales,Mediophyceae,Bacillariophyta,Chromista,Eukaryota,50240,622,0,0.012380573,40,0.49522293
+Cyclotella radiosa,Eukaryota,Chromista,Bacillariophyta,Mediophyceae,Stephanodiscales,Stephanodiscaceae,6280,116,0,0.018471338,20,0.369426752
+Cylindrospermum,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Nostocales,Nostocaceae,2692.55,3096.43,1,1.149999072,100,114.9999072
+Cymbella,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Cymbellales,Cymbellaceae,3024,423,1,0.139880952,40,5.595238095
+Cymbella affinis,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Cymbellales,Cymbellaceae,768,74,0,0.096354167,40,3.854166667
+Cymbella cistula,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Cymbellales,Cymbellaceae,6626,670,0,0.101116813,77.5,7.836552973
+Cymbella helvetica curta,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Cymbellales,Cymbellaceae,2839.2,404,0,0.142293604,48,6.830092984
+Cymbella neoleptoceros,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Cymbellales,Cymbellaceae,1181.25,206,0,0.174391534,37.5,6.53968254
+Cymbopleura amphicephala,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Cymbellales,Cymbellaceae,470.4,769,0,1.634778912,28,45.77380952
+Cymbopleura naviculiformis,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Cymbellales,Cymbellaceae,833,139,0,0.166866747,34,5.673469388
+Delicatophycus delicatulus,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Cymbellales,Gomphonemataceae,105,456,0,4.342857143,15,65.14285714
+Denticula tenuis,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,450,42,0,0.093333333,30,2.8
+Desmarella brachycalyx,Eukaryota,Protozoa,Choanozoa,Choanoflagellatea,Craspedida,Codonosigaceae,63.6,373,0,5.864779874,40,234.591195
+Desmodesmus aculeolatus,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,691.2,675.56,1,0.977372685,16,15.63796296
+Desmodesmus armatus,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,1533.07,1767.86,1,1.153150215,21,24.21615451
+Desmodesmus bicaudatus,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,665.6,810,1,1.216947115,16,19.47115385
+Desmodesmus denticulatus,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,1260,2116.67,1,1.679896825,16,26.87834921
+Desmodesmus dispar,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,311,670,1,2.154340836,15,32.31511254
+Desmodesmus insignis,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,947.97,1016.6,1,1.072396806,18.4,19.73210123
+Desmodesmus magnus,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,4069.44,2910,1,0.715086105,36,25.74309979
+Desmodesmus opoliensis,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,1760,1625,1,0.923295455,20,18.46590909
+Desmodesmus serratus,Scenedesmaceae,Sphaeropleales,Chlorophyceae,Chlorophyta,Plantae,Eukaryota,1008,924.44,1,0.917103175,16,14.67365079
+Desmodesmus spinosus,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,1120,1125,1,1.004464286,20,20.08928571
+Diatoma ehrenbergii,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Tabellariales,Tabellariaceae,7200,506,1,0.070277778,100,7.027777778
+Diatoma elongata,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Tabellariales,Tabellariaceae,615.04,9,1,0.014633195,71,1.038956816
+Diatoma moniliformis,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Tabellariales,Tabellariaceae,524.9,562,1,1.07068013,18,19.27224233
+Diatoma tenuis,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Tabellariales,Tabellariaceae,1035,137,1,0.13236715,115,15.22222222
+Diatoma vulgaris,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Tabellariales,Tabellariaceae,3600,345,1,0.095833333,100,9.583333333
+Dictyosphaerium ehrenbergianum,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Chlorellaceae,2051.466667,2826,1,1.37755102,60,82.65306121
+Dictyosphaerium subsolitarium,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Chlorellaceae,120.36,642,1,5.333998006,20,106.6799601
+Didymocystis,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Oocystaceae,148.9,408,1,2.740094023,12,32.88112827
+Dimorphococcus cordatus,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,828.96,2211.34,1,2.667607605,11,29.34368365
+Dimorphococcus lunatus,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,6423.393333,10920.38,1,1.700095173,70,119.0066621
+Dinobryon,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Dinobryaceae,1150,201,0,0.174782609,13,2.272173913
+Dinobryon bavaricum,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Dinobryaceae,150.8,257,1,1.704244032,30,51.12732095
+Dinobryon caliciforme,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Dinobryaceae,341.28,406,0,1.189639006,30,35.68917018
+Dinobryon cylindricum,Dinobryaceae,Chromulinales,Chrysophyceae,Ochrophyta,Chromista,Eukaryota,805.8,733,1,0.909655001,100,90.96550012
+Dinobryon divergens,Dinobryaceae,Chromulinales,Chrysophyceae,Ochrophyta,Chromista,Eukaryota,805.8,733,1,0.909655001,150,136.4482502
+Dinobryon faculiferum,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Dinobryaceae,104.7,258,1,2.464183381,25,61.60458453
+Dinobryon pediforme,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Dinobryaceae,2034.72,100,1,0.049146811,40,1.965872454
+Dinobryon sertularia,Dinobryaceae,Chromulinales,Chrysophyceae,Ochrophyta,Chromista,Eukaryota,916.3,743,1,0.810869802,150,121.6304704
+Dinobryon sertularia protuberans,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Dinobryaceae,916.3,705,1,0.769398669,150,115.4098003
+Dinobryon sociale americanum,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Dinobryaceae,805.8,733,1,0.909655001,150,136.4482502
+Dinobryon sociale stipitatum,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Dinobryaceae,805.8,733,1,0.909655001,150,136.4482502
+Dinobryon stokesii neustonicum,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Dinobryaceae,201.6,169,1,0.838293651,22,18.44246032
+Dinosphaera palustris,Eukaryota,Chromista,Miozoa,Dinophyceae,Peridiniales,Dinosphaeraceae,10300.77,308,0,0.029900677,27,0.807318288
+Diploneis,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Naviculales,Diploneidaceae,4320,359,0,0.083101852,36,2.991666667
+Diploneis elliptica,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Naviculales,Diploneidaceae,684.3,888,0,1.297676458,26,33.7395879
+Diploneis ovalis,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Naviculales,Diploneidaceae,955.5,172,0,0.180010466,30,5.400313972
+Discostella pseudostelligera,Eukaryota,Chromista,Bacillariophyta,Mediophyceae,Stephanodiscales,Stephanodiscaceae,269.26,203,0,0.753918146,7,5.277427022
+Discostella stelligera,Eukaryota,Chromista,Bacillariophyta,Mediophyceae,Stephanodiscales,Stephanodiscaceae,572.27,381,0,0.665769654,9,5.991926888
+Discostella woltereckii,Eukaryota,Chromista,Bacillariophyta,Mediophyceae,Stephanodiscales,Stephanodiscaceae,785,479,0,0.610191083,10,6.101910828
+Dolichospermum circinale,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Nostocales,Aphanizomenonaceae,4021.2,2110.08,1,0.524738884,100,52.47388839
+Dolichospermum flosaquae,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Nostocales,Aphanizomenonaceae,1962.5,1609.25,1,0.82,100,82
+Dolichospermum lemmermannii,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Nostocales,Aphanizomenonaceae,961.63,1118.23,1,1.162848497,100,116.2848497
+Dolichospermum macrosporum,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Nostocales,Aphanizomenonaceae,6358.5,2953.17,1,0.464444444,100,46.44444444
+Dolichospermum mendotae,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Nostocales,Aphanizomenonaceae,961.63,1118.23,1,1.162848497,100,116.2848497
+Dolichospermum planctonicum,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Nostocales,Aphanizomenonaceae,4415.63,2380.12,1,0.539021612,100,53.90216119
+Dolichospermum solitarium,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Nostocales,Aphanizomenonaceae,9498.5,3493.25,1,0.367768595,100,36.7768595
+Dolichospermum spiroides,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Nostocales,Aphanizomenonaceae,3846.5,2274.93,1,0.591428571,100,59.14285714
+Drepanochloris nannoselene,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Selenastraceae,8.24,27,1,3.276699029,7,22.9368932
+Echinosphaerella limnetica,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Chlamydomonadales,Chlamydomonadales incertae sedis,605.82,750,0,1.237991483,10.5,12.99891057
+Elakatothrix,Eukaryota,Plantae,Charophyta,Klebsormidiophyceae,Klebsormidiales,Elakatotrichaceae,1005.2,7022.11,1,6.985783924,100,698.5783924
+Elakatothrix gelatinosa,Eukaryota,Plantae,Charophyta,Klebsormidiophyceae,Klebsormidiales,Elakatotrichaceae,1005.2,7022.11,1,6.985783924,100,698.5783924
+Encyonema leibleinii,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Cymbellales,Gomphonemataceae,6720,604,1,0.089880952,60,5.392857143
+Encyonema minutum,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Cymbellales,Gomphonemataceae,110.25,529,1,4.798185941,21,100.7619048
+Encyonema silesiacum,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Cymbellales,Gomphonemataceae,821,84,1,0.102314251,29,2.967113276
+Encyonema ventricosum,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Cymbellales,Gomphonemataceae,210,749,1,3.566666667,20,71.33333333
+Encyonopsis microcephala,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Cymbellales,Gomphonemataceae,210,643,1,3.061904762,24,73.48571429
+Epipyxis,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Dinobryaceae,305.21,545,0,1.785655778,18,32.141804
+Epipyxis condensata,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Dinobryaceae,196.1715,46,1,0.2344887,17,3.986307899
+Epipyxis cylindrica,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Dinobryaceae,530.9,326,0,0.61405161,30,18.42154831
+Epipyxis planctonica,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Dinobryaceae,1006.06,858,0,0.852831839,44.5,37.95101684
+Epipyxis polymorpha,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Dinobryaceae,805.41,697,0,0.865397748,28.5,24.66383581
+Epithemia,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Rhopalodiales,Rhopalodiaceae,32463.3,736,0,0.022671755,63,1.428320596
+Epithemia gibba,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Rhopalodiales,Rhopalodiaceae,9180,683,0,0.074400871,102,7.588888889
+Epithemia operculata,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Rhopalodiales,Rhopalodiaceae,169.6,211,0,1.244103774,6,7.464622642
+Euastrum,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Desmidiaceae,15000,458,0,0.030533333,50,1.526666667
+Eucocconeis flexella,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Cocconeidales,Achnanthidiaceae,2511.6,399,0,0.158862876,39,6.195652174
+Eudorina elegans,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Chlamydomonadales,Volvocaceae,76302,25434,1,0.333333333,70,23.33333333
+Euglena,Eukaryota,Protozoa,Euglenozoa,Euglenophyceae,Euglenales [=Euglenida],Euglenaceae,1026.3,376,0,0.366364611,40,14.65458443
+Eunotia,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Eunotiales,Eunotiaceae,1137.4,134,1,0.117812555,47,5.537190083
+Eunotia arcus,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Eunotiales,Eunotiaceae,476,835,1,1.754201681,30,52.62605042
+Eunotia bilunaris,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Eunotiales,Eunotiaceae,576,40,1,0.069444444,60,4.166666667
+Eunotia exigua,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Eunotiales,Eunotiaceae,130,416,1,3.2,18,57.6
+Eunotia naegelii,Eunotiaceae,Eunotiales,Bacillariophyceae,Bacillariophyta,Chromista,Eukaryota,880,320,1,0.363636364,200,72.72727273
+Eutetramorus,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Radiococcaceae,13500,5400,1,0.4,30,12
+Fotterella tetrachlorelloides,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Oocystaceae,5086.8,8852.96,1,1.74037902,40,69.61516081
+Fragilaria,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Fragilariales,Fragilariaceae,90,484,1,5.377777778,15,80.66666667
+Fragilaria acus,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Fragilariales,Fragilariaceae,560,677,0,1.208928571,35,42.3125
+Fragilaria capucina,Eukaryota,Chromista,Bacillariophyta,Baciallariophyceae,Fragilariales,Fragilariaceae,172.8,734,1,4.247685185,100,424.7685185
+Fragilaria crotonensis,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Fragilariales,Fragilariaceae,432,65,1,0.150462963,100,15.0462963
+Fragilaria perminuta,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Fragilariales,Fragilariaceae,172.73,581,0,3.363631101,23.5,79.04533086
+Fragilaria radians,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Fragilariales,Fragilariaceae,504,37,1,0.073412698,45,3.303571429
+Fragilaria rumpens,Fragilariaceae,Fragilariales,Bacillariophyceae,Bacillariophyta,Chromista,Eukaryota,486,753,1,1.549382716,40,61.97530864
+Fragilaria tenera,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Fragilariales,Fragilariaceae,212.6041667,306,1,1.439294463,284.4,409.3353454
+Fragilaria tenera lemanensis,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Fragilariales,Fragilariaceae,385.88,863,1,2.236446564,45,100.6400954
+Fragilaria tenera nanana,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Fragilariales,Fragilariaceae,138.9,557,1,4.010079194,45,180.4535637
+Fragilaria vaucheriae,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Fragilariales,Fragilariaceae,283.5,741,1,2.613756614,30,78.41269841
+Fragilariforma virescens,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Fragilariales,Fragilariaceae,172.8,734,1,4.247685185,100,424.7685185
+Franceia amphitricha,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Oocystaceae,130.8333333,563,0,4.303184714,10,43.03184714
+Franceia ovalis,Oocystaceae,Chlorellales,Trebouxiophyceae,Chlorophyta,Plantae,Eukaryota,785,45,0,0.057324841,15,0.859872611
+Frustulia,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Naviculales,Amphipleuraceae,1944,215,1,0.110596708,45,4.976851852
+Frustulia rhomboides,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Naviculales,Amphipleuraceae,4785,616,1,0.128735632,100,12.87356322
+Fusola viridis J.W.Snow,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Cylindrocapsaceae,1130.4,3514.38,1,3.108970276,60,186.5382166
+Glenodinium,Eukaryota,Chromista,Miozoa,Dinophyceae,Peridiniales,Peridiniales incertae sedis,14137.2,843,0,0.059629913,30,1.788897377
+Gloeocystis,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Radiococcaceae,66986.67,62424.81,1,0.931898988,10,9.318989883
+Gloeocystis vesiculosa,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Radiococcaceae,44680,15624.05,1,0.34968778,40,13.98751119
+Golenkinia radiata,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Neochloridaceae,2458.2,761,0,0.309576113,15,4.643641689
+Golenkiniopsis,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Chlorellaceae,267.95,266,0,0.992722523,8,7.941780183
+Golenkiniopsis longispina,Chlorellaceae,Chlorellales,Trebouxiophyceae,Chlorophyta,Plantae,Eukaryota,267.9466667,266,0,0.992734872,8,7.94187898
+Gomphonema,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Cymbellales,Gomphonemataceae,972,64,0,0.065843621,27,1.777777778
+Gomphonema minutum,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Cymbellales,Gomphonemataceae,450,799,0,1.775555556,25,44.38888889
+Gomphonema olivaceum,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Cymbellales,Gomphonemataceae,630,870,0,1.380952381,30,41.42857143
+Gomphonema parvulum,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Cymbellales,Gomphonemataceae,480,724,0,1.508333333,20,30.16666667
+Gomphonema pumilum,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Cymbellales,Gomphonemataceae,270,613,0,2.27037037,25,56.75925926
+Gomphonema truncatum,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Cymbellales,Gomphonemataceae,1262,127,0,0.100633914,28.5,2.868066561
+Gomphosphaeria,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Chroococcales,Gomphosphaeriaceae,2009.6,1420.17,1,0.706692874,120,84.8031449
+Gonatozygon monotaenium,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Gonatozygaceae,1766.25,151,0,0.085491861,90,7.694267516
+Goniochloris,Eukaryota,Chromista,Ochrophyta,Eustigmatophyceae,Goniochloridales,Goniochloridaceae,560,637,0,1.1375,20,22.75
+Goniochloris fallax,Eukaryota,Chromista,Ochrophyta,Eustigmatophyceae,Goniochloridales,Goniochloridaceae,806.4,754,0,0.935019841,24,22.44047619
+Goniochloris mutica,Eukaryota,Chromista,Ochrophyta,Eustigmatophyceae,Goniochloridales,Goniochloridaceae,180.9,213,0,1.177446103,12,14.12935323
+Gonium pectorale,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Chlamydomonadales,Goniaceae,19360,7810,1,0.403409091,80,32.27272727
+Gonyaulax apiculata,Eukaryota,Chromista,Miozoa,Dinophyceae,Gonyaulacales,Gonyaulacaceae,20525.1,216,0,0.0105237,40,0.42094801
+Gregiochloris lacustris,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Selenastraceae,3768,11718.03,1,3.109880573,35,108.8458201
+Gymnodinium,Eukaryota,Chromista,Miozoa,Dinophyceae,Gymnodiniales,Gymnodiniaceae,3611,656,0,0.181667128,20,3.633342564
+Gymnodinium lantzschii,Eukaryota,Chromista,Miozoa,Dinophyceae,Gymnodiniales,Gymnodiniaceae,212.1,686,0,3.234323432,9,29.10891089
+Gymnodinium mitratum,Eukaryota,Chromista,Miozoa,Dinophyceae,Gymnodiniales,Gymnodiniaceae,2403.3,555,0,0.230932468,30,6.927974036
+Gymnodinium purpureum,Eukaryota,Chromista,Miozoa,Dinophyceae,Gymnodiniales,Gymnodiniaceae,4605.333333,544,0,0.118123914,22,2.598726115
+Gyrodinium helveticum,Eukaryota,Chromista,Miozoa,Dinophyceae,Gymnodiniales,Gyrodiniaceae,6230.8,857,0,0.137542531,35,4.813988573
+Hannaea arcus,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Licmophorales,Ulnariaceae,720,293,1,0.406944444,80,32.55555556
+Hantzschia amphioxys,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,1344,421,0,0.313244048,80,25.05952381
+Hariotina reticulata,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,3877.27,923.16,1,0.238095361,40,9.523814436
+Hegewaldia parvula,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Chlorellaceae,179.5033333,167,0,0.930344841,7,6.512413884
+Heimansia pusilla,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Desmidiaceae,313.6,21,0,0.066964286,11,0.736607143
+Heterothrix,Eukaryota,Chromista,Ochrophyta,Xanthophyceae,Tribonematales,Tribonemataceae,1589.63,1444.79,1,0.908884457,100,90.88844574
+Hippodonta capitata,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Naviculales,Naviculaceae,252,658,0,2.611111111,20,52.22222222
+Hyaloraphidium contortum,Eukaryota,Fungi,Fungi Phylum,Fungi Class,Fungi Order,Fungi Family,148.4,217,0,1.462264151,35,51.17924528
+Hyalotheca dissiliens,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Desmidiaceae,8206.7,220,1,0.026807365,24,0.643376753
+Isthmochloron trispinatum,Eukaryota,Chromista,Ochrophyta,Xanthophyceae,Mischococcales,Pleurochloridaceae,677.6,745,0,1.099468713,11,12.09415584
+Jaaginema geminatum,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Synechococcales familia incertae sedis,907.9,1085.75,1,1.195891618,100,119.5891618
+Katodinium simile,Eukaryota,Chromista,Miozoa,Dinophyceae,Tovelliales,Tovelliaceae,1653.21,380,0,0.229855856,18,4.137405411
+Kephyrion,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Dinobryaceae,104.7,520,0,4.966571156,8,39.73256925
+Kephyrion littorale,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Dinobryaceae,107.18,453,0,4.226534801,6.4,27.04982273
+Kephyrion petasatum,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Dinobryaceae,268.1,713,0,2.659455427,8,21.27564342
+Kephyrion skujae,Dinobryaceae,Chromulinales,Chrysophyceae,Ochrophyta,Chromista,Eukaryota,104.7,520,0,4.966571156,8,39.73256925
+Kephyrion spirale,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Dinobryaceae,58.61333333,388,0,6.619654231,7,46.33757962
+Kirchneriella dianae,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Selenastraceae,32708.33,24400.08,1,0.745989783,100,74.5989783
+Kirchneriella irregularis,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Selenastraceae,32708.33,24400.08,1,0.745989783,13,9.697867179
+Kirchneriella lunaris,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Selenastraceae,89751.67,47800.4,1,0.532585076,50,26.62925381
+Kirchneriella obesa,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Selenastraceae,133973.33,62424.81,1,0.465949529,100,46.59495289
+Klebsormidium subtile,Eukaryota,Plantae,Charophyta,Klebsormidiophyceae,Klebsormidiales,Klebsormidiaceae,3848.2,2274.93,1,0.591167299,100,59.1167299
+Komvophoron,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Oscillatoriales,Gomontiellaceae,78.5,315.57,1,4.02,100,402
+Komvophoron minutum,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Oscillatoriales,Gomontiellaceae,314,640.27,1,2.039076433,80,163.1261146
+Korshikoviella,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Characiaceae,565.2,478,0,0.84571833,60,50.74309979
+Korshikoviella limnetica,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Characiaceae,699.96,357,0,0.510029145,53.5,27.28655923
+Korshikoviella michailovskoensis,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Characiaceae,1641.17,640,0,0.389965695,100,38.99656952
+Lagerheimia,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Oocystaceae,334.9333333,807,0,2.409434714,10,24.09434714
+Lagerheimia chodatii,Oocystaceae,Chlorellales,Trebouxiophyceae,Chlorophyta,Plantae,Eukaryota,183.17,747,0,4.078178741,14,57.09450237
+Lagerheimia ciliata,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Oocystaceae,2591.8,448,0,0.172852844,70,12.09969905
+Lagerheimia genevensis,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Oocystaceae,130.9,608,0,4.644766998,60,278.6860199
+Lagerheimia longiseta,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Oocystaceae,402.1,869,0,2.161153942,90,194.5038548
+Lagerheimia quadriseta,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Oocystaceae,130.9,608,0,4.644766998,60,278.6860199
+Lagerheimia subsalsa,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Oocystaceae,232.16375,735,0,3.165868918,10.5,33.24162364
+Lagerheimia wratislawiensis,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Oocystaceae,490.1,797,0,1.626198735,13,21.14058355
+Lanceola spatulifera,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Characiaceae,250.02,497,0,1.987840973,65,129.2096632
+Lemmermannia komarekii,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Trebouxiophyceae ordo incertae sedis,Trebouxiophyceae incertae sedis,3499.2,1767.27,1,0.505049726,60,30.30298354
+Lemmermannia triangularis,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Trebouxiophyceae ordo incertae sedis,Trebouxiophyceae incertae sedis,403.2,801,1,1.986607143,12,23.83928571
+Lemmermanniella,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Synechococcaceae,52046.54667,6644.24,1,0.127659574,47,6
+Lemmermanniella parva,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Synechococcaceae,4460,6079.04,1,1.363013453,44,59.97259193
+Lemnicola exigua,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Cocconeidales,Achnanthidiaceae,190.4,535,0,2.80987395,17,47.76785714
+Lepocinclis acus,Eukaryota,Protozoa,Euglenozoa,Euglenophyceae,Euglenales [=Euglenida],Phacaceae,5915.76,496,0,0.083843834,157,13.16348195
+Lepocinclis oxyuris,Eukaryota,Protozoa,Euglenozoa,Euglenophyceae,Euglenales [=Euglenida],Phacaceae,37453.92,872,0,0.023281942,248.5,5.785562633
+Leptolyngbya,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Leptolyngbyaceae,314,634.28,1,2.02,100,202
+Leptolyngbya lagerheimii,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Leptolyngbyaceae,90.75,218.06,1,2.402865014,40,96.11460055
+Limnococcus limneticus,Merismopediaceae,Synechococcales,Cyanophyceae,Cyanobacteria,Eubacteria,Prokaryota,32400,14400,1,0.444444444,60,26.66666667
+Limnothrix guttulata,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Pseudanabaenaceae,706.5,956.13,1,1.353333333,100,135.3333333
+Limnothrix planctonica,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Pseudanabaenaceae,314,650,1,2.070063694,100,207.0063694
+Limnothrix redekei,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Pseudanabaenaceae,176.7,474.53,1,2.685512168,100,268.5512168
+Lindavia bodanica,Eukaryota,Chromista,Bacillariophyta,Mediophyceae,Stephanodiscales,Stephanodiscaceae,50240,622,0,0.012380573,40,0.49522293
+Lindavia schroeteri,Eukaryota,Chromista,Bacillariophyta,Mediophyceae,Stephanodiscales,Stephanodiscaceae,15451.16,315,0,0.020386819,27,0.550444109
+Lyngbya,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Oscillatoriales,Oscillatoriaceae,5024,2612.48,1,0.52,100,52
+Mallomonas,Eukaryota,Chromista,Ochrophyta,Synurophyceae,Synurales,Mallomonadaceae,1592.8,309,0,0.193997991,18,3.491963837
+Mallomonas akrokomos,Eukaryota,Chromista,Ochrophyta,Synurophyceae,Synurales,Mallomonadaceae,314.2,451,0,1.43539147,40,57.41565882
+Mallomonas caudata,Eukaryota,Chromista,Ochrophyta,Synurophyceae,Synurales,Mallomonadaceae,2154.04,591,0,0.274368164,35,9.60288574
+Mallomonas elongata,Eukaryota,Chromista,Ochrophyta,Synurophyceae,Synurales,Mallomonadaceae,5309.3,795,0,0.149737253,60,8.98423521
+Mallomonas lefevriana Bourrelly,Eukaryota,Chromista,Ochrophyta,Synurophyceae,Synurales,Mallomonadaceae,226.2,766,0,3.386383731,12,40.63660477
+Mallomonas ploesslii,Eukaryota,Chromista,Ochrophyta,Synurophyceae,Synurales,Mallomonadaceae,3652.1,569,0,0.155800772,31,4.829823937
+Melosira varians,Eukaryota,Chromista,Bacillariophyta,Coscinodiscophyceae,Melosirales,Melosiraceae,4704,222,1,0.047193878,100,4.719387755
+Meridion circulare,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Tabellariales,Tabellariaceae,1260,236,1,0.187301587,50,9.365079365
+Merismopedia,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Merismopediaceae,720,2040,1,2.833333333,50,141.6666667
+Merismopedia elegans,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Merismopediaceae,5512.5,3290,1,0.596825397,70,41.77777778
+Merismopedia glauca,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Merismopediaceae,2205,3080,1,1.396825397,120,167.6190476
+Merismopedia hyalina,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Merismopediaceae,12960,9360,1,0.722222222,20,14.44444444
+Merismopedia minima,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Merismopediaceae,952,1606,1,1.68697479,20,33.7394958
+Merismopedia tenuissima,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Merismopediaceae,160,880,1,5.5,20,110
+Merismopedia tranquilla,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Merismopediaceae,1728,874,1,0.505787037,12,6.069444444
+Micractinium crassisetum,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Chlorellaceae,19625,48800.16,1,2.486632357,50,124.3316178
+Micractinium pusillum,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Chlorellaceae,10048,15624.05,1,1.554941282,100,155.4941282
+Microcystis aeruginosa,Microcystaceae,Chroococcales,Cyanophyceae,Cyanobacteria,Eubacteria,Prokaryota,5236,31400,1,5.996944232,100,599.6944232
+Microcystis flosaquae,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Chroococcales,Microcystaceae,23140,88495.39,1,3.824347018,170,650.1389931
+Microcystis wesenbergii,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Chroococcales,Microcystaceae,3270.833333,2211.34,1,0.676078471,100,67.60784714
+Monactinus simplex,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Hydrodictyaceae,235500,31425.12,1,0.13344,100,13.344
+Monallantus,Eukaryota,Chromista,Ochrophyta,Xanthophyceae,Mischococcales,Pleurochloridaceae,130.8333333,608,0,4.647133759,10,46.47133759
+Monoraphidium,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Selenastraceae,98.13,690,0,7.031488841,25,175.787221
+Monoraphidium circinale,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Selenastraceae,25,205,0,8.2,8,65.6
+Monoraphidium dybowskii,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Selenastraceae,71.96,638,0,8.866036687,11,97.52640356
+Monoraphidium griffithii,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Selenastraceae,298.5,470,0,1.574539363,70,110.2177554
+Monoraphidium indicum,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Selenastraceae,1470,714,0,0.485714286,150,72.85714286
+Monoraphidium irregulare,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Selenastraceae,129.53,189,0,1.459121439,55,80.25167915
+Monoraphidium komarkovae,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Selenastraceae,320.47,168,0,0.524230037,70,36.6961026
+Monoraphidium minutum,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Selenastraceae,131.9,828,0,6.277482942,15,94.16224412
+Monoraphidium mirabile,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Selenastraceae,879.6,648,0,0.736698499,100,73.66984993
+Monoraphidium pusillum,Selenastraceae,Sphaeropleales,Chlorophyceae,Chlorophyta,Plantae,Eukaryota,100.68,825,0,8.194278903,19,155.6912992
+Monosiga varians,Eukaryota,Protozoa,Choanozoa,Choanoflagellatea,Craspedida,Codonosigaceae,220.9,655,0,2.965142598,7.5,22.23856949
+Mougeotia,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Zygnematales,Zygnemataceae,2544.7,102,1,0.04008331,100,4.008331041
+Mougeotia gracillima,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Zygnematales,Zygnemataceae,1539.4,871,1,0.565804859,100,56.5804859
+Mucidosphaerium pulchellum,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Chlorellaceae,5747,5538.96,1,0.963800244,80,77.10401949
+Naiadinium polonicum,Eukaryota,Chromista,Miozoa,Dinophyceae,Thoracosphaerales,Thoracosphaeraceae,17584,184,0,0.010464058,40,0.418562329
+Navicula,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Naviculales,Naviculaceae,336,855,0,2.544642857,30,76.33928571
+Navicula capitatoradiata,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Naviculales,Naviculaceae,518.4,138,0,0.266203704,36,9.583333333
+Navicula crucicula lanceolata,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Naviculales,Naviculaceae,4186,605,0,0.144529384,92,13.2967033
+Navicula cryptotenella,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Naviculales,Naviculaceae,270.2,746,0,2.760917839,27,74.54478164
+Navicula gregaria,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Naviculales,Naviculaceae,202.5,219,0,1.081481481,27,29.2
+Navicula menisculus,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Naviculales,Naviculaceae,765.5,72,0,0.094056172,27,2.539516656
+Navicula minima,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Naviculales,Naviculaceae,75,99,0,1.32,8.3,10.956
+Navicula radiosa,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Naviculales,Naviculaceae,2940,519,0,0.176530612,70,12.35714286
+Navicula reinhardtii,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Naviculales,Naviculaceae,1568,298,0,0.19005102,40,7.602040816
+Navicula tripunctata,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Naviculales,Naviculaceae,720,252,0,0.35,50,17.5
+Navigeia decussis,Eukaryota,Chromista,Bacillariophyta,Bacillariophyta classis incertae sedis,Bacillariophyta ordo incertae sedis,Bacillariophyta familia incertae sedis,420,768,0,1.828571429,20,36.57142857
+Neglectella solitaria,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Eremosphaeraceae,1047.2,259,0,0.247326203,20,4.946524064
+Neidium,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Naviculales,Neidiaceae,1904,353,0,0.18539916,40,7.415966387
+Neocystis ovalis,Radiococcaceae,Sphaeropleales,Chlorophyceae,Chlorophyta,Plantae,Eukaryota,8373.33,5024,1,0.600000239,35,21.00000836
+Nephrocytium,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Oocystaceae,10048,15624.05,1,1.554941282,15,23.32411923
+Nephrocytium agardhianum,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Oocystaceae,10048,15624.05,1,1.554941282,40,62.19765127
+Nephrocytium limneticum,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Oocystaceae,10048,15624.05,1,1.554941282,17.5,27.21147243
+Nitzschia,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,784,70,0,0.089285714,49,4.375
+Nitzschia acicularis,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,283.5,809,0,2.85361552,45,128.4126984
+Nitzschia dissipata,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,930,171,0,0.183870968,62,11.4
+Nitzschia fonticola,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,344,692,0,2.011627907,37.5,75.43604651
+Nitzschia fruticosa,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,219.4,708,1,3.22698268,45,145.2142206
+Nitzschia gracilis,Bacillariaceae,Bacillariales,Bacillariophyceae,Bacillariophyta,Chromista,Eukaryota,477.75,58,0,0.121402407,65,7.891156463
+Nitzschia inconspicua,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,89,283,0,3.179775281,12.5,39.74719101
+Nitzschia linearis,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,7634.25,665,0,0.087107443,145,12.6305793
+Nitzschia palea,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,378,819,0,2.166666667,42,91
+Nitzschia paleacea,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,242.81,693,0,2.85408344,37,105.6010873
+Nitzschia vermicularis,Bacillariaceae,Bacillariales,Bacillariophyceae,Bacillariophyta,Chromista,Eukaryota,2688,579,0,0.215401786,160,34.46428571
+Ochromonas,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Chromulinaceae,65.42,348,0,5.319474167,5,26.59737083
+Ochromonas pyriformis,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Chromulinaceae,269.232,824,0,3.060557437,14.2,43.45991561
+Ochromonas variabilis,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Chromulinaceae,166.8875,598,0,3.583252191,7.5,26.87439143
+Ochromonas verrucosa,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Chromulinaceae,5480,633,0,0.115510949,29,3.349817518
+Oedogonium,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Oedogoniales,Oedogoniaceae,1590.4,1444.79,1,0.908444416,100,90.84444165
+Oocystis,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Oocystaceae,131.9,612,0,4.639878696,15,69.59818044
+Oocystis borgei,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Oocystaceae,7536,11718.03,0,1.554940287,40,62.19761146
+Oocystis lacustris,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Oocystaceae,703.36,2345.94,0,3.335333258,30,100.0599977
+Oocystis marssonii,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Oocystaceae,4689.07,6254.19,0,1.333780472,32,42.68097512
+Oocystis naegelii,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Oocystaceae,16485,14640.05,0,0.888083106,50,44.40415529
+Oocystis parva,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Oocystaceae,527.8,828.43,0,1.569590754,12,18.83508905
+Oocystis polymorpha,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Oocystaceae,2051.47,378,0,0.184258117,20,3.685162347
+Oocystis rhomboidea,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Oocystaceae,158.26,710.09,0,4.486857071,6.5,29.16457096
+Oscillatoria,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Oscillatoriales,Oscillatoriaceae,2827.4,1940.52,1,0.686326661,100,68.63266605
+Oscillatoria janus,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Oscillatoriales,Oscillatoriaceae,346.4,666.32,1,1.923556582,100,192.3556582
+Oscillatoria limosa,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Oscillatoriales,Oscillatoriaceae,22698,5791.73,1,0.255164772,100,25.51647722
+Oscillatoria tenuis,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Oscillatoriales,Oscillatoriaceae,5671.63,2782.43,1,0.490587362,100,49.0587362
+Pandorina,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Chlamydomonadales,Volvocaceae,2136.46,1017.36,1,0.476189585,18,8.571412524
+Pandorina morum,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Chlamydomonadales,Volvocaceae,125652.33,15386,1,0.122448983,70,8.571428799
+Pannus spumosus,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Merismopediaceae,50000,60000,1,1.2,100,120
+Pantocsekiella comensis,Eukaryota,Chromista,Bacillariophyta,Mediophyceae,Stephanodiscales,Stephanodiscaceae,269.26,231,0,0.857906856,7,6.005347991
+Pantocsekiella costei,Eukaryota,Chromista,Bacillariophyta,Mediophyceae,Stephanodiscales,Stephanodiscaceae,572.27,381,0,0.665769654,9,5.991926888
+Pantocsekiella delicatula,Eukaryota,Chromista,Bacillariophyta,Mediophyceae,Stephanodiscales,Stephanodiscaceae,169.56,83,0,0.489502241,6,2.937013447
+Pantocsekiella polymorpha,Eukaryota,Chromista,Bacillariophyta,Mediophyceae,Stephanodiscales,Stephanodiscaceae,6280,116,0,0.018471338,20,0.369426752
+Pantocsekiella rossii,Eukaryota,Chromista,Bacillariophyta,Mediophyceae,Stephanodiscales,Stephanodiscaceae,3526.32,842,0,0.238775834,16.5,3.939801266
+Papenfussiomonas cordata,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Chlamydomonadales,Dunaliellaceae,1131,226,0,0.199823165,15,2.99734748
+Paradoxia multiseta,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Trebouxiophyceae ordo incertae sedis,Coccomyxaceae,565.2,3512.55,0,6.21470276,60,372.8821656
+Parapediastrum biradiatum,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Hydrodictyaceae,87899.9,16302.88,1,0.185470973,72,13.35391007
+Paraplaconeis placentula,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Cymbellales,Cymbellaceae,2750,675,0,0.245454545,55,13.5
+Parvodinium goslaviense,Eukaryota,Chromista,Miozoa,Dinophyceae,Peridiniales,Peridiniaceae,3204.4,567,0,0.176944202,25,4.423605043
+Parvodinium inconspicuum,Eukaryota,Chromista,Miozoa,Dinophyceae,Peridiniales,Peridiniaceae,3769.9,603,0,0.159951192,25,3.998779808
+Parvodinium umbonatum,Eukaryota,Chromista,Miozoa,Dinophyceae,Peridiniales,Peridiniaceae,10362,696,0,0.0671685,30,2.015055009
+Paulschulzia pseudovolvox,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Chlamydomonadales,Tetrasporaceae,287205.33,61544,1,0.214285717,140,30.00000035
+Pediastrum duplex,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Hydrodictyaceae,235500,31753.25,1,0.134833333,100,13.48333333
+Peridiniopsis cunningtonii,Eukaryota,Chromista,Miozoa,Dinophyceae,Peridiniales,Peridiniopsidaceae,8835.7,817,0,0.092465792,30,2.773973766
+Peridiniopsis quadridens,Eukaryota,Chromista,Miozoa,Dinophyceae,Peridiniales,Peridiniopsidaceae,7623.6,884,0,0.115955716,35,4.058450076
+Peridinium,Eukaryota,Chromista,Miozoa,Dinophyceae,Peridiniales,Peridiniaceae,9188.0325,707,0,0.076947921,27,2.07759387
+Phacotus lendneri,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Chlamydomonadales,Phacotaceae,412.3,463,0,1.122968712,16.5,18.52898375
+Phacotus lenticularis,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Chlamydomonadales,Phacotaceae,1058.703333,286,0,0.270141777,17,4.592410214
+Phacus acuminatus,Eukaryota,Protozoa,Euglenozoa,Euglenophyceae,Euglenales [=Euglenida],Phacaceae,9180,112,0,0.012200436,34,0.414814815
+Phormidium,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Oscillatoriales,Oscillatoriaceae,1962.5,1609.25,1,0.82,100,82
+Pinnularia ,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Naviculales,Pinnulariaceae,15735.2,777,0,0.049379735,89,4.39479638
+Placoneis clementis,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Cymbellales,Gomphonemataceae,858,93,0,0.108391608,32.5,3.522727273
+Plagioselmis lacustris,Eukaryota,Chromista,Cryptophyta,Cryptophyceae,Pyrenomonadales,Geminigeraceae,586.13,97,0,0.165492297,14,2.316892157
+Plagioselmis nannoplanctica,Eukaryota,Chromista,Cryptophyta,Cryptophyceae,Pyrenomonadales,Geminigeraceae,88.55,514,0,5.804630152,9,52.24167137
+Planktolyngbya,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Leptolyngbyaceae,176.63,474.53,1,2.686576459,100,268.6576459
+Planktolyngbya limnetica,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Leptolyngbyaceae,132.67,410.85,1,3.096781488,100,309.6781488
+Planktosphaeria gelatinosa,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Schizochlamydaceae,523.6,887,0,1.694041253,20,33.88082506
+Planktothrix,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Oscillatoriales,Microcoleaceae,1962.5,1609.25,1,0.82,100,82
+Planktothrix agardhii,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Oscillatoriales,Microcoleaceae,2826,1940.52,1,0.686666667,100,68.66666667
+Planktothrix rubescens,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Oscillatoriales,Microcoleaceae,2827.4,1940.52,1,0.686326661,100,68.63266605
+Planothidium lanceolatum,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Cocconeidales,Achnanthidiaceae,475,669,0,1.408421053,23,32.39368421
+Pseudanabaena,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Pseudanabaenaceae,314.2,634.28,1,2.018714195,100,201.8714195
+Pseudanabaena acicularis,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Pseudanabaenaceae,283.5,723,1,2.55026455,100,255.026455
+Pseudanabaena arcuata,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Pseudanabaenaceae,61.9,486,1,7.851373183,35,274.7980614
+Pseudanabaena catenata,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Pseudanabaenaceae,201,506.42,1,2.519502488,100,251.9502488
+Pseudanabaena galeata,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Pseudanabaenaceae,283.5,602.27,1,2.124409171,100,212.4409171
+Pseudanabaena limnetica,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Pseudanabaenaceae,283.5,602.27,1,2.124409171,100,212.4409171
+Pseudanabaena mucicola,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Pseudanabaenaceae,110,344,1,3.127272727,35,109.4545455
+Pseudochlorella pyrenoidosa,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Prasiolales,Koliellaceae,267.95,266,0,0.992722523,8,7.941780183
+Pseudococcomyxa,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Oocystaceae,32.97,284,0,8.613891416,7,60.29723992
+Pseudodidymocystis fina,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,49.22,98,1,1.991060544,5.65,11.24949208
+Pseudodidymocystis planctonica,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,114.05,355,1,3.112669882,11,34.2393687
+Pseudokephyrion,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Dinobryaceae,50.24,333,0,6.628184713,6,39.76910828
+Pseudokephyrion conicum,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Dinobryaceae,104.28,461,0,4.42079018,6,26.52474108
+Pseudokephyrion entzii,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Dinobryaceae,323.8125,744,0,2.297625941,11,25.27388535
+Pseudopediastrum boryanum,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Hydrodictyaceae,794812.5,70675.12,1,0.088920494,150,13.33807407
+Pseudopediastrum boryanum longicorne,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Hydrodictyaceae,1884000,125625.12,1,0.06668,200,13.336
+Pseudopedinella,Eukaryota,Chromista,Ochrophyta,Dictyochophyceae,Pedinellales,Pedinellaceae,321.54,748,1,2.326304659,2.5,5.815761647
+Pseudosphaerocystis lundii,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Chlamydomonadales,Palmellopsidaceae,26794.67,20096,1,0.749999907,100,74.99999067
+Pseudostaurastrum limneticum,Eukaryota,Chromista,Ochrophyta,Eustigmatophyceae,Goniochloridales,Goniochloridaceae,11025,712,0,0.064580499,52.5,3.39047619
+Pseudostaurosira brevistriata,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Fragilariales,Staurosiraceae,525,717,1,1.365714286,17.5,23.9
+Pseudotetrastrum punctatum,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,504,754.29,1,1.496607143,12,17.95928571
+Pyramimonas inconstans,Eukaryota,Plantae,Chlorophyta,Pyramimonadophyceae,Pyramimonadales,Pyramimonadaceae,321.54,81,0,0.25191267,12,3.022952043
+Pyramimonas micron,Eukaryota,Plantae,Chlorophyta,Pyramimonadophyceae,Pyramimonadales,Pyramimonadaceae,58.88,394,0,6.691576087,5,33.45788043
+Quadrichloris carterioides,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Chlamydomonadales,Dunaliellaceae,472.31,868,0,1.837776037,10,18.37776037
+Quadricoccus ellipticus,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Oocystaceae,267.9466667,936,1,3.493232484,18,62.87818471
+Quadrigula closterioides,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Selenastraceae,3956.4,12302.36,1,3.109483369,21,65.29915074
+Radiococcus planktonicus,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Radiococcaceae,2826,2826,1,1,20,20
+Radiocystis aphanothecoidea,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Chroococcales,Microcystaceae,5484.20625,8797.28,1,1.604111807,30,48.12335422
+Radiocystis geminata,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Chroococcales,Microcystaceae,5484.20625,8797.28,1,1.604111807,30,48.12335422
+Rayssiella hemisphaerica,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Oocystaceae,7200,9952,1,1.382222222,60,82.93333333
+Rhabdoderma tenuissimum,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Synechococcaceae,314,353.25,1,1.125,20,22.5
+Rhoicosphenia abbreviata,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Cymbellales,Rhoicospheniaceae,1200,202,0,0.168333333,20,3.366666667
+Romeria chlorina,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Leptolyngbyaceae,26.49,160,1,6.0400151,15,90.6002265
+Salpingoeca,Eukaryota,Protozoa,Choanozoa,Choanoflagellatea,Craspedida,Salpingoecaceae,523.6,887,0,1.694041253,10,16.94041253
+Salpingoeca frequentissima,Eukaryota,Protozoa,Choanozoa,Choanoflagellatea,Craspedida,Salpingoecaceae,117.8,561,0,4.762308998,9,42.86078098
+Salpingoeca gracilis,Eukaryota,Protozoa,Choanozoa,Choanoflagellatea,Craspedida,Salpingoecaceae,785.4,671,0,0.854341737,30,25.6302521
+Scenedesmus,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,640,750,1,1.171875,20,23.4375
+Scenedesmus apiculatus,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,706.9,1083.33,1,1.532508134,20,30.65016268
+Scenedesmus bicaudatus brevicaudatus,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,512,660,1,1.2890625,10,12.890625
+Scenedesmus communis,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,1922.7,1868.57,1,0.971846882,24,23.32432517
+Scenedesmus ecornis,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,1120,1125,1,1.004464286,20,20.08928571
+Scenedesmus grahneisii,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,748.8,797,1,1.064369658,13,13.83680556
+Scenedesmus intermedius acaudatus,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,259.2,427.5,1,1.649305556,12,19.79166667
+Scenedesmus obtusus,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,2534.4,2205,1,0.870028409,24,20.88068182
+Scenedesmus obtusus disciformis,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,1380,2391.67,1,1.733094203,20,34.66188406
+Scenedesmus parisiensis,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,746.2,821.25,1,1.100576253,12,13.20691504
+Scenedesmus pulloideus,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,240,437.5,1,1.822916667,12,21.875
+Scenedesmus quadricauda ellipticus,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,1920,1850,1,0.963541667,40,38.54166667
+Scenedesmus semipulcher,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,907.2,990,1,1.091269841,18,19.64285714
+Scenedesmus smithii,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,1473.706667,1620,1,1.099268963,32,35.17660682
+Schroederia indica,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Schroederiaceae,334.9333333,115,0,0.343351911,20,6.867038217
+Schroederia setigera,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Schroederiaceae,261.67,256,0,0.978331486,40,39.13325945
+Selenastrum capricornutum,Selenastraceae,Sphaeropleales,Chlorophyceae,Chlorophyta,Plantae,Eukaryota,17,60,1,3.529411765,6,21.17647059
+Selenochloris quadriloba,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Chlamydomonadales,Chlamydomonadaceae,110,597,0,5.427272727,14,75.98181818
+Sellaphora pupula,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Naviculales,Sellaphoraceae,1183,202,0,0.170752325,50,8.53761623
+Skeletonema subsalsum,Eukaryota,Chromista,Bacillariophyta,Mediophyceae,Thalassiosirales,Skeletonemataceae,169.6,106,1,0.625,24,15
+Snowella,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Coelosphaeriaceae,452.16,1420.17,1,3.140857219,12,37.69028662
+Snowella lacustris,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Coelosphaeriaceae,33493.33,15624.05,1,0.466482431,40,18.65929724
+Snowella rosea,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Coelosphaeriaceae,33493.33,5024,1,0.150000015,60,9.000000896
+Snowella septentrionalis,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Coelosphaeriaceae,261.67,314,1,1.199984714,8,9.599877709
+Speroidium fungiforme,Eukaryota,Chromista,Miozoa,Dinophyceae,Thoracosphaerales,Pfiesteriaceae,816.45,146,0,0.178822953,13.5,2.414109866
+Sphaerocystis planctonica,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Chlamydomonadales,Sphaerocystidaceae,1635.42,9812.5,1,5.999987771,20,119.9997554
+Sphaerocystis schroeteri nivalis,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Chlamydomonadales,Sphaerocystidaceae,512,713,1,1.392578125,8,11.140625
+Sphaerospermopsis aphanizomenoides,Aphanizomenonaceae,Nostocales,Cyanophyceae,Cyanobacteria,Eubacteria,Prokaryota,1256,1281.12,1,1.02,100,102
+Spirogyra,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Zygnematales,Zygnemataceae,42411.5,762,1,0.017966825,100,1.796682504
+Spondylosium,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Desmidiaceae,216,499,1,2.310185185,9,20.79166667
+Spondylosium pygmaeum,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Desmidiaceae,74.25,135,1,1.818181818,6,10.90909091
+Staurastrum aviculum,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Desmidiaceae,4289.3,101,0,0.023546966,47,1.106707388
+Staurastrum cingulum,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Desmidiaceae,14476.5,391,0,0.027009291,65,1.75560391
+Staurastrum johnsonii triradiatum,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Desmidiaceae,8377.6,259,0,0.030915775,60,1.854946524
+Staurastrum paradoxum,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Desmidiaceae,2512,862,0,0.343152866,16,5.49044586
+Staurastrum pingue,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Desmidiaceae,14372.04167,531,0,0.036946734,65,2.401537707
+Stauridium tetras,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Hydrodictyaceae,1884,1295.25,1,0.6875,20,13.75
+Staurodesmus,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Desmidiaceae,14718.75,489,0,0.03322293,30,0.996687898
+Staurodesmus cuspidatus,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Desmidiaceae,6716.65625,285,0,0.042431828,25,1.06079569
+Staurodesmus dejectus,Desmidiaceae,Desmidiales,Conjugatophyceae (Zygnematophyceae),Charophyta,Plantae,Eukaryota,1047.2,371,0,0.354278075,20,7.085561497
+Staurosira construens,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Fragilariales,Staurosiraceae,441,711,1,1.612244898,19.5,31.43877551
+Staurosira leptostauron,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Fragilariales,Staurosiraceae,562.5,42,1,0.074666667,15,1.12
+Staurosira venter,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Fragilariales,Staurosiraceae,334.43,728,1,2.176838202,19.5,42.44834495
+Staurosirella pinnata,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Fragilariales,Staurosiraceae,80,247,1,3.0875,10,30.875
+Stelexomonas dichotoma,Eukaryota,Protozoa,Choanozoa,Choanoflagellatea,Craspedida,Salpingoecaceae,94.2,672,0,7.133757962,20,142.6751592
+Stephanodiscus,Eukaryota,Chromista,Bacillariophyta,Mediophyceae,Stephanodiscales,Stephanodiscaceae,6250,302,0,0.04832,25,1.208
+Stephanodiscus alpinus,Eukaryota,Chromista,Bacillariophyta,Mediophyceae,Stephanodiscales,Stephanodiscaceae,1125,790,0,0.702222222,15,10.53333333
+Stephanodiscus binderanus,Eukaryota,Chromista,Bacillariophyta,Mediophyceae,Stephanodiscales,Stephanodiscaceae,643.45,564,1,0.876524983,100,87.65249825
+Stephanodiscus hantzschii,Eukaryota,Chromista,Bacillariophyta,Mediophyceae,Stephanodiscales,Stephanodiscaceae,4207.11,878,0,0.208694329,17.5,3.652150764
+Stephanodiscus hantzschii tenuis,Stephanodiscaceae,Stephanodiscales,Mediophyceae,Bacillariophyta,Chromista,Eukaryota,4207.11,878,0,0.208694329,17.5,3.652150764
+Stephanodiscus irregularis,Eukaryota,Chromista,Bacillariophyta,Mediophyceae,Stephanodiscales,Stephanodiscaceae,1125,790,0,0.702222222,15,10.53333333
+Stephanodiscus minutulus,Eukaryota,Chromista,Bacillariophyta,Mediophyceae,Stephanodiscales,Stephanodiscaceae,62.5,6,0,0.096,5,0.48
+Stephanodiscus neoastraea,Eukaryota,Chromista,Bacillariophyta,Mediophyceae,Stephanodiscales,Stephanodiscaceae,8624,389,0,0.045106679,28,1.262987013
+Stephanodiscus parvus,Eukaryota,Chromista,Bacillariophyta,Mediophyceae,Stephanodiscales,Stephanodiscaceae,62.5,6,0,0.096,5,0.48
+Stichococcus bacillaris,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Prasiolales,Prasiolaceae,58.88,25,0,0.424592391,12,5.095108696
+Stichogloea olivacea sphaerica,Eukaryota,Chromista,Ochrophyta,Phaeothamniophyceae,Phaeothamniales,Phaeothamniaceae,1266.05,3898.74,1,3.079451838,50,153.9725919
+Stokesiella epipyxis,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Dinobryaceae,389.6490667,82,0,0.210445775,16,3.367132407
+Strombomonas,Eukaryota,Protozoa,Euglenozoa,Euglenophyceae,Euglenales [=Euglenida],Euglenaceae,18840,885,0,0.046974522,40,1.878980892
+Surirella,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Surirellales,Surirellaceae,14280,850,0,0.05952381,85,5.05952381
+Surirella brebissonii,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Surirellales,Surirellaceae,840,76,0,0.09047619,24,2.171428571
+Surirella minuta,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Surirellales,Surirellaceae,1160,92,0,0.079310345,29,2.3
+Synechococcus ambiguus,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Synechococcaceae,28.26,235,0,8.315640481,6,49.89384289
+Synechococcus elongatus,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Synechococcaceae,70.65,39,0,0.552016985,10,5.520169851
+Synechocystis aquatilis,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Merismopediaceae,97,15,0,0.154639175,5.7,0.881443299
+Synedra,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Fragilariales,Fragilariaceae,90,356,1,3.955555556,15,59.33333333
+Synedra cyclopum,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Fragilariales,Fragilariaceae,235,565,1,2.404255319,32,76.93617021
+Synura,Eukaryota,Chromista,Ochrophyta,Synurophyceae,Synurales,Synuraceae,17959.4,9972.51,1,0.5552808,35,19.434828
+Tabellaria fenestrata,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Tabellariales,Tabellariaceae,1764,336,1,0.19047619,90,17.14285714
+Tabellaria flocculosa,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Tabellariales,Tabellariaceae,1200,861,1,0.7175,30,21.525
+Teilingia excavata,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Desmidiaceae,534.4,624,1,1.167664671,12,14.01197605
+Tetrachlorella alternans,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Oocystaceae,904.8,1794.29,1,1.983079134,47,93.20471927
+Tetradesmus bernardii,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,1505,1821.43,1,1.210252492,20,24.20504983
+Tetradesmus dimorphus,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,1560,2500,1,1.602564103,20,32.05128205
+Tetradesmus lagerheimii,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,1099.6,1285.71,1,1.169252455,20,23.38504911
+Tetradesmus obliquus,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,653.5,925.71,1,1.416541699,16,22.66466718
+Tetraedriella regularis,Eukaryota,Chromista,Ochrophyta,Eustigmatophyceae,Goniochloridales,Goniochloridaceae,192.84,86,0,0.445965567,8.5,3.790707322
+Tetraedron,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Hydrodictyaceae,1458,607,0,0.416323731,18,7.49382716
+Tetraedron caudatum,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Hydrodictyaceae,441.8,471,0,1.066093255,15,15.99139882
+Tetraedron minimum,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Hydrodictyaceae,2400,614,0,0.255833333,20,5.116666667
+Tetraedron minimum scrobiculatum,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Hydrodictyaceae,1256.6,614,0,0.488620086,20,9.772401719
+Tetraedron minimum tetralobulatum,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Hydrodictyaceae,100,651,0,6.51,10,65.1
+Tetraedron triangulare,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Hydrodictyaceae,381.51,814,0,2.133626904,9,19.20264213
+Tetraedron trigonum,Hydrodictyaceae,Sphaeropleales,Chlorophyceae,Chlorophyta,Plantae,Eukaryota,1831.248,528,0,0.28832796,10,2.883279599
+Tetraselmis arnoldii,Eukaryota,Plantae,Chlorophyta,Chlorodendrophyceae,Chlorodendrales,Chlorodendraceae,854.87,154,0,0.180144349,13.5,2.431948717
+Tetraselmis cordiformis,Eukaryota,Plantae,Chlorophyta,Chlorodendrophyceae,Chlorodendrales,Chlorodendraceae,1131,282,0,0.24933687,18,4.48806366
+Tetrastrum elegans,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,348.2783333,867,1,2.489388277,11,27.38327105
+Tetrastrum heteracanthum,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,718.0133333,880,1,1.225603981,14,17.15845574
+Tetrastrum staurogeniaeforme brasiliense,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,1400,1714.29,1,1.224492857,20,24.48985714
+Trachelomonas,Eukaryota,Protozoa,Euglenozoa,Euglenophyceae,Euglenales [=Euglenida],Euglenaceae,904.8,144,0,0.159151194,12,1.909814324
+Trachelomonas elegans,Eukaryota,Protozoa,Euglenozoa,Euglenophyceae,Euglenales [=Euglenida],Euglenaceae,402.71,831,0,2.063519654,9.5,19.60343672
+Trachelomonas globularis,Eukaryota,Protozoa,Euglenozoa,Euglenophyceae,Euglenales [=Euglenida],Euglenaceae,4605.333333,544,0,0.118123914,22,2.598726115
+Trachelomonas hispida,Eukaryota,Protozoa,Euglenozoa,Euglenophyceae,Euglenales [=Euglenida],Euglenaceae,9895.12125,699,0,0.070640873,31.5,2.225187488
+Trachelomonas volvocina,Eukaryota,Protozoa,Euglenozoa,Euglenophyceae,Euglenales [=Euglenida],Euglenaceae,1150.3,201,0,0.174737025,13,2.271581327
+Trachelomonas volvocina subglobosa,Eukaryota,Protozoa,Euglenozoa,Euglenophyceae,Euglenales [=Euglenida],Euglenaceae,1641.173333,295,0,0.179749448,16,2.875991161
+Treubaria schmidlei,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Treubariaceae,353.4,53,0,0.149971703,20,2.999434069
+Treubaria setigera,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Treubariaceae,353.4,53,0,0.149971703,20,2.999434069
+Treubaria triappendiculata,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Treubariaceae,452.1,103,0,0.227825702,25,5.695642557
+Tribonema,Eukaryota,Chromista,Ochrophyta,Xanthophyceae,Tribonematales,Tribonemataceae,1133.54,1215.87,1,1.072630873,100,107.2630873
+Tribonema ambiguum,Eukaryota,Chromista,Ochrophyta,Xanthophyceae,Tribonematales,Tribonemataceae,1590.4,1444.79,1,0.908444416,100,90.84444165
+Tribonema microchloron+cylindricum,Eukaryota,Chromista,Ochrophyta,Xanthophyceae,Tribonematales,Tribonemataceae,804.2,1020.88,1,1.269435464,100,126.9435464
+Trochiscia planctonica,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Oocystaceae,1767.2,297,1,0.168062472,15,2.520937076
+Tryblionella angustulata,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,152,459,0,3.019736842,19,57.375
+Tryblionella apiculata,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,882,94,0,0.106575964,42,4.476190476
+Tryblionella levidensis,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,1479,242,0,0.16362407,41.5,6.790398918
+Tychonema bourrellyi,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Oscillatoriales,Microcoleaceae,2827.4,1609.25,1,0.569162481,100,56.91624814
+Ulnaria acus,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Licmophorales,Ulnariaceae,560,677,0,1.208928571,35,42.3125
+Ulnaria delicatissima angustissima,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Licmophorales,Ulnariaceae,2400,687,0,0.28625,200,57.25
+Ulnaria ulna,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Licmophorales,Ulnariaceae,5040,740,1,0.146825397,180,26.42857143
+Ulothrix,Eukaryota,Plantae,Chlorophyta,Ulvophyceae,Ulotrichales,Ulotrichaceae,1593.2,1444.79,1,0.906847853,100,90.68478534
+Ulothrix limnetica,Eukaryota,Plantae,Chlorophyta,Ulvophyceae,Ulotrichales,Ulotrichaceae,346.19,886,1,2.559288252,100,255.9288252
+Ulothrix tenerrima,Eukaryota,Plantae,Chlorophyta,Ulvophyceae,Ulotrichales,Ulotrichaceae,3848.1,2274.93,1,0.591182662,100,59.11826616
+Uroglena,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Chromulinaceae,104719.8,65014.85,1,0.620845819,100,62.0845819
+Uroglenopsis americana,Chromulinaceae,Chromulinales,Chrysophyceae,Ochrophyta,Chromista,Eukaryota,104719.8,65014.85,1,0.620845819,100,62.0845819
+Urosolenia eriensis,Rhizosoleniaceae,Rhizosoleniales,Coscinodiscophyceae,Bacillariophyta,Chromista,Eukaryota,1406.25,594,1,0.4224,75,31.68
+Urosolenia longiseta,Eukaryota,Chromista,Bacillariophyta,Coscinodiscophyceae,Rhizosoleniales,Rhizosoleniaceae,4615.8,372,1,0.080592747,120,9.671129598
+Westella botryoides,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,22608,56520,1,2.5,40,100
+Willea apiculata,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,510.3,441,1,0.864197531,14,12.09876543
+Willea crucifera,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,460.8,483,1,1.048177083,18,18.8671875
+Willea rectangularis,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,1612.8,1134.55,1,0.703466022,30,21.10398065
+Willea vilhelmii,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,11760,8857.14,1,0.753158163,50,37.65790816
+Woronichinia,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Coelosphaeriaceae,3297,10257.44,1,3.111143464,100,311.1143464
+Woronichinia compacta,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Coelosphaeriaceae,53878.3,47800.4,1,0.887192061,70,62.10344424
+Woronichinia naegeliana,Coelosphaeriaceae,Synechococcales,Cyanophyceae,Cyanobacteria,Eubacteria,Prokaryota,1635.42,6114.8,1,3.738978366,4,14.95591347
+Acanthoceras zachariasii,Eukaryota,Chromista,Bacillariophyta,Mediophyceae,Chaetocerotales,Chaetocerotaceae,4900,310,0,0.063265306,50,3.163265306
+Achnanthidium minutissimum,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Cocconeidales,Achnanthidiaceae,118.13,369,0,3.123677305,15,46.85515957
+Ankistrodesmus arcuatus,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Selenastraceae,67.52,36,0,0.533175355,32,17.06161137
+Ankyra,Characiaceae,Sphaeropleales,Chlorophyceae,Chlorophyta,Plantae,Eukaryota,169,492,0,2.911242604,6,17.46745562
+Ankyra judayi,Characiaceae,Sphaeropleales,Chlorophyceae,Chlorophyta,Plantae,Eukaryota,117.75,783,0,6.649681529,25,166.2420382
+Aphanocapsa delicatissima,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Merismopediaceae,17950.33333,47800.4,1,2.66292548,70,186.4047836
+Aphanocapsa elachista,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Merismopediaceae,314.2,2211.34,1,7.038001273,15,105.5700191
+Aphanocapsa incerta,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Merismopediaceae,15714.5,11967.01,1,0.761526616,35,26.65343154
+Aphanocapsa planctonica,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Merismopediaceae,23445.33,15624.05,1,0.666403501,50,33.32017506
+Aulacoseira,Eukaryota,Chromista,Bacillariophyta,Coscinodiscophyceae,Aulacoseirales,Aulacoseiraceae,904.32,644,1,0.712137297,100,71.21372965
+Bicosoeca campanulata,Eukaryota,Chromista,Bigyra,Bikosea,Bicosoecales,Bicosoecaceae,968.7,778,0,0.803138226,37,29.71611438
+Biecheleria pseudopalustris,Eukaryota,Chromista,Miozoa,Dinophyceae,Suessiales,Suessiaceae,10995.6,840,0,0.076394194,35,2.673796791
+Botryococcus braunii,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Trebouxiales,Botryococcaceae,25434,14635.63,1,0.575435637,50,28.77178187
+Chlamydomonas proboscigera,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Chlamydomonadales,Chlamydomonadaceae,4188.8,516,0,0.123185638,20,2.463712758
+Chroococcus,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Chroococcales,Chroococcaceae,10240,14848,1,1.45,60,87
+Chroococcus minutus,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Chroococcales,Chroococcaceae,3125,3750,1,1.2,25,30
+Chrysochromulina parva,Eukaryota,Chromista,Haptophyta,Coccolithophyceae,Prymnesiales,Chrysochromulinaceae,35,185,0,5.285714286,4.5,23.78571429
+Chrysococcus,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Dinobryaceae,904.32,144,0,0.159235669,12,1.910828025
+Closterium,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Closteriaceae,399.67,481,0,1.203492882,19.4,23.3477619
+Closterium acutum,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Closteriaceae,752.2916667,653,0,0.8680144,115,99.82165605
+Closterium limneticum,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Closteriaceae,3170,384,0,0.121135647,167.5,20.29022082
+Cocconeis,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Cocconeidales,Cocconeidaceae,742.5,859,0,1.156902357,22,25.45185185
+Coelastrum,Scenedesmaceae,Sphaeropleales,Chlorophyceae,Chlorophyta,Plantae,Eukaryota,904.32,568,1,0.628096249,12,7.537154989
+Cosmarium,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Desmidiales,Desmidiaceae,10601.43,880,0,0.08300767,37,3.07128378
+Cryptomonas,Eukaryota,Chromista,Cryptophyta,Cryptophyceae,Cryptomonadales,Cryptomonadaceae,1368.5,291,0,0.212641578,22,4.678114724
+Cryptomonas curvata,Eukaryota,Chromista,Cryptophyta,Cryptophyceae,Cryptomonadales,Cryptomonadaceae,5143.32,718,0,0.139598547,42,5.863138984
+Cryptomonas obovoidea,Eukaryota,Chromista,Cryptophyta,Cryptophyceae,Cryptomonadales,Cryptomonadaceae,381.2,875,0,2.295383001,13,29.83997901
+Cyclotella,Eukaryota,Chromista,Bacillariophyta,Mediophyceae,Stephanodiscales,Stephanodiscaceae,98.13,844,0,8.600835626,5,43.00417813
+Desmodesmus bicaudatus,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,665.6,810,1,1.216947115,16,19.47115385
+Diatoma vulgaris,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Tabellariales,Tabellariaceae,3600,345,1,0.095833333,100,9.583333333
+Dinobryon,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Dinobryaceae,1150,201,0,0.174782609,13,2.272173913
+Dinobryon cylindricum,Dinobryaceae,Chromulinales,Chrysophyceae,Ochrophyta,Chromista,Eukaryota,805.8,733,1,0.909655001,100,90.96550012
+Dinobryon divergens,Dinobryaceae,Chromulinales,Chrysophyceae,Ochrophyta,Chromista,Eukaryota,805.8,733,1,0.909655001,150,136.4482502
+Dinobryon sertularia,Eukaryota,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Dinobryaceae,916.3,743,1,0.810869802,150,121.6304704
+Discostella pseudostelligera,Eukaryota,Chromista,Bacillariophyta,Mediophyceae,Stephanodiscales,Stephanodiscaceae,269.26,203,0,0.753918146,7,5.277427022
+Dolichospermum planctonicum,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Nostocales,Aphanizomenonaceae,4415.63,2380.12,1,0.539021612,100,53.90216119
+Eudorina elegans,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Chlamydomonadales,Volvocaceae,76302,25434,1,0.333333333,70,23.33333333
+Fragilaria acus,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Fragilariales,Fragilariaceae,560,677,0,1.208928571,35,42.3125
+Fragilaria rumpens,Fragilariaceae,Fragilariales,Bacillariophyceae,Bacillariophyta,Chromista,Eukaryota,486,753,1,1.549382716,40,61.97530864
+Gymnodinium,Eukaryota,Chromista,Miozoa,Dinophyceae,Gymnodiniales,Gymnodiniaceae,3611,656,0,0.181667128,20,3.633342564
+Gyrodinium helveticum,Gyrodiniaceae,Gymnodiniales,Dinophyceae,Miozoa,Chromista,Eukaryota,6230.8,857,0,0.137542531,35,4.813988573
+Hippodonta capitata,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Naviculales,Naviculaceae,252,658,0,2.611111111,20,52.22222222
+Klebsormidium subtile,Eukaryota,Plantae,Charophyta,Klebsormidiophyceae,Klebsormidiales,Klebsormidiaceae,3848.2,2274.93,1,0.591167299,100,59.1167299
+Komvophoron minutum,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Oscillatoriales,Gomontiellaceae,314,640.27,1,2.039076433,80,163.1261146
+Korshikoviella limnetica,Characiaceae,Sphaeropleales,Chlorophyceae,Chlorophyta,Plantae,Eukaryota,699.96,357,0,0.510029145,53.5,27.28655923
+Lemmermannia triangularis,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Trebouxiophyceae ordo incertae sedis,Trebouxiophyceae incertae sedis,403.2,801,1,1.986607143,12,23.83928571
+Limnococcus limneticus,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Merismopediaceae,32400,14400,1,0.444444444,60,26.66666667
+Limnothrix planctonica,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Pseudanabaenaceae,314,650,1,2.070063694,100,207.0063694
+Limnothrix redekei,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Synechococcales,Pseudanabaenaceae,176.7,474.53,1,2.685512168,100,268.5512168
+Lindavia bodanica,Eukaryota,Chromista,Bacillariophyta,Mediophyceae,Stephanodiscales,Stephanodiscaceae,50240,622,0,0.012380573,40,0.49522293
+Lyngbya,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Oscillatoriales,Oscillatoriaceae,5024,2612.48,1,0.52,100,52
+Mallomonas,Eukaryota,Chromista,Ochrophyta,Synurophyceae,Synurales,Mallomonadaceae,785.4,157,0,0.199898141,15,2.998472116
+Micractinium pusillum,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Chlorellaceae,10048,15624.05,1,1.554941282,100,155.4941282
+Microcystis aeruginosa,Microcystaceae,Chroococcales,Cyanophyceae,Cyanobacteria,Eubacteria,Prokaryota,5236,31400,1,5.996944232,100,599.6944232
+Monactinus simplex,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Hydrodictyaceae,235500,31425.12,1,0.13344,100,13.344
+Monoraphidium minutum,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Selenastraceae,131.9,828,0,6.277482942,15,94.16224412
+Mougeotia,Eukaryota,Plantae,Charophyta,Conjugatophyceae (Zygnematophyceae),Zygnematales,Zygnemataceae,2544.7,102,1,0.04008331,100,4.008331041
+Mucidosphaerium pulchellum,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Chlorellaceae,5747,5538.96,1,0.963800244,80,77.10401949
+Nitzschia,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,784,70,0,0.089285714,49,4.375
+Nitzschia acicularis,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,283.5,809,0,2.85361552,45,128.4126984
+Oocystis,Eukaryota,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Oocystaceae,131.9,612,0,4.639878696,15,69.59818044
+Oscillatoria,Prokaryota,Eubacteria,Cyanobacteria,Cyanophyceae,Oscillatoriales,Oscillatoriaceae,2827.4,1940.52,1,0.686326661,100,68.63266605
+Parvodinium inconspicuum,Eukaryota,Chromista,Miozoa,Dinophyceae,Peridiniales,Peridiniaceae,3769.9,603,0,0.159951192,25,3.998779808
+Peridinium,Eukaryota,Chromista,Miozoa,Dinophyceae,Peridiniales,Peridiniaceae,9188.0325,707,0,0.076947921,27,2.07759387
+Plagioselmis lacustris,Eukaryota,Chromista,Cryptophyta,Cryptophyceae,Pyrenomonadales,Geminigeraceae,586.13,97,0,0.165492297,14,2.316892157
+Pseudopediastrum boryanum,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Hydrodictyaceae,794812.5,70675.12,1,0.088920494,150,13.33807407
+Pseudopedinella,Eukaryota,Chromista,Ochrophyta,Dictyochophyceae,Pedinellales,Pedinellaceae,321.54,748,1,2.326304659,2.5,5.815761647
+Scenedesmus,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,640,750,1,1.171875,20,23.4375
+Scenedesmus obtusus,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,2534.4,2205,1,0.870028409,24,20.88068182
+Staurosira construens,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Fragilariales,Fragilariaceae,441,782,1,1.77324263,19.5,34.57823129
+Synedra,Eukaryota,Chromista,Bacillariophyta,Bacillariophyceae,Fragilariales,Fragilariaceae,90,356,1,3.955555556,15,59.33333333
+Tetradesmus lagerheimii,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,1099.6,1285.71,1,1.169252455,20,23.38504911
+Tetradesmus obliquus,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,653.5,925.71,1,1.416541699,16,22.66466718
+Tetraedron,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Hydrodictyaceae,1458,607,0,0.416323731,18,7.49382716
+Willea crucifera,Eukaryota,Plantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,460.8,483,1,1.048177083,18,18.8671875
+Woronichinia naegeliana,Coelosphaeriaceae,Synechococcales,Cyanophyceae,Cyanobacteria,Eubacteria,Prokaryota,1635.42,6114.8,1,3.738978366,4,14.95591347

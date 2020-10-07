@@ -12,7 +12,7 @@
 #' 
 #' data(lakegeneva)
 #' lakegeneva<-genus_species_extract(lakegeneva,'phyto_name')
-#' lakegeneva<-phyto_convert_df(lakegeneva)
+#' lakegeneva<-species_to_mfg_df(lakegeneva)
 #' lakegeneva<-mfg_csr_convert_df(lakegeneva,mfg='MFG')
 #' head(lakegeneva)
 

@@ -4,7 +4,8 @@
 \name{mfgTraits}
 \alias{mfgTraits}
 \title{Functional Trait Database derived from Rimet et al.}
-\format{A data frame with columns:
+\format{
+A data frame with columns:
 \describe{
  \item{Taxa.name}{binomial scientific name}
  \item{genus}{genus name}
@@ -19,7 +20,8 @@
 \item{Class}{Taxonomic class}
  \item{Order}{Taxonomic order}
 \item{MFG.fromtraits}{MFG classification using traits_to_mfg function}
-}}
+}
+}
 \usage{
 data(mfgTraits)
 }

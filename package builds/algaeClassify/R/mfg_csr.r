@@ -14,10 +14,10 @@
 #returns a CSR classification for a single MFG
 mfg_csr_convert<-function(mfg)
 {
-  if(mfg %in% mfg.csr$MFG==F){csr=NA}
+  if(mfg %in% algaeClassify::mfg_csr_library$MFG==F){csr=NA}
   else
   {
-  	csr=mfg.csr$CSR[mfg.csr$MFG==mfg]
+  	csr=algaeClassify::mfg_csr_library$CSR[algaeClassify::mfg_csr_library$MFG==mfg]
   	return(csr)
   }
 

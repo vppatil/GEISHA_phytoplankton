@@ -4,7 +4,8 @@
 \name{csrTraits}
 \alias{csrTraits}
 \title{Database of functional traits for MFG classification, derived from Rimet et al. 2019}
-\format{A data frame with columns:
+\format{
+A data frame with columns:
 \describe{
  \item{phyto_name}{binomial scientific name}
  \item{genus}{genus name}
@@ -18,7 +19,8 @@
 \item{Number.of.cells.per.colony}{literature-based average colony abundance}
 \item{Geometrical.shape.of.the.colony}{Shape descriptions. See Rimet et al. 2019 for abbreviations}
  \item{traitCSR}{CSR classification using traits_to_CSR function and criteria from Reynolds 2006}
-}}
+}
+}
 \usage{
 data(mfgTraits)
 }

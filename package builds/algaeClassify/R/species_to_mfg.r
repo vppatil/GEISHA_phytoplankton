@@ -13,10 +13,15 @@
 #' species_to_mfg('Scenedesmus','bijuga')
 #' #returns "11a-NakeChlor"
 
-species_to_mfg<-function(genus,species,flag=1,mfgDbase=species.mfg.library)#set flag to two if you want to 
+species_to_mfg<-function(genus,species,flag=1,mfgDbase=NA)#set flag to two if you want to 
 													 #manually resolve ambiguous mfg class.
   #default behavior is to set ambiguous classes to NA (flag=1)
 {  
+  if(is.na(mfgDbase))
+  {
+
+	mfgDbase<-algaeClassify::species_mfg_library
+  }
   mfgDbase<-mfgDbase[!duplicated(mfgDbase),]
   
   genus=gsub('Unknown ','',genus)
