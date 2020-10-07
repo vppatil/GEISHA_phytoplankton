@@ -204,7 +204,9 @@ traits_to_mfg <- function(flagella = NA,
 					 "Phaeothamniophyceae")) {
       mfg = "9c-SmallChry2"
     }
-  else {
+  else 
+  if(!is.na(class) & !is.na(order))
+  {
     mfg = "9d-SmallUnic"
   }
   }
