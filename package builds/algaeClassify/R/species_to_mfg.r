@@ -17,9 +17,8 @@ species_to_mfg<-function(genus,species,flag=1,mfgDbase=NA)#set flag to two if yo
 													 #manually resolve ambiguous mfg class.
   #default behavior is to set ambiguous classes to NA (flag=1)
 {  
-  if(is.na(mfgDbase))
+  if(is.na(mfgDbase[1]))
   {
-
 	mfgDbase<-algaeClassify::species_mfg_library
   }
   mfgDbase<-mfgDbase[!duplicated(mfgDbase),]
