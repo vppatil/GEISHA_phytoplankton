@@ -2,7 +2,7 @@
 #'
 #' @format A data frame with columns:
 #' \describe{
-#'  \item{Taxa.name}{binomial scientific name}
+#'  \item{phyto_name}{binomial scientific name}
 #'  \item{genus}{genus name}
 #'  \item{species}{species name}
 #'  \item{Mobility.apparatus}{1/0 indicates presence/absence of flagella or motility}
