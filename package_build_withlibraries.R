@@ -90,9 +90,24 @@ library(devtools);
 # creates bundle to submit to CRAN (*.tar.zip file found in development folder)
 build('.', manual = FALSE)
 # error checks prior to submission (all errors and warnings need to be addressed)
+
+
+library(devtools); library(roxygen2)
+thePackage <- "algaeClassify"
+
+# set directory to the package development folder
+setwd("C:/Users/vpatil/OneDrive - DOI/Geisha_main/phyto_package/GEISHA_phytoplankton_github_shared/package builds/")
+
+# create new bare-bones package in development folder
+# NOTE: only run package creation script once
+#install.packages("devtools"); # make sure your have the most recent version
+#install.packages("roxygen2"); # make sure your have the most recent version
+library(devtools); library(roxygen2)
+# create(thePackage)
+setwd('algaeClassify')
+
 check('.')
 warning()
-
 # STEP 4, Build example PDF manual (will not be same as CRAN, but close) ######
 ###############################################################################
 

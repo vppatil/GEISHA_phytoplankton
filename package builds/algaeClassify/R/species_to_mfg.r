@@ -108,6 +108,7 @@ species_to_mfg<-function(genus,species,flag=1,mfgDbase=NA)#set flag to two if yo
   mfg.df<-data.frame(MFG=mfg,
                      ambiguous.mfg=ambiguous.mfg,
                      genus.classification=genus.classification,
-                     partial.match=partial.match)
+                     partial.match=partial.match,
+                     flag=flag)
   return(mfg.df)
 }
