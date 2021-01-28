@@ -15,6 +15,7 @@ species_to_mfg_df(phyto.df, flag = 1, mfgDbase = NA)
 }
 \value{
 input data.frame with a new character column of MFG classifications
+and diagnostic information
 }
 \description{
 Wrapper function to apply species_phyto_convert() across a data.frame

@@ -16,12 +16,15 @@ species_to_mfg(genus, species, flag = 1, mfgDbase = NA)
 \item{mfgDbase}{data.frame of species MFG classifications. Defaults to the supplied species.mfg.library data object}
 }
 \value{
-a single MFG classification as character string
+a data frame with MFG classification and diagnostic information.
+ambiguous.mfg=1 if multiple possible mfg matches
+genus.classification=1 if no exact match was found with genus + species name
+partial.match=1 if mfg was based on fuzzy matching of taxonomic name.
 }
 \description{
 Conversion of a single genus and species name to a single MFG. Uses species.mfg.library
 }
 \examples{
 species_to_mfg('Scenedesmus','bijuga')
-#returns "11a-NakeChlor"
+#returns "1a-LargeChry"
 }

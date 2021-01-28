@@ -1,4 +1,4 @@
-# algaeClassify 1.3.0
+# algaeClassify 1.3.1
 
 ## Major changes
 
@@ -9,4 +9,8 @@ on a cross-mapping of morpho-functional traits that define MFG and CSR functiona
 - algaebase database search functions (algae_search and spp_list_algaebase) have been removed to 
 comply with new terms of use for the algaebase online database.
 -traits_to_mfg and traits_to_csr functions have been modified to allow users to supply their own trait database
+
+## Minor changes
+- species_to_mfg function now includes extra columns to indicate if an mfg classification was ambiguous, based on genus only, or based on a partial (fuzzy) taxonomic name match
+- 
 

@@ -7,7 +7,7 @@
 thePackage <- "algaeClassify"
 
 # set directory to the package development folder
-setwd("~/gleon/Geisha/phyto_package/GEISHA_phytoplankton_github_shared/package builds/")
+setwd("C:/Users/vpatil/OneDrive - DOI/Geisha_main/phyto_package/GEISHA_phytoplankton_github_shared/package builds/")
 
 # create new bare-bones package in development folder
 # NOTE: only run package creation script once
@@ -32,11 +32,20 @@ lakegeneva <- read.csv('../../lakegeneva.csv')
 # use_data(library_MFG, pkg = thePackage, internal = TRUE, overwrite = TRUE)
 use_data(lakegeneva, overwrite = TRUE)
 
-rimet_mfgtraits<-read.csv('~/gleon/Geisha/phyto_package/GEISHA_phytoplankton_github_shared/Frederic_MFGtraits.csv')
+rimet_mfgtraits<-read.csv('C:/Users/vpatil/OneDrive - DOI/Geisha_main/phyto_package/GEISHA_phytoplankton_github_shared/Frederic_MFGtraits.csv')
 mfgTraits=rimet_mfgtraits[!is.na(rimet_mfgtraits$MFG.fromtraits),]
+
+.simpleCap <- function(x) {
+  s <- strsplit(x, " ")[[1]]
+  paste(toupper(substring(s, 1, 1)), substring(s, 2),
+        sep = "", collapse = " ")}
+  
+names(mfgTraits)<-sapply(names(mfgTraits),.simpleCap)
+names(mfgTraits)[1]='phyto_name'
+names(mfgTraits)[2:3]=c('genus','species')
 use_data(mfgTraits,overwrite=TRUE)
 
-fred.csrtraits<-read.csv('~/gleon/Geisha/phyto_package/GEISHA_phytoplankton_github_shared/Fred_CSRtraits_numericClassCorrection.csv')
+fred.csrtraits<-read.csv('C:/Users/vpatil/OneDrive - DOI/Geisha_main/phyto_package/GEISHA_phytoplankton_github_shared/Fred_CSRtraits_numericClassCorrection.csv')
 csrTraits<-fred.csrtraits
 csrTraits<-genus_species_extract(csrTraits,'phyto_name')
 csrTraits$phyto_name<-paste(csrTraits$genus,csrTraits$species)
@@ -44,11 +53,11 @@ csrTraits$phyto_name<-trimws(csrTraits$phyto_name)
 
 use_data(csrTraits,overwrite=TRUE)
 
-mfg_csr_library<-read.csv('~/gleon/Geisha/phyto_package/mee ms/mfg_csr_library.csv')
+mfg_csr_library<-read.csv('C:/Users/vpatil/OneDrive - DOI/Geisha_main/phyto_package/mee ms/mfg_csr_library.csv')
 use_data(mfg_csr_library,overwrite=TRUE)
 
 
-# setwd('~/gleon/Geisha/phyto_package/GEISHA_phytoplankton_github_shared/package builds/')# use_data(library_MFG, pkg = thePackage, internal = TRUE, overwrite = TRUE)
+# setwd('C:/Users/vpatil/OneDrive - DOI/Geisha_main/phyto_package/GEISHA_phytoplankton_github_shared/package builds/')# use_data(library_MFG, pkg = thePackage, internal = TRUE, overwrite = TRUE)
 # 
 # load('sppMFG.rda')
 # setwd('data/')
@@ -56,19 +65,20 @@ use_data(mfg_csr_library,overwrite=TRUE)
 # setwd('..')
 # use_data(species.mfg.library, overwrite = TRUE)
 
-setwd('~/gleon/Geisha/phyto_package/GEISHA_phytoplankton_github_shared/')
+setwd('C:/Users/vpatil/OneDrive - DOI/Geisha_main/phyto_package/GEISHA_phytoplankton_github_shared/')
 load('traitranges.rda')
 traitranges=traitranges[1:3,]
 traitranges$units=c('um^-1','um','')
 
 use_data(traitranges, overwrite = TRUE)
 
-setwd('~/gleon/Geisha/jennie MFG/')
+setwd('C:/Users/vpatil/OneDrive - DOI/Geisha_main/jennie MFG/')
 species_mfg_library<-read.csv('expanded_mfg_library_1062020.csv')
 species_mfg_library<-subset(species_mfg_library,select=c('genus','species','MFG','source'))
-species_mfg_library$source<-iconv(species_mfg_library,to='ASCII//TRANSLIT')
+species_mfg_library$MFG<-gsub('6a-LargeCent','6a1-LargeCent',species_mfg_library$MFG)
 use_data(species_mfg_library,overwrite=TRUE)
-setwd('~/gleon/Geisha/phyto_package/GEISHA_phytoplankton_github_shared/package builds/algaeClassify/')
+setwd('C:/Users/vpatil/OneDrive - DOI/Geisha_main/phyto_package/GEISHA_phytoplankton_github_shared/package builds/algaeClassify/')
+
 rm(list='traitranges')
 # STEP 3, error check and compile package for CRAN ############################
 # (1) update DESCRIPTION file
