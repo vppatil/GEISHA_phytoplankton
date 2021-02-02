@@ -26,6 +26,7 @@ species_to_mfg_df <- function(phyto.df,flag=1,mfgDbase=NA)
 
   for(i in 1:phyto.len)
   {
+    print(i)
     mfgs[i,]<-species_to_mfg(phyto.df$genus[i],phyto.df$species[i],flag=flag,mfgDbase=mfgDbase)
   }
   phyto.df<-phyto.df[,names(phyto.df) %in% c('MFG','ambiguous.mfg','genus.classification','partial.match','flag')==FALSE,]
