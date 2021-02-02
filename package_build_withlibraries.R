@@ -73,7 +73,7 @@ traitranges$units=c('um^-1','um','')
 use_data(traitranges, overwrite = TRUE)
 
 setwd('C:/Users/vpatil/OneDrive - DOI/Geisha_main/jennie MFG/')
-species_mfg_library<-read.csv('expanded_mfg_library_1062020.csv')
+species_mfg_library<-read.csv('expanded_mfg_library_2_1_2021.csv')
 species_mfg_library<-subset(species_mfg_library,select=c('genus','species','MFG','source'))
 species_mfg_library$MFG<-gsub('6a-LargeCent','6a1-LargeCent',species_mfg_library$MFG)
 use_data(species_mfg_library,overwrite=TRUE)
