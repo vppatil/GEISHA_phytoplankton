@@ -1,7 +1,7 @@
 Package: algaeClassify
 Title: Determine Phytoplankton Functional Groups Based on Functional Traits
 Version: 1.3.1
-Date: 2021-01-28
+Date: 2021-02-01
 Authors@R: c(person("Vijay","Patil",email="vpatil@usgs.gov",role=c("aut","cre")),
 		   person("Torsten","Seltmann",role="aut"),
 		   person("Nico","Salmaso",role="aut"),
@@ -37,14 +37,8 @@ Description: Functions that facilitate the use of accepted taxonomic nomenclatur
 	use of the software.
 Depends: R (>= 3.4.0)
 Imports: 
-	httr,
 	lubridate,
-	plyr,
-	RCurl,
-	rvest,
-	taxize,
-	XML,
-	xml2
+	stats
 License: GPL-2 | GPL-3
 Encoding: UTF-8
 LazyData: true

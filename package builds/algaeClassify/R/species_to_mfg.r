@@ -14,7 +14,7 @@
 #'
 #' @examples
 #' species_to_mfg('Scenedesmus','bijuga')
-#' #returns "1a-LargeChry"
+#' #returns "11a-NakeChlor"
 
 species_to_mfg<-function(genus,species,flag=1,mfgDbase=NA)#set flag to two if you want to
 													 #manually resolve ambiguous mfg class.
