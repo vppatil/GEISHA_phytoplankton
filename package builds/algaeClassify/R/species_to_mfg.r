@@ -77,7 +77,7 @@ species_to_mfg<-function(genus,species,flag=1,mfgDbase=NA)#set flag to two if yo
   }
 
   #now, mfg length should be 0, 1, or 2
-  if(length(unique(na.omit(mfg)))==2)#flag 2 means you can interactively
+  if(length(unique(mfg[!is.na(mfg)]))==2)#flag 2 means you can interactively
 							#choose among two possible mfgs for a particular genus or species
   {
     ambiguous.mfg=1
@@ -96,7 +96,7 @@ species_to_mfg<-function(genus,species,flag=1,mfgDbase=NA)#set flag to two if yo
     }
   }
 
-  mfg<-unique(na.omit(mfg))
+  mfg<-unique(mfg[!is.na(mfg)])
   if(length(mfg)==0 )
   {
     mfg=NA

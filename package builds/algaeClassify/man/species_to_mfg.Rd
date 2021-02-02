@@ -26,5 +26,5 @@ Conversion of a single genus and species name to a single MFG. Uses species.mfg.
 }
 \examples{
 species_to_mfg('Scenedesmus','bijuga')
-#returns "1a-LargeChry"
+#returns "11a-NakeChlor"
 }
