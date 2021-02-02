@@ -4,7 +4,7 @@
 \alias{species_to_mfg}
 \title{Conversion of a single genus and species name to a single MFG. Uses species.mfg.library}
 \usage{
-species_to_mfg(genus, species, flag = 1, mfgDbase = NA)
+species_to_mfg(genus, species = "", flag = 1, mfgDbase = NA)
 }
 \arguments{
 \item{genus}{Character string: genus name}
