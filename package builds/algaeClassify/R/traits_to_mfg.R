@@ -195,7 +195,7 @@ traits_to_mfg <- function(flagella = NA,
       mfg = "9a-SmallConj"
     }
   else
-    if (order %in% "Chlorococcales") {
+    if (order %in% c("Chlorococcales","Sphaeropleales") {
       mfg = "9b-SmallChlor"
     }
   else
