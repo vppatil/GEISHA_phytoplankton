@@ -2,7 +2,7 @@
 # package creation & maintenance file
 # M.J. Lajeunesse, R course 7/5/16
 ###############################################################################
-
+rm(list=ls())
 # define the package name
 thePackage <- "algaeClassify"
 
@@ -92,9 +92,8 @@ build('.', manual = FALSE)
 # error checks prior to submission (all errors and warnings need to be addressed)
 
 
-library(devtools); library(roxygen2)
-thePackage <- "algaeClassify"
 
+rm(list=ls())
 # set directory to the package development folder
 setwd("C:/Users/vpatil/OneDrive - DOI/Geisha_main/phyto_package/GEISHA_phytoplankton_github_shared/package builds/")
 
@@ -106,7 +105,7 @@ library(devtools); library(roxygen2)
 # create(thePackage)
 setwd('algaeClassify')
 
-check('.')
+check('.',cran=FALSE)
 warning()
 # STEP 4, Build example PDF manual (will not be same as CRAN, but close) ######
 ###############################################################################
@@ -117,10 +116,10 @@ warning()
 ###############################################################################
 
 setwd('..')
+thePackage='algaeClassify'
 document(thePackage)
 path <- find.package(thePackage)
 system(paste(shQuote(file.path(R.home("bin"), "R")), "CMD", "Rd2pdf", shQuote(path)))
-
 
 #release code
 setwd('algaeClassify/')
