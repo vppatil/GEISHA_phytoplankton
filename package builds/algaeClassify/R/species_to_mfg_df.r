@@ -18,15 +18,20 @@
 #' new.lakegeneva <- species_to_mfg_df(new.lakegeneva)
 #' head(new.lakegeneva)
 
-species_to_mfg_df <- function(phyto.df,flag=1,mfgDbase=NA)
+species_to_mfg_df_RB <- function(phyto.df,flag=1,mfgDbase=NA)
 {
-  phyto.len<-dim(phyto.df)[1]
-  na.vec<-rep(NA,length=phyto.len)
-  mfgs<-data.frame(MFG=na.vec,ambiguous.mfg=na.vec,genus.classification=na.vec,partial.match=na.vec,flag=na.vec)
+  #phyto.len<-dim(phyto.df)[1]
+  #na.vec<-rep(NA,length=phyto.len)
+  #mfgs<-data.frame(MFG=na.vec,ambiguous.mfg=na.vec,genus.classification=na.vec,partial.match=na.vec,flag=na.vec)
 
-  for(i in 1:phyto.len)
+  # Instead of the code above, create the first row here
+  mfgs <- species_to_mfg(phyto.df$genus[1],phyto.df$species[1],flag=flag,mfgDbase=mfgDbase)
+
+  # Then bind the other rows, starting at row 2.
+  for(i in 2:phyto.len)
   {
-    mfgs[i,]<-species_to_mfg(phyto.df$genus[i],phyto.df$species[i],flag=flag,mfgDbase=mfgDbase)
+    mfgs <- rbind(mfgs,
+                  species_to_mfg(phyto.df$genus[i],phyto.df$species[i],flag=flag,mfgDbase=mfgDbase))
   }
 
   # phyto.df<-phyto.df[,names(phyto.df) %in% c('MFG','ambiguous.mfg','genus.classification','partial.match','flag')==FALSE,]
