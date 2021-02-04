@@ -1,4 +1,4 @@
-# algaeClassify 1.3.1
+# algaeClassify 1.3.2
 
 ## Major changes
 
@@ -12,3 +12,7 @@ comply with new terms of use for the algaebase online database.
 
 ## Minor changes
 - species_to_mfg function now includes extra columns to indicate if an mfg classification was ambiguous, based on genus only, or based on a partial (fuzzy) taxonomic name match.
+- species_to_mfg_df has been modified to eliminate errors caused by tidyverse data structures.
+
+## Note on data structures
+- algaeClassify functions were written to work with standard R data frames. Tidyverse users may encounter errors when using input data stored as tibbles. We suggest converting data files to data frames before running algaeClassify functions. If specific bugs are encounterd, please email vpatil@usgs.gov.

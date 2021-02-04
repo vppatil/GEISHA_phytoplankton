@@ -20,11 +20,7 @@
 
 species_to_mfg_df <- function(phyto.df,flag=1,mfgDbase=NA)
 {
-  #phyto.len<-dim(phyto.df)[1]
-  #na.vec<-rep(NA,length=phyto.len)
-  #mfgs<-data.frame(MFG=na.vec,ambiguous.mfg=na.vec,genus.classification=na.vec,partial.match=na.vec,flag=na.vec)
-
-  # Instead of the code above, create the first row here
+  phyto.len<-dim(phyto.df)[1]
   mfgs <- species_to_mfg(phyto.df$genus[1],phyto.df$species[1],flag=flag,mfgDbase=mfgDbase)
 
   # Then bind the other rows, starting at row 2.
