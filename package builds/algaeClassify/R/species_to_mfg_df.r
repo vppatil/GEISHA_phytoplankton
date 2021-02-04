@@ -28,8 +28,13 @@ species_to_mfg_df <- function(phyto.df,flag=1,mfgDbase=NA)
   {
     mfgs[i,]<-species_to_mfg(phyto.df$genus[i],phyto.df$species[i],flag=flag,mfgDbase=mfgDbase)
   }
-  phyto.df<-phyto.df[,names(phyto.df) %in% c('MFG','ambiguous.mfg','genus.classification','partial.match','flag')==FALSE,]
-  phyto.df<-cbind(phyto.df,mfgs)
+
+  # phyto.df<-phyto.df[,names(phyto.df) %in% c('MFG','ambiguous.mfg','genus.classification','partial.match','flag')==FALSE,]
+  phyto.df$MFG=c(as.character(mfgs[,1]))
+  phyto.df$ambiguous.mfg=c(as.character(mfgs[,2]))
+  phyto.df$genus.classification=c(as.character(mfgs[,3]))
+  phyto.df$partial.match=c(as.character(mfgs[,4]))
+  phyto.df$flag=c(as.character(mfgs[,5]))
   return(phyto.df)
 }
 
