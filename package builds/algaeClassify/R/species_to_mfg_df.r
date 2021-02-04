@@ -18,7 +18,7 @@
 #' new.lakegeneva <- species_to_mfg_df(new.lakegeneva)
 #' head(new.lakegeneva)
 
-species_to_mfg_df_RB <- function(phyto.df,flag=1,mfgDbase=NA)
+species_to_mfg_df <- function(phyto.df,flag=1,mfgDbase=NA)
 {
   #phyto.len<-dim(phyto.df)[1]
   #na.vec<-rep(NA,length=phyto.len)
