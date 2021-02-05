@@ -21,17 +21,18 @@
 species_to_mfg_df <- function(phyto.df,flag=1,mfgDbase=NA)
 {
   phyto.len<-dim(phyto.df)[1]
-  mfgs <- species_to_mfg(phyto.df$genus[1],phyto.df$species[1],flag=flag,mfgDbase=mfgDbase)
-
-  # Then bind the other rows, starting at row 2.
-  for(i in 2:phyto.len)
+  na.vec<-rep(NA,length=phyto.len)
+  # new edit, specify category of columns before end. This appears to be working well for me. Is it faster than using rbind()?
+  mfgs<-data.frame(MFG=factor(na.vec, levels = factor(unique(algaeClassify::species_mfg_library$MFG))),ambiguous.mfg=as.numeric(na.vec),genus.classification=as.numeric(na.vec),partial.match=as.numeric(na.vec),flag=as.numeric(na.vec))
+  for(i in 1:phyto.len)
   {
-    mfgs <- rbind(mfgs,
-                  species_to_mfg(phyto.df$genus[i],phyto.df$species[i],flag=flag,mfgDbase=mfgDbase))
+    mfgs[i, ] <- species_to_mfg(phyto.df$genus[i],phyto.df$species[i],flag=flag,mfgDbase=mfgDbase)
   }
 
   # phyto.df<-phyto.df[,names(phyto.df) %in% c('MFG','ambiguous.mfg','genus.classification','partial.match','flag')==FALSE,]
-  phyto.df$MFG=c(as.character(mfgs[,1]))
+  phyto.df$MFG=c(as.character(paste(mfgs[,1]))) # to make it work I had to include paste()
+  # phyto.df$MFG[which(phyto.df$MFG == "NA")] <- NA # weird trick to make it back to the format you had... There is probably a better way to do that
+  # phyto.df$MFG<-c(as.character(mfgs[,1]))
   phyto.df$ambiguous.mfg=c(as.character(mfgs[,2]))
   phyto.df$genus.classification=c(as.character(mfgs[,3]))
   phyto.df$partial.match=c(as.character(mfgs[,4]))
