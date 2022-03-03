@@ -5,4 +5,6 @@
 * win-builder (devel and release)
 
 ## R CMD check results
-There were no ERRORs, WARNINGs, or NOTES
+There were no ERRORs, or WARNINGS. There were 2 NOTES about a potentially
+invalid DOI and URL for references in the description, but I confirmed that
+both were correct.
