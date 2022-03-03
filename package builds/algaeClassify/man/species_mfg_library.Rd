@@ -24,13 +24,13 @@ See accompanying manuscript for sources
 \references{
 {Algaebase} \url{https://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors}
 
-{Phycokey} \url{https://cfb.unh.edu/phycokey/}
+{Phycokey} \url{http://www.cfb.unh.edu/phycokey/phycokey.htm}
 
 {Western Diatoms of North America} \url{https://diatoms.org}
 
-{CyanoDB 2} \url{https://cyanodb.cz}
+{CyanoDB 2} \url{http://www.cyanodb.cz/}
 
-{Nordic Microalgae} \url{https://nordicmicroalgae.org}
+{Nordic Microalgae} \url{http://www.nordicmicroalgae.org}
 
 {Phytopedia} \url{https://www.eoas.ubc.ca/research/phytoplankton/}
 
