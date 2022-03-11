@@ -15,7 +15,7 @@
 #'
 #' @keywords datasets
 #'
-#' @references {Algaebase} \url{https://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors}
+#' @references {Algaebase} \url{https://www.algaebase.org}
 #' @references {Phycokey} \url{http://www.cfb.unh.edu/phycokey/phycokey.htm}
 #' @references {Western Diatoms of North America} \url{https://diatoms.org}
 #' @references {CyanoDB 2} \url{http://www.cyanodb.cz/}
