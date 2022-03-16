@@ -21,7 +21,7 @@
 #' @seealso /url{https://powellcenter.usgs.gov/geisha} for project information
 
 
-traits_to_csr=function(sav,msv,msv.source='Reynolds 2006',traitrange=traitranges)
+traits_to_csr=function(sav,msv,msv.source='Reynolds 2006',traitrange=algaeClassify::traitranges)
 {
 
   csr=NA

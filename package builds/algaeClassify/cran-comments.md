@@ -5,6 +5,9 @@
 * win-builder (devel and release)
 
 ## R CMD check results
-There were no ERRORs, or WARNINGS. There were 2 NOTES about a potentially
-invalid DOI and URL for references in the description, but I confirmed that
-both were correct.
+There were no ERRORs, or WARNINGS. There was 1 NOTE about a potentially
+invalid DOI for references in the description, but I confirmed that
+it was correct.
+
+The out-of-date URL for nordicmicroalgae.org in the species_mfg_library
+ documentation has been corrected.

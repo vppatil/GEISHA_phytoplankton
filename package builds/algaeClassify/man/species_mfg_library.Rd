@@ -22,7 +22,7 @@ Trait-based MFG classifications for common Eurasion/North American phytoplankton
 See accompanying manuscript for sources
 }
 \references{
-{Algaebase} \url{https://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors}
+{Algaebase} \url{https://www.algaebase.org}
 
 {Phycokey} \url{http://www.cfb.unh.edu/phycokey/phycokey.htm}
 
@@ -30,7 +30,7 @@ See accompanying manuscript for sources
 
 {CyanoDB 2} \url{http://www.cyanodb.cz/}
 
-{Nordic Microalgae} \url{http://www.nordicmicroalgae.org}
+{Nordic Microalgae} \url{http://nordicmicroalgae.org}
 
 {Phytopedia} \url{https://www.eoas.ubc.ca/research/phytoplankton/}
 
