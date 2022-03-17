@@ -54,7 +54,7 @@ genus_search_itis<-function(genus,higher=FALSE)
     }
 	
     genus.names=genus.names[tax.ranks=='Genus',]
-	genus.names=genus.names[1,]
+	genus.names=na.omit(genus.names[1,])
 
   }
   if(nrow(genus.names)==0){		

@@ -60,8 +60,9 @@ species_search_itis<-function(genspp,higher=FALSE)
       tax.ranks[j]=hier$rankname[hier$taxonname==sci.names$combinedName[j]][1]
     }
     sci.names=sci.names[tax.ranks=='Species',]
-	sci.names=sci.names[1,]
+	sci.names=na.omit(sci.names[1,])
   }
+  
   if(nrow(sci.names)==0){
 
 		res.df=data.frame(matched.name=NA,match=0,
