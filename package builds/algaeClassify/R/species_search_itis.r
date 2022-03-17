@@ -57,7 +57,7 @@ species_search_itis<-function(genspp,higher=FALSE)
     for(j in 1:length(tsns))
     {
       hier<-ritis::hierarchy_full(tsns[j])
-      tax.ranks[i]=hier$rankname[hier$taxonname==sci.names$combinedName[j]][1]
+      tax.ranks[j]=hier$rankname[hier$taxonname==sci.names$combinedName[j]][1]
     }
     sci.names=sci.names[tax.ranks=='Species',]
 	sci.names=sci.names[1,]

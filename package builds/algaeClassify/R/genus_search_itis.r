@@ -50,7 +50,7 @@ genus_search_itis<-function(genus,higher=FALSE)
     for(j in 1:length(tsns))
     {
       hier<-ritis::hierarchy_full(tsns[j])
-      tax.ranks[i]=hier$rankname[hier$taxonname==sci.names$combinedName[j]][1]
+      tax.ranks[j]=hier$rankname[hier$taxonname==sci.names$combinedName[j]][1]
     }
 	
     genus.names=genus.names[tax.ranks=='Genus',]
