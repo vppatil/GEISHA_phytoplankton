@@ -23,7 +23,8 @@
 #' #use taxize::gnr_datasources() to see all possible data sources for name checking.
 #' name<-"Aphanazomenon flos-aquae"
 #' #sourceid=3 for ITIS database,195 for Algaebase
-#' gnr_simple(name,sourceid=3) 
+#' gnr_simple(name,sourceid=3) #search for ITIS matches
+#' gnr_simple(name,sourceid=NULL) #search for matches from any source
 
 gnr_simple<-function(name,sourceid=NULL,topscore=TRUE,numhits=TRUE,canonical=TRUE,
                      with_context=TRUE,...)
@@ -41,7 +42,7 @@ gnr_simple<-function(name,sourceid=NULL,topscore=TRUE,numhits=TRUE,canonical=TRU
                    with_context = TRUE,...)
   if(length(res)>0)
   {
-    
+ 
     if(canonical)
     {
       res$matched_name=res$matched_name2
@@ -67,12 +68,13 @@ gnr_simple<-function(name,sourceid=NULL,topscore=TRUE,numhits=TRUE,canonical=TRU
       resname=res$matched_name
     }
     resname=unique(resname)[1] #grab the first one if no other options
-  
+
     if(length(resname)==0)
     {
       resname=NA
     }
-    if(is.null(sourceid)){sourcename=NA
+    if(is.null(sourceid)){
+		sourcename=NA
     }else{
       sources<-taxize::gnr_datasources()
       sourcename=sources$title[sources$id==sourceid]

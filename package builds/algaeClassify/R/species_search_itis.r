@@ -54,10 +54,10 @@ species_search_itis<-function(genspp,higher=FALSE)
     #remove hier taxonomy
     tax.ranks=vector()
     tsns<-as.numeric(sci.names$tsn)
-    for(i in 1:length(tsns))
+    for(j in 1:length(tsns))
     {
-      hier<-ritis::hierarchy_full(tsns[i])
-      tax.ranks[i]=hier$rankname[hier$taxonname==sci.names$combinedName[i]]
+      hier<-ritis::hierarchy_full(tsns[j])
+      tax.ranks[i]=hier$rankname[hier$taxonname==sci.names$combinedName[j]][1]
     }
     sci.names=sci.names[tax.ranks=='Species',]
 	sci.names=sci.names[1,]

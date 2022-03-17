@@ -1,14 +1,12 @@
 #' Wrapper function for several functions in ritis::
 #' Searches ITIS database for matches to a genus name
-#' outputs matches, current accepted names, synonyms, and higher taxonomy
 #'
 #' @param genus Character string. genus name to search for in ITIS
 #' @param higher Boolean. If TRUE, add higher taxonomic classifications to output
 #'
 #' @export genus_search_itis
 #'
-#' @return input data.frame with a new character column of MFG classifications
-#' and diagnostic information
+#' @return input data.frame with matches, current accepted names, synonyms, and higher taxonomy
 #'
 #'
 #' @examples
@@ -49,10 +47,10 @@ genus_search_itis<-function(genus,higher=FALSE)
     #remove hier taxonomy
     tax.ranks=vector()
     tsns<-as.numeric(genus.names$tsn)
-    for(i in 1:length(tsns))
+    for(j in 1:length(tsns))
     {
-      hier<-ritis::hierarchy_full(tsns[i])
-      tax.ranks[i]=hier$rankname[hier$taxonname==genus.names$combinedName[i]]
+      hier<-ritis::hierarchy_full(tsns[j])
+      tax.ranks[i]=hier$rankname[hier$taxonname==sci.names$combinedName[j]][1]
     }
 	
     genus.names=genus.names[tax.ranks=='Genus',]

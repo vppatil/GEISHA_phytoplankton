@@ -40,7 +40,7 @@ itis_search_df<-function(df,namecol=NA,higher=FALSE,genus.only=FALSE)
 	#
 	nrows<-nrow(df)
 	for(i in 1:nrows)
-	{
+	{	print(i)
 		name=df[[namecol]][i]
 		if(!is.na(name) & !is.null(name))
 		{
