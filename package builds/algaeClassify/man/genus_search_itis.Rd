@@ -3,8 +3,7 @@
 \name{genus_search_itis}
 \alias{genus_search_itis}
 \title{Wrapper function for several functions in ritis::
-Searches ITIS database for matches to a genus name
-outputs matches, current accepted names, synonyms, and higher taxonomy}
+Searches ITIS database for matches to a genus name}
 \usage{
 genus_search_itis(genus, higher = FALSE)
 }
@@ -14,13 +13,11 @@ genus_search_itis(genus, higher = FALSE)
 \item{higher}{Boolean. If TRUE, add higher taxonomic classifications to output}
 }
 \value{
-input data.frame with a new character column of MFG classifications
-and diagnostic information
+input data.frame with matches, current accepted names, synonyms, and higher taxonomy
 }
 \description{
 Wrapper function for several functions in ritis::
 Searches ITIS database for matches to a genus name
-outputs matches, current accepted names, synonyms, and higher taxonomy
 }
 \examples{
 genus='Anabaena'

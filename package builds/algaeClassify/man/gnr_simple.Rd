@@ -44,5 +44,6 @@ of criteria for the best match
 #use taxize::gnr_datasources() to see all possible data sources for name checking.
 name<-"Aphanazomenon flos-aquae"
 #sourceid=3 for ITIS database,195 for Algaebase
-gnr_simple(name,sourceid=3) 
+gnr_simple(name,sourceid=3) #search for ITIS matches
+gnr_simple(name,sourceid=NULL) #search for matches from any source
 }
