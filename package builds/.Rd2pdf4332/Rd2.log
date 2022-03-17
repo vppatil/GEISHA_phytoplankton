@@ -1,0 +1,84 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.12.20)  2 MAR 2022 21:48
+entering extended mode
+**"C:/Users/vpatil/Documents/Geisha_main/phyto_package/GEISHA_phytoplankton_git
+hub_shared/package builds/.Rd2pdf4332/Rd2.tex"
+
+(C:/Users/vpatil/Documents/Geisha_main/phyto_package/GEISHA_phytoplankton_githu
+b_shared/package builds/.Rd2pdf4332/Rd2.tex
+LaTeX2e <2021-06-01>
+L3 programming layer <2021-06-01>
+(C:\Program Files\MiKTeX\tex/latex/base\book.cls
+Document Class: book 2021/02/12 v1.4n Standard LaTeX document class
+(C:\Program Files\MiKTeX\tex/latex/base\bk10.clo
+File: bk10.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count182
+\c@chapter=\count183
+\c@section=\count184
+\c@subsection=\count185
+\c@subsubsection=\count186
+\c@paragraph=\count187
+\c@subparagraph=\count188
+\c@figure=\count189
+\c@table=\count190
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:/PROGRA~1/R/R-41~1.0/share/texmf/tex/latex\Rd.sty
+Package: Rd 
+
+(C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(C:\Program Files\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2021-05-07 v4.16 Multi-page Table package (DPC)
+\LTleft=\skip49
+\LTright=\skip50
+\LTpre=\skip51
+\LTpost=\skip52
+\LTchunksize=\count191
+\LTcapwidth=\dimen139
+\LT@head=\box50
+\LT@firsthead=\box51
+\LT@foot=\box52
+\LT@lastfoot=\box53
+\LT@gbox=\box54
+\LT@cols=\count192
+\LT@rows=\count193
+\c@LT@tables=\count194
+\c@LT@chunks=\count195
+\LT@p@ftn=\toks16
+)
+(C:\Program Files\MiKTeX\tex/latex/tools\bm.sty
+Package: bm 2021/04/25 v1.2e Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup4
+\symboldletters=\mathgroup5
+\symboldsymbols=\mathgroup6
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+)
+(C:\Program Files\MiKTeX\tex/latex/base\alltt.sty
+Package: alltt 2021/01/29 v2.0g defines alltt environment
+)
+(C:\Program Files\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks17
+\verbatim@line=\toks18
+\verbatim@in@stream=\read2
+)
+(C:\Program Files\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(C:\Program Files\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+\ldescriptionwidth=\skip53
+
+! Interruption.
+<argument> __file_size:n {ae.sty}
+                                 
+l.264 \IfFileExists{ae.sty}
+                           {\setboolean{Rd@has@ae}{true}}{}
+? 

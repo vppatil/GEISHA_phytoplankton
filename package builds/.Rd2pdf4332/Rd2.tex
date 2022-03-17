@@ -1,0 +1,934 @@
+\documentclass[a4paper]{book}
+\usepackage[times,inconsolata,hyper]{Rd}
+\usepackage{makeidx}
+\usepackage[utf8]{inputenc} % @SET ENCODING@
+% \usepackage{graphicx} % @USE GRAPHICX@
+\makeindex{}
+\begin{document}
+\chapter*{}
+\begin{center}
+{\textbf{\huge Package `algaeClassify'}}
+\par\bigskip{\large \today}
+\end{center}
+\inputencoding{utf8}
+\ifthenelse{\boolean{Rd@use@hyper}}{\hypersetup{pdftitle = {algaeClassify: Determine Phytoplankton Functional Groups Based on Functional Traits}}}{}\ifthenelse{\boolean{Rd@use@hyper}}{\hypersetup{pdfauthor = {Vijay Patil; Torsten Seltmann; Nico Salmaso; Orlane Anneville; Marc Lajeunesse; Dietmar Straile}}}{}\begin{description}
+\raggedright{}
+\item[Title]\AsIs{Determine Phytoplankton Functional Groups Based on Functional Traits}
+\item[Version]\AsIs{1.3.2}
+\item[Date]\AsIs{2022-03-02}
+\item[Author]\AsIs{Vijay Patil [aut, cre],
+Torsten Seltmann [aut],
+Nico Salmaso [aut],
+Orlane Anneville [aut],
+Marc Lajeunesse [aut],
+Dietmar Straile [aut]}
+\item[Maintainer]\AsIs{Vijay Patil }\email{vpatil@usgs.gov}\AsIs{}
+\item[Description]\AsIs{Functions that facilitate the use of accepted taxonomic nomenclature, collection of
+functional trait data, and assignment of functional group classifications to phytoplankton
+species. Possible classifications include Morpho-functional group (MFG; Salmaso et al. 2015
+<}\Rhref{https://doi.org/10.1111/fwb.12520}{doi:10.1111/fwb.12520}\AsIs{>) and CSR (Reynolds 1988; Functional morphology and the
+adaptive strategies of phytoplankton. In C.D. Sandgren (ed). Growth and reproductive
+strategies of freshwater phytoplankton, 388-433. Cambridge University Press, New York).
+Versions 1.3.0 and later no longer include the algae_search() function for querying the
+algaebase online taxonomic database (www.algaebase.org). Users are advised to verify
+taxonomic names directly using algaebase and cite the database in resulting publications.
+Note that none of the algaeClassify authors are affiliated with algaebase in any way.
+The algaeClassify package is a product of the GEISHA (Global Evaluation of the Impacts of
+Storms on freshwater Habitat and Structure of phytoplankton Assemblages), funded by CESAB
+(Centre for Synthesis and Analysis of Biodiversity) and the USGS John Wesley Powell Center for
+Synthesis and Analysis, with data and other support provided by members of GLEON
+(Global Lake Ecology Observation Network). This software is preliminary or provisional and
+is subject to revision. It is being provided to meet the need for timely best science.
+The software has not received final approval by the U.S. Geological Survey (USGS).
+No warranty, expressed or implied, is made by the USGS or the U.S. Government as to the
+functionality of the software and related material nor shall the fact of release constitute
+any such warranty. The software is provided on the condition that neither the USGS nor the U.S.
+Government shall be held liable for any damages resulting from the authorized or unauthorized
+use of the software.}
+\item[Depends]\AsIs{R (>= 3.4.0)}
+\item[Imports]\AsIs{lubridate,
+stats}
+\item[License]\AsIs{GPL-2 | GPL-3}
+\item[Encoding]\AsIs{UTF-8}
+\item[LazyData]\AsIs{true}
+\item[RoxygenNote]\AsIs{7.1.2}
+\end{description}
+\Rdcontents{\R{} topics documented:}
+\inputencoding{utf8}
+\HeaderA{accum}{Split a dataframe column with binomial name into genus and species columns. Plots change in species richness over time, generates species accumulation curve, and compares SAC against simulated idealized curve assuming all unique taxa have equal probability of being sampled at any point in the time series. (author Dietmar Straile)}{accum}
+%
+\begin{Description}\relax
+Split a dataframe column with binomial name into genus and species columns.
+Plots change in species richness over time, generates species accumulation curve, and
+compares SAC against simulated idealized curve assuming all unique taxa have equal probability
+of being sampled at any point in the time series. (author Dietmar Straile)
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+accum(
+  b_data,
+  phyto_name = "phyto_name",
+  column = NA,
+  n = 100,
+  save.pdf = FALSE,
+  lakename = "",
+  datename = "date_dd_mm_yy",
+  dateformat = "%d-%m-%y"
+)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Arguments}
+\begin{ldescription}
+\item[\code{b\_data}] Name of data.frame object
+
+\item[\code{phyto\_name}] Character string: field containing phytoplankton id (species, genus, etc.)
+
+\item[\code{column}] column name or number for field containing abundance (biomass,biovol, etc.).
+Can be NA if the dataset only contains a species list for each sampling date.
+
+\item[\code{n}] number of simulations for randomized ideal species accumulation curve
+
+\item[\code{save.pdf}] TRUE/FALSE- should plots be displayed or saved to a pdf?
+
+\item[\code{lakename}] optional character string for adding lake name to pdf output
+
+\item[\code{datename}] character string name of b\_data field containing date
+
+\item[\code{dateformat}] character string: posix format for datename column
+\end{ldescription}
+\end{Arguments}
+%
+\begin{Value}
+a two panel plot with trends in richness on top, and cumulative richness vs. simulated
+accumulation curve on bottom
+\end{Value}
+%
+\begin{Examples}
+\begin{ExampleCode}
+data(lakegeneva)
+#example dataset with 50 rows
+head(lakegeneva)
+
+accum(b_data=lakegeneva,column='biovol_um3_ml',n=10,save.pdf=FALSE)
+\end{ExampleCode}
+\end{Examples}
+\inputencoding{utf8}
+\HeaderA{bestmatch}{fuzzy partial matching between a scientific name and a list of possible matches}{bestmatch}
+%
+\begin{Description}\relax
+fuzzy partial matching between a scientific name and a list of possible matches
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+bestmatch(enteredName, possibleNames, maxErr = 3, trunc = TRUE)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Arguments}
+\begin{ldescription}
+\item[\code{enteredName}] Character string with name to check
+
+\item[\code{possibleNames}] Character vector of possible matches
+
+\item[\code{maxErr}] maximum number of different bits allowed for a partial match
+
+\item[\code{trunc}] TRUE/FALSE. if true and no match, retry with last three letters truncated
+\end{ldescription}
+\end{Arguments}
+%
+\begin{Value}
+a character string with the best match, or 'multiplePartialMatches'
+\end{Value}
+%
+\begin{Examples}
+\begin{ExampleCode}
+possibleMatches=c('Viburnum edule','Viburnum acerifolia')
+bestmatch(enteredName='Viburnum edulus',possibleNames=possibleMatches)
+\end{ExampleCode}
+\end{Examples}
+\inputencoding{utf8}
+\HeaderA{csrTraits}{Database of functional traits for MFG classification, derived from Rimet et al. 2019}{csrTraits}
+\keyword{datasets}{csrTraits}
+%
+\begin{Description}\relax
+Database of functional traits for MFG classification, derived from Rimet et al. 2019
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+data(mfgTraits)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Format}
+A data frame with columns:
+\begin{description}
+
+\item[phyto\_name] binomial scientific name
+\item[genus] genus name
+\item[species] species name
+\item[SAV] surface area:volume ratio
+\item[MLD] maximum linear dimension (micrometers)
+\item[MSV] product of SAV and MLD; unitless
+\item[volume.um3] cell or colony biovolume
+\item[surface.area.um2] biological unit (cell or colony) surface area accounting for mucilage
+\item[Colonial] 1/0 indicates colonial growth form
+\item[Number.of.cells.per.colony] literature-based average colony abundance
+\item[Geometrical.shape.of.the.colony] Shape descriptions. See Rimet et al. 2019 for abbreviations
+\item[traitCSR] CSR classification using traits\_to\_CSR function and criteria from Reynolds 2006
+
+\end{description}
+
+\end{Format}
+\inputencoding{utf8}
+\HeaderA{date\_mat}{Transform a phytoplankton timeseries into a matrix of abundances for ordination}{date.Rul.mat}
+%
+\begin{Description}\relax
+Transform a phytoplankton timeseries into a matrix of abundances for ordination
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+date_mat(
+  phyto.df,
+  abundance.var = "biovol_um3_ml",
+  summary.type = "abundance",
+  taxa.name = "phyto_name",
+  date.name = "date_dd_mm_yy",
+  format = "%d-%m-%y",
+  time.agg = c("day", "month", "year", "monthyear"),
+  fun = mean_naomit
+)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Arguments}
+\begin{ldescription}
+\item[\code{phyto.df}] Name of data.frame object
+
+\item[\code{abundance.var}] Character string: field containing abundance data.
+Can be NA if the dataset only contains a species list for each sampling date.
+
+\item[\code{summary.type}] 'abundance' for a matrix of aggregated abundance,'presence.absence'
+for 1 (present) and 0 (absent).
+
+\item[\code{taxa.name}] Character string: field containing taxonomic identifiers.
+
+\item[\code{date.name}] Character string: field containing date.
+
+\item[\code{format}] Character string: POSIX format string for formatting date column.
+
+\item[\code{time.agg}] Character string: time interval for aggregating abundance. default is day.
+
+\item[\code{fun}] function for aggregation. default is mean, excluding NA's.
+\end{ldescription}
+\end{Arguments}
+%
+\begin{Value}
+A matrix of phytoplankton abundance, with taxa in rows and time in columns.
+If time.agg = 'monthyear', returns a 3dimensional matrix (taxa,month,year).
+If abundance.var = NA, matrix cells will be 1 for present, 0 for absent
+\end{Value}
+%
+\begin{Examples}
+\begin{ExampleCode}
+data(lakegeneva)
+#example dataset with 50 rows
+
+geneva.mat1<-date_mat(lakegeneva,time.agg='month',summary.type='presence.absence')
+geneva.mat2<-date_mat(lakegeneva,time.agg='month',summary.type='abundance')
+
+geneva.mat1
+geneva.mat2
+\end{ExampleCode}
+\end{Examples}
+\inputencoding{utf8}
+\HeaderA{genus\_species\_extract}{Split a dataframe column with binomial name into genus and species columns.}{genus.Rul.species.Rul.extract}
+%
+\begin{Description}\relax
+Split a dataframe column with binomial name into genus and species columns.
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+genus_species_extract(phyto.df, phyto.name)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Arguments}
+\begin{ldescription}
+\item[\code{phyto.df}] Name of data.frame object
+
+\item[\code{phyto.name}] Character string: field in phyto.df containing species name.
+\end{ldescription}
+\end{Arguments}
+%
+\begin{Value}
+A data.frame with new character fields 'genus' and 'species'
+\end{Value}
+%
+\begin{Examples}
+\begin{ExampleCode}
+data(lakegeneva)
+#example dataset with 50 rows
+
+head(lakegeneva) #need to split the phyto_name column
+new.lakegeneva=genus_species_extract(lakegeneva,'phyto_name')
+
+head(new.lakegeneva)
+\end{ExampleCode}
+\end{Examples}
+\inputencoding{utf8}
+\HeaderA{lakegeneva}{example dataset from lake Geneva, Switzerland}{lakegeneva}
+\keyword{datasets}{lakegeneva}
+%
+\begin{Description}\relax
+example dataset from lake Geneva, Switzerland
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+data(lakegeneva)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Format}
+A data frame with columns:
+\begin{description}
+
+\item[lake] lake name
+\item[phyto\_name] phytoplankton species name
+\item[month] month of sampling
+\item[year] year of sampling
+\item[date\_dd\_mm\_yy] date of sampling
+\item[biovol\_um3\_ml] biovolume
+
+\end{description}
+
+\end{Format}
+\inputencoding{utf8}
+\HeaderA{mean\_naomit}{Compute mean value while ignoring NA's}{mean.Rul.naomit}
+%
+\begin{Description}\relax
+Compute mean value while ignoring NA's
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+mean_naomit(x)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Arguments}
+\begin{ldescription}
+\item[\code{x}] A numeric vector that may contain NA's
+\end{ldescription}
+\end{Arguments}
+%
+\begin{Value}
+the mean value
+\end{Value}
+%
+\begin{Examples}
+\begin{ExampleCode}
+data(lakegeneva)
+#example dataset with 50 rows
+
+mean_naomit(lakegeneva$biovol_um3_ml)
+\end{ExampleCode}
+\end{Examples}
+\inputencoding{utf8}
+\HeaderA{mfgTraits}{Functional Trait Database derived from Rimet et al.}{mfgTraits}
+\keyword{datasets}{mfgTraits}
+%
+\begin{Description}\relax
+Functional Trait Database derived from Rimet et al.
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+data(mfgTraits)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Format}
+A data frame with columns:
+\begin{description}
+
+\item[phyto\_name] binomial scientific name
+\item[genus] genus name
+\item[species] species name
+\item[Mobility.apparatus] 1/0 indicates presence/absence of flagella or motility
+\item[Size] character values 'large' or 'small'; based on 35 micrometer max linear dimension
+\item[Colonial] 1/0 indicates typical colonial growth form or not
+\item[Filament] 1/0 indicates filamentous growth form or not
+\item[Centric] 1/0 indicates diatoms with centric growth form
+\item[Gelatinous] 1/0 indicates presence/absence of mucilage
+\item[Aerotopes] 1/0 indicates presence/absence of aerotopes
+\item[Class] Taxonomic class
+\item[Order] Taxonomic order
+\item[MFG.fromtraits] MFG classification using traits\_to\_mfg function
+
+\end{description}
+
+\end{Format}
+\inputencoding{utf8}
+\HeaderA{mfg\_csr\_convert}{Returns a CSR classification based on Morphofunctional group (MFG). Correspondence based on Salmaso et al. 2015 and Reynolds et al. 1988}{mfg.Rul.csr.Rul.convert}
+%
+\begin{Description}\relax
+Returns a CSR classification based on Morphofunctional group (MFG).
+Correspondence based on Salmaso et al. 2015 and Reynolds et al. 1988
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+mfg_csr_convert(mfg)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Arguments}
+\begin{ldescription}
+\item[\code{mfg}] Character string with MFG name, following Salmaso et al. 2015
+\end{ldescription}
+\end{Arguments}
+%
+\begin{Value}
+A character string with values 'C','S','R','CR','SC','SR', or NA
+\end{Value}
+%
+\begin{Examples}
+\begin{ExampleCode}
+
+mfg_csr_convert("11a-NakeChlor")
+\end{ExampleCode}
+\end{Examples}
+\inputencoding{utf8}
+\HeaderA{mfg\_csr\_convert\_df}{Returns a CSR classification based on Morphofunctional group (MFG). Correspondence based on Salmaso et al. 2015 and Reynolds et al. 1988}{mfg.Rul.csr.Rul.convert.Rul.df}
+%
+\begin{Description}\relax
+Returns a CSR classification based on Morphofunctional group (MFG).
+Correspondence based on Salmaso et al. 2015 and Reynolds et al. 1988
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+mfg_csr_convert_df(phyto.df, mfg)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Arguments}
+\begin{ldescription}
+\item[\code{phyto.df}] dataframe containing a character field containing MFG classifications
+
+\item[\code{mfg}] Character string with MFG name, following Salmaso et al. 2015
+\end{ldescription}
+\end{Arguments}
+%
+\begin{Value}
+A dataframe with an additional field named CSR, containing CSR classifications or NA
+\end{Value}
+%
+\begin{Examples}
+\begin{ExampleCode}
+
+data(lakegeneva)
+lakegeneva<-genus_species_extract(lakegeneva,'phyto_name')
+lakegeneva<-species_to_mfg_df(lakegeneva)
+lakegeneva<-mfg_csr_convert_df(lakegeneva,mfg='MFG')
+head(lakegeneva)
+\end{ExampleCode}
+\end{Examples}
+\inputencoding{utf8}
+\HeaderA{mfg\_csr\_library}{MFG-CSR correspondence based on CSR-trait relationships in Reynolds et al. 1988 and MFG-trait relationships in Salmaso et al. 2015}{mfg.Rul.csr.Rul.library}
+\keyword{datasets}{mfg\_csr\_library}
+%
+\begin{Description}\relax
+MFG-CSR correspondence based on CSR-trait relationships in Reynolds et al. 1988
+and MFG-trait relationships in Salmaso et al. 2015
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+data(mfg_csr_library)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Format}
+A data frame with columns:
+\begin{description}
+
+\item[MFG] full MFG name from Salmaso et al. 2015
+\item[CSR] CSR classification including intermediate classes
+
+\end{description}
+
+\end{Format}
+\inputencoding{utf8}
+\HeaderA{phyto\_ts\_aggregate}{Aggregate phytoplankton timeseries based on abundance. Up to 3 grouping variables can be given: e.g. genus, species, stationid, depth range. If no abundance var is given, will aggregate to presence/absence of grouping vars.}{phyto.Rul.ts.Rul.aggregate}
+%
+\begin{Description}\relax
+Aggregate phytoplankton timeseries based on abundance. Up to 3 grouping variables can be given:
+e.g. genus, species, stationid, depth range.
+If no abundance var is given, will aggregate to presence/absence of grouping vars.
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+phyto_ts_aggregate(
+  phyto.data,
+  DateVar = "date_dd_mm_yy",
+  SummaryType = c("abundance", "presence.absence"),
+  AbundanceVar = "biovol_um3_ml",
+  GroupingVar1 = "phyto_name",
+  GroupingVar2 = NA,
+  GroupingVar3 = NA,
+  remove.rare = FALSE,
+  fun = sum,
+  format = "%d-%m-%y"
+)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Arguments}
+\begin{ldescription}
+\item[\code{phyto.data}] data.frame
+
+\item[\code{DateVar}] character string: field name for date variable. character or POSIX data.
+
+\item[\code{SummaryType}] 'abundance' for a matrix of aggregated abundance,'presence.absence'
+for 1 (present) and 0 (absent).
+
+\item[\code{AbundanceVar}] character string with field name containing abundance data
+Can be NA if data is only a species list and aggregated presence/absence is desired.
+
+\item[\code{GroupingVar1}] character string: field name for first grouping variable. defaults to spp.
+
+\item[\code{GroupingVar2}] character string: name of additional grouping var field
+
+\item[\code{GroupingVar3}] character string: name of additional grouping var field
+
+\item[\code{remove.rare}] TRUE/FALSE. If TRUE, removes all instances of GroupingVar1 that occur < 5
+of time periods.
+
+\item[\code{fun}] function used to aggregate abundance based on grouping variables
+
+\item[\code{format}] character string: format for DateVar POSIXct conversion
+\end{ldescription}
+\end{Arguments}
+%
+\begin{Value}
+a data.frame with grouping vars, date\_dd\_mm\_yy, and abundance or presence/absence
+\end{Value}
+%
+\begin{Examples}
+\begin{ExampleCode}
+data(lakegeneva)
+lakegeneva<-genus_species_extract(lakegeneva,'phyto_name')
+lg.genera=phyto_ts_aggregate(lakegeneva,SummaryType='presence.absence',
+                             GroupingVar1='genus')
+head(lg.genera)
+\end{ExampleCode}
+\end{Examples}
+\inputencoding{utf8}
+\HeaderA{sampeff}{Visually assess change in sampling effort over time (author: Dietmar Straile)}{sampeff}
+%
+\begin{Description}\relax
+Visually assess change in sampling effort over time (author: Dietmar Straile)
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+sampeff(
+  b_data,
+  column,
+  save.pdf = F,
+  lakename = "",
+  datecolumn = "date_dd_mm_yy",
+  dateformat = "%d-%m-%y"
+)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Arguments}
+\begin{ldescription}
+\item[\code{b\_data}] Name of data.frame object
+
+\item[\code{column}] column name or number for field containing abundance (biomass,biovol, etc.)
+can be NA for presence absence
+
+\item[\code{save.pdf}] TRUE/FALSE Should the output plot be saved to a file? defaults to FALSE
+
+\item[\code{lakename}] Character string for labeling output plot
+
+\item[\code{datecolumn}] Character String or number specifying dataframe field with date information
+
+\item[\code{dateformat}] Character string specifying POSIX data format
+\end{ldescription}
+\end{Arguments}
+%
+\begin{Value}
+a time-series plot of minimum relative abundance over time. This should change 
+systematically with counting effort.
+\end{Value}
+%
+\begin{Examples}
+\begin{ExampleCode}
+data(lakegeneva)
+#example dataset with 50 rows
+
+sampeff(lakegeneva,column=6) #column 6 contains biovolume
+\end{ExampleCode}
+\end{Examples}
+\inputencoding{utf8}
+\HeaderA{species\_mfg\_library}{Trait-based MFG classifications for common Eurasion/North American phytoplankton species. See accompanying manuscript for sources}{species.Rul.mfg.Rul.library}
+\keyword{datasets}{species\_mfg\_library}
+%
+\begin{Description}\relax
+Trait-based MFG classifications for common Eurasion/North American phytoplankton species.
+See accompanying manuscript for sources
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+data(species_mfg_library)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Format}
+A data frame with columns:
+\begin{description}
+
+\item[genus] genus name
+\item[species] species name
+\item[MFG] corresponding MFG classification based on Salmaso et al. 2015
+\item[source] literature or online source for MFG classification
+
+\end{description}
+
+\end{Format}
+%
+\begin{References}\relax
+Algaebase \url{https://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors}
+
+Phycokey \url{https://cfb.unh.edu/phycokey/}
+
+Western Diatoms of North America \url{https://diatoms.org}
+
+CyanoDB 2 \url{https://cyanodb.cz}
+
+Nordic Microalgae \url{https://nordicmicroalgae.org}
+
+Phytopedia \url{https://www.eoas.ubc.ca/research/phytoplankton/}
+
+Kapustin, D., Sterlyagova, I. and Patova, E., 2019. Morphology of Chrysastrella paradoxa stomatocysts from the Subpolar Urals (Russia) with comments on related morphotypes. Phytotaxa, 402(6), pp.295-300.
+\end{References}
+\inputencoding{utf8}
+\HeaderA{species\_to\_mfg}{Conversion of a single genus and species name to a single MFG. Uses species.mfg.library}{species.Rul.to.Rul.mfg}
+%
+\begin{Description}\relax
+Conversion of a single genus and species name to a single MFG. Uses species.mfg.library
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+species_to_mfg(genus, species = "", flag = 1, mfgDbase = NA)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Arguments}
+\begin{ldescription}
+\item[\code{genus}] Character string: genus name
+
+\item[\code{species}] Character string: species name
+
+\item[\code{flag}] Resolve ambiguous mfg: 1 = return(NA),2= manual selection
+
+\item[\code{mfgDbase}] data.frame of species MFG classifications. Defaults to the supplied species.mfg.library data object
+\end{ldescription}
+\end{Arguments}
+%
+\begin{Value}
+a data frame with MFG classification and diagnostic information.
+ambiguous.mfg=1 if multiple possible mfg matches
+genus.classification=1 if no exact match was found with genus + species name
+partial.match=1 if mfg was based on fuzzy matching of taxonomic name.
+\end{Value}
+%
+\begin{Examples}
+\begin{ExampleCode}
+species_to_mfg('Scenedesmus','bijuga')
+#returns "11a-NakeChlor"
+\end{ExampleCode}
+\end{Examples}
+\inputencoding{utf8}
+\HeaderA{species\_to\_mfg\_df}{Wrapper function to apply species\_phyto\_convert() across a data.frame}{species.Rul.to.Rul.mfg.Rul.df}
+%
+\begin{Description}\relax
+Wrapper function to apply species\_phyto\_convert() across a data.frame
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+species_to_mfg_df(phyto.df, flag = 1, mfgDbase = NA)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Arguments}
+\begin{ldescription}
+\item[\code{phyto.df}] Name of data.frame. Must have character fields named 'genus' and 'species'
+
+\item[\code{flag}] Resolve ambiguous MFG: 1 = return(NA), 2 = manual selection
+
+\item[\code{mfgDbase}] specify library of species to MFG associations.
+\end{ldescription}
+\end{Arguments}
+%
+\begin{Value}
+input data.frame with a new character column of MFG classifications
+and diagnostic information
+\end{Value}
+%
+\begin{Examples}
+\begin{ExampleCode}
+data(lakegeneva)
+#example dataset with 50 rows
+
+new.lakegeneva <- genus_species_extract(lakegeneva,'phyto_name')
+new.lakegeneva <- species_to_mfg_df(new.lakegeneva)
+head(new.lakegeneva)
+\end{ExampleCode}
+\end{Examples}
+\inputencoding{utf8}
+\HeaderA{traitranges}{surface/volume ratio and max linear dimension criteria for CSR From Reynolds 1988 and Reynolds 2006}{traitranges}
+\keyword{datasets}{traitranges}
+%
+\begin{Description}\relax
+surface/volume ratio and max linear dimension criteria for CSR
+From Reynolds 1988 and Reynolds 2006
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+data(traitranges)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Format}
+A data frame with columns:
+\begin{description}
+
+\item[Measurement] measurement type
+\item[C.min] minimum value for C
+\item[S.min] minimum value for S
+\item[R.min] minimum value for R
+\item[C.max] maximum value for C
+\item[S.max] maximum value for S
+\item[R.max] maximum value for R
+\item[units] units of measurement
+\item[source] source for criteria
+
+\end{description}
+
+\end{Format}
+\inputencoding{utf8}
+\HeaderA{traits\_to\_csr}{Assign phytoplankton species to CSR functional groups, based on surface to volume ratio and maximum linear dimension ranges proposed by Reynolds et al. 1988;2006}{traits.Rul.to.Rul.csr}
+%
+\begin{Description}\relax
+Assign phytoplankton species to CSR functional groups, based on surface to volume ratio and
+maximum linear dimension ranges proposed by Reynolds et al. 1988;2006
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+traits_to_csr(sav, msv, msv.source = "Reynolds 2006", traitrange = traitranges)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Arguments}
+\begin{ldescription}
+\item[\code{sav}] numeric estimate of cell or colony surface area /volume ratio
+
+\item[\code{msv}] numeric product of surface area/volume ratio and maximum linear dimension
+
+\item[\code{msv.source}] character string with reference source for distinguishing criteria
+
+\item[\code{traitrange}] data frame with trait criteria for c,s,r groups. The included table
+can be replaced with user-defined criteria if desired. Measurements are:
+Surface area/volume ratio (sav), maximum linear dimension (mld) and mld*sav (msv).
+\end{ldescription}
+\end{Arguments}
+%
+\begin{Value}
+a character string with one of 5 return values: C,CR,S,R, or SR.
+CR and SR groups reflect overlap between criteria for the 3 main groups.
+\end{Value}
+%
+\begin{SeeAlso}\relax
+/urlhttps://powellcenter.usgs.gov/geisha for project information
+\end{SeeAlso}
+%
+\begin{Examples}
+\begin{ExampleCode}
+
+traits_to_csr(sav=0.2,msv=10,msv.source='Reynolds 2006',traitrange=traitranges)
+
+
+\end{ExampleCode}
+\end{Examples}
+\inputencoding{utf8}
+\HeaderA{traits\_to\_csr\_df}{Add CSR functional group classifications to a dataframe of phytoplankton species, based on surface to volume ratio and maximum linear dimension ranges proposed by Reynolds et al. 1988;2006}{traits.Rul.to.Rul.csr.Rul.df}
+%
+\begin{Description}\relax
+Add CSR functional group classifications to a dataframe of phytoplankton species, based on surface to volume ratio and
+maximum linear dimension ranges proposed by Reynolds et al. 1988;2006
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+traits_to_csr_df(
+  df,
+  sav,
+  msv,
+  msv.source = "Reynolds 2006",
+  traitrange = traitranges
+)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Arguments}
+\begin{ldescription}
+\item[\code{df}] name of dataframe
+
+\item[\code{sav}] character string with name of column that contains surface to volume ratio values
+
+\item[\code{msv}] character string with name of column that contains maximum linear dimension * surface to volume ratio values
+
+\item[\code{msv.source}] character string with reference source for distinguishing criteria
+
+\item[\code{traitrange}] data frame with trait criteria for c,s,r groups. The included table
+can be replaced with user-defined criteria if desired. Measurements are:
+Surface area/volume ratio (sav), maximum linear dimension (mld) and mld*sav (msv).
+\end{ldescription}
+\end{Arguments}
+%
+\begin{Value}
+a character string with one of 5 return values: C,CR,S,SR, or R
+\end{Value}
+%
+\begin{Examples}
+\begin{ExampleCode}
+
+csr.df<-data.frame(msv=10,sav=1)
+
+csr.df$CSR<-traits_to_csr_df(csr.df,'msv','sav')
+
+print(csr.df)
+\end{ExampleCode}
+\end{Examples}
+\inputencoding{utf8}
+\HeaderA{traits\_to\_mfg}{Assign MFG based on binary functional traits and taxonomy (Class and Order)}{traits.Rul.to.Rul.mfg}
+%
+\begin{Description}\relax
+Assign MFG based on binary functional traits and taxonomy (Class and Order)
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+traits_to_mfg(
+  flagella = NA,
+  size = NA,
+  colonial = NA,
+  filament = NA,
+  centric = NA,
+  gelatinous = NA,
+  aerotopes = NA,
+  class = NA,
+  order = NA
+)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Arguments}
+\begin{ldescription}
+\item[\code{flagella}] 1 if flagella are present, 0 if they are absent.
+
+\item[\code{size}] Character string: 'large' or 'small'. Classification criteria is left to the user.
+
+\item[\code{colonial}] 1 if typically colonial growth form, 0 if typically unicellular.
+
+\item[\code{filament}] 1 if dominant growth form is filamentous, 0 if not.
+
+\item[\code{centric}] 1 if diatom with centric growth form, 0 if not. NA for  non-diatoms.
+
+\item[\code{gelatinous}] 1 mucilagenous sheath is typically present, 0 if not.
+
+\item[\code{aerotopes}] 1 if aerotopes allowing buoyancy regulation are typically present, 0 if not.
+
+\item[\code{class}] Character string: The taxonomic class of the species
+
+\item[\code{order}] Character string: The taxonomic order of the species
+\end{ldescription}
+\end{Arguments}
+%
+\begin{Value}
+A character string of the species' morphofunctional group
+\end{Value}
+%
+\begin{Examples}
+\begin{ExampleCode}
+traits_to_mfg(flagella = 1,size = "large",colonial = 1,filament = 0,centric = NA,gelatinous = 0,
+               aerotopes = 0,class = "Euglenophyceae",order = "Euglenales")
+\end{ExampleCode}
+\end{Examples}
+\inputencoding{utf8}
+\HeaderA{traits\_to\_mfg\_df}{Assign morphofunctional groups to a dataframe of functional traits and higher taxonomy}{traits.Rul.to.Rul.mfg.Rul.df}
+%
+\begin{Description}\relax
+Assign morphofunctional groups to a dataframe of functional traits and higher taxonomy
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+traits_to_mfg_df(
+  dframe,
+  arg.names = c("flagella", "size", "colonial", "filament", "centric", "gelatinous",
+    "aerotopes", "class", "order")
+)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Arguments}
+\begin{ldescription}
+\item[\code{dframe}] An R dataframe containing functional trait information and higher taxonomy
+
+\item[\code{arg.names}] Character string of column names corresponding to arguments for traits\_to\_mfg()
+\end{ldescription}
+\end{Arguments}
+%
+\begin{Value}
+A character vector containing morpho-functional group (MFG) designations
+\end{Value}
+%
+\begin{Examples}
+\begin{ExampleCode}
+#create a two-row example dataframe of functional traits
+func.dframe=data.frame(flagella=1,size=c("large","small"),colonial=0,filament=0,centric=NA,
+                       gelatinous=0,aerotopes=0,class="Euglenophyceae",order="Euglenales",
+                       stringsAsFactors=FALSE)
+
+#check the dataframe
+print(func.dframe)
+
+#run the function to produce a two-element character vector
+func.dframe$MFG<-traits_to_mfg_df(func.dframe,c("flagella","size","colonial",
+                                 "filament","centric","gelatinous",
+                                 "aerotopes","class","order"))
+
+print(func.dframe)
+\end{ExampleCode}
+\end{Examples}
+\printindex{}
+\end{document}
