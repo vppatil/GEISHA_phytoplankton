@@ -30,35 +30,26 @@ genus_search_itis<-function(genus,higher=FALSE)
 		  }
 		  return(res.df)
 	  }
-	  
+
 	orig.name=genus
 	#make sure you just search the genus
 	genus<-strsplit(genus,split=' ')[[1]][1]
-	
+
 	accepted=0
-	s<-ritis::search_scientific(genus)
+	search.q=paste0("rank:Genus AND nameWOInd:",genus)
+	s<-ritis::itis_search(q=search.q)
 	s<-s[s[["kingdom"]]!='Animalia',]
 
-	sci.names<-genus_species_extract(s,"combinedName")
+	sci.names<-genus_species_extract(s,"nameWOInd")
 	genus.names=sci.names[sci.names$species=='' &
                           sci.names$genus==genus,] #exact matches
 	genus.names<-genus.names[!is.na(genus.names$genus),]
   if(nrow(genus.names)>1){
-    #remove hier taxonomy
-    tax.ranks=vector()
-    tsns<-as.numeric(genus.names$tsn)
-    for(j in 1:length(tsns))
-    {
-      hier<-ritis::hierarchy_full(tsns[j])
-      tax.ranks[j]=hier$rankname[hier$taxonname==sci.names$combinedName[j]][1]
-    }
-	
-    genus.names=genus.names[tax.ranks=='Genus',]
-	genus.names=stats::na.omit(genus.names[1,])
+ 	  genus.names=stats::na.omit(genus.names[1,])
 
   }
-  if(nrow(genus.names)==0){		
-  
+  if(nrow(genus.names)==0){
+
 		res.df=data.frame(matched.name=NA,match=0,
                          orig.name.accepted=0,
                          orig.name=genus,genus.only=1,synonyms="")
@@ -69,7 +60,7 @@ genus_search_itis<-function(genus,higher=FALSE)
 					res.df<-cbind(res.df,higher.df)
 			}
 	 }else{
- 
+
       tsn=as.numeric(genus.names$tsn)
       accepted_names<-ritis::accepted_names(tsn=tsn)
       if(length(accepted_names)==0){
@@ -79,10 +70,10 @@ genus_search_itis<-function(genus,higher=FALSE)
         orig.name.accepted=0
         accepted.name=accepted_names$acceptedName
       }
-      
+
       synonyms<-ritis::synonym_names(tsn)
       synonyms<-ifelse(length(synonyms)==0,"",paste(synonyms$sciName,collapse=','))
-    
+
       res.df<-data.frame(matched.name=accepted.name,
 						 match=1,orig.name.accepted=orig.name.accepted,
                          orig.name=genus,genus.only=1,synonyms=synonyms)
@@ -103,6 +94,6 @@ genus_search_itis<-function(genus,higher=FALSE)
         res.df<-cbind(res.df,higher.df)
       }
   }
-      return(res.df)  
+      return(res.df)
 
 }
