@@ -18,7 +18,7 @@ and species.}
 data.frame with submitted name (orig.name), matched name (matched.name),
 1/0 flag indicating that original name is currently accepted (orig.name.accepted),
 1/0 flag indicating if search was genus_only (for distinguishing genus_search_itis
-and species_search_itis results), synonyms if any, and higher taxonomy (if 
+and species_search_itis results), synonyms if any, and higher taxonomy (if
 higher=TRUE)
 }
 \description{
