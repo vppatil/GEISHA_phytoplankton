@@ -1,6 +1,7 @@
+
 algaebase_genus_search<-function(genus,apikey=NULL,handle=NULL,
                                  higher=TRUE,print.full.json=FALSE,
-                                 newest.only=TRUE,long=FALSE,print.df=FALSE,
+                                 newest.only=TRUE,long=FALSE,
                                  exact.matches.only=FALSE,
                                  return.higher.only=FALSE,
 								 api_file=NULL){
@@ -96,6 +97,12 @@ algaebase_genus_search<-function(genus,apikey=NULL,handle=NULL,
                      input.match,taxon.rank=taxonRank,mod.date,long.name,authorship)
   if(higher){output<-cbind(higher.taxonomy,output)}
   
+  #only retain exact matches if asked.
+  if(exact.matches.only){
+    if(sum(output$input.match)==0){stop("No exact matches found")
+    }else{output<-output[output$input.match==1,]}
+  }
+  
   if(newest.only){
     output<-output[output$mod.date==max(output$mod.date),] #only retain the most recent edit
   }else{
@@ -104,17 +111,11 @@ algaebase_genus_search<-function(genus,apikey=NULL,handle=NULL,
   
   if(!long){output<-output[,names(output) %in% c('long.name','authorship','taxonomic.status','mod.date')==FALSE]}
   
-  if(exact.matches.only){ #return only NAs if you don't have an exact match.
 
-    #only retain exact matches if asked.
-    if(exact.matches.only){
-      if(sum(output$input.match)==0){stop("No exact matches found")
-        }else{results.output<-results.output[output.match.indices,]}
-      }
+
   
-    }
+    
       
-    if(print.df){print(output)}
     return(output)
 }
 ##Arguments:
