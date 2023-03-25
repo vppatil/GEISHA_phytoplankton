@@ -17,6 +17,14 @@ algaebase_species_search<-function(genus,species,apikey=NULL,handle=NULL,
   # https://cran.r-project.org/web/packages/httr/vignettes/secrets.html
   # https://cran.r-project.org/web/packages/httr/vignettes/api-packages.html
   
+  #first, throw error if there is no genus name
+  #this prevents the code from trying to search every possible name in the
+  #database.
+  if(genus==''|is.na(genus)|is.null(genus))
+  {
+    stop("No genus name supplied") 
+  }
+  
   #parse infraspecific names from specificEpithet, if present
   #and create appropriate search query string.
   #genus_species_extract strips out infraspecific category names
@@ -83,14 +91,9 @@ algaebase_species_search<-function(genus,species,apikey=NULL,handle=NULL,
   results.output<-result.list[[2]]
   
   
-  num.results<-pagination$"_total_number_of_results" 
-  num.pages<-pagination$"_total_number_of_pages"
+  # num.results<-pagination$"_total_number_of_results" 
+  # num.pages<-pagination$"_total_number_of_pages"
   
-  #can remove these lines when the function is operational.
-  print(num.results) #remove this later- how many results are there?
-  print(num.pages)
-  # names(results.output) #field names for each hit
-
   #dealing with infraspecific name
   output.infraspname<-ifelse(results.output$"dwc:taxonRank"=="forma",
                                     results.output$infraspecificEpithet_forma,
@@ -105,7 +108,6 @@ input.clean.name<-paste(genus,species)
   
 output.match.indices<-output.clean.names==input.clean.name
 
-if(sum(output.match.indices)==0){stop("No exact matches found")}
 #only retain exact matches if asked.
 if(exact.matches.only){
   if(sum(output.match.indices)==0){stop("No exact matches found")
@@ -146,20 +148,17 @@ for(i in 1:nrow(output)){
 
 
   
-  if(higher){ #merge higher taxonomy
+  if(higher){ #merge higher taxonomy and reorder names of output variable
     higher.taxonomy<-algaebase_genus_search(genus,
                                             return.higher.only = TRUE,
-                                            handle=handle,exact.matches.only = TRUE,newest.only = TRUE)
-    output.names<-names(output)
-    higher.names<-names(higher.taxonomy)
-    higher.names<-higher.names[higher.names!='genus']
-    output.names<-c(higher.names,output.names)
-    
-    output<-merge(higher.taxonomy,output,by="genus",all.y=TRUE,sort=FALSE)
-    output<-subset(output,select=output.names)
-  }
-  
-
+                                            handle=handle,exact.matches.only = TRUE,newest.only = TRUE);
+    output<-merge(higher.taxonomy,output,all.y=TRUE,by='genus',sort=FALSE);
+    output<-subset(output,select= c('accepted.name','input.name','input.match','currently.accepted','kingdom','phylum','class','order','family','genus','species','infrasp',
+                                    'long.name','taxonomic.status','taxon.rank','mod.date','authorship'))}else{
+    output<-subset(output,select=c('accepted.name','input.name','input.match','currently.accepted','genus','species','infrasp',
+                                                                     'long.name','taxonomic.status','taxon.rank','mod.date','authorship') )  
+   
+                                    }
   if(newest.only){
     output<-output[output$mod.date==max(output$mod.date),] #only retain the most recent edit
   }else{
@@ -169,16 +168,8 @@ for(i in 1:nrow(output)){
 
   if(!long){output<-output[,names(output) %in% c('long.name','authorship','taxonomic.status','mod.date')==FALSE]}
   
-  # if(exact.matches.only){ #return only NAs if you don't have an exact match.
-  #   output<-output[output$input.match==1,];
-  #   if(nrow(output)==0){
-  #     output[1,]<-rep(NA,ncol(output))
-  #   }
-  # }
+
   
-#now, just re-order column names and you should be good to go.
-  
-  if(print.df){print(output)}
   return(output)
 
 }

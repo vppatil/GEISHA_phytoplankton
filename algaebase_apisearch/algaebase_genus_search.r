@@ -11,6 +11,10 @@ algaebase_genus_search<-function(genus,apikey=NULL,handle=NULL,
   ##requires:
   #jsonlite
   #curl
+  if(genus==''|is.na(genus)|is.null(genus))
+  {
+    stop("No genus name supplied") 
+  }
   
   genus.search.string<-paste0('https://api.algaebase.org/v1.3/genus?genus=',genus)
   
@@ -49,9 +53,9 @@ algaebase_genus_search<-function(genus,apikey=NULL,handle=NULL,
   #objects
   pagination<-result.list[[1]]
   results.output<-result.list[[2]]
-  num.results<-pagination$`_total_number_of_results` 
-  print(num.results) #remove this later- how many results are there?
-  names(results.output) #field names for each hit
+  # num.results<-pagination$`_total_number_of_results` 
+  # print(num.results) #remove this later- how many results are there?
+  # names(results.output) #field names for each hit
   
   #all of this could be condensed in later versions of the function
   #but if it runs quickly then who cares.
@@ -73,9 +77,9 @@ algaebase_genus_search<-function(genus,apikey=NULL,handle=NULL,
     
     higher.taxonomy<-data.frame(kingdom=kingdom,phylum,class=taxonomic.class,
                                   order=taxonomic.order,
-                                  family=taxonomic.family)
+                                  family=taxonomic.family,
+                                genus=taxonomic.genus)
     if(return.higher.only==TRUE){
-      higher.taxonomy$genus=taxonomic.genus
       return(higher.taxonomy)
     }
 
@@ -95,8 +99,14 @@ algaebase_genus_search<-function(genus,apikey=NULL,handle=NULL,
   
   output<-data.frame(genus=taxonomic.genus,species=NA,infrasp=NA,taxonomic.status,currently.accepted,accepted.name,input.name=genus,
                      input.match,taxon.rank=taxonRank,mod.date,long.name,authorship)
-  if(higher){output<-cbind(higher.taxonomy,output)}
+  if(higher){output<-merge(higher.taxonomy,output,all.y=TRUE,by='genus',sort=FALSE);
+              output<-subset(output,select= c('accepted.name','input.name','input.match','currently.accepted','kingdom','phylum','class','order','family','genus','species','infrasp',
+                                                         'long.name','taxonomic.status','taxon.rank','mod.date','authorship'))}else{
+              output<-subset(output,select=c('accepted.name','input.name','input.match','currently.accepted','genus','species','infrasp',
+                                                                        'long.name','taxonomic.status','taxon.rank','mod.date','authorship') )                           
+                                                         }
   
+
   #only retain exact matches if asked.
   if(exact.matches.only){
     if(sum(output$input.match)==0){stop("No exact matches found")
