@@ -1,14 +1,20 @@
-##looks good. now, what about species matches?
+#' Retrieve taxonomic information from the algaebase online database (www.algaebase.org) based on a user-specified genus and species name . This function requires a valid API key for algaebase.
+#' 
+#' @export algaebase_species_search.r
+#'
+#' @return a data frame with the following arguments: xxxxxxx
+#'
+#' @examples
+#'
+#' algaebase_species_search("Anabaena flos-aquae",api_file='"keyfile.txt") #wrap in notrun?
+#'
+#'
+
 algaebase_species_search<-function(genus,species,apikey=NULL,handle=NULL,
                                  higher=TRUE,print.full.json=FALSE,
                                  newest.only=TRUE,long=FALSE,print.df=FALSE,exact.matches.only=FALSE,
 								 api_file=NULL){
-  ##must include either a handle object with an api key
-  #or the api key itself
-  
-  #it is inefficient, but the only curl request that works is by specifying the genus
-  #so, grab the results of a genus search string, then subset to those with species matches.
-  
+
   ##requires:
   #curl
   #jsonlite
@@ -130,8 +136,11 @@ currently.accepted=ifelse(taxonomic.status=='currently accepted taxonomically',1
 accepted.name<-ifelse(currently.accepted==1,
                       algaebase_output_parse(results.output,"dwc:scientificName"),
                       algaebase_output_parse(results.output,"dwc:acceptedNameUsage"))
+
 for(i in 1:length(accepted.name)){
-  accepted.name[i]<-trimws(gsub(authorship[i],"",accepted.name[i],fixed = TRUE))
+  accepted.name[i]<-gsub(authorship[i],"",accepted.name[i],fixed = TRUE)
+  accepted.name[i]<-gsub(r"{\s*\([^*].*}","",accepted.name[i]) #remove text after parens
+  accepted.name[i]<-trimws(accepted.name[i])
 }
 
 input.name=input.clean.name
