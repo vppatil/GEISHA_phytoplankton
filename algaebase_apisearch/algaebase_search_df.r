@@ -2,7 +2,7 @@ algaebase_search_df<-function(df,apikey=NULL,handle=NULL,genus.only=FALSE,
                               genus.name='genus',species.name='species',
                               higher=TRUE,print.full.json=FALSE,
                               long=FALSE,exact.matches.only=TRUE,
-                              api_file=NULL,return.higher.only=TRUE,sleep.time=1)
+                              api_file=NULL,sleep.time=1)
 {
   
   #for testing:
@@ -30,21 +30,25 @@ algaebase_search_df<-function(df,apikey=NULL,handle=NULL,genus.only=FALSE,
                        
     err.df.row<-data.frame(kingdom=NA,phylum=NA,class=NA,order=NA,family=NA,
                            genus=NA,species=NA,infrasp=NA,taxonomic.status=NA,
-                           currently.accepted=NA,accepted.name=NA,
+                           currently.accepted=NA,accepted.name=NA,genus.only=NA,
                            input.name=input.name,input.match=0,taxon.rank=NA,
                            mod.date=NA,long.name=NA,authorship=NA)
+
+    
     if(higher==FALSE){
-      err.df.row<-subset(err.df.row,names(err.df.row)%in% c('kingdom','phylum','class','order','family')==FALSE)
+      err.df.row<-err.df.row[,names(err.df.row)%in% c('kingdom','phylum','class','order','family')==FALSE]
     }
+    
     if(long==FALSE){
-      err.df.row<-subset(err.df.row,names(err.df.row)%in% c('long.name','authorship','taxonomic.status','mod.date')==FALSE)
+      err.df.row<-err.df.row[,names(err.df.row)%in% c('long.name','authorship','taxonomic.status','mod.date')==FALSE]
     }
     
     return(err.df.row)
   }
     
     for(i in 1:nrows){
-      print(i)
+      
+      
       Sys.sleep(sleep.time)
       genus=df[[genus.name]][i]
       
@@ -66,7 +70,7 @@ algaebase_search_df<-function(df,apikey=NULL,handle=NULL,genus.only=FALSE,
                                     newest.only=TRUE,long=long,
                                     exact.matches.only=exact.matches.only,
                                     api_file=api_file,
-                                    return.higher.only=return.higher.only),silent=TRUE)
+                                    return.higher.only=FALSE),silent=TRUE)
         
       }else{
         species=df[[species.name]][i]
@@ -83,7 +87,7 @@ algaebase_search_df<-function(df,apikey=NULL,handle=NULL,genus.only=FALSE,
                                           newest.only=TRUE,long=long,
                                           exact.matches.only=TRUE,
                                           api_file=api_file,
-                                          return.higher.only=return.higher.only),silent=TRUE)
+                                          return.higher.only=FALSE),silent=TRUE)
         }
       }
       
@@ -95,10 +99,11 @@ algaebase_search_df<-function(df,apikey=NULL,handle=NULL,genus.only=FALSE,
                                   higher=higher,long=long)
       }
       
-      print(tmp)
+      print(paste0(round(100*i/nrows),"% complete"))
       algaebase_df<-rbind(algaebase_df,tmp)
     }
-  
+    
+
     return(algaebase_df)
 }
   

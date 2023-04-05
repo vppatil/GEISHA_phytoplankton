@@ -38,9 +38,13 @@ algaebase_species_search<-function(genus,species,apikey=NULL,handle=NULL,
   if(length(grep(" ",species)>0)){
     species.split=strsplit(species,split=' ')[[1]]
     sp=species.split[1]
-    infrasp=species.split[2]
     
-
+    #remove weird descriptors from species
+    sp<-gsub(r"{\s*\([^*].*}","",sp)
+    sp<-gsub(">","",sp)
+    sp<-gsub("<","",sp)
+    
+    infrasp=species.split[2]
     
     species.search.string<-paste0("https://api.algaebase.org/v1.3/species?genus=",
                                   genus,"&dwc:specificEpithet=",sp,
@@ -146,7 +150,7 @@ for(i in 1:length(accepted.name)){
 input.name=input.clean.name
 input.match=ifelse(output.match.indices,1,0)
 
-output<-data.frame(genus=taxonomic.genus,species=taxonomic.species,infrasp=NA,taxonomic.status,currently.accepted,accepted.name,input.name=input.clean.name,
+output<-data.frame(genus=taxonomic.genus,species=taxonomic.species,infrasp=NA,taxonomic.status,currently.accepted,genus.only=0,accepted.name,input.name=input.clean.name,
                    input.match,taxon.rank=taxonRank,mod.date,long.name,authorship)
 
 for(i in 1:nrow(output)){
@@ -162,9 +166,9 @@ for(i in 1:nrow(output)){
                                             return.higher.only = TRUE,
                                             handle=handle,exact.matches.only = TRUE,newest.only = TRUE);
     output<-merge(higher.taxonomy,output,all.y=TRUE,by='genus',sort=FALSE);
-    output<-subset(output,select= c('accepted.name','input.name','input.match','currently.accepted','kingdom','phylum','class','order','family','genus','species','infrasp',
+    output<-subset(output,select= c('accepted.name','input.name','input.match','currently.accepted','genus.only','kingdom','phylum','class','order','family','genus','species','infrasp',
                                     'long.name','taxonomic.status','taxon.rank','mod.date','authorship'))}else{
-    output<-subset(output,select=c('accepted.name','input.name','input.match','currently.accepted','genus','species','infrasp',
+    output<-subset(output,select=c('accepted.name','input.name','input.match','currently.accepted','genus.only','genus','species','infrasp',
                                                                      'long.name','taxonomic.status','taxon.rank','mod.date','authorship') )  
    
                                     }

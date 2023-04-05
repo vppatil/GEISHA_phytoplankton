@@ -1,8 +1,8 @@
 
-algaebase_genus_search<-function(genus,apikey=NULL,handle=NULL,
+algaebase_genus_search<-function(genus=NULL,apikey=NULL,handle=NULL,
                                  higher=TRUE,print.full.json=FALSE,
                                  newest.only=TRUE,long=FALSE,
-                                 exact.matches.only=FALSE,
+                                 exact.matches.only=TRUE,
                                  return.higher.only=FALSE,
 								 api_file=NULL){
   ##must include either a handle object with an api key
@@ -97,12 +97,12 @@ algaebase_genus_search<-function(genus,apikey=NULL,handle=NULL,
   currently.accepted=ifelse(taxonomic.status=='currently accepted taxonomically',1,0)
   accepted.name<-ifelse(currently.accepted==1,taxonomic.genus,accepted.name)
   
-  output<-data.frame(genus=taxonomic.genus,species=NA,infrasp=NA,taxonomic.status,currently.accepted,accepted.name,input.name=genus,
+  output<-data.frame(genus=taxonomic.genus,species=NA,infrasp=NA,taxonomic.status,currently.accepted,accepted.name,genus.only=1,input.name=genus,
                      input.match,taxon.rank=taxonRank,mod.date,long.name,authorship)
   if(higher){output<-merge(higher.taxonomy,output,all.y=TRUE,by='genus',sort=FALSE);
-              output<-subset(output,select= c('accepted.name','input.name','input.match','currently.accepted','kingdom','phylum','class','order','family','genus','species','infrasp',
+              output<-subset(output,select= c('accepted.name','input.name','input.match','currently.accepted','genus.only','kingdom','phylum','class','order','family','genus','species','infrasp',
                                                          'long.name','taxonomic.status','taxon.rank','mod.date','authorship'))}else{
-              output<-subset(output,select=c('accepted.name','input.name','input.match','currently.accepted','genus','species','infrasp',
+              output<-subset(output,select=c('accepted.name','input.name','input.match','currently.accepted','genus.only','genus','species','infrasp',
                                                                         'long.name','taxonomic.status','taxon.rank','mod.date','authorship') )                           
                                                          }
   
