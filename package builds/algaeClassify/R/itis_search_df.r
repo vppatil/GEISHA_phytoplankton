@@ -15,6 +15,7 @@
 #' higher=TRUE)
 #'
 #' @examples
+#  
 #' data(lakegeneva)
 #' #example dataset with 50 rows
 #'
