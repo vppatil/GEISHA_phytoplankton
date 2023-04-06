@@ -4,16 +4,17 @@
 ###############################################################################
 
 # define the package name
-thePackage <- "PhytoDiv"
+thePackage <- "algaeClassify"
 
 # set directory to the package development folder
-setwd("~/gleon/Geisha/phyto_package/GEISHA_phytoplankton_github_shared/phytoDiv/")
+setwd("~/Geisha_main/phyto_package/GEISHA_phytoplankton_github_shared/package builds/")
 
 # create new bare-bones package in development folder
 # NOTE: only run package creation script once
 #install.packages("devtools"); # make sure your have the most recent version
 #install.packages("roxygen2"); # make sure your have the most recent version
 library(devtools); library(roxygen2)
+
 create(thePackage)
 roxygenize(thePackage)
 
@@ -23,6 +24,24 @@ roxygenize(thePackage)
 # (3) within *.R files should include roxygen2 markdown of function and 
 #     parameter txt (e.g., what you see in manual) 
 ###############################################################################
+# Data sets in package ‘algaeClassify’:
+  
+# csrTraits                                   Database of functional traits for MFG classification, derived from Rimet et al. 2019
+#lakegeneva                                  example dataset from lake Geneva, Switzerland
+#mfgTraits                                   Functional Trait Database derived from Rimet et al.
+#mfg_csr_library                             MFG-CSR correspondence based on CSR-trait relationships in Reynolds et al. 1988 and
+#species_mfg_library                         Trait-based MFG classifications for common Eurasion/North American phytoplankton
+#traitranges                                 surface/volume ratio and max linear dimension criteria for CSR From Reynolds 1988 and
+
+load('~/ecosystem analytics/algaeClassifyfiles/algaeClassifydata.RData')
+
+use_data(lakegeneva, pkg = thePackage, overwrite = TRUE)
+use_data(mfgTraits, pkg = thePackage, overwrite = TRUE)
+use_data(csrTraits, pkg = thePackage, overwrite = TRUE)
+use_data(species_mfg_library, pkg = thePackage, overwrite = TRUE)
+use_data(mfg_csr_library, pkg = thePackage, overwrite = TRUE)
+use_data(traitranges, pkg = thePackage, overwrite = TRUE)
+
 
 # STEP 3, error check and compile package for CRAN ############################
 # (1) update DESCRIPTION file
