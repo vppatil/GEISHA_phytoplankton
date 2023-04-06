@@ -8,7 +8,7 @@ require(devtools)
 #now install algaeClassify
 install_github("vppatil/GEISHA_phytoplankton/package builds/algaeClassify",ref="working")
 
-#should be algaeClassify v 1.3.1
+#should be algaeClassify v 2.0.0
 #if asked to update packages, choose 3 (none) or hit enter to skip updates
 
 #load the package

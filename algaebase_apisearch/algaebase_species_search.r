@@ -1,28 +1,30 @@
 #' Retrieve taxonomic information from the algaebase online database (www.algaebase.org) based on a user-specified genus and species name . This function requires a valid API key for algaebase.
 #' 
+#' @param genus genus name as character string
+#' @param apikey valid key for algaebase API as character string
+#' @param handle curl handle with API key. Will be created if not present.
+#' @param higher boolean should higher taxonomy be included in output?
+#' @param print.full.json boolean returns raw json output if TRUE. Default is FALSE (return R data frame)
+#' @param newest.only boolean should results be limited to the most recent matching entry in algaebase?
+#' @param long boolean return long output including full species name and authorship, and entry date from algaebase.
+#' @param exact.matches.only boolean should results be limited to exact matches?
+#' @param return.higher.only boolean should output only included higher taxonomy?
+#' @param api_file path to text file containing a valid API key
+#'
 #' @export algaebase_species_search.r
 #'
-#' @return a data frame with the following arguments: xxxxxxx
+#' @return data frame that may include: accepted.name (currently accepted synonym if different from input name), input.name (name supplied by user), input.match (1 if exact match, else 0), currently.accepted (1=TRUE/0=FALSE), genus.only (1=genus search/0=genus+species search),higher taxonomy (kingdom,phylum,class,order,family), genus, species (always NA for genus search), infraspecies name (always NA for genus search), long.name (includes author and date if given), taxonomic.status (currently accepted, synonym, or unverified), taxon.rank (taxonomic rank of accepted name (genus, species, infraspecies), mod.date (date when entry was last modified in algaebase).
 #'
 #' @examples
 #'
-#' algaebase_species_search("Anabaena flos-aquae",api_file='"keyfile.txt") #wrap in notrun?
+#' algaebase_species_search("Anabaena flos-aquae") #not run
 #'
 #'
-
 algaebase_species_search<-function(genus,species,apikey=NULL,handle=NULL,
                                  higher=TRUE,print.full.json=FALSE,
                                  newest.only=TRUE,long=FALSE,print.df=FALSE,exact.matches.only=FALSE,
 								 api_file=NULL){
 
-  ##requires:
-  #curl
-  #jsonlite
-
-  #may eventually replace with httr-based code based on 
-  # https://cran.r-project.org/web/packages/httr/vignettes/secrets.html
-  # https://cran.r-project.org/web/packages/httr/vignettes/api-packages.html
-  
   #first, throw error if there is no genus name
   #this prevents the code from trying to search every possible name in the
   #database.
@@ -57,8 +59,11 @@ algaebase_species_search<-function(genus,species,apikey=NULL,handle=NULL,
   
 
 
-  #read api key if necessary
-  if(!is.null(api_file)){
+  #check for api key in Sys.env
+  #read from file if not specified or available as env variable.
+  if(is.null(api_file) & is.null(apikey)){
+	apikey<-get_apikey()
+  }else if(!is.null(api_file)){
 	apikey<-apikey_from_file(api_file)
   }
   

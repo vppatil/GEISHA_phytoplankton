@@ -1,4 +1,9 @@
-#####curl handle function
+#' Add algaebase API key to curl handle
+#' @param apikey character string with valid key 
+#'
+#' @export set_algaebase_apikey_header
+#'
+#' @return curl handle object
 set_algaebase_apikey_header<-function(apikey=NULL)
 {
   if(is.null(apikey)){
