@@ -1,7 +1,7 @@
 #' Get value of algaebase API key from a file 
 #' @param keyfile path to text file
 #'
-#' @export apikey_from_file
+#' @export get_apikey_fromfile
 #' @return api key as character string (invisibly)
 #'
 #' @examples apikey<-apikey.from.file(keyfile)

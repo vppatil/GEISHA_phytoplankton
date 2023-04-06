@@ -37,7 +37,7 @@ algaebase_genus_search<-function(genus=NULL,apikey=NULL,handle=NULL,
   if(is.null(api_file) & is.null(apikey)){
 	apikey<-get_apikey()
   }else if(!is.null(api_file)){
-	apikey<-apikey_from_file(api_file)
+	apikey<-get_apikey_fromfile(api_file)
   }
   
   #set curl handle if not supplied as an argument
