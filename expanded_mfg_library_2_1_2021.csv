@@ -1,0 +1,918 @@
+genus,species,MFG,genspp,source
+Chlorella,,9b-SmallChlor,Chlorella,Salmaso & Padisak 2007
+Pteromonas,,3a-UnicPhyto,Pteromonas,Tolotti et al. 2010
+Tetrachlorella,,9b-SmallChlor,Tetrachlorella,Tolotti et al. 2010
+Acanthoceras,zachariasii,6a2-LUniCent,Acanthoceras zachariasii,Salmaso Geisha Powell Center Workshop
+Acanthosphaera,,9b-SmallChlor,Acanthosphaera,Salmaso Geisha Powell Center Workshop
+Achnanthes,,7b-SmallPenn,Achnanthes,Salmaso & Padisak 2007
+Achnanthes,exigua,7b-SmallPenn,Achnanthes exigua,Salmaso & Padisak 2007
+Achnanthes,lanceolata,7b-SmallPenn,Achnanthes lanceolata,Salmaso & Padisak 2007
+Achnanthes,minutissima,7b-SmallPenn,Achnanthes minutissima,Salmaso & Padisak 2007
+Achnanthidium,catenatum,6b1-LColPenn,Achnanthidium catenatum,Salmaso Geisha Powell Center Workshop
+Achnanthidium,minutissimum,7b-SmallPenn,Achnanthidium minutissimum,Salmaso Geisha Powell Center Workshop
+Achnanthidium,minutissimum complex,7b-SmallPenn,Achnanthidium minutissimum complex,Salmaso Geisha Powell Center Workshop
+Achnanthidium,,7b-SmallPenn,Achnanthidium,Rimet et al. 2018
+Achnanthidium,exiguum,7b-SmallPenn,Achnanthidium exiguum,Rimet et al. 2018
+Achroonema,articulatum,5a-FilaCyano,Achroonema articulatum,Rimet et al. 2018
+Actinastrum,hantzschii,11a-NakeChlor,Actinastrum hantzschii,Salmaso Geisha Powell Center Workshop
+Actinastrum,,11b-GelaChlor,Actinastrum,Salmaso Geisha Powell Center Workshop
+Actinocyclus,,6a2-LUniCent,Actinocyclus,Salmaso Geisha Powell Center Workshop
+Actinotaenium,cruciferum,9a-SmallConj,Actinotaenium cruciferum,Algaebase
+Actinotaenium,,9a-SmallConj,Actinotaenium,Algaebase
+Acutodesmus,acuminatus,9b-SmallChlor,Acutodesmus acuminatus,Li et al. 2018
+Acutodesmus,dimorphus,11a-NakeChlor,Acutodesmus dimorphus,Li et al. 2018
+Amphidinium,,2b-SmallDino,Amphidinium,Phytopedia
+Amphikrikos,minutissimus,9b-SmallChlor,Amphikrikos minutissimus,Algaebase
+Amphikrikos,,9b-SmallChlor,Amphikrikos,Algaebase
+Amphipleura,pellucida,6b2-LUniPenn,Amphipleura pellucida,Western Diatoms of North America
+Amphora,ovalis,6b1-LColPenn,Amphora ovalis,Salmaso & Padisak 2007
+Amphora,ovalis pediculus,6b1-LColPenn,Amphora ovalis pediculus,Salmaso & Padisak 2007
+Amphora,pediculus,6b1-LColPenn,Amphora pediculus,Salmaso & Padisak 2007
+Amphora,inariensis,7b-SmallPenn,Amphora inariensis,Tolotti et al. 2010
+Amphora,,6b2-LUniPenn,Amphora,Rimet et al. 2018
+Amphora,copulata,6b2-LUniPenn,Amphora copulata,Rimet et al. 2018
+Anabaena,,5e-Nostocales,Anabaena,Salmaso & Padisak 2007
+Anabaena,lemmermannii,5e-Nostocales,Anabaena lemmermannii,Salmaso & Padisak 2007
+Anabaena,circinalis,5e-Nostocales,Anabaena circinalis,Salmaso & Padisak 2007
+Anabaena,mendotae,5e-Nostocales,Anabaena mendotae,Salmaso & Padisak 2007
+Anabaenopsis,,5e-Nostocales,Anabaenopsis,Salmaso Geisha Powell Center Workshop
+Anagnostidinema,acutissimum,5a-FilaCyano,Anagnostidinema acutissimum,Rimet et al. 2018
+Anagnostidinema,amphibium,5a-FilaCyano,Anagnostidinema amphibium,Rimet et al. 2018
+Anathece,bachmannii,5c-OtherChroo,Anathece bachmannii,Rimet et al. 2018
+Anathece,clathrata,5c-OtherChroo,Anathece clathrata,Rimet et al. 2018
+Anathece,smithii,5c-OtherChroo,Anathece smithii,Rimet et al. 2018
+Ankistrodesmus,,11a-NakeChlor,Ankistrodesmus,Salmaso Geisha Powell Center Workshop
+Ankistrodesmus,falcatus,9b-SmallChlor,Ankistrodesmus falcatus,Salmaso Geisha Powell Center Workshop
+Ankistrodesmus,arcuatus,9b-SmallChlor,Ankistrodesmus arcuatus,Salmaso & Padisak 2007
+Ankyra,ancora,9b-SmallChlor,Ankyra ancora,Salmaso Geisha Powell Center Workshop
+Ankyra,,9b-SmallChlor,Ankyra,Salmaso Geisha Powell Center Workshop
+Ankyra,judayi,9b-SmallChlor,Ankyra judayi,Salmaso & Padisak 2007
+Anomoeoneis,,6b2-LUniPenn,Anomoeoneis,Western Diatoms of North America
+Aphanizomenon,,5e-Nostocales,Aphanizomenon,Salmaso Geisha Powell Center Workshop
+Aphanizomenon,flos-aquae,5e-Nostocales,Aphanizomenon flos-aquae,Salmaso & Padisak 2007
+Aphanizomenon,issatschenkoi =,5e-Nostocales,Aphanizomenon issatschenkoi =,Salmaso Geisha Powell Center Workshop
+Aphanocapsa,,5c-OtherChroo,Aphanocapsa,Salmaso Geisha Powell Center Workshop
+Aphanocapsa,grevillei,5c-OtherChroo,Aphanocapsa grevillei,Salmaso & Padisak 2007
+Aphanothece,,5c-OtherChroo,Aphanothece,Salmaso Geisha Powell Center Workshop
+Aphanothecoidea,,5d-SmallChroo,Aphanothecoidea,Rimet et al. 2018
+Apiocystis,,3b-ColoPhyto,Apiocystis,Algaebase
+Apocalathium,aciculiferum,1b-LargeDino,Apocalathium aciculiferum,Rimet et al. 2018
+Apodococcus,guanensis,9b-SmallChlor,Apodococcus guanensis,Salmaso & Padisak 2007
+Arthrodesmus,,8a-LargeCoCh,Arthrodesmus,Salmaso Geisha Powell Center Workshop
+Arthrospira,,5a-FilaCyano,Arthrospira,Salmaso Geisha Powell Center Workshop
+Astasia,,1c-LargeEugl,Astasia,Salmaso Geisha Powell Center Workshop
+Asterionella,ralfsii,6b1-LColPenn,Asterionella ralfsii,Salmaso Geisha Powell Center Workshop
+Asterionella,formosa,6b1-LColPenn,Asterionella formosa,Salmaso Geisha Powell Center Workshop
+Asterionella,formosa complex,6b1-LColPenn,Asterionella formosa complex,Salmaso Geisha Powell Center Workshop
+Asterococcus,,1b-LargeDino,Asterococcus,Algaebase
+Attheya,zachariasii,6a2-LUniCent,Attheya zachariasii,Algaebase
+Aulacoseira,,6a1-LColCent,Aulacoseira,Salmaso Geisha Powell Center Workshop
+Aulacoseira,granulata,6a1-LColCent,Aulacoseira granulata,Salmaso & Padisak 2007
+Aulacoseira,islandica,6a1-LColCent,Aulacoseira islandica,Salmaso & Padisak 2007
+Aulacoseira,granulata angustissima,6a1-LColCent,Aulacoseira granulata angustissima,Salmaso & Padisak 2007
+Aulacoseira,italica,6a1-LColCent,Aulacoseira italica,Salmaso & Padisak 2007
+Aulacoseira,ambigua,6a1-LColCent,Aulacoseira ambigua,Li et al. 2018
+Bacillaria,paxillifera,6b1-LColPenn,Bacillaria paxillifera,Western Diatoms of North America
+Bambusina,borreri,10b-FilaConj,Bambusina borreri,Algaebase
+Bambusina,delicatissima,10b-FilaConj,Bambusina delicatissima,Algaebase
+Belonastrum,berolinense,6b1-LColPenn,Belonastrum berolinense,Salmaso Geisha Powell Center Workshop
+Bicosta,minor,1b-LargeDino,Bicosta minor,Rimet et al. 2018
+Biecheleria,pseudopalustris,2b-SmallDino,Biecheleria pseudopalustris,Rimet et al. 2018
+Binuclearia,lauterbornii,10a-FilaChlorp,Binuclearia lauterbornii,Rimet et al. 2018
+Bitrichia,chodatii,2a-SmallChry1,Bitrichia chodatii,Salmaso & Padisak 2007
+Borzia,,5a-FilaCyano,Borzia,Rimet et al. 2018
+Botrydium,,1c-LargeEugl,Botrydium,Rimet et al. 2018
+Botryococcus,braunii,11a-NakeChlor,Botryococcus braunii,Salmaso & Padisak 2007
+Bracchiogonium,,9d-SmallUnic,Bracchiogonium,Salmaso Geisha Powell Center Workshop
+Brachysira,neoexilis,7b-SmallPenn,Brachysira neoexilis,Western Diatoms of North America
+Bumilleriopsis,closterioides,1c-LargeEugl,Bumilleriopsis closterioides,Algaebase
+C.,cyclopuncta,7a-SmallCent,C. cyclopuncta,Salmaso & Padisak 2007
+C.,krammeri,7a-SmallCent,C. krammeri,Salmaso & Padisak 2007
+C.,gordonensis,7a-SmallCent,C. gordonensis,Salmaso & Padisak 2007
+C.,ocellata,7a-SmallCent,C. ocellata,Salmaso & Padisak 2007
+C.,ps.,7a-SmallCent,C. ps.,Salmaso & Padisak 2007
+C.,pseudocomensis ps.,7a-SmallCent,C. pseudocomensis ps.,Salmaso & Padisak 2007
+C.,psudocomensis,7a-SmallCent,C. psudocomensis,Salmaso & Padisak 2007
+C.,radiosa,7a-SmallCent,C. radiosa,Salmaso & Padisak 2007
+C.,,7a-SmallCent,C.,Salmaso & Padisak 2007
+C.,tripartita,7a-SmallCent,C. tripartita,Salmaso & Padisak 2007
+Caloneis,,6b2-LUniPenn,Caloneis,Salmaso & Padisak 2007
+Calothrix,,5a-FilaCyano,Calothrix,Algaebase
+Calycomonas,pascheri,2a-SmallChry1,Calycomonas pascheri,nordic microalgae
+Campylodiscus,noricus,6b2-LUniPenn,Campylodiscus noricus,Western Diatoms of North America
+Carteria,,3a-UnicPhyto,Carteria,Salmaso Geisha Powell Center Workshop
+Centrales,,7a-SmallCent,Centrales <,description
+Centrales,um,7a-SmallCent,Centrales um,description
+Centric,Diatom,7a-SmallCent,Centric Diatom,description
+Centric,diatom,7a-SmallCent,Centric diatom,description
+Centritractus,belenophorus,1c-LargeEugl,Centritractus belenophorus,Phycokey
+Ceratium,,1b-LargeDino,Ceratium,Salmaso Geisha Powell Center Workshop
+Ceratium,hirundinella,1b-LargeDino,Ceratium hirundinella,Salmaso Geisha Powell Center Workshop
+Chaetoceros,,6a1-LColCent,Chaetoceros,Western Diatoms of North America
+Characiopsis,,8b-LargeUnic,Characiopsis,Algaebase
+Characium,,9b-SmallChlor,Characium,Algaebase
+Chimonodinium,lomnickii,1b-LargeDino,Chimonodinium lomnickii,Rimet et al. 2018
+Chlamydomonas,,3a-UnicPhyto,Chlamydomonas,Salmaso Geisha Powell Center Workshop
+Chlamydomonas,"sp., small",3a-UnicPhyto,"Chlamydomonas sp., small",Salmaso & Padisak 2007
+Chlorella,vulgaris,9b-SmallChlor,Chlorella vulgaris,Li et al. 2018
+Chlorocloster,,8b-LargeUnic,Chlorocloster,Algaebase
+Chlorococcaceae,,9b-SmallChlor,Chlorococcaceae <,description
+Chlorogibba,pentagonia,9d-SmallUnic,Chlorogibba pentagonia,Freshwater Algae of North America
+Chlorogonium,elongatum,3a-UnicPhyto,Chlorogonium elongatum,Salmaso Geisha Powell Center Workshop
+Chlorogonium,,3a-UnicPhyto,Chlorogonium,Salmaso Geisha Powell Center Workshop
+Chloroidium,ellipsoideum,9b-SmallChlor,Chloroidium ellipsoideum,Li et al. 2018
+Chlorolobion,saxatile,11a-NakeChlor,Chlorolobion saxatile,Salmaso Geisha Powell Center Workshop
+Chlorolobion,,11a-NakeChlor,Chlorolobion,Salmaso Geisha Powell Center Workshop
+Chloromonas,rapida,3a-UnicPhyto,Chloromonas rapida,Salmaso Geisha Powell Center Workshop
+Chlorotetraedron,incus,9b-SmallChlor,Chlorotetraedron incus,Rimet et al. 2018
+Chodatella,,9b-SmallChlor,Chodatella,Tsarenko 2011
+Choricystis,chodatii,9b-SmallChlor,Choricystis chodatii,Algaebase
+Choricystis,minor,9b-SmallChlor,Choricystis minor,Algaebase
+Chromophysomonas,serrata,2a-SmallChry1,Chromophysomonas serrata,Algaebase
+Chromulina,aerophyla,2a-SmallChry1,Chromulina aerophyla,Salmaso Geisha Powell Center Workshop
+Chromulina,,2a-SmallChry1,Chromulina,Salmaso Geisha Powell Center Workshop
+Synechocystis,,5d-SmallChroo,Chroococcaceae/Synechocystis (blue-greens <,description
+Chroococcus,minutus,5d-SmallChroo,Chroococcus minutus,Salmaso Geisha Powell Center Workshop
+Chroococcus,,5d-SmallChroo,Chroococcus,Salmaso Geisha Powell Center Workshop
+Chroococcus,minutus +,5c-OtherChroo,Chroococcus minutus +,Salmaso & Padisak 2007
+Chroococcus,minutus obliteratus,5d-SmallChroo,Chroococcus minutus obliteratus,Salmaso & Padisak 2007
+Chroococcus,"nagy, laza",5d-SmallChroo,"Chroococcus nagy, laza",Salmaso & Padisak 2007
+Chroococcus,"sp.kicsi, tomott",5d-SmallChroo,"Chroococcus sp.kicsi, tomott",Salmaso & Padisak 2007
+Chroomonas,acuta,2d-Crypto,Chroomonas acuta,Salmaso & Padisak 2007
+Chroomonas,nordstedtii,2d-Crypto,Chroomonas nordstedtii,Salmaso & Padisak 2007
+Chrysamoeba,,2a-SmallChry1,Chrysamoeba,Salmaso & Padisak 2007
+Chrysastrella,furcata,2a-SmallChry1,Chrysastrella furcata,Kapustin et al. 2019
+Chrysidiastrum,catenatum,1a-LargeChry,Chrysidiastrum catenatum,nordic microalgae
+Chrysochromulina,,2a-SmallChry1,Chrysochromulina,Salmaso Geisha Powell Center Workshop
+Chrysochromulina,parva,2a-SmallChry1,Chrysochromulina parva,Salmaso Geisha Powell Center Workshop
+Chrysococcus,,2a-SmallChry1,Chrysococcus,Salmaso & Padisak 2007
+Chrysoflagellates,,2a-SmallChry1,Chrysoflagellates,Tolotti et al. 2010
+Chrysoflagellates,undet.,2a-SmallChry1,Chrysoflagellates undet.,Tolotti et al. 2010
+Chrysoikos,skujae,2a-SmallChry1,Chrysoikos skujae,Rimet et al. 2018
+Chrysolykos,planktonicus,2a-SmallChry1,Chrysolykos planktonicus,Salmaso & Padisak 2007
+Chrysophyceae,cysts,9c-SmallChry2,Chrysophyceae cysts,Salmaso & Padisak 2007
+Chrysophyceae,(small),2a-SmallChry1,Chrysophyceae (small),description
+Chrysopora,fenestrata,2a-SmallChry1,Chrysopora fenestrata,Salmaso & Padisak 2007
+Chrysosphaerella,longispina,1a-LargeChry,Chrysosphaerella longispina,Algaebase
+Chrysosporum,minus,5e-Nostocales,Chrysosporum minus,Algaebase
+Chrysosporum,ovalisporum,5e-Nostocales,Chrysosporum ovalisporum,Algaebase
+Chrysostephanosphaera,globulifera,2a-SmallChry1,Chrysostephanosphaera globulifera,Algaebase
+Cladomonas,fruticulosa,1c-LargeEugl,Cladomonas fruticulosa,Rimet et al. 2018
+Cladophora,,10a-FilaChlorp,Cladophora,Salmaso & Padisak 2007
+Closteriopsis,,8a-LargeCoCh,Closteriopsis,Salmaso Geisha Powell Center Workshop
+Closteriopsis,longissima,8a-LargeCoCh,Closteriopsis longissima,Salmaso & Padisak 2007
+Closterium,acutum,8a-LargeCoCh,Closterium acutum,Salmaso Geisha Powell Center Workshop
+Closterium,pronum,8a-LargeCoCh,Closterium pronum,Salmaso Geisha Powell Center Workshop
+Closterium,,8a-LargeCoCh,Closterium,Salmaso Geisha Powell Center Workshop
+Closterium,aciculare,8a-LargeCoCh,Closterium aciculare,Salmaso & Padisak 2007
+Closterium,acutum variabile,8a-LargeCoCh,Closterium acutum variabile,Salmaso & Padisak 2007
+Closterium,pronum pronum,8a-LargeCoCh,Closterium pronum pronum,Salmaso & Padisak 2007
+Coccomyxa,littoralis,9b-SmallChlor,Coccomyxa littoralis,Algaebase; Tsarenko 2011
+Cocconeis,,7b-SmallPenn,Cocconeis,Salmaso Geisha Powell Center Workshop
+Coelastrum,,11a-NakeChlor,Coelastrum,Salmaso Geisha Powell Center Workshop
+Coelastrum,astroideum,11a-NakeChlor,Coelastrum astroideum,Salmaso & Padisak 2007
+Coelastrum,indicum,11a-NakeChlor,Coelastrum indicum,Salmaso & Padisak 2007
+Coelastrum,microporum,11a-NakeChlor,Coelastrum microporum,Li et al. 2018
+Coelastrum,verrucosum,11a-NakeChlor,Coelastrum verrucosum,Li et al. 2018
+Coelosphaerium,,5c-OtherChroo,Coelosphaerium,Salmaso & Padisak 2007
+Coelosphaerium,kuetzingianum,5c-OtherChroo,Coelosphaerium kuetzingianum,Salmaso & Padisak 2007
+Coelospharium,kuetzingianum,5c-OtherChroo,Coelospharium kuetzingianum,Salmaso & Padisak 2007
+Coenochloris,hindakii,11a-NakeChlor,Coenochloris hindakii,Salmaso Geisha Powell Center Workshop
+Coenochloris,ovalis,11a-NakeChlor,Coenochloris ovalis,Salmaso Geisha Powell Center Workshop
+Coenochloris,pyrenoideum minimum,11a-NakeChlor,Coenochloris pyrenoideum minimum,Salmaso Geisha Powell Center Workshop
+Coenochloris,pyrenoidosa,11a-NakeChlor,Coenochloris pyrenoidosa,Salmaso Geisha Powell Center Workshop
+Coenochloris,,11b-GelaChlor,Coenochloris,Salmaso Geisha Powell Center Workshop
+Coenococcus,,1a-LargeChry,Coenococcus,Rimet et al. 2018
+Coenococcus,planctonicus,1a-LargeChry,Coenococcus planctonicus,Rimet et al. 2018
+Coenocystis,,11b-GelaChlor,Coenocystis,Salmaso Geisha Powell Center Workshop
+Coenocystis,planococca,11b-GelaChlor,Coenocystis planococca,Salmaso & Padisak 2007
+Coenodispora,litoralis,9b-SmallChlor,Coenodispora litoralis,Rimet et al. 2018
+Collodictyon,,3a-UnicPhyto,Collodictyon,Algaebase
+Coronastrum,,11b-GelaChlor,Coronastrum,Salmaso Geisha Powell Center Workshop
+Coscinodiscus,lacustris,6a2-LUniCent,Coscinodiscus lacustris,Li et al. 2018
+Cosmarium,,9a-SmallConj,Cosmarium,Salmaso Geisha Powell Center Workshop
+Cosmarium,bioculatum,8a-LargeCoCh,Cosmarium bioculatum,Salmaso & Padisak 2007
+Cosmarium,phaseolus,8a-LargeCoCh,Cosmarium phaseolus,Salmaso & Padisak 2007
+Cosmarium,reniforme,8a-LargeCoCh,Cosmarium reniforme,Salmaso & Padisak 2007
+Cosmocladium,,10a-FilaChlorp,Cosmocladium,Algaebase
+Craticula,accomoda,7b-SmallPenn,Craticula accomoda,Rimet et al. 2018
+Craticula,cuspidata,6b2-LUniPenn,Craticula cuspidata,Rimet et al. 2018
+Craticula,subminuscula,7b-SmallPenn,Craticula subminuscula,Rimet et al. 2018
+Crucigenia,quadrata,11a-NakeChlor,Crucigenia quadrata,Salmaso & Padisak 2007
+Crucigenia,tetrapedia,11b-GelaChlor,Crucigenia tetrapedia,Li et al. 2018
+Crucigenia,,1a-LargeChry,Crucigenia,Algaebase
+Crucigenia,crucifera,1a-LargeChry,Crucigenia crucifera,Algaebase
+Crucigenia,fenestrata,1b-LargeDino,Crucigenia fenestrata,Algaebase
+Crucigeniella,apiculata,11a-NakeChlor,Crucigeniella apiculata,Salmaso Geisha Powell Center Workshop
+Crucigeniella,,11a-NakeChlor,Crucigeniella,Salmaso Geisha Powell Center Workshop
+Crucigeniella,rectangularis,11a-NakeChlor,Crucigeniella rectangularis,Salmaso & Padisak 2007
+Cryptomonas,erosa,2d-Crypto,Cryptomonas erosa,Salmaso & Padisak 2007
+Cryptomonas,phaseolus,2d-Crypto,Cryptomonas phaseolus,Salmaso & Padisak 2007
+Cryptomonas,,2d-Crypto,Cryptomonas,Salmaso & Padisak 2007
+Cryptomonas,ovata,2d-Crypto,Cryptomonas ovata,Salmaso & Padisak 2007
+Cryptomonas,reflexa,2d-Crypto,Cryptomonas reflexa,Salmaso & Padisak 2007
+Cryptomonas,erosa/ovata,2d-Crypto,Cryptomonas erosa/ovata,Salmaso & Padisak 2007
+Cryptomonas,marssonii,2d-Crypto,Cryptomonas marssonii,Tolotti et al. 2010
+Cryptomonas,obovata,2d-Crypto,Cryptomonas obovata,Tolotti et al. 2010
+Cryptomonas,pyrenoidifera,2d-Crypto,Cryptomonas pyrenoidifera,Tolotti et al. 2010
+Cryptomonas,rostratiformis,2d-Crypto,Cryptomonas rostratiformis,Tolotti et al. 2010
+Cryptophyceae,,2d-Crypto,Cryptophyceae,Salmaso Geisha Powell Center Workshop
+Cryptophyceae,ind.,2d-Crypto,Cryptophyceae ind.,Salmaso & Padisak 2007
+Crytomonas,,2d-Crypto,Crytomonas,Li et al. 2018
+Cuspidothrix,issatschenkoi,5e-Nostocales,Cuspidothrix issatschenkoi,Salmaso Geisha Powell Center Workshop
+Cyano,spiral,5a-FilaCyano,Cyano spiral,description
+Cyanobium,,4-UnicCyano,Cyanobium,Salmaso Geisha Powell Center Workshop
+Cyanocatena,imperfecta,5c-OtherChroo,Cyanocatena imperfecta,Algaebase
+Cyanodictyon,planctonicum,5c-OtherChroo,Cyanodictyon planctonicum,Salmaso Geisha Powell Center Workshop
+Cyanogranis,,5b-LargeVacC,Cyanogranis,Rimet et al. 2018
+Cyanogranis,ferruginea,5b-LargeVacC,Cyanogranis ferruginea,Rimet et al. 2018
+Cyanonephron,styloides,5d-SmallChroo,Cyanonephron styloides,Algaebase
+Cyanosarcina,chroococcoides,5c-OtherChroo,Cyanosarcina chroococcoides,CyanoDB 2
+Cyclotella,bodanica,7a-SmallCent,Cyclotella bodanica,Salmaso & Padisak 2007
+Cyclotella,cyclopuncta,7a-SmallCent,Cyclotella cyclopuncta,Salmaso & Padisak 2007
+Cyclotella,gordonensis,7a-SmallCent,Cyclotella gordonensis,Salmaso & Padisak 2007
+Cyclotella,meneghiniana,7a-SmallCent,Cyclotella meneghiniana,Salmaso & Padisak 2007
+Cyclotella,,7a-SmallCent,Cyclotella,Salmaso & Padisak 2007
+Cyclotella,pseudocomensis,7a-SmallCent,Cyclotella pseudocomensis,Salmaso & Padisak 2007
+Cyclotella,krammeri,7a-SmallCent,Cyclotella krammeri,Salmaso & Padisak 2007
+Cyclotella,ocellata,7a-SmallCent,Cyclotella ocellata,Salmaso & Padisak 2007
+Cyclotella,radiosa,7a-SmallCent,Cyclotella radiosa,Salmaso & Padisak 2007
+Cyclotella,tripartita,7a-SmallCent,Cyclotella tripartita,Salmaso & Padisak 2007
+Cylindrocapsa,,10a-FilaChlorp,Cylindrocapsa,Algaebase
+Cylindrospermopsis,,5e-Nostocales,Cylindrospermopsis,Salmaso Geisha Powell Center Workshop
+Cylindrospermopsis,raciborskii,5e-Nostocales,Cylindrospermopsis raciborskii,Li et al. 2018
+Cylindrospermum,,5e-Nostocales,Cylindrospermum,Algaebase
+Cymatopleura,solea,6b1-LColPenn,Cymatopleura solea,Salmaso & Padisak 2007
+Cymbella,,7b-SmallPenn,Cymbella,Salmaso Geisha Powell Center Workshop
+Cymbella,minuta,7b-SmallPenn,Cymbella minuta,Tolotti et al. 2010
+Cymbopleura,lata,7b-SmallPenn,Cymbopleura lata,Western Diatoms of North America
+Cymbopleura,similiformis,7b-SmallPenn,Cymbopleura similiformis,Western Diatoms of North America
+Dactylococcopsis,fascicularis,5d-SmallChroo,Dactylococcopsis fascicularis,Komarek 1969
+Dactylosphaerium,,1b-LargeDino,Dactylosphaerium,Algaebase
+Deasonia,,9b-SmallChlor,Deasonia,Freshwater Algae of North America
+Deasonia,prolifera,9b-SmallChlor,Deasonia prolifera,Freshwater Algae of North America
+Delicata,delicatula,7b-SmallPenn,Delicata delicatula,Rimet et al. 2018
+Denticula,tenuis,7b-SmallPenn,Denticula tenuis,Tolotti et al. 2010
+Desmatractum,indutum,9b-SmallChlor,Desmatractum indutum,Salmaso Geisha Powell Center Workshop
+Desmatractum,,9b-SmallChlor,Desmatractum,Salmaso Geisha Powell Center Workshop
+Desmidium,,10b-FilaConj,Desmidium,Algaebase
+Desmidium,aptogonum,10b-FilaConj,Desmidium aptogonum,Algaebase
+Desmidium,grevillei,10b-FilaConj,Desmidium grevillei,Algaebase
+Desmidium,quadratum,10b-FilaConj,Desmidium quadratum,Algaebase
+Desmodesmus,quadricauda,11a-NakeChlor,Desmodesmus quadricauda,Li et al. 2018
+Desmodesmus,brasiliensis,11a-NakeChlor,Desmodesmus brasiliensis,Li et al. 2018
+Desmodesmus,denticulatus,11a-NakeChlor,Desmodesmus denticulatus,Li et al. 2018
+Diatoma,ehrenbergii,6b1-LColPenn,Diatoma ehrenbergii,Salmaso Geisha Powell Center Workshop
+Diatoma,,7b-SmallPenn,Diatoma,Salmaso Geisha Powell Center Workshop
+Diatoma,tenuis,6b1-LColPenn,Diatoma tenuis,Salmaso & Padisak 2007
+Diatoma,vulgare,6b1-LColPenn,Diatoma vulgare,Salmaso & Padisak 2007
+Diatoma,herenbergii,6b1-LColPenn,Diatoma herenbergii,Tolotti et al. 2010
+Diatoma,mesodon,7b-SmallPenn,Diatoma mesodon,Tolotti et al. 2010
+Dichotomococcus,,11b-GelaChlor,Dichotomococcus,Salmaso Geisha Powell Center Workshop
+Dichotomococcus,curvatus,11b-GelaChlor,Dichotomococcus curvatus,Salmaso Geisha Powell Center Workshop
+Dichtiosphaerium,,11a-NakeChlor,Dichtiosphaerium,Tolotti et al. 2010
+Dictyochlorella,reniformis,9b-SmallChlor,Dictyochlorella reniformis,Komarek & Fott 1983
+Dictyococcus,,1a-LargeChry,Dictyococcus,Algaebase
+Dictyosphaerium,,11b-GelaChlor,Dictyosphaerium,Salmaso Geisha Powell Center Workshop
+Dictyosphaerium,pulchellum,11b-GelaChlor,Dictyosphaerium pulchellum,Salmaso & Padisak 2007
+Didymocystis,bicellularis,11a-NakeChlor,Didymocystis bicellularis,Salmaso Geisha Powell Center Workshop
+Didymocystis,fina,11a-NakeChlor,Didymocystis fina,Salmaso Geisha Powell Center Workshop
+Didymocystis,planctonica,11a-NakeChlor,Didymocystis planctonica,Salmaso Geisha Powell Center Workshop
+Didymocystis,,11b-GelaChlor,Didymocystis,Salmaso Geisha Powell Center Workshop
+Didymogenes,,11b-GelaChlor,Didymogenes,Salmaso Geisha Powell Center Workshop
+Dimorphococcus,cordatus,11a-NakeChlor,Dimorphococcus cordatus,Salmaso Geisha Powell Center Workshop
+Dimorphococcus,lunatus,11a-NakeChlor,Dimorphococcus lunatus,Salmaso Geisha Powell Center Workshop
+Dimorphococcus,,11b-GelaChlor,Dimorphococcus,Salmaso Geisha Powell Center Workshop
+Dinobryion,petiolatum,2a-SmallChry1,Dinobryion petiolatum,Salmaso & Padisak 2007
+Dinobryon,,1a-LargeChry,Dinobryon,Salmaso Geisha Powell Center Workshop
+Dinobryon,divergens,1a-LargeChry,Dinobryon divergens,Salmaso & Padisak 2007
+Dinobryon,sociale,1a-LargeChry,Dinobryon sociale,Salmaso & Padisak 2007
+Dinobryon,acuminatum,1a-LargeChry,Dinobryon acuminatum,Salmaso & Padisak 2007
+Dinobryon,bavaricum,1a-LargeChry,Dinobryon bavaricum,Salmaso & Padisak 2007
+Dinobryon,crenulatum,1a-LargeChry,Dinobryon crenulatum,Salmaso & Padisak 2007
+Dinobryon,cylindricum,1a-LargeChry,Dinobryon cylindricum,Salmaso & Padisak 2007
+Dinobryon,cysts,9c-SmallChry2,Dinobryon cysts,Salmaso & Padisak 2007
+Dinobryon,eurystoma,1a-LargeChry,Dinobryon eurystoma,Salmaso & Padisak 2007
+Dinobryon,pediforme,1a-LargeChry,Dinobryon pediforme,Salmaso & Padisak 2007
+Dinobryon,suecicum,1a-LargeChry,Dinobryon suecicum,Salmaso & Padisak 2007
+dinophyta,cyst,9d-SmallUnic,dinophyta cyst,Salmaso & Padisak 2007
+Dinosphaera,palustris,2b-SmallDino,Dinosphaera palustris,Carty 2014
+Diplochloris,,3a-UnicPhyto,Diplochloris,Salmaso Geisha Powell Center Workshop
+Diploneis,elliptica,7b-SmallPenn,Diploneis elliptica,Salmaso Geisha Powell Center Workshop
+Diploneis,maulerii,7b-SmallPenn,Diploneis maulerii,Salmaso Geisha Powell Center Workshop
+Diploneis,minuta,7b-SmallPenn,Diploneis minuta,Salmaso Geisha Powell Center Workshop
+Diploneis,oblongella,7b-SmallPenn,Diploneis oblongella,Salmaso Geisha Powell Center Workshop
+Diploneis,oculata,7b-SmallPenn,Diploneis oculata,Salmaso Geisha Powell Center Workshop
+Diploneis,ovalis,7b-SmallPenn,Diploneis ovalis,Salmaso Geisha Powell Center Workshop
+Diploneis,,7b-SmallPenn,Diploneis,Salmaso Geisha Powell Center Workshop
+Diplopsalis,acuta,2b-SmallDino,Diplopsalis acuta,Algaebase
+Discostella,stelligera,7a-SmallCent,Discostella stelligera,Western Diatoms of North America
+Dolichospermum,circinale,5e-Nostocales,Dolichospermum circinale,Salmaso Geisha Powell Center Workshop
+Dolichospermum,,5e-Nostocales,Dolichospermum,Salmaso Geisha Powell Center Workshop
+Drepanochloris,nannoselene,1a-LargeChry,Drepanochloris nannoselene,Algaebase
+Ducellieria,chodatii,1c-LargeEugl,Ducellieria chodatii,Algaebase
+Dysmorphococcus,globosus,3a-UnicPhyto,Dysmorphococcus globosus,Algaebase
+Eaustrum,,8a-LargeCoCh,Eaustrum,Salmaso & Padisak 2007
+Echinosphaerella,limnetica,9b-SmallChlor,Echinosphaerella limnetica,Algaebase
+egyeb,Phytomonadina,3a-UnicPhyto,egyeb Phytomonadina,Salmaso & Padisak 2007
+Elakatothrix,,11b-GelaChlor,Elakatothrix,Salmaso Geisha Powell Center Workshop
+Elakatothrix,gelatinosa,11b-GelaChlor,Elakatothrix gelatinosa,Salmaso & Padisak 2007
+Elakatothrix,genevensis,11b-GelaChlor,Elakatothrix genevensis,Tolotti et al. 2010
+Ellerbeckia,arenaria,6a1-LColCent,Ellerbeckia arenaria,Western Diatoms of North America
+Enallax,costatus,1a-LargeChry,Enallax costatus,Algaebase
+Encyonema,minutum,6b1-LColPenn,Encyonema minutum,Western Diatoms of North America
+Encyonema,prostratum,6b1-LColPenn,Encyonema prostratum,Western Diatoms of North America
+Encyonema,reichardtii,6b1-LColPenn,Encyonema reichardtii,Western Diatoms of North America
+Encyonema,silesiacum,6b1-LColPenn,Encyonema silesiacum,Western Diatoms of North America
+Encyonema,triangulum,6b1-LColPenn,Encyonema triangulum,Western Diatoms of North America
+Encyonema,,6b1-LColPenn,Encyonema,Western Diatoms of North America
+Encyonema,caespitosum,6b1-LColPenn,Encyonema caespitosum,Western Diatoms of North America
+Encyonema,leibleinii,6b1-LColPenn,Encyonema leibleinii,Western Diatoms of North America
+Encyonopsis,microcephala,6b1-LColPenn,Encyonopsis microcephala,Western Diatoms of North America
+Entzia,acuta,2b-SmallDino,Entzia acuta,Rimet et al. 2018
+Eolimna,minima,7b-SmallPenn,Eolimna minima,Western Diatoms of North America
+Epipyxis,,2a-SmallChry1,Epipyxis,Salmaso & Padisak 2007
+Epithemia,,6b2-LUniPenn,Epithemia,Salmaso & Padisak 2007
+Erkenia,,2a-SmallChry1,Erkenia,Freshwater Algae of North America
+Euastropsis,richteri,8a-LargeCoCh,Euastropsis richteri,Algaebase
+Euastrum,ansatum,9a-SmallConj,Euastrum ansatum,Salmaso Geisha Powell Center Workshop
+Euastrum,,9a-SmallConj,Euastrum,Salmaso Geisha Powell Center Workshop
+Eucapsis,,5c-OtherChroo,Eucapsis,Salmaso Geisha Powell Center Workshop
+Eucocconeis,flexella,7b-SmallPenn,Eucocconeis flexella,Western Diatoms of North America
+Eudorina,,3b-ColoPhyto,Eudorina,Salmaso Geisha Powell Center Workshop
+Eudorina,unicocca,3b-ColoPhyto,Eudorina unicocca,Salmaso Geisha Powell Center Workshop
+Eudorina,elegans,3b-ColoPhyto,Eudorina elegans,Li et al. 2018
+Euglena,,1c-LargeEugl,Euglena,Salmaso Geisha Powell Center Workshop
+Euglena,viridis,1c-LargeEugl,Euglena viridis,Salmaso Geisha Powell Center Workshop
+Eunotia,,7b-SmallPenn,Eunotia,Salmaso Geisha Powell Center Workshop
+Eutetramorus,fottii,11a-NakeChlor,Eutetramorus fottii,Salmaso Geisha Powell Center Workshop
+Eutetramorus,globosus,11a-NakeChlor,Eutetramorus globosus,Salmaso Geisha Powell Center Workshop
+Eutetramorus,nygaardii,11a-NakeChlor,Eutetramorus nygaardii,Salmaso Geisha Powell Center Workshop
+Eutetramorus,,11b-GelaChlor,Eutetramorus,Salmaso Geisha Powell Center Workshop
+Fistulifera,pelliculosa,6b2-LUniPenn,Fistulifera pelliculosa,Rimet et al. 2018
+Fotterella,tetrachlorella,11b-GelaChlor,Fotterella tetrachlorella,Algaebase
+Fragilaria,,6b1-LColPenn,Fragilaria,Salmaso Geisha Powell Center Workshop
+Fragilaria,tenera,6b2-LUniPenn,Fragilaria tenera,Salmaso Geisha Powell Center Workshop
+Fragilaria,ulna,6b2-LUniPenn,Fragilaria ulna,Salmaso Geisha Powell Center Workshop
+Fragilaria,vaucheriae,7b-SmallPenn,Fragilaria vaucheriae,Salmaso Geisha Powell Center Workshop
+Fragilaria,crotonensis,6b1-LColPenn,Fragilaria crotonensis,Salmaso & Padisak 2007
+Fragilaria,ulna acus,6b1-LColPenn,Fragilaria ulna acus,Salmaso & Padisak 2007
+Fragilaria,capucina,6b1-LColPenn,Fragilaria capucina,Salmaso & Padisak 2007
+Fragilaria,construens,6b1-LColPenn,Fragilaria construens,Salmaso & Padisak 2007
+Fragilaria,arcus,6b1-LColPenn,Fragilaria arcus,Tolotti et al. 2010
+Fragilaria,ulna/capucina,6b1-LColPenn,Fragilaria ulna/capucina,Tolotti et al. 2010
+Fragilaria,ulna angustissima/delic.ssima,6b1-LColPenn,Fragilaria ulna angustissima/delic.ssima,Tolotti et al. 2010
+Fragilaria,vaucheriae- corta,7b-SmallPenn,Fragilaria vaucheriae- corta,Tolotti et al. 2010
+Fragilaria,berolinensis =,6b1-LColPenn,Fragilaria berolinensis =,Salmaso Geisha Powell Center Workshop
+Fragilariforma,virescens,6b1-LColPenn,Fragilariforma virescens,Western Diatoms of North America
+Fragiliaria,acus,6b1-LColPenn,Fragiliaria acus,Rimet et al. 2018
+Franceia,amphitricha,9b-SmallChlor,Franceia amphitricha,Salmaso Geisha Powell Center Workshop
+Franceia,ovalis,9b-SmallChlor,Franceia ovalis,Salmaso Geisha Powell Center Workshop
+Franceia,,11b-GelaChlor,Franceia,Salmaso Geisha Powell Center Workshop
+free,Dinobryon,1a-LargeChry,free Dinobryon,Salmaso & Padisak 2007
+Frustulia,rhomboides,6b1-LColPenn,Frustulia rhomboides,Western Diatoms of North America
+Frustulia,,6b1-LColPenn,Frustulia,Western Diatoms of North America
+Fusiperidinium,wisconsinense,1b-LargeDino,Fusiperidinium wisconsinense,Algaebase
+Fusola,viridis,1b-LargeDino,Fusola viridis,Algaebase
+Geissleria,acceptata,7b-SmallPenn,Geissleria acceptata,Western Diatoms of North America
+Geissleria,decussis,7b-SmallPenn,Geissleria decussis,Western Diatoms of North America
+Geitlerinema,acutissimum,5a-FilaCyano,Geitlerinema acutissimum,CyanoDB 2
+Geitlerinema,amphibium,5a-FilaCyano,Geitlerinema amphibium,CyanoDB 2
+Geminella,interrupta,10a-FilaChlorp,Geminella interrupta,Tsarenko 2011
+Glenodinium,pulvisculum,1b-LargeDino,Glenodinium pulvisculum,Salmaso Geisha Powell Center Workshop
+Glenodinium,,2b-SmallDino,Glenodinium,Salmaso Geisha Powell Center Workshop
+Gloeobotrys,limneticus,1c-LargeEugl,Gloeobotrys limneticus,Algaebase
+Gloeocapsa,,5c-OtherChroo,Gloeocapsa,Algaebase
+Gloeocapsopsis,,5c-OtherChroo,Gloeocapsopsis,Komarek 1993
+Gloeococcus,,3b-ColoPhyto,Gloeococcus,Algaebase
+Gloeocystis,,11b-GelaChlor,Gloeocystis,Salmaso Geisha Powell Center Workshop
+Gloeothece,,5d-SmallChroo,Gloeothece,Salmaso Geisha Powell Center Workshop
+Gloeotila,spiralis,10a-FilaChlorp,Gloeotila spiralis,Tsarenko 2011
+Gloeotrichia,,5e-Nostocales,Gloeotrichia,Algaebase
+Gloeotrichia,echinulata,5e-Nostocales,Gloeotrichia echinulata,Algaebase
+Golenkinia,,9b-SmallChlor,Golenkinia,Salmaso Geisha Powell Center Workshop
+Golenkinia,radiata,9b-SmallChlor,Golenkinia radiata,Li et al. 2018
+Golenkiniopsis,chlorelloides,9b-SmallChlor,Golenkiniopsis chlorelloides,Salmaso Geisha Powell Center Workshop
+Golenkiniopsis,longispina,9b-SmallChlor,Golenkiniopsis longispina,Salmaso Geisha Powell Center Workshop
+Golenkiniopsis,parvula,9b-SmallChlor,Golenkiniopsis parvula,Salmaso Geisha Powell Center Workshop
+Golenkiniopsis,solitaria,9b-SmallChlor,Golenkiniopsis solitaria,Salmaso Geisha Powell Center Workshop
+Golenkiniopsis,,9b-SmallChlor,Golenkiniopsis,Salmaso Geisha Powell Center Workshop
+Gomphonema,parvulum,7b-SmallPenn,Gomphonema parvulum,Salmaso Geisha Powell Center Workshop
+Gomphonema,,7b-SmallPenn,Gomphonema,Salmaso Geisha Powell Center Workshop
+Gomphosphaeria,compacta,5c-OtherChroo,Gomphosphaeria compacta,CyanoDB 2
+Gomphosphaeria,lacustris,5c-OtherChroo,Gomphosphaeria lacustris,CyanoDB 2
+Gomphosphaeria,pusilla,5c-OtherChroo,Gomphosphaeria pusilla,CyanoDB 2
+Gomphosphaeria,rosea,5c-OtherChroo,Gomphosphaeria rosea,CyanoDB 2
+Gomphosphaeria,,5c-OtherChroo,Gomphosphaeria,CyanoDB 2
+Gonatozygon,brebissonnii,8a-LargeCoCh,Gonatozygon brebissonnii,Algaebase
+Gonatozygon,monotaenium,8a-LargeCoCh,Gonatozygon monotaenium,Algaebase
+Goniochloris,,9d-SmallUnic,Goniochloris,Salmaso Geisha Powell Center Workshop
+Gonium,sociale,3b-ColoPhyto,Gonium sociale,Salmaso Geisha Powell Center Workshop
+Gonium,,3b-ColoPhyto,Gonium,Salmaso Geisha Powell Center Workshop
+Gonium,pectorale,3b-ColoPhyto,Gonium pectorale,Salmaso & Padisak 2007
+Gonyaulax,apiculata,2b-SmallDino,Gonyaulax apiculata,Algaebase
+Gonyostomum,semen,3a-UnicPhyto,Gonyostomum semen,Algaebase
+Granulocystis,helenae,11a-NakeChlor,Granulocystis helenae,Tsarenko 2011
+Granulocystopsis,coronata,11a-NakeChlor,Granulocystopsis coronata,Algaebase
+Granulocystopsis,pseudocoronata,11a-NakeChlor,Granulocystopsis pseudocoronata,Algaebase
+Gregiochloris,lacustris,1a-LargeChry,Gregiochloris lacustris,Rimet et al. 2018
+Groenbladia,neglecta,10b-FilaConj,Groenbladia neglecta,Algaebase
+Groenbladia,undulata,10b-FilaConj,Groenbladia undulata,Algaebase
+Gymnodinium,hantzschii,2b-SmallDino,Gymnodinium hantzschii,Salmaso Geisha Powell Center Workshop
+Gymnodinium,,2b-SmallDino,Gymnodinium,Salmaso Geisha Powell Center Workshop
+Gymnodinium,helveticum,1b-LargeDino,Gymnodinium helveticum,Salmaso & Padisak 2007
+Gymnodinium,lacustre,2b-SmallDino,Gymnodinium lacustre,Salmaso & Padisak 2007
+Gymnodinium,lantschii,2b-SmallDino,Gymnodinium lantschii,Tolotti et al. 2010
+Gyromitus,cordiformis,3a-UnicPhyto,Gyromitus cordiformis,Howe et al. 2011
+Gyrosigma,,6b2-LUniPenn,Gyrosigma,Li et al. 2018
+Haematococcus,,3a-UnicPhyto,Haematococcus,Salmaso Geisha Powell Center Workshop
+Halamphora,holsatica,6b2-LUniPenn,Halamphora holsatica,Rimet et al. 2018
+Halamphora,veneta,6b2-LUniPenn,Halamphora veneta,Rimet et al. 2018
+Handmannia,glabriuscula,7a-SmallCent,Handmannia glabriuscula,Rimet et al. 2018
+Hannaea,arcus,6b2-LUniPenn,Hannaea arcus,Western Diatoms of North America
+Hantzschia,amphioxys,6b1-LColPenn,Hantzschia amphioxys,Salmaso & Padisak 2007
+Hapalosiphon,flexuosus,5e-Nostocales,Hapalosiphon flexuosus,Algaebase
+Haplotaenium,minutum,10b-FilaConj,Haplotaenium minutum,Algaebase
+Hariotina,reticulata,11a-NakeChlor,Hariotina reticulata,Li et al. 2018
+Hegewaldia,parvula,9b-SmallChlor,Hegewaldia parvula,Algaebase
+Heimansia,pusilla,9a-SmallConj,Heimansia pusilla,Algaebase
+Heleochloris,pallida,11a-NakeChlor,Heleochloris pallida,Tsarenko 2011
+Heterochromonas,,2a-SmallChry1,Heterochromonas,Matz & Jurgens 2005
+Heteroleibleinia,,5a-FilaCyano,Heteroleibleinia,Algaebase
+Heterothrix,,10c-FilaXant,Heterothrix,Algaebase
+Heterothrix,tenuissima,10c-FilaXant,Heterothrix tenuissima,Algaebase
+Hippodonta,,7b-SmallPenn,Hippodonta,Western Diatoms of North America
+Hippodonta,capitata,7b-SmallPenn,Hippodonta capitata,Western Diatoms of North America
+Humidophila,perpusilla,7b-SmallPenn,Humidophila perpusilla,Western Diatoms of North America
+Hyalotheca,dissiliens,10b-FilaConj,Hyalotheca dissiliens,Algaebase
+Iconella,biseriata,6b2-LUniPenn,Iconella biseriata,Western Diatoms of North America
+Iconella,delicatissima,6b2-LUniPenn,Iconella delicatissima,Western Diatoms of North America
+Isthmochloron,,8b-LargeUnic,Isthmochloron,Salmaso Geisha Powell Center Workshop
+Jaaginema,geminatum,5a-FilaCyano,Jaaginema geminatum,Algaebase; Anagnostidis &  Komarek 1988
+Katablepharis,,2d-Crypto,Katablepharis,Salmaso & Padisak 2007
+Katablepharis,ovalis,2d-Crypto,Katablepharis ovalis,Salmaso & Padisak 2007
+Katodinium,,2b-SmallDino,Katodinium,Tolotti et al. 2010
+Kephyrion,,2a-SmallChry1,Kephyrion,Salmaso & Padisak 2007
+Kephyrion,starmachii,2a-SmallChry1,Kephyrion starmachii,Salmaso & Padisak 2007
+Keratococcus,,9b-SmallChlor,Keratococcus,Salmaso Geisha Powell Center Workshop
+Kirchneriella,lunaris,11b-GelaChlor,Kirchneriella lunaris,Salmaso Geisha Powell Center Workshop
+Kirchneriella,,11b-GelaChlor,Kirchneriella,Salmaso Geisha Powell Center Workshop
+Kirchneriella,contorta,11b-GelaChlor,Kirchneriella contorta,Salmaso & Padisak 2007
+Klebsormidium,subtile,10a-FilaChlorp,Klebsormidium subtile,Rimet et al. 2018
+Koliella,longiseta,9d-SmallUnic,Koliella longiseta,Salmaso & Padisak 2007
+Komarekia,,11b-GelaChlor,Komarekia,Salmaso Geisha Powell Center Workshop
+Komvophoron,,5a-FilaCyano,Komvophoron,CyanoDB 2
+Komvophoron,constrictum,5a-FilaCyano,Komvophoron constrictum,CyanoDB 2
+Komvophoron,schmidlei,5a-FilaCyano,Komvophoron schmidlei,CyanoDB 2
+Korschivoviella,,8a-LargeCoCh,Korschivoviella,Tolotti et al. 2010
+Korshikoviella,limnetica,8a-LargeCoCh,Korshikoviella limnetica,Salmaso Geisha Powell Center Workshop
+Korshikoviella,,8a-LargeCoCh,Korshikoviella,Salmaso Geisha Powell Center Workshop
+Lagerheimia,,9b-SmallChlor,Lagerheimia,Salmaso Geisha Powell Center Workshop
+Lagerheimia,ciliata,9b-SmallChlor,Lagerheimia ciliata,Li et al. 2018
+Lagerheimia,quadriseta,9b-SmallChlor,Lagerheimia quadriseta,Li et al. 2018
+Lanceola,spatulifera,8a-LargeCoCh,Lanceola spatulifera,Rimet et al. 2018
+Lemmermannia,komarekii,11b-GelaChlor,Lemmermannia komarekii,Li et al. 2018
+Lemmermanniella,parva,5c-OtherChroo,Lemmermanniella parva,Lemmermanniella
+Lemmermanniella,,5c-OtherChroo,Lemmermanniella,Lemmermanniella
+Lepocinclis,acus,1c-LargeEugl,Lepocinclis acus,Salmaso Geisha Powell Center Workshop
+Lepocinclis,,2c-SmallEugl,Lepocinclis,Salmaso Geisha Powell Center Workshop
+Leptolyngbya,lagerheimii,5a-FilaCyano,Leptolyngbya lagerheimii,CyanoDB 2
+Leptolyngbya,,5a-FilaCyano,Leptolyngbya,CyanoDB 2
+Leptolyngbya,valderiana,5a-FilaCyano,Leptolyngbya valderiana,CyanoDB 2
+Limnococcus,limneticus,5c-OtherChroo,Limnococcus limneticus,Algaebase
+Limnolyngbya,circumcreta,5a-FilaCyano,Limnolyngbya circumcreta,Rimet et al. 2018
+Limnoraphis,birgei,5a-FilaCyano,Limnoraphis birgei,Algaebase
+Limnothrix,,5a-FilaCyano,Limnothrix,Algaebase
+Limnotrichidae,,5a-FilaCyano,Limnotrichidae,Tolotti et al. 2010
+Limnotrichoideae,,5a-FilaCyano,Limnotrichoideae,Salmaso & Padisak 2007
+Limnotrichoideae,ind.,5a-FilaCyano,Limnotrichoideae ind.,Salmaso & Padisak 2007
+Lindavia,bodanica,7a-SmallCent,Lindavia bodanica,Western Diatoms of North America
+Lindavia,praetermissa,7a-SmallCent,Lindavia praetermissa,Western Diatoms of North America
+Lindavia,schroeteri,7a-SmallCent,Lindavia schroeteri,Western Diatoms of North America
+Lobocystis,,11a-NakeChlor,Lobocystis,Algaebase; Thompson 1952
+Lobomonas,,3a-UnicPhyto,Lobomonas,Algaebase
+Luticola,cohnii,7b-SmallPenn,Luticola cohnii,Western Diatoms of North America
+Luticola,mutica,7b-SmallPenn,Luticola mutica,Western Diatoms of North America
+Lyngbya,,5a-FilaCyano,Lyngbya,CyanoDB 2
+Lyngbya,truncicola,5a-FilaCyano,Lyngbya truncicola,CyanoDB 2
+Mallomonas,elegans,2a-SmallChry1,Mallomonas elegans,Salmaso Geisha Powell Center Workshop
+Mallomonas,,2a-SmallChry1,Mallomonas,Salmaso Geisha Powell Center Workshop
+Mallomonas,bolochonzevii,2d-Crypto,Mallomonas bolochonzevii,Salmaso & Padisak 2007
+Mallomonas,acaroides,2a-SmallChry1,Mallomonas acaroides,Tolotti et al. 2010
+Mallomonas,akrokomos,2a-SmallChry1,Mallomonas akrokomos,Tolotti et al. 2010
+Mantellum,,5c-OtherChroo,Mantellum,CyanoDB 2
+Martyana,,7b-SmallPenn,Martyana,Western Diatoms of North America
+Mayamaea,lacunolaciniata,7b-SmallPenn,Mayamaea lacunolaciniata,Western Diatoms of North America
+Melosira,varians,6a1-LColCent,Melosira varians,Salmaso Geisha Powell Center Workshop
+Melosira,varians complex,6a1-LColCent,Melosira varians complex,Salmaso Geisha Powell Center Workshop
+Meridion,circulare,6b1-LColPenn,Meridion circulare,Western Diatoms of North America
+Merismopedia,glauca,5d-SmallChroo,Merismopedia glauca,Salmaso Geisha Powell Center Workshop
+Merismopedia,,5d-SmallChroo,Merismopedia,Salmaso Geisha Powell Center Workshop
+Merismopedia,tenuissima,5d-SmallChroo,Merismopedia tenuissima,Salmaso & Padisak 2007
+Messastrum,gracile,1a-LargeChry,Messastrum gracile,Rimet et al. 2018
+Micractinium,,11a-NakeChlor,Micractinium,Salmaso Geisha Powell Center Workshop
+Micractinium,pusillum,11a-NakeChlor,Micractinium pusillum,Li et al. 2018
+Micrasterias,,8a-LargeCoCh,Micrasterias,Algaebase
+Micrasterias,arcuata expansa,8a-LargeCoCh,Micrasterias arcuata expansa,Algaebase
+Micrasterias,floridensis,8a-LargeCoCh,Micrasterias floridensis,Algaebase
+Micrasterias,foliacea,10b-FilaConj,Micrasterias foliacea,Algaebase
+Micrasterias,furcata,8a-LargeCoCh,Micrasterias furcata,Algaebase
+Micrasterias,johnsonii,8a-LargeCoCh,Micrasterias johnsonii,Algaebase
+Micrasterias,mahabuleshwarensis dichotoma,8a-LargeCoCh,Micrasterias mahabuleshwarensis dichotoma,Algaebase
+Micrasterias,radiata gracillima,8a-LargeCoCh,Micrasterias radiata gracillima,Algaebase
+Microcoleus,,5a-FilaCyano,Microcoleus,Algaebase
+Microcrocis,,5c-OtherChroo,Microcrocis,Algaebase
+Microcystaceae,,5b-LargeVacC,Microcystaceae,Salmaso & Padisak 2007
+Microcystaceae,ind.,5b-LargeVacC,Microcystaceae ind.,Salmaso & Padisak 2007
+Microcystis,flos-aquae,5b-LargeVacC,Microcystis flos-aquae,Salmaso Geisha Powell Center Workshop
+Microcystis,wesenbergii,5b-LargeVacC,Microcystis wesenbergii,Salmaso Geisha Powell Center Workshop
+Microcystis,aeruginosa,5b-LargeVacC,Microcystis aeruginosa,Salmaso Geisha Powell Center Workshop
+Microcystis,marginata,5b-LargeVacC,Microcystis marginata,Li et al. 2018
+Microspora,abbreviata,10a-FilaChlorp,Microspora abbreviata,Algaebase
+Monactinus,simplex,11a-NakeChlor,Monactinus simplex,Li et al. 2018
+Monallanthus,,9d-SmallUnic,Monallanthus,Salmaso & Padisak 2007
+Monallantus,,9d-SmallUnic,Monallantus,Algaebase
+Monodus,,9b-SmallChlor,Monodus,Salmaso & Padisak 2007
+Monomastix,,2d-Crypto,Monomastix,Algaebase
+Monomastix,astigmata,2d-Crypto,Monomastix astigmata,Algaebase
+Monomastix,minuta,2d-Crypto,Monomastix minuta,Algaebase
+Monoraphidium,komarkovae,8a-LargeCoCh,Monoraphidium komarkovae,Salmaso Geisha Powell Center Workshop
+Monoraphidium,minutum,9b-SmallChlor,Monoraphidium minutum,Salmaso Geisha Powell Center Workshop
+Monoraphidium,nanum,9b-SmallChlor,Monoraphidium nanum,Salmaso Geisha Powell Center Workshop
+Monoraphidium,,9b-SmallChlor,Monoraphidium,Salmaso Geisha Powell Center Workshop
+Monoraphidium,dybowskii,9b-SmallChlor,Monoraphidium dybowskii,Salmaso & Padisak 2007
+Monoraphidium,minutum/nanum,9b-SmallChlor,Monoraphidium minutum/nanum,Salmaso & Padisak 2007
+Monoraphidium,arcuatum,9b-SmallChlor,Monoraphidium arcuatum,Salmaso & Padisak 2007
+Monoraphidium,contortum,9b-SmallChlor,Monoraphidium contortum,Salmaso & Padisak 2007
+Mougeotia,,10b-FilaConj,Mougeotia,Salmaso Geisha Powell Center Workshop
+Mychonastes,elegans,11a-NakeChlor,Mychonastes elegans,Algaebase; Tsarenko 2011
+Myxobaktron,,4-UnicCyano,Myxobaktron,McGregor 2001
+Myxobaktron,lineare,4-UnicCyano,Myxobaktron lineare,McGregor 2001
+Myxobaktron,salinum,4-UnicCyano,Myxobaktron salinum,McGregor 2001
+Myxobaktron,smithii,4-UnicCyano,Myxobaktron smithii,McGregor 2001
+Naiadinium,polonicum,2b-SmallDino,Naiadinium polonicum,Salmaso & Padisak 2007
+Nannochloris,,9b-SmallChlor,Nannochloris,Algaebase
+Nannochloris,atomus,9b-SmallChlor,Nannochloris atomus,Algaebase
+Navicula,hungarica,6b2-LUniPenn,Navicula hungarica,Salmaso Geisha Powell Center Workshop
+Navicula,radiosa,6b2-LUniPenn,Navicula radiosa,Salmaso Geisha Powell Center Workshop
+Navicula,,7b-SmallPenn,Navicula,Salmaso Geisha Powell Center Workshop
+Navicula,cryptocephala,6b1-LColPenn,Navicula cryptocephala,Salmaso & Padisak 2007
+Navicula,gracilis,6b1-LColPenn,Navicula gracilis,Salmaso & Padisak 2007
+Navicula,hungarica capitata,6b1-LColPenn,Navicula hungarica capitata,Salmaso & Padisak 2007
+Navicula,gruppo radiosa,6b1-LColPenn,Navicula gruppo radiosa,Tolotti et al. 2010
+Navigeia,decussis,7b-SmallPenn,Navigeia decussis,Rimet et al. 2018
+Neidiomorpha,binodis,7b-SmallPenn,Neidiomorpha binodis,Western Diatoms of North America
+Neidium,affine,7b-SmallPenn,Neidium affine,Western Diatoms of North America
+Neidium,binodeforme,7b-SmallPenn,Neidium binodeforme,Western Diatoms of North America
+Neidium,dubium,7b-SmallPenn,Neidium dubium,Western Diatoms of North America
+Neidium,iridis,7b-SmallPenn,Neidium iridis,Western Diatoms of North America
+Neidium,,7b-SmallPenn,Neidium,Western Diatoms of North America
+Neocystis,policocca,11b-GelaChlor,Neocystis policocca,Salmaso & Padisak 2007
+Neocystis,policocca+others,11b-GelaChlor,Neocystis policocca+others,Salmaso & Padisak 2007
+Nephrochlamys,allanthoidea,11a-NakeChlor,Nephrochlamys allanthoidea,Algaebase
+Nephrochlamys,danica,11a-NakeChlor,Nephrochlamys danica,Algaebase
+Nephrochlamys,subsolitaria,11a-NakeChlor,Nephrochlamys subsolitaria,Algaebase
+Nephrochloris,,2a-SmallChry1,Nephrochloris,Salmaso Geisha Powell Center Workshop
+Nephrocytium,,11b-GelaChlor,Nephrocytium,Salmaso Geisha Powell Center Workshop
+Nephrocytium,agardhianum,11b-GelaChlor,Nephrocytium agardhianum,Salmaso & Padisak 2007
+Nephrocytium,spirale,11b-GelaChlor,Nephrocytium spirale,Salmaso & Padisak 2007
+Nephroselmis,,3a-UnicPhyto,Nephroselmis,Salmaso Geisha Powell Center Workshop
+Nitzschia,graciliformis,6b2-LUniPenn,Nitzschia graciliformis,Salmaso Geisha Powell Center Workshop
+Nitzschia,palea,6b2-LUniPenn,Nitzschia palea,Salmaso Geisha Powell Center Workshop
+Nitzschia,acicularis,7b-SmallPenn,Nitzschia acicularis,Salmaso & Padisak 2007
+Nitzschia,,7b-SmallPenn,Nitzschia,Salmaso & Padisak 2007
+Nitzschia,recta,6b1-LColPenn,Nitzschia recta,Tolotti et al. 2010
+Nonmotile,chrysophytes,9c-SmallChry2,Nonmotile chrysophytes,description
+Nostoc,,5e-Nostocales,Nostoc,Algaebase
+Nostoc,caeruleum planctonicum,5e-Nostocales,Nostoc caeruleum planctonicum,Algaebase
+Nostocales,,5e-Nostocales,Nostocales,description
+Ochromonadaceae,,2a-SmallChry1,Ochromonadaceae,Salmaso & Padisak 2007
+Ochromonas,,2a-SmallChry1,Ochromonas,Salmaso Geisha Powell Center Workshop
+Oedogonium,,10a-FilaChlorp,Oedogonium,Algaebase; Huxley & Pentecost 2002
+Oestrupia,bicontracta,7b-SmallPenn,Oestrupia bicontracta,Western Diatoms of North America
+Oocystis,,11b-GelaChlor,Oocystis,Salmaso Geisha Powell Center Workshop
+Oocystis,lacustris,11b-GelaChlor,Oocystis lacustris,Salmaso & Padisak 2007
+Oocystis,solitaria,11b-GelaChlor,Oocystis solitaria,Salmaso & Padisak 2007
+Oscillatoria,,5a-FilaCyano,Oscillatoria,Salmaso & Padisak 2007
+Oscillatoria,chlorina,5a-FilaCyano,Oscillatoria chlorina,Salmaso & Padisak 2007
+Oscillatoria,rubescens,5a-FilaCyano,Oscillatoria rubescens,Salmaso & Padisak 2007
+other,chrysoflagellates,2a-SmallChry1,other chrysoflagellates,Salmaso & Padisak 2007
+other,coccal green,9b-SmallChlor,other coccal green,Salmaso & Padisak 2007
+other,Hormogonales,5a-FilaCyano,other Hormogonales,Salmaso & Padisak 2007
+other,Phytomonadina,3a-UnicPhyto,other Phytomonadina,Salmaso & Padisak 2007
+othre,Chlorococcales,9b-SmallChlor,othre Chlorococcales,Salmaso & Padisak 2007
+Pachycladon,,9b-SmallChlor,Pachycladon,Salmaso Geisha Powell Center Workshop
+Palmella,mucosa,11b-GelaChlor,Palmella mucosa,Li et al. 2018
+Palmella,,11b-GelaChlor,Palmella,Li et al. 2018
+Pandorina,morum,3b-ColoPhyto,Pandorina morum,Salmaso Geisha Powell Center Workshop
+Pandorina,minodi,3b-ColoPhyto,Pandorina minodi,Salmaso & Padisak 2007
+Pannus,spumosus,5c-OtherChroo,Pannus spumosus,CyanoDB 2
+Pantocsekiella,comensis,7a-SmallCent,Pantocsekiella comensis,Western Diatoms of North America
+Pantocsekiella,costei small,7a-SmallCent,Pantocsekiella costei small,Western Diatoms of North America
+Pantocsekiella,delicatula,7a-SmallCent,Pantocsekiella delicatula,Western Diatoms of North America
+Pantocsekiella,gordonensis,7a-SmallCent,Pantocsekiella gordonensis,Western Diatoms of North America
+Pantocsekiella,ocellata,7a-SmallCent,Pantocsekiella ocellata,Western Diatoms of North America
+Pantocsekiella,polymorpha,7a-SmallCent,Pantocsekiella polymorpha,Western Diatoms of North America
+Pantocsekiella,rossii,7a-SmallCent,Pantocsekiella rossii,Western Diatoms of North America
+Papenfussiomonas,cordata,3a-UnicPhyto,Papenfussiomonas cordata,Algaebase
+Paradoxia,multiseta,9b-SmallChlor,Paradoxia multiseta,Algaebase
+Paradoxia,pelletieri,9b-SmallChlor,Paradoxia pelletieri,Algaebase
+Parapediastrum,biradiatum,11a-NakeChlor,Parapediastrum biradiatum,Li et al. 2018
+Paraphysomonas,vestita,2a-SmallChry1,Paraphysomonas vestita,Salmaso & Padisak 2007
+Paulschulzia,pseudovolvox,11b-GelaChlor,Paulschulzia pseudovolvox,Algaebase
+Pectodictyon,pyramidale,11b-GelaChlor,Pectodictyon pyramidale,Li et al. 2018
+Pediastrum,,11a-NakeChlor,Pediastrum,Salmaso Geisha Powell Center Workshop
+Pediastrum,simplex,11a-NakeChlor,Pediastrum simplex,Salmaso & Padisak 2007
+Pediastrum,boryanum,11a-NakeChlor,Pediastrum boryanum,Salmaso & Padisak 2007
+Pediastrum,duplex,11a-NakeChlor,Pediastrum duplex,Salmaso & Padisak 2007
+Penium,,8a-LargeCoCh,Penium,Li et al. 2018
+Pennales,unident,6b1-LColPenn,Pennales unident,Tolotti et al. 2010
+Pennate,diatom,7b-SmallPenn,Pennate diatom,description
+Peridiniopsis,,2b-SmallDino,Peridiniopsis,Salmaso & Padisak 2007
+Peridiniopsis,penardiforme,2b-SmallDino,Peridiniopsis penardiforme,Salmaso & Padisak 2007
+Peridiniopsis,polonicum,1b-LargeDino,Peridiniopsis polonicum,Tolotti et al. 2010
+Peridinium,,1b-LargeDino,Peridinium,Salmaso Geisha Powell Center Workshop
+Peridinium,volzii,1b-LargeDino,Peridinium volzii,Salmaso Geisha Powell Center Workshop
+Peridinium,aciculiferum,2b-SmallDino,Peridinium aciculiferum,Salmaso & Padisak 2007
+Peridinium,inconspicuum,2b-SmallDino,Peridinium inconspicuum,Salmaso & Padisak 2007
+Peridinium,umbonatum,1b-LargeDino,Peridinium umbonatum,Salmaso & Padisak 2007
+Phacotus,lenticularis,3a-UnicPhyto,Phacotus lenticularis,Salmaso & Padisak 2007
+Phacus,longicauda,1c-LargeEugl,Phacus longicauda,Salmaso Geisha Powell Center Workshop
+Phacus,,1c-LargeEugl,Phacus,Salmaso Geisha Powell Center Workshop
+Phaeocystis,,1a-LargeChry,Phaeocystis,Algaebase
+Phormidium,,5a-FilaCyano,Phormidium,Salmaso & Padisak 2007
+Pinnularia,,6b2-LUniPenn,Pinnularia,Salmaso Geisha Powell Center Workshop
+Placoneis,clementis,7b-SmallPenn,Placoneis clementis,Western Diatoms of North America
+Plagioselmis,nannoplanctica,2d-Crypto,Plagioselmis nannoplanctica,Salmaso & Padisak 2007
+Planctonema,lauterbornii,10a-FilaChlorp,Planctonema lauterbornii,Salmaso & Padisak 2007
+Planktolyngbya,,5a-FilaCyano,Planktolyngbya,Salmaso Geisha Powell Center Workshop
+Planktolyngbya,limnetica,5a-FilaCyano,Planktolyngbya limnetica,Salmaso & Padisak 2007
+Planktosphaeria,gelatinosa,11b-GelaChlor,Planktosphaeria gelatinosa,Salmaso & Padisak 2007
+Planktothrix,,5a-FilaCyano,Planktothrix,Salmaso Geisha Powell Center Workshop
+Planktothrix,rubescens/ag.,5a-FilaCyano,Planktothrix rubescens/ag.,Salmaso & Padisak 2007
+Planktothrix,agardhii,5a-FilaCyano,Planktothrix agardhii,Salmaso & Padisak 2007
+Planktothrix,rubescens,5a-FilaCyano,Planktothrix rubescens,Salmaso & Padisak 2007
+Planothidium,calcar,7b-SmallPenn,Planothidium calcar,Western Diatoms of North America
+Planothidium,lanceolatum,7b-SmallPenn,Planothidium lanceolatum,Western Diatoms of North America
+Pleodorina,,3b-ColoPhyto,Pleodorina,Tolotti et al. 2010
+Pleodorina,californica,3b-ColoPhyto,Pleodorina californica,Tolotti et al. 2010
+Pleurotaenium,trabecula,8a-LargeCoCh,Pleurotaenium trabecula,Algaebase
+Polyblepharides,singularis,3a-UnicPhyto,Polyblepharides singularis,Salmaso Geisha Powell Center Workshop
+Polyedriopsis,bitridens,9b-SmallChlor,Polyedriopsis bitridens,Salmaso Geisha Powell Center Workshop
+Polyedriopsis,spinulosa,9b-SmallChlor,Polyedriopsis spinulosa,Salmaso Geisha Powell Center Workshop
+Prymnesium,laurentianum,2a-SmallChry1,Prymnesium laurentianum,Tolotti et al. 2010
+Pseudanabaena,limnetica,5a-FilaCyano,Pseudanabaena limnetica,Salmaso Geisha Powell Center Workshop
+Pseudanabaena,,5a-FilaCyano,Pseudanabaena,Salmaso Geisha Powell Center Workshop
+Pseudoanabaena,catenata,5a-FilaCyano,Pseudoanabaena catenata,Tolotti et al. 2010
+Pseudocarteria,,3a-UnicPhyto,Pseudocarteria,Salmaso Geisha Powell Center Workshop
+Pseudochlorella,pyrenoidosa,9d-SmallUnic,Pseudochlorella pyrenoidosa,Algaebase
+Pseudococcomyxa,,9b-SmallChlor,Pseudococcomyxa,Algaebase
+Pseudodidymocystis,fina,1a-LargeChry,Pseudodidymocystis fina,Algaebase
+Pseudodidymocystis,planctonica,1a-LargeChry,Pseudodidymocystis planctonica,Algaebase
+Pseudokephyrion,,2a-SmallChry1,Pseudokephyrion,Salmaso Geisha Powell Center Workshop
+Pseudonitzschia,,7b-SmallPenn,Pseudonitzschia,Li et al. 2018
+Pseudopediastrum,boryanum,11a-NakeChlor,Pseudopediastrum boryanum,Li et al. 2018
+Pseudopedinella,,1c-LargeEugl,Pseudopedinella,Algaebase
+Pseudoquadrigula,,11b-GelaChlor,Pseudoquadrigula,Salmaso & Padisak 2007
+Pseudoschroederia,antillarum,8a-LargeCoCh,Pseudoschroederia antillarum,Algaebase
+Pseudoschroederia,robusta,8a-LargeCoCh,Pseudoschroederia robusta,Algaebase
+Pseudosphaerocystis,lacustris,11b-GelaChlor,Pseudosphaerocystis lacustris,Salmaso & Padisak 2007
+Pseudostaurastrum,,9d-SmallUnic,Pseudostaurastrum,Salmaso Geisha Powell Center Workshop
+Pseudostaurosira,parasitica,6b1-LColPenn,Pseudostaurosira parasitica,Western Diatoms of North America
+Pseudostaurosira,robusta,6b1-LColPenn,Pseudostaurosira robusta,Western Diatoms of North America
+Pseudotetradesmus,quaternarius,11a-NakeChlor,Pseudotetradesmus quaternarius,Salmaso Geisha Powell Center Workshop
+Pseudotetraedriella,kamillae,9d-SmallUnic,Pseudotetraedriella kamillae,Salmaso & Padisak 2007
+Pseudotetrastrum,punctatum,1a-LargeChry,Pseudotetrastrum punctatum,Algaebase
+Pteridomonas,,2a-SmallChry1,Pteridomonas,Algaebase
+Pyramichlamys,,3a-UnicPhyto,Pyramichlamys,Algaebase
+Pyramichlamys,dissecta,3a-UnicPhyto,Pyramichlamys dissecta,Algaebase
+Pyramimonas,,3a-UnicPhyto,Pyramimonas,Salmaso Geisha Powell Center Workshop
+Quadrichloris,carterioides,3a-UnicPhyto,Quadrichloris carterioides,Algaebase; Fott 1960
+Quadricoccus,ellipticus,11a-NakeChlor,Quadricoccus ellipticus,Salmaso Geisha Powell Center Workshop
+Quadricoccus,,11b-GelaChlor,Quadricoccus,Salmaso Geisha Powell Center Workshop
+Quadrigula,,11b-GelaChlor,Quadrigula,Salmaso Geisha Powell Center Workshop
+Quadrigula,pfitzeri,11b-GelaChlor,Quadrigula pfitzeri,Salmaso & Padisak 2007
+Quadrigula,chodatii,11b-GelaChlor,Quadrigula chodatii,Li et al. 2018
+Radiococcaceae,,11b-GelaChlor,Radiococcaceae,Tolotti et al. 2010
+Radiococcaceae,undet.,11b-GelaChlor,Radiococcaceae undet.,Tolotti et al. 2010
+Radiococcus,planktonicus,11a-NakeChlor,Radiococcus planktonicus,Algaebase
+Radiocystis,geminata,5c-OtherChroo,Radiocystis geminata,Salmaso & Padisak 2007
+Raphidiopsis,,5e-Nostocales,Raphidiopsis,Salmaso Geisha Powell Center Workshop
+Raphidocelis,,11b-GelaChlor,Raphidocelis,Salmaso Geisha Powell Center Workshop
+Raphidocelis,danubiana,11b-GelaChlor,Raphidocelis danubiana,Li et al. 2018
+Rayssiella,hemisphaerica,11a-NakeChlor,Rayssiella hemisphaerica,Algaebase; Edelstein & Prescott 1964
+Reimeria,sinuata,7b-SmallPenn,Reimeria sinuata,Western Diatoms of North America
+Rhabdoderma,lineare,5c-OtherChroo,Rhabdoderma lineare,Salmaso Geisha Powell Center Workshop
+Rhabdoderma,tenuissimum,5c-OtherChroo,Rhabdoderma tenuissimum,Salmaso Geisha Powell Center Workshop
+Rhabdoderma,,5c-OtherChroo,Rhabdoderma,Salmaso Geisha Powell Center Workshop
+Rhabdoglea,,5d-SmallChroo,Rhabdoglea,Li et al. 2018
+Rhabdogloea,,5c-OtherChroo,Rhabdogloea,Salmaso Geisha Powell Center Workshop
+Rhabdogloea,scenedesmoides,5c-OtherChroo,Rhabdogloea scenedesmoides,Salmaso & Padisak 2007
+Rhabdogloea,scenesesmoides,5d-SmallChroo,Rhabdogloea scenesesmoides,Salmaso & Padisak 2007
+Rhizochrysis,scherffelii,2a-SmallChry1,Rhizochrysis scherffelii,Salmaso & Padisak 2007
+Rhizosolenia,longiseta,6a2-LUniCent,Rhizosolenia longiseta,Western Diatoms of North America
+Rhodomonas,minuta,2d-Crypto,Rhodomonas minuta,Salmaso & Padisak 2007
+Rhodomonas,lacustris,2d-Crypto,Rhodomonas lacustris,Salmaso & Padisak 2007
+Rhodomonas,lens,2d-Crypto,Rhodomonas lens,Salmaso & Padisak 2007
+Rhodomonas,,2d-Crypto,Rhodomonas,Tolotti et al. 2010
+Rhoicosphenia,abbreviata,7b-SmallPenn,Rhoicosphenia abbreviata,Western Diatoms of North America
+Rhopalodia,gibba,6b2-LUniPenn,Rhopalodia gibba,Salmaso Geisha Powell Center Workshop
+Rivularia,,5e-Nostocales,Rivularia,Algaebase
+Romeria,chlorina,5c-OtherChroo,Romeria chlorina,Salmaso Geisha Powell Center Workshop
+Romeria,gracilis,5c-OtherChroo,Romeria gracilis,Salmaso Geisha Powell Center Workshop
+Romeria,,5d-SmallChroo,Romeria,Salmaso Geisha Powell Center Workshop
+Rosse,capsioa bianca,9b-SmallChlor,Rosse capsioa bianca,Tolotti et al. 2010
+S.,alpinus,7a-SmallCent,S. alpinus,Salmaso & Padisak 2007
+S.,minutulus,7a-SmallCent,S. minutulus,Salmaso & Padisak 2007
+S.,neoastraea,6a1-LColCent,S. neoastraea,Salmaso & Padisak 2007
+Scendesmus,armatus,11a-NakeChlor,Scendesmus armatus,Tolotti et al. 2010
+Scendesmus,acutus,11a-NakeChlor,Scendesmus acutus,Tolotti et al. 2010
+Scenedesmus,acutus,11a-NakeChlor,Scenedesmus acutus,Salmaso Geisha Powell Center Workshop
+Scenedesmus,bijuga,11a-NakeChlor,Scenedesmus bijuga,Salmaso Geisha Powell Center Workshop
+Scenedesmus,dimorphus,11a-NakeChlor,Scenedesmus dimorphus,Salmaso Geisha Powell Center Workshop
+Scenedesmus,linearis,11a-NakeChlor,Scenedesmus linearis,Salmaso Geisha Powell Center Workshop
+Scenedesmus,,11a-NakeChlor,Scenedesmus,Salmaso Geisha Powell Center Workshop
+Scenedesmus,armatus,11a-NakeChlor,Scenedesmus armatus,Salmaso & Padisak 2007
+Scenedesmus,communis,11a-NakeChlor,Scenedesmus communis,Salmaso & Padisak 2007
+Scenedesmus,costatogranulatus,11a-NakeChlor,Scenedesmus costatogranulatus,Salmaso & Padisak 2007
+Scenedesmus,ellipticus,11a-NakeChlor,Scenedesmus ellipticus,Salmaso & Padisak 2007
+Scenedesmus,arcuatus,11a-NakeChlor,Scenedesmus arcuatus,Li et al. 2018
+Scenedesmus,obliquus,11a-NakeChlor,Scenedesmus obliquus,Li et al. 2018
+Scenedesmus,platydiscus,11a-NakeChlor,Scenedesmus platydiscus,Li et al. 2018
+Scenedesmus,quadricauda,11a-NakeChlor,Scenedesmus quadricauda,Li et al. 2018
+Scenedesmus,spinosus,11a-NakeChlor,Scenedesmus spinosus,Li et al. 2018
+Scenedesmus,brasiliensis,11a-NakeChlor,Scenedesmus brasiliensis,Tolotti et al. 2010
+Scherffelia,,3a-UnicPhyto,Scherffelia,Algaebase
+Schroederia,setigera,8a-LargeCoCh,Schroederia setigera,Salmaso Geisha Powell Center Workshop
+Schroederia,,9b-SmallChlor,Schroederia,Salmaso Geisha Powell Center Workshop
+Schroederia,robusta,9b-SmallChlor,Schroederia robusta,Salmaso & Padisak 2007
+Scourfieldia,,3a-UnicPhyto,Scourfieldia,Algaebase
+Scourfieldia,cordiformis,3a-UnicPhyto,Scourfieldia cordiformis,Algaebase
+Scytonema,,5e-Nostocales,Scytonema,Algaebase
+Selenastrum,,11a-NakeChlor,Selenastrum,Salmaso & Padisak 2007
+Selenochloris,quadriloba,3a-UnicPhyto,Selenochloris quadriloba,Algaebase
+Selenstraceae,,11a-NakeChlor,Selenstraceae,Salmaso & Padisak 2007
+Sellaphora,bacillum,7b-SmallPenn,Sellaphora bacillum,Western Diatoms of North America
+Sellaphora,pupula,7b-SmallPenn,Sellaphora pupula,Western Diatoms of North America
+Sellaphora,rostrata,7b-SmallPenn,Sellaphora rostrata,Western Diatoms of North America
+Siderocelis,minor,11a-NakeChlor,Siderocelis minor,Tsarenko 2011
+Siderocelis,oblonga,11a-NakeChlor,Siderocelis oblonga,Tsarenko 2011
+Siderocelis,ornata,11a-NakeChlor,Siderocelis ornata,Tsarenko 2011
+Siderocelis,,11a-NakeChlor,Siderocelis,Tsarenko 2011
+Skeletonema,potamos,6a1-LColCent,Skeletonema potamos,Salmaso Geisha Powell Center Workshop
+small,chrysoflagellates,2a-SmallChry1,small chrysoflagellates,Salmaso & Padisak 2007
+Snowella,,5c-OtherChroo,Snowella,Salmaso Geisha Powell Center Workshop
+Snowella,arachnoidea,5c-OtherChroo,Snowella arachnoidea,Salmaso & Padisak 2007
+Sorastrum,,1a-LargeChry,Sorastrum,Algaebase
+Sorastrum,americanum,1a-LargeChry,Sorastrum americanum,Algaebase
+Sorastrum,spinulosum,1a-LargeChry,Sorastrum spinulosum,Algaebase
+Spermatozopsis,exsultans,3a-UnicPhyto,Spermatozopsis exsultans,Algaebase
+Sphaerellocystis,ampla,3a-UnicPhyto,Sphaerellocystis ampla,Algaebase
+Sphaerellopsis,,3a-UnicPhyto,Sphaerellopsis,Tolotti et al. 2010
+Sphaerocystis,,11b-GelaChlor,Sphaerocystis,Salmaso & Padisak 2007
+Sphaerocystis,planctonica,11b-GelaChlor,Sphaerocystis planctonica,Salmaso & Padisak 2007
+Sphaeroeca,volvox,1a-LargeChry,Sphaeroeca volvox,Algaebase
+Sphaerospermopsis,,5e-Nostocales,Sphaerospermopsis,Algaebase
+Sphaerospermopsis,aphanizomenoides,5e-Nostocales,Sphaerospermopsis aphanizomenoides,Algaebase
+Sphaerozosma,laeve,10b-FilaConj,Sphaerozosma laeve,Algaebase
+Spiniferodinium,palustre,2b-SmallDino,Spiniferodinium palustre,Algaebase
+Spinoferomonas,,2a-SmallChry1,Spinoferomonas,Salmaso & Padisak 2007
+Spirogyra,,10b-FilaConj,Spirogyra,Salmaso & Padisak 2007
+Spirulina,,5a-FilaCyano,Spirulina,Algaebase
+Spirulina,laxa,5a-FilaCyano,Spirulina laxa,Algaebase
+Spondylosium,planum,10b-FilaConj,Spondylosium planum,Salmaso Geisha Powell Center Workshop
+Spondylosium,,10b-FilaConj,Spondylosium,Salmaso Geisha Powell Center Workshop
+Spyrogira,,10b-FilaConj,Spyrogira,Tolotti et al. 2010
+Staurastrum,gracile,8a-LargeCoCh,Staurastrum gracile,Salmaso Geisha Powell Center Workshop
+Staurastrum,natator,8a-LargeCoCh,Staurastrum natator,Salmaso Geisha Powell Center Workshop
+Staurastrum,,8a-LargeCoCh,Staurastrum,Salmaso Geisha Powell Center Workshop
+Staurastrum,pingue,8a-LargeCoCh,Staurastrum pingue,Salmaso & Padisak 2007
+Staurastrum,planctonicum,8a-LargeCoCh,Staurastrum planctonicum,Salmaso & Padisak 2007
+Staurastrum,punctulatum,8a-LargeCoCh,Staurastrum punctulatum,Salmaso & Padisak 2007
+Staurastrum,planktonicum,8a-LargeCoCh,Staurastrum planktonicum,Salmaso & Padisak 2007
+Stauridium,tetras,11a-NakeChlor,Stauridium tetras,Li et al. 2018
+Staurodesmus,cuspidatus,8a-LargeCoCh,Staurodesmus cuspidatus,Salmaso & Padisak 2007
+Staurodesmus,incus,8a-LargeCoCh,Staurodesmus incus,Salmaso & Padisak 2007
+Stauroneis,,7b-SmallPenn,Stauroneis,Li et al. 2018
+Staurophora,,6b2-LUniPenn,Staurophora,Western Diatoms of North America; size range 40-67 um.non-centric.solitary.Bacillariophyceae.Cymbellales.
+Staurosira,brevistriata,6b1-LColPenn,Staurosira brevistriata,Western Diatoms of North America
+Staurosira,construens,6b1-LColPenn,Staurosira construens,Western Diatoms of North America
+Staurosira,leptostauron,6b1-LColPenn,Staurosira leptostauron,Western Diatoms of North America
+Staurosira,mutabilis,6b1-LColPenn,Staurosira mutabilis,Western Diatoms of North America
+Staurosira,pinnata,6b1-LColPenn,Staurosira pinnata,Western Diatoms of North America
+Staurosirella,pinnata,6b1-LColPenn,Staurosirella pinnata,Western Diatoms of North America
+Stelexomonas,dichotoma,2a-SmallChry1,Stelexomonas dichotoma,Salmaso & Padisak 2007
+Stenokalyx,spirale,2a-SmallChry1,Stenokalyx spirale,Meyer et al. 1971
+Stenopterobia,pelagica,6b1-LColPenn,Stenopterobia pelagica,Salmaso & Padisak 2007
+Stephanocostis,chantaicus,7a-SmallCent,Stephanocostis chantaicus,Salmaso & Padisak 2007
+Stephanod.,dubius,7a-SmallCent,Stephanod. dubius,Salmaso & Padisak 2007
+Stephanod.,minutulus,7a-SmallCent,Stephanod. minutulus,Salmaso & Padisak 2007
+Stephanod.,neoastraea-,6a1-LColCent,Stephanod. neoastraea-,Salmaso & Padisak 2007
+Stephanod.,neoastraea-Gr.,6a1-LColCent,Stephanod. neoastraea-Gr.,Salmaso & Padisak 2007
+Stephanodiscus,neoastraea,6a2-LUniCent,Stephanodiscus neoastraea,Western Diatoms of North America
+Stephanodiscus,,6a2-LUniCent,Stephanodiscus,Western Diatoms of North America
+Stephanodiscus,chantaicus,7a-SmallCent,Stephanodiscus chantaicus,Western Diatoms of North America
+Stephanodiscus,dubius,7a-SmallCent,Stephanodiscus dubius,Western Diatoms of North America
+Stephanodiscus,minutulus,7a-SmallCent,Stephanodiscus minutulus,Western Diatoms of North America
+Stephanodiscus,alpinus,7a-SmallCent,Stephanodiscus alpinus,Salmaso & Padisak 2007
+Stephanodiscus,hantzschii,7a-SmallCent,Stephanodiscus hantzschii,Salmaso & Padisak 2007
+Stephanodiscus,hantschii,6a1-LColCent,Stephanodiscus hantschii,Tolotti et al. 2010
+Stichococcus,contortus,9d-SmallUnic,Stichococcus contortus,Salmaso & Padisak 2007
+Stichogloea,dorderleinii,1c-LargeEugl,Stichogloea dorderleinii,Salmaso & Padisak 2007
+Stigeoclonium,,10a-FilaChlorp,Stigeoclonium,Algaebase
+Stigeoclonium,tenue,10a-FilaChlorp,Stigeoclonium tenue,Algaebase
+Stigonema,ocellatum,5e-Nostocales,Stigonema ocellatum,CyanoDB 2
+Stokesiella,epipyxis,2a-SmallChry1,Stokesiella epipyxis,Algaebase
+Strombomonas,,1c-LargeEugl,Strombomonas,Salmaso Geisha Powell Center Workshop
+Stylosphaeridium,stipitatum,3a-UnicPhyto,Stylosphaeridium stipitatum,Algaebase
+Surirella,,6b2-LUniPenn,Surirella,Salmaso Geisha Powell Center Workshop
+Suxenella,mitrae,11a-NakeChlor,Suxenella mitrae,Salmaso Geisha Powell Center Workshop
+Syncrypta,,1a-LargeChry,Syncrypta,Algaebase
+Synechococcus,,4-UnicCyano,Synechococcus,Salmaso Geisha Powell Center Workshop
+Synechocystis,aquatilis,4-UnicCyano,Synechocystis aquatilis,Li et al. 2018
+Synecoccus,,4-UnicCyano,Synecoccus,Tolotti et al. 2010
+Synedra,,6b2-LUniPenn,Synedra,Salmaso & Padisak 2007
+Synedra,acus,6b1-LColPenn,Synedra acus,Salmaso & Padisak 2007
+Synedra,acus radinas+angustissima,7b-SmallPenn,Synedra acus radinas+angustissima,Salmaso & Padisak 2007
+Synedra,ulna,6b1-LColPenn,Synedra ulna,Salmaso & Padisak 2007
+Synedra,japonica =Ulnaria,6b2-LUniPenn,Synedra japonica =Ulnaria,Salmaso Geisha Powell Center Workshop
+Synura,,1a-LargeChry,Synura,Salmaso Geisha Powell Center Workshop
+Synuropsis,,1a-LargeChry,Synuropsis,Algaebase
+Tabellaria,,6b1-LColPenn,Tabellaria,Salmaso & Padisak 2007
+Tabellaria,fenestrata,6b1-LColPenn,Tabellaria fenestrata,Salmaso & Padisak 2007
+Tabellaria,flocculosa,6b1-LColPenn,Tabellaria flocculosa,Salmaso & Padisak 2007
+Teilingia,excavata,10b-FilaConj,Teilingia excavata,Algaebase
+Tetrabaena,socialis,3b-ColoPhyto,Tetrabaena socialis,Rimet et al. 2018
+Tetrachlorella,alternans,11b-GelaChlor,Tetrachlorella alternans,Salmaso & Padisak 2007
+Tetracystis,pulchra,9b-SmallChlor,Tetracystis pulchra,Phycokey
+Tetradesmus,,11a-NakeChlor,Tetradesmus,Salmaso Geisha Powell Center Workshop
+Tetraedriella,,9b-SmallChlor,Tetraedriella,Salmaso Geisha Powell Center Workshop
+Tetraedron,bifurcatum,9b-SmallChlor,Tetraedron bifurcatum,Salmaso Geisha Powell Center Workshop
+Tetraedron,,9b-SmallChlor,Tetraedron,Salmaso Geisha Powell Center Workshop
+Tetraedron,caudatum,9b-SmallChlor,Tetraedron caudatum,Salmaso & Padisak 2007
+Tetraedron,minimum,9b-SmallChlor,Tetraedron minimum,Salmaso & Padisak 2007
+Tetraedron,trigonum,9b-SmallChlor,Tetraedron trigonum,Li et al. 2018
+Tetraplektron,,9d-SmallUnic,Tetraplektron,Salmaso Geisha Powell Center Workshop
+Tetraselmis,cordiformis,3a-UnicPhyto,Tetraselmis cordiformis,Salmaso Geisha Powell Center Workshop
+Tetraspora,,11b-GelaChlor,Tetraspora,Salmaso Geisha Powell Center Workshop
+Tetrasporales/Chloroc.,,11b-GelaChlor,Tetrasporales/Chloroc.,Salmaso & Padisak 2007
+Tetrastrum,hastiferum,9b-SmallChlor,Tetrastrum hastiferum,Algaebase
+Tetrastrum,heteracanthum,9b-SmallChlor,Tetrastrum heteracanthum,Algaebase
+Tetrastrum,,11a-NakeChlor,Tetrastrum,Salmaso Geisha Powell Center Workshop
+Tetrastrum,glabrum,11a-NakeChlor,Tetrastrum glabrum,Salmaso & Padisak 2007
+Tetrastrum,staurogeniaeforme,11a-NakeChlor,Tetrastrum staurogeniaeforme,Li et al. 2018
+Thalassiosira,pseudonana,7a-SmallCent,Thalassiosira pseudonana,Salmaso Geisha Powell Center Workshop
+Thalassiosira,,7a-SmallCent,Thalassiosira,Salmaso Geisha Powell Center Workshop
+Thalassiosiraceae,,7a-SmallCent,Thalassiosiraceae,Salmaso Geisha Powell Center Workshop
+Thorakochloris,nygaardii,11a-NakeChlor,Thorakochloris nygaardii,Algaebase
+Thorakochloris,tetras,11a-NakeChlor,Thorakochloris tetras,Algaebase
+Tolypothrix,,5e-Nostocales,Tolypothrix,Algaebase
+Trachelomonas,granulosa,1c-LargeEugl,Trachelomonas granulosa,Salmaso Geisha Powell Center Workshop
+Trachelomonas,,2c-SmallEugl,Trachelomonas,Salmaso Geisha Powell Center Workshop
+Trachidiscus,sexangulatus,9d-SmallUnic,Trachidiscus sexangulatus,Salmaso & Padisak 2007
+Trachydiscus,sexangulatus,9d-SmallUnic,Trachydiscus sexangulatus,Algaebase
+Traubaria,,8a-LargeCoCh,Traubaria,Salmaso Geisha Powell Center Workshop
+Treubaria,crassispina,9b-SmallChlor,Treubaria crassispina,Algaebase
+Tribonema,,10c-FilaXant,Tribonema,Salmaso & Padisak 2007
+Trichormus,,5e-Nostocales,Trichormus,Algaebase
+Trigonium,,7a-SmallCent,Trigonium,Phycokey
+Triploceras,,10b-FilaConj,Triploceras,Phycokey
+Trochiscia,aciculifera,11a-NakeChlor,Trochiscia aciculifera,Algaebase
+Trochiscia,granulata,11a-NakeChlor,Trochiscia granulata,Algaebase
+Trochiscia,planctonica,11a-NakeChlor,Trochiscia planctonica,Algaebase
+Trochiscia,,11a-NakeChlor,Trochiscia,Algaebase
+Tryblionella,,6b2-LUniPenn,Tryblionella,Rimet et al. 2018
+Tryblionella,angustulata,7b-SmallPenn,Tryblionella angustulata,Rimet et al. 2018
+Tryblionella,levidensis,6b2-LUniPenn,Tryblionella levidensis,Rimet et al. 2018
+Tychonema,,5a-FilaCyano,Tychonema,CyanoDB 2
+Ulnaria,japonica,6b2-LUniPenn,Ulnaria japonica,Salmaso Geisha Powell Center Workshop
+Ulnaria,ulna,6b2-LUniPenn,Ulnaria ulna,Li et al. 2018
+Ulothrix,,10a-FilaChlorp,Ulothrix,Salmaso & Padisak 2007
+unicellular,Mougeotia,9a-SmallConj,unicellular Mougeotia,Salmaso & Padisak 2007
+Unicellular,Ulotrichales,9d-SmallUnic,Unicellular Ulotrichales,Salmaso & Padisak 2007
+Unidentified,filamentous cyanobacteria,5a-FilaCyano,Unidentified filamentous cyanobacteria,description
+Unidentified,cyanophytes,5d-SmallChroo,Unidentified cyanophytes,description
+Uroglena,,1a-LargeChry,Uroglena,Salmaso & Padisak 2007
+Uroglena,americana,1a-LargeChry,Uroglena americana,Salmaso & Padisak 2007
+Uroglenopsis,americana,1a-LargeChry,Uroglenopsis americana,Rimet et al. 2018
+Urosolenia,,6a2-LUniCent,Urosolenia,Salmaso Geisha Powell Center Workshop
+Urosolenia,longiseta,6a2-LUniCent,Urosolenia longiseta,Salmaso Geisha Powell Center Workshop
+Vacuolaria,,1a-LargeChry,Vacuolaria,Salmaso Geisha Powell Center Workshop
+Vaucheria,,10c-FilaXant,Vaucheria,Algaebase
+Volvocales,incapsulate,3b-ColoPhyto,Volvocales incapsulate,Tolotti et al. 2010
+Westella,,11b-GelaChlor,Westella,Salmaso Geisha Powell Center Workshop
+Westella,botryoides,11a-NakeChlor,Westella botryoides,Salmaso Geisha Powell Center Workshop
+Willea,vilhelmii,11b-GelaChlor,Willea vilhelmii,Salmaso & Padisak 2007
+Willea,apiculata,11b-GelaChlor,Willea apiculata,Li et al. 2018
+Woloszynskia,,2b-SmallDino,Woloszynskia,Salmaso & Padisak 2007
+Woronichinia,fusca,5c-OtherChroo,Woronichinia fusca,Salmaso Geisha Powell Center Workshop
+Woronichinia,naegeliana cellulaire,5c-OtherChroo,Woronichinia naegeliana cellulaire,Salmaso Geisha Powell Center Workshop
+Woronichinia,ruzickae,5c-OtherChroo,Woronichinia ruzickae,Salmaso Geisha Powell Center Workshop
+Woronichinia,,5c-OtherChroo,Woronichinia,Salmaso Geisha Powell Center Workshop
+Xanth.,,1c-LargeEugl,Xanth.,Salmaso & Padisak 2007
+Xanthidium,,8a-LargeCoCh,Xanthidium,Algaebase
+Xanthophyceae,,10c-FilaXant,Xanthophyceae,description
+Zygnema,,10b-FilaConj,Zygnema,Algaebase
+Zygogonium,,10b-FilaConj,Zygogonium,Algaebase
+Nodularia,,5e-Nostocales,Nodularia,Algaebase; Komarek et al. 2014
+Hormogonales,,5e-Nostocales,,Algaebase

@@ -4,7 +4,6 @@ library(devtools)
 
 #install and load the most recent package version from vijay patil's github account
 install_github('vppatil/GEISHA_phytoplankton/package builds/algaeClassify',ref='working',force=TRUE)
-
 library(algaeClassify)
 
 #read in the data file you want to classify
